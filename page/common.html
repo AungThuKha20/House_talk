@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        ${require('./include/_meta.html')}
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'adw8piw',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+        </script>
+    </head>
+    <body >
+        ${require('./include/_header.html')}
+        <div style="padding: 150px 100px;">
+            <h1 style="font-size: 30px;font-weight: 500;">Common HTML - 공통 html</h1>
+
+            <!--  common title -->
+            <h4 class="sub_custom_title">text</h4>
+
+            <!--            INPUT              -->
+            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common Input</h3>
+            <div class="input_wrap">
+                <input type="text" name="" class="custom_input" placeholder="입력 해 주세요" value=""/>
+            </div>
+
+            <div class="input_wrap">
+                <input type="text" name="" class="custom_input_form" placeholder="입력 해 주세요" value=""/>
+            </div>
+
+            <!--            TEXAREA              -->
+            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common TEXAREA</h3>
+
+            <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">html is ...</textarea>
+
+            <!--            LIST              -->
+            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common LIST</h3>
+            <div class="list_wrap">
+                <ul class="lists">
+                    <li class="list_item">
+                        list content 01
+                    </li>
+                    <li class="list_item">
+                        list content 02
+                    </li>
+                </ul>
+            </div>
+
+            <!--            RADIO BUTTON              -->
+            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common RADIO BUTTON</h3>
+            <div class="radio_wrap">
+                <input type="radio" name="radio" id="item01" checked="">
+                <label for="item01"><span>item01</span></label>
+            </div>
+            <div class="radio_wrap">
+                <input type="radio" name="radio" id="item02" checked="">
+                <label for="item02"><span>item01</span></label>
+            </div>
+
+            <!--            CHECK BOX              -->
+            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common CHECK BOX</h3>
+            <div class="checkbox_wrap">
+                <input type="checkbox" name="check" id="chk01" checked="">
+                <label for="chk01"><span>item01</span></label>
+            </div>
+            <div class="checkbox_wrap">
+                <input type="checkbox" name="check" id="chk02">
+                <label for="chk02"><span>item02</span></label>
+            </div>
+
+            <!--            TABLE              -->
+            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common Table</h3>
+
+            <div class="table_wrap">
+                <table class="table">
+                    <caption style="display: none;">Caption</caption>
+                    <colgroup>
+                        <col width="15%">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>head</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>body</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+
+            <!--            SELECT BOX              -->
+
+  
+        </div>
+        ${require('./include/_footer.html')}
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        ${require('./include/_meta.html')}
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'adw8piw',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+        </script>
+    </head>
+    <body>
+        ${require('./include/_header.html')}
+        ${require('./include/_mainBanner.html')}
+
+        <main class="main"> 
+            <section class="main_sec_01">
+                <div class="main_sec_inn container">
+                    <div class="main_sec_subtit">공사현장 LIVE</div>
+                    <div class="main_sec_custit">
+                        <h2>
+                            라이프 스타일을 담은 개별설계와<br/>
+                            직영공사로 고품질의 주택을 짓습니다.
+                        </h2>
+                        <a href="#">view more</a>
+                    </div>
+                    <div class="sec_01_items">
+                        <div class="swiper sec_01_swiper">
+                            <div class="swiper-wrapper">
+                                <a href="#" class="swiper-slide sec_01_swiper_img"
+                                style="background: url(../../assets/imgs/main/banner01.png) no-repeat;">
+                                    <div class="sec_01_swiper_txt">
+                                        <p>경기도 이천시 서경리</p>
+                                        <div class="sec_01_range">
+                                            <input id="range-2-control"type="range"class="vertical"orient="vertical"min="0" max="100"/>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide sec_01_swiper_img"
+                                style="background: url(../../assets/imgs/main/banner01.png) no-repeat;">
+                                    <div class="sec_01_swiper_txt">
+                                        <p>경기도 이천시 서경리</p>
+                                        <div class="sec_01_range">
+                                            <input id="range-2-control"type="range"class="vertical"orient="vertical"min="0" max="100"/>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide sec_01_swiper_img"
+                                style="background: url(../../assets/imgs/main/banner01.png) no-repeat;">
+                                    <div class="sec_01_swiper_txt">
+                                        <p>경기도 이천시 서경리</p>
+                                        <div class="sec_01_range">
+                                            <input id="range-2-control"type="range"class="vertical"orient="vertical"min="0" max="100"/>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide sec_01_swiper_img"
+                                style="background: url(../../assets/imgs/main/banner01.png) no-repeat;">
+                                    <div class="sec_01_swiper_txt">
+                                        <p>경기도 이천시 서경리</p>
+                                        <div class="sec_01_range">
+                                            <input id="range-2-control"type="range"class="vertical"orient="vertical"min="0" max="100"/>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="swiper-slide sec_01_swiper_img"
+                                style="background: url(../../assets/imgs/main/banner01.png) no-repeat;">
+                                    <div class="sec_01_swiper_txt">
+                                        <p>경기도 이천시 서경리</p>
+                                        <div class="sec_01_range">
+                                            <input id="range-2-control"type="range"class="vertical"orient="vertical"min="0" max="100"/>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next swiper-button-next_sec_01"></div>
+                        <div class="swiper-button-prev swiper-button-prev_sec_01"></div>
+                    </div>
+                </div>
+            </section>   
+
+            <section class="main_sec_02">
+                section 
+            </section>
+        </main>
+        
+        ${require('./include/_footer.html')}
+    </body>
+</html>

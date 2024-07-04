@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------
+    File definition: Main page style
+    Order:    Contents > Main top(banner) > Aside
+-------------------------------------------------------------------*/
+
+/* Banner */
+.main_banner {height: 100vh;}
+.main_banner_inn {height: 100%;}
+.main_banner_swiper {height: 100%;position: relative;}
+.main_banner_img {box-shadow: inset 2000px 0 0 0 rgb(0 0 0 / 30%); width: 100%;background-size: cover !important;background-position: center !important;margin: 0 auto;}
+.main_banner_txt {margin-top: -70px;height: 100%;color: var(--bs-white);font-weight: 700;display: flex;flex-direction: column;align-items: center;justify-content: center;gap: 24px;}
+.main_banner_txt p {font-size: 24px;line-height: 28.64px;}
+.main_banner_txt h1 {font-size: 60px;line-height: 71.6px;}
+
+.main section {margin: 130px 0;}
+
+.main_sec_subtit {font-size: 24px;font-weight: 700;line-height: 28.64px;}
+.main_sec_custit {display: flex;justify-content: space-between;align-items: flex-end;}
+.main_sec_custit h2{font-size: 48px;font-weight: 600;line-height: 72.28px;margin-top: 46px;}
+.main_sec_custit a {color: var(--bs-gray);font-weight: 500;line-height: 19.09px;position: relative;padding-right: 28px;}
+.main_sec_custit a:after{content: "";position: absolute;width: 20px;height: 20px;background: url(../imgs/icons/ico_more_btn.png);right: 0}
+
+.sec_01_items {position: relative;}
+.sec_01_items .swiper-button-next, .sec_01_items .swiper-button-prev{}
+.sec_01_swiper {margin-top: 76px;}
+.sec_01_swiper_img {height: 415px;background-size: cover !important;background-position: center !important;position: relative;}
+.sec_01_swiper_txt p {font-size: 24px;font-weight: 700;font-family: 'SUIT Variable', sans-serif;color: var(--bs-white);margin-top: 21px;margin-left: 17px;}
+
+.sec_01_range {position: absolute;right: 22px;top: 50%;transform: translateY(-50%);}
+.sec_01_range input[type="range"][orient=vertical] {
+    -webkit-appearance: none;
+    -moz-appearance: none; /* Firefox에서의 appearance 설정 */
+    appearance: none;
+    background-color: transparent;
+    appearance: slider-vertical;
+    -webkit-appearance: slider-vertical;
+    writing-mode: bt-lr;
+    position: relative;
+    height: 255px;
+    width: 4px;
+    border: 0;
+    border: none;
+}
+
+.sec_01_range input[type="range"][orient=vertical]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background-color: purple;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sec_01_range input[type="range"][orient=vertical] ::-moz-range-thumb {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: purple;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+
+
+/* MAIN BANNER SWIPER */
+.swiper-pagination {display: flex;gap: 48px;width: auto !important;background: rgba(255,255,255,15%);
+    padding: 10px 43px;border-radius: 50px;bottom: 350px !important;
+    position: absolute;left: 50% !important;transform: translateX(-50%);}
+.swiper-pagination-bullet {width: 24px;height: 24px;text-align: center;line-height: 26px;font-size: 24px;color: rgba(255,255,255,50%);opacity: 1;background: none;font-weight: 400}
+.swiper-pagination-bullet-active {color: #fff;font-weight: 700;position: relative;}
+.swiper-pagination-bullet-active::before{content: "";position: absolute;width: 21px;height: 21px;background: url(../imgs/main/pagination_dot.png);left: 50%;
+    transform: translateX(-40%);top: -22px;}
+
+@keyframes tit_ani {
+    0% {
+        transform: translateY(80px);
+        opacity:0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+
+
+
