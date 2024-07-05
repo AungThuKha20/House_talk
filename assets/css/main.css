@@ -34,43 +34,9 @@
 .sec_01_swiper_txt p {font-size: 24px;font-weight: 700;font-family: 'SUIT Variable', sans-serif;color: var(--bs-white);margin-top: 21px;margin-left: 17px;}
 
 .sec_01_range {position: absolute;right: 22px;top: 50%;transform: translateY(-50%);}
-.sec_01_range input[type="range"][orient=vertical] {
-    -webkit-appearance: none;
-    -moz-appearance: none; /* Firefox에서의 appearance 설정 */
-    appearance: none;
-    background-color: transparent;
-    appearance: slider-vertical;
-    -webkit-appearance: slider-vertical;
-    writing-mode: bt-lr;
-    position: relative;
-    height: 255px;
-    width: 4px;
-    border: 0;
-    border: none;
-}
-
-.sec_01_range input[type="range"][orient=vertical]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 24px;
-    height: 24px;
-    background-color: purple;
-    border: 2px solid white;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.sec_01_range input[type="range"][orient=vertical] ::-moz-range-thumb {
-    box-sizing: border-box;
-    appearance: none;
-    background-color: purple;
-    border: 2px solid white;
-    border-radius: 8px;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-}
-
+.sec_01_range input[type="range"][orient=vertical] {-webkit-appearance: none; -moz-appearance: none;
+    appearance: none;background-color: transparent;appearance: slider-vertical;-webkit-appearance: slider-vertical;writing-mode: bt-lr;position: relative;height: 255px;width: 4px;border: 0;border: none;}
+.sec_01_range .range-value {font-weight: 500;font-size: 16px;color: var(--bs-white);position: absolute;right: 18px;margin-top: -7px;}
 
 .main_sec_02_top {height: 302px;width: 100%;overflow: hidden;display: flex;color: var(--bs-white);}
 .main_sec_02_top > .img {background: url(../imgs/main/main_01.png) no-repeat;background-size: cover;height: 100%;width: 90%;

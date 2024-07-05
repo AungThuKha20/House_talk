@@ -17,14 +17,17 @@
     .footer .foot_info_wrpp .foot_info_inn {gap: 50px;}
 }
 @media screen and (max-width: 1300.98px) {
-    .header .gnb {gap: 15px;}
-    .header .gnb a, .header .head_contact strong {font-size: 16px;}
-    .header .head_img {width: 200px;height: auto;}
-    .header .head_contact strong {margin-right: 20px;}
+    .header .gnb a {font-size: 16px;}
+    .header .head_contact strong, .header .head_contact {font-size: 14px;}
+    .header .head_img {width: 180px;height: auto;}
+    .header .head_contact strong {margin-right: 10px;}
 
     .main_sec_05_conts .sec_05_img {min-width: 500px;}
 }
 @media screen and (max-width: 1000.98px) {
+    .header {height: 80px;}
+    .lnb_bg {margin-top: 80px;}
+    .hamburger {display:block;}
     .header .gnb {display: none;}
     .main_sec_02_items {flex-direction: column;margin-top: 80px;height: auto;gap: 50px;}
     .main_sec_02_item:nth-child(2) {margin-top: 0;left: 0;}
@@ -108,6 +111,8 @@
     .main_sec_05_conts .sec_05_txt h3 {font-size: 18px;margin: 0;}
     .main_sec_05_conts .sec_05_txt h4 {font-size: 14px;line-height: 14px;}
     .main_sec_05_conts .sec_05_txt p { font-size: 14px;padding-top: 13px;line-height: 20px;}
+    .sec_01_range input[type="range"][orient=vertical] {height: 150px;}
+    .sec_01_range .range-value {font-size: 14px;}
 
 
     .swiper-pagination {gap: 20px;font-size: 20px;}

@@ -1,5 +1,76 @@
 $(document).ready(function () {
     AOS.init();
+    $(".all_search_input").hide();
+
+    $(".header").mouseenter(function () {
+        if ($(window).width() > 1000) {
+            $(".lnb_bg").stop().animate({ height: "300px" }, 300);
+            $(".depth2")
+                .stop()
+                .animate(
+                    { opacity: 1 },
+                    {
+                        duration: 500,
+                        step: function (now, fx) {
+                            if (fx.prop === "opacity" && now === 1) {
+                                $(this).css("pointer-events", "auto");
+                            }
+                        },
+                    }
+                );
+            $(".all_search_input").hide();
+        }
+    });
+
+    $(".header").mouseleave(function () {
+        $(".lnb_bg").stop().animate({ height: "0px" }, 300);
+        $(".depth2")
+            .stop()
+            .animate(
+                { opacity: 0 },
+                {
+                    duration: 100,
+                    complete: function () {
+                        $(this).css("pointer-events", "none");
+                    },
+                }
+            );
+        $(".all_search_input").hide();
+    });
+
+    $("#all_search").click(function (event) {
+        event.preventDefault();
+        $(".lnb_bg").stop().animate({ height: "300px" }, 300);
+        $(".depth2")
+            .stop()
+            .animate(
+                { opacity: 0 },
+                {
+                    duration: 100,
+                    complete: function () {
+                        $(this).css("pointer-events", "none");
+                    },
+                }
+            );
+        $(".all_search_input").fadeIn(300);
+    });
+    // mobile menu
+    $(".hamburger").click(function () {
+        $(this).toggleClass("active");
+        if ($(window).width() < 1000) {
+            $(".mo_menu").toggleClass("active");
+        } else {
+            $(".mo_menu").removeClass("active");
+        }
+    });
+
+    $(".mo_list.depth1").click(function () {
+        var $siblings = $(this).siblings();
+        // 다른 depth1 요소에 있는 open 클래스를 제거합니다.
+        $siblings.removeClass("open").find(".mo_snb").hide();
+        // 클릭한 depth1 요소의 하위 요소인 mo_snb를 토글합니다.
+        $(this).toggleClass("open").find(".mo_snb").toggle();
+    });
 
     // main banner swiper
     var swiper = new Swiper(".main_banner_swiper", {
@@ -122,4 +193,21 @@ $(document).ready(function () {
         .addEventListener("click", function () {
             window.scrollTo({ top: 0, behavior: "smooth" });
         });
+
+    // main range
+    $(".vertical").each(function () {
+        var rangeInput = $(this);
+        var rangeValue = $("<div class='range-value'>0%</div>").insertAfter(
+            rangeInput
+        );
+
+        function updateRangeValue() {
+            var value = rangeInput.val();
+            rangeValue.text(value + "%");
+            rangeValue.css("top", 100 - value + "%");
+        }
+
+        rangeInput.on("input", updateRangeValue);
+        updateRangeValue();
+    });
 });
