@@ -1,105 +1,245 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        ${require('./include/_meta.html')}
-        <script>
-            (function(d) {
-              var config = {
-                kitId: 'adw8piw',
-                scriptTimeout: 3000,
-                async: true
-              },
-              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
-    </head>
-    <body >
-        ${require('./include/_header.html')}
-        <div style="padding: 150px 100px;">
-            <h1 style="font-size: 30px;font-weight: 500;">Common HTML - 공통 html</h1>
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    <div style="padding: 150px 100px">
+      <h1 style="font-size: 30px; font-weight: 500">Common HTML - 공통 html</h1>
 
-            <!--  common title -->
-            <h4 class="sub_custom_title">text</h4>
+      <!--  common title -->
+      <h4 class="sub_custom_title">text</h4>
 
-            <!--            INPUT              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common Input</h3>
-            <div class="input_wrap">
-                <input type="text" name="" class="custom_input" placeholder="입력 해 주세요" value=""/>
-            </div>
+      <!--            INPUT              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common Input
+      </h3>
+      <div class="input_wrap">
+        <input
+          type="text"
+          name=""
+          class="custom_input"
+          placeholder="입력 해 주세요"
+          value=""
+        />
+      </div>
 
-            <div class="input_wrap">
-                <input type="text" name="" class="custom_input_form" placeholder="입력 해 주세요" value=""/>
-            </div>
+      <div class="input_wrap">
+        <input
+          type="text"
+          name=""
+          class="custom_input_form"
+          placeholder="입력 해 주세요"
+          value=""
+        />
+      </div>
 
-            <!--            TEXAREA              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common TEXAREA</h3>
+      <!--            TEXAREA              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common TEXAREA
+      </h3>
 
-            <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">html is ...</textarea>
+      <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">
+html is ...</textarea
+      >
 
-            <!--            LIST              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common LIST</h3>
-            <div class="list_wrap">
-                <ul class="lists">
-                    <li class="list_item">
-                        list content 01
-                    </li>
-                    <li class="list_item">
-                        list content 02
-                    </li>
-                </ul>
-            </div>
+      <!--            LIST              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common LIST
+      </h3>
+      <div class="list_wrap">
+        <ul class="lists">
+          <li class="list_item">list content 01</li>
+          <li class="list_item">list content 02</li>
+        </ul>
+      </div>
 
-            <!--            RADIO BUTTON              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common RADIO BUTTON</h3>
-            <div class="radio_wrap">
-                <input type="radio" name="radio" id="item01" checked="">
-                <label for="item01"><span>item01</span></label>
-            </div>
-            <div class="radio_wrap">
-                <input type="radio" name="radio" id="item02" checked="">
-                <label for="item02"><span>item01</span></label>
-            </div>
+      <!--            RADIO BUTTON              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common RADIO BUTTON
+      </h3>
+      <div class="radio_wrap">
+        <input type="radio" name="radio" id="item01" checked="" />
+        <label for="item01"><span>item01</span></label>
+      </div>
+      <div class="radio_wrap">
+        <input type="radio" name="radio" id="item02" checked="" />
+        <label for="item02"><span>item01</span></label>
+      </div>
 
-            <!--            CHECK BOX              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common CHECK BOX</h3>
-            <div class="checkbox_wrap">
-                <input type="checkbox" name="check" id="chk01" checked="">
-                <label for="chk01"><span>item01</span></label>
-            </div>
-            <div class="checkbox_wrap">
-                <input type="checkbox" name="check" id="chk02">
-                <label for="chk02"><span>item02</span></label>
-            </div>
+      <!--            CHECK BOX              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common CHECK BOX
+      </h3>
+      <div class="checkbox_wrap">
+        <input type="checkbox" name="check" id="chk01" checked="" />
+        <label for="chk01"><span>item01</span></label>
+      </div>
+      <div class="checkbox_wrap">
+        <input type="checkbox" name="check" id="chk02" />
+        <label for="chk02"><span>item02</span></label>
+      </div>
 
-            <!--            TABLE              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common Table</h3>
+      <!--            TABLE              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common Table
+      </h3>
 
-            <div class="table_wrap">
-                <table class="table">
-                    <caption style="display: none;">Caption</caption>
-                    <colgroup>
-                        <col width="15%">
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th>head</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>body</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+      <div class="table_wrap">
+        <table class="table">
+          <caption style="display: none">
+            Caption
+          </caption>
+          <colgroup>
+            <col width="15%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>head</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>body</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-
-
-
-            <!--            SELECT BOX              -->
-
-  
+      <!--            SELECT BOX              -->
+      <!-- title -->
+      <div class="sub_page_header">
+        <div class="sub_page_header_box">
+          <h2>CEO 인사말</h2>
+          <p>하우스톡의 새로운 소식을 전해드립니다.</p>
         </div>
-        ${require('./include/_footer.html')}
-    </body>
+        <p class="left_p">
+          “믿고 내 집을 지을 수 있는 회사를 만나 행복했습니다.
+        </p>
+        <h1>주택의 가치를 생각하는 기업 <br />㈜하우스톡입니다.</h1>
+      </div>
+      <div class="sub_page_title">
+        <h2>완공사례</h2>
+        <p>100% 직영공사로 완성되는 하우스톡의 고품질 주택을 만나보세요</p>
+      </div>
+      <div class="sub_menu_title">
+        <a href="">완공사례</a>
+        <span class="sub_menu_hor_ln">line</span>
+        <a href="">설계사례</a>
+        <span class="sub_menu_hor_ln">line</span>
+        <a href="">현장Live</a>
+        <span class="sub_menu_hor_ln">line</span>
+        <a href="">건축주스토리</a>
+        <span class="sub_menu_hor_ln">line</span>
+        <a href="">하우스톡소식</a>
+        <span class="sub_menu_hor_ln">line</span>
+        <a href="">인테리어 Tip</a>
+        <span class="sub_menu_hor_ln">line</span>
+        <a href="">건축정보</a>
+        <span class="sub_menu_hor_ln">line</span>
+        <a href="">미디어</a>
+      </div>
+      <!-- title -->
+
+      <!-- button -->
+      <div class="sort_down_cont">
+        <div class="sort_down">
+          <div class="sort_down_text">
+            <p>더보기</p>
+          </div>
+          <div class="sort_down_img">
+            <a href="">
+              <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="previous_btn_cont">
+        <div class="previous_btn">
+          <a href="">이전으로</a>
+        </div>
+      </div>
+      <div class="list_btn_cont">
+        <div class="list_btn">
+          <a href="">목 록</a>
+        </div>
+      </div>
+      <div class="consultation_reception">
+        <button type="" class="">상담접수</button>
+      </div>
+      <div class="serach_address_btn">
+        <button type="button" class="">우편번호 검색</button>
+      </div>
+      <div class="view_form_btn_cont">
+        <div class="view_form_btn">
+          <a href="" class="to_list_btn">목록으로</a>
+          <a href="" class="apply_btn">신청하기</a>
+        </div>
+      </div>
+      <!-- button -->
+
+      <!-- pagination -->
+      <div class="pagination">
+        <div class="pagination_box">
+          <div class="img_box_cont left">
+            <div class="img_box">
+              <img src="/assets/imgs/common/left.png" alt="" />
+            </div>
+            <div class="img_box">
+              <img src="/assets/imgs/common/iconoir_arrow-right.png" alt="" />
+            </div>
+          </div>
+          <div class="text_box">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+          </div>
+          <div class="img_box_cont right">
+            <div class="img_box">
+              <img src="/assets/imgs/common/start_hover.png" alt="" />
+            </div>
+            <div class="img_box">
+              <img src="/assets/" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- pagination -->
+    </div>
+    ${require('./include/_footer.html')}
+  </body>
 </html>
