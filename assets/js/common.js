@@ -177,11 +177,28 @@ $(document).ready(function () {
 
     // 페이지 로드 시 첫 번째 항목 표시
     $('.main_sec_05_item[data-id="1"]').addClass("active");
+
+    var swiper = new Swiper(".mySwiper_list", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+    });
     //scroll_to_top
     window.onscroll = function () {
         scrollFunction();
     };
 
+
+        // 
     function scrollFunction() {
         var scrollButton = document.querySelector(".scroll_top");
         document.body.scrollTop > 100 ||
