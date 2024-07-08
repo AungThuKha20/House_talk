@@ -142,14 +142,13 @@
     margin-top: 29px;
     font-size: 18px;
   }
+
   /*  */
   .conseling_inn .conseling_form .form-input .captcha_gp img {
     width: 200px;
     height: 60px;
   }
-  .sub_quick_menu_gp {
-    display: none;
-  }
+ 
   .conseling_inn .form-check label {
     font-size: 14px;
   }
@@ -196,6 +195,7 @@
   .conseling_inn .conseling_form .form-input .form_note p {
     font-size: 18px;
   }
+  
 }
 @media screen and (max-width: 767.98px) {
     .conseling_inn {
@@ -221,13 +221,15 @@
         font-size: 18px;
       }
       /*  */
+      .conseling_inn .conseling_form form h2 {
+        font-size: 30px;
+        text-align: center;
+      }
       .conseling_inn .conseling_form .form-input .captcha_gp img {
         width: 100px;
         height: 40px;
       }
-      .sub_quick_menu_gp {
-        display: none;
-      }
+     
       .conseling_inn .form-check label {
         font-size: 14px;
       }
@@ -287,6 +289,9 @@
         object-position: top;
         object-fit: cover;
       }
+      .conseling_inn .conseling_form form h2 {
+        font-size: 25px;
+      }
       .conseling_inn .conseling_form .consultation_reception button {
         margin-top: 19px;
         font-size: 18px;
@@ -296,9 +301,7 @@
         width: 90px;
         height: 40px;
       }
-      .sub_quick_menu_gp {
-        display: none;
-      }
+   
       .conseling_inn .form-check label {
         font-size: 14px;
       }
@@ -368,9 +371,7 @@
         width: 90px;
         height: 40px;
       }
-      .sub_quick_menu_gp {
-        display: none;
-      }
+    
       .conseling_inn .form-check label {
         font-size: 14px;
       }
@@ -425,5 +426,6 @@
     .input_wrap2 .w-314 {
         width: 256px !important;
     }
+  
     
 }

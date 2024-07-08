@@ -1099,6 +1099,9 @@ input[type="checkbox" i]:checked::before {
 .footer .footer_inn {
   background-color: #121b2a;
 }
+.pc_hidden {
+  display: none;
+}
 .footer .foot_nav {
   border-bottom: 1px solid #dedede;
   padding: 28px 0;
