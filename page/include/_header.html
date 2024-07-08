@@ -1,20 +1,147 @@
 <header class="header">
+    <div class="lnb_bg"></div>
     <div class="header_inn">
-        <div class="head_img">
+        <a href="/" class="head_img">
             <img src="../../assets/imgs/main/house_talk_logo.png" alt="house talk">
-        </div>
+        </a>
         <ul class="gnb">
-            <li><a href="">회사소개</a></li>
-            <li><a href="">건축갤러리</a></li>
-            <li><a href="">주택전시장</a></li>
-            <li><a href="">하우스톡 소식</a></li>
-            <li><a href="">미디어</a></li>
-            <li><a href="">상담/신청</a></li>
+            <li>
+                <a href="">회사소개</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">인사말</a></li>
+                            <li><a href="">회사소개</a></li>
+                            <li><a href="">주요연혁</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="">건축갤러리</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">현장 live</a></li>
+                            <li><a href="">완공 사례</a></li>
+                            <li><a href="">설계 사례</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </li>
+            <li><a href="">주택전시장</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">전시장</a></li>
+                            <li><a href="">방문신청</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </li>
+            <li><a href="">하우스톡 소식</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">하우스톡 소식</a></li>
+                            <li><a href="">건축정보</a></li>
+                            <li><a href="">인테리어Tip</a></li>
+                            <li><a href="">건축주스토리</a></li>
+                            <li><a href="">매니저스토리</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </li>
+            <li><a href="">미디어</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">언론보도</a></li>
+                            <li><a href="">유튜브</a></li>
+                            <li><a href="">네이버</a></li>
+                            <li><a href="">SNS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="">상담/신청</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">건축 상담</a></li>
+                            <li><a href="">가이드 북 신청</a></li>
+                            <li><a href="">AS신청</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
         </ul>
         <div class="head_contact">
             <span>건축문의</span>
             <strong>1588-9704</strong>
-            <button class="cursor-pointer">search</button>
+            <button id="all_search" type="button" class="header_search_btn cursor-pointer"></button>
+            <button class="hamburger">
+                <span>line</span>
+                <span>line</span>
+                <span>line</span>
+            </button>
         </div>
     </div>
+    <div class="all_search_input">
+        <input type="search" placeholder="검색어를 입력하세요.">
+        <button type="button"  class="header_search_btn cursor-pointer"></button>
+    </div>
+
+    <!-- mobile menu -->
+    <ul class="mo_menu">
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>회사소개</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">인사말</a></li>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">주요연혁</a></li>
+            </ul>
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>건축갤러리</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">현장 live</a></li>
+                <li><a href="">완공 사례</a></li>
+                <li><a href="">설계 사례</a></li>
+            </ul>  
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>주택전시장</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">전시장</a></li>
+                <li><a href="">방문신청</a></li>
+            </ul>  
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>하우스톡 소식</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">하우스톡 소식</a></li>
+                <li><a href="">건축정보</a></li>
+                <li><a href="">인테리어Tip</a></li>
+                <li><a href="">건축주스토리</a></li>
+                <li><a href="">매니저스토리</a></li>
+            </ul>  
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>미디어</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">언론보도</a></li>
+                <li><a href="">유튜브</a></li>
+                <li><a href="">네이버</a></li>
+                <li><a href="">SNS</a></li>
+            </ul>
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>상담/신청</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">건축 상담</a></li>
+                <li><a href="">가이드 북 신청</a></li>
+                <li><a href="">AS신청</a></li>
+            </ul>
+        </li>
+    </ul>
 </header>
