@@ -192,6 +192,17 @@ $(document).ready(function () {
             slideShadows: true,
         },
     });
+
+    const swiperEl = document.querySelector(".mySwiper_Result");
+    Object.assign(swiperEl, {
+      slidesPerView: 2,
+      spaceBetween: 10,
+      pagination: {
+        clickable: true,
+      },
+    });
+    swiperEl.initialize();
+
     //scroll_to_top
     window.onscroll = function () {
         scrollFunction();

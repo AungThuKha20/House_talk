@@ -1,444 +1,1546 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        ${require('./include/_meta.html')}
-        <script>
-            (function(d) {
-              var config = {
-                kitId: 'adw8piw',
-                scriptTimeout: 3000,
-                async: true
-              },
-              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
-    </head>
-    <body>
-        ${require('./include/_header.html')}
-        ${require('./include/_subQuick_menu.html')}
-        <div class="container search_Result">
-            <div class="sub_page_title">
-                <h2>‘건축’ 검색 결과</h2>
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    <!-- ${require('./include/_subQuick_menu.html')} -->
+    <div class="container search_Result">
+      <div class="sub_page_title">
+        <h2>‘건축’ 검색 결과</h2>
+      </div>
+      <div class="sub_menu_title_cont">
+        <div class="sub_menu_title">
+            <a href="" class="first_a">완공사례</a>
+            <span class="sub_menu_hor_ln">line</span>
+            <a href="">설계사례</a>
+            <span class="sub_menu_hor_ln">line</span>
+            <a href="">현장Live</a>
+            <span class="sub_menu_hor_ln">line</span>
+            <a href="">건축주스토리</a>
+            <span class="sub_menu_hor_ln">line</span>
+            <a href="">하우스톡소식</a>
+            <span class="sub_menu_hor_ln">line</span>
+            <a href="">인테리어 Tip</a>
+            <span class="sub_menu_hor_ln">line</span>
+            <a href="" class="first_a">건축정보</a>
+            <span class="sub_menu_hor_ln">line</span>
+            <a href="">미디어</a>
+          </div>
+      </div>
+      <div class="search_Result_container">
+        <div class="search_result_cont">
+          <div class="search_header_box">
+            <h2>완공사례</h2>
+            <span>16건</span>
+          </div>
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/home1.png" alt="" />
+              <div class="search_text_box">
+                <p>세종시 연서면</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
             </div>
-            <div class="sub_menu_title">
-                <a href="" class="first_a">완공사례</a>
-                <span class="sub_menu_hor_ln">line</span>
-                <a href="">설계사례</a>
-                <span class="sub_menu_hor_ln">line</span>
-                <a href="">현장Live</a>
-                <span class="sub_menu_hor_ln">line</span>
-                <a href="">건축주스토리</a>
-                <span class="sub_menu_hor_ln">line</span>
-                <a href="">하우스톡소식</a>
-                <span class="sub_menu_hor_ln">line</span>
-                <a href="">인테리어 Tip</a>
-                <span class="sub_menu_hor_ln">line</span>
-                <a href="" class="first_a">건축정보</a>
-                <span class="sub_menu_hor_ln">line</span>
-                <a href="">미디어</a>
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/home2.png" alt="" />
+              <div class="search_text_box">
+                <p>세종시 연서면</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
             </div>
-            <div class="search_result_cont">
-                <div class="search_header_box">
-                    <h2>완공사례</h2>
-                    <span>16건</span>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/common/search_result/home3.png" alt="" />
+              <div class="search_text_box">
+                <p>세종시 연서면</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
                 </div>
-                <div class="search_img_box_cont">
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home1.png" alt="">
-                        <div class="search_text_box">
-                            <p>세종시 연서면</p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home2.png" alt="">
-                        <div class="search_text_box">
-                            <p>세종시 연서면</p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home3.png" alt="">
-                        <div class="search_text_box">
-                            <p>세종시 연서면</p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home4.png" alt="">
-                        <div class="search_text_box">
-                            <p>세종시 연서면</p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/common/search_result/home4.png" alt="" />
+              <div class="search_text_box">
+                <p>세종시 연서면</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
                 </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="search_result_cont">
-                <div class="search_header_box">
-                    <h2>설계사례</h2>
-                    <span>12건</span>
-                </div>
-                <div class="search_img_box_cont">
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home5.png" alt="">
-                        <div class="search_text_box">
-                            <p>HT-2311-100M</p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home6.png" alt="">
-                        <div class="search_text_box">
-                            <p>HT-2311-51M </p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home7.png" alt="">
-                        <div class="search_text_box">
-                            <p>HT-2311-51M </p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home8.png" alt="">
-                        <div class="search_text_box">
-                            <p>HT-2311-51M </p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="search_result_cont">
-                <div class="search_header_box">
-                    <h2>현장Live</h2>
-                    <span>16건</span>
-                </div>
-                <div class="search_img_box_cont">
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home9.png" alt="">
-                        <div class="search_text_box">
-                            <p>세종시 연서면</p>
-                            <div class="p_box">
-                                <p>188.86m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home10.png" alt="">
-                        <div class="search_text_box">
-                            <p>춘천시 월곡리</p>
-                            <div class="p_box">
-                                <p>102.4m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home11.png" alt="">
-                        <div class="search_text_box">
-                            <p>무안군 용산리</p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/home12.png" alt="">
-                        <div class="search_text_box">
-                            <p>이천시 미암리</p>
-                            <div class="p_box">
-                                <p>23.94m²</p>
-                                <p>(71.67평)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="search_result_cont">
-                <div class="search_header_box">
-                    <h2>현장Live</h2>
-                    <span>16건</span>
-                </div>
-                <div class="search_img_box_cont">
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/people1.png" alt="">
-                        <div class="search_text_box">
-                            <p>충북 청주시 건축주 스토리</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/people2.png" alt="">
-                        <div class="search_text_box">
-                            <p>청주 비하동  건축주 스토리</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/people3.png" alt="">
-                        <div class="search_text_box">
-                            <p>평창 평안리 건축주 스토리</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/people4.png" alt="">
-                        <div class="search_text_box">
-                            <p>안산 선감동 건축주 스토리</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="talk_news_cont">
-                <div class="news_header_box">
-                    <h2>하우스톡 소식</h2>
-                    <span>총 6개</span>
-                </div>
-                <div class="news_img_box">
-                    <img src="/assets/imgs/common/Talk_News/1.png" alt="">
-                    <div class="news_text_box_cont">
-                        <div class="all_texts">
-                            <span>2024-04-29</span>
-                            <h3>[오픈하우스]세종 연서면 오픈하우스에 초대합니다.</h3>
-                            <h4>일시 : 5.17(금) ~ 18(토), 세종시 연서면 신대리</h4>
-                        </div>
-                        <div class="button_box">
-                            <a href="">VIEW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="news_img_box">
-                    <img src="/assets/imgs/common/Talk_News/2.png" alt="">
-                    <div class="news_text_box_cont">
-                        <div class="all_texts">
-                            <span>2024-04-08</span>
-                            <h3>[더 리빙] 4월호 정읍 장금리 주택</h3>
-                            <h4>푸르른 녹음과 호수의 풍경을 담은 집, 정읍 전원주택</h4>
-                        </div>
-                        <div class="button_box">
-                            <a href="">VIEW</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="search_result_cont">
-                <div class="search_header_box">
-                    <h2>인테리어 Tip</h2>
-                    <span>7건</span>
-                </div>
-                <div class="search_img_box_cont">
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/1.png" alt="">
-                        <div class="search_text_box">
-                            <p>마감재 변경, 인테리어 필름</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/2.png" alt="">
-                        <div class="search_text_box">
-                            <p>DIY 인테리어</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/3.png" alt="">
-                        <div class="search_text_box">
-                            <p>2024 - 인테리어 트렌드</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/4.png" alt="">
-                        <div class="search_text_box">
-                            <p>2024 컬러트렌드 - 피치 퍼즈</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="search_result_cont">
-                <div class="search_header_box">
-                    <h2>건축정보</h2>
-                    <span>7건</span>
-                </div>
-                <div class="search_img_box_cont">
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/5.png" alt="">
-                        <div class="search_text_box">
-                            <p>세종시 연서면</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/6.png" alt="">
-                        <div class="search_text_box">
-                            <p>DIY 인테리어</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/7.png" alt="">
-                        <div class="search_text_box">
-                            <p>화재에 강한 목조주택, 내화・방염・내면...</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/8.png" alt="">
-                        <div class="search_text_box">
-                            <p>실속 있는 집짓기, 스마트한 소형 주택 건축</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="search_result_cont">
-                <div class="search_header_box">
-                    <h2>미디어</h2>
-                    <span>7건</span>
-                </div>
-                <div class="search_img_box_cont">
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/9.png" alt="">
-                        <div class="search_text_box">
-                            <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/10.png" alt="">
-                        <div class="search_text_box">
-                            <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/11.png" alt="">
-                        <div class="search_text_box">
-                            <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
-                        </div>
-                    </div>
-                    <div class="search_img_box">
-                        <img src="/assets/imgs/common/search_result/12.png" alt="">
-                        <div class="search_text_box">
-                            <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="sort_down_cont">
-                    <div class="sort_down">
-                        <div class="sort_down_text">
-                            <p>더보기</p>
-                        </div>
-                        <div class="sort_down_img">
-                            <a href="">
-                                <img src="/assets/imgs/common/fluent-mdl2_sort-down.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="search_result_cont">
+          <div class="search_header_box">
+            <h2>설계사례</h2>
+            <span>12건</span>
+          </div>
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/home5.png" alt="" />
+              <div class="search_text_box">
+                <p>HT-2311-100M</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/home6.png" alt="" />
+              <div class="search_text_box">
+                <p>HT-2311-51M</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/common/search_result/home7.png" alt="" />
+              <div class="search_text_box">
+                <p>HT-2311-51M</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/common/search_result/home8.png" alt="" />
+              <div class="search_text_box">
+                <p>HT-2311-51M</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search_result_cont">
+          <div class="search_header_box">
+            <h2>현장Live</h2>
+            <span>16건</span>
+          </div>
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/home9.png" alt="" />
+              <div class="search_text_box">
+                <p>세종시 연서면</p>
+                <div class="p_box">
+                  <p>188.86m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/home10.png" alt="" />
+              <div class="search_text_box">
+                <p>춘천시 월곡리</p>
+                <div class="p_box">
+                  <p>102.4m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/common/search_result/home11.png" alt="" />
+              <div class="search_text_box">
+                <p>무안군 용산리</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/common/search_result/home12.png" alt="" />
+              <div class="search_text_box">
+                <p>이천시 미암리</p>
+                <div class="p_box">
+                  <p>23.94m²</p>
+                  <p>(71.67평)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search_result_cont">
+          <div class="search_header_box">
+            <h2>건축주 스토리</h2>
+            <span>7건</span>
+          </div>
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/people1.png" alt="" />
+              <div class="search_text_box">
+                <p>충북 청주시 건축주 스토리</p>
+              </div>
+            </div>
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/people2.png" alt="" />
+              <div class="search_text_box">
+                <p>청주 비하동 건축주 스토리</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/common/search_result/people3.png" alt="" />
+              <div class="search_text_box">
+                <p>평창 평안리 건축주 스토리</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/common/search_result/people4.png" alt="" />
+              <div class="search_text_box">
+                <p>안산 선감동 건축주 스토리</p>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="talk_news_cont">
+          <div class="news_header_box">
+            <h2>하우스톡 소식</h2>
+            <span>총 6개</span>
+          </div>
+          <div class="news_img_box">
+            <div class="img_box">
+              <img src="/assets/imgs/common/Talk_News/1.png" alt="" />
+            </div>
+            <div class="news_text_box_cont">
+              <div class="all_texts">
+                <span>2024-04-29</span>
+                <h3>[오픈하우스]세종 연서면 오픈하우스에 초대합니다.</h3>
+                <h4>일시 : 5.17(금) ~ 18(토), 세종시 연서면 신대리</h4>
+              </div>
+              <div class="button_box">
+                <a href="">VIEW</a>
+              </div>
+            </div>
+          </div>
+          <div class="news_img_box">
+            <div class="img_box">
+              <img src="/assets/imgs/common/Talk_News/2.png" alt="" />
+            </div>
+            <div class="news_text_box_cont">
+              <div class="all_texts">
+                <span>2024-04-08</span>
+                <h3>[더 리빙] 4월호 정읍 장금리 주택</h3>
+                <h4>푸르른 녹음과 호수의 풍경을 담은 집, 정읍 전원주택</h4>
+              </div>
+              <div class="button_box">
+                <a href="">VIEW</a>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search_result_cont">
+          <div class="search_header_box">
+            <h2>인테리어 Tip</h2>
+            <span>7건</span>
+          </div>
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/1.png" alt="" />
+              <div class="search_text_box">
+                <p>마감재 변경, 인테리어 필름</p>
+              </div>
+            </div>
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/2.png" alt="" />
+              <div class="search_text_box">
+                <p>DIY 인테리어</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/common/search_result/3.png" alt="" />
+              <div class="search_text_box">
+                <p>2024 - 인테리어 트렌드</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/common/search_result/4.png" alt="" />
+              <div class="search_text_box">
+                <p>2024 컬러트렌드 - 피치 퍼즈</p>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search_result_cont">
+          <div class="search_header_box">
+            <h2>건축정보</h2>
+            <span>7건</span>
+          </div>
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/5.png" alt="" />
+              <div class="search_text_box">
+                <p>세종시 연서면</p>
+              </div>
+            </div>
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/6.png" alt="" />
+              <div class="search_text_box">
+                <p>DIY 인테리어</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/common/search_result/7.png" alt="" />
+              <div class="search_text_box">
+                <p>화재에 강한 목조주택, 내화・방염・내면...</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/common/search_result/8.png" alt="" />
+              <div class="search_text_box">
+                <p>실속 있는 집짓기, 스마트한 소형 주택 건축</p>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search_result_cont">
+          <div class="search_header_box">
+            <h2>미디어</h2>
+            <span>7건</span>
+          </div>
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/9.png" alt="" />
+              <div class="search_text_box">
+                <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+              </div>
+            </div>
+            <div class="search_img_box">
+              <img src="/assets/imgs/common/search_result/10.png" alt="" />
+              <div class="search_text_box">
+                <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/common/search_result/11.png" alt="" />
+              <div class="search_text_box">
+                <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/common/search_result/12.png" alt="" />
+              <div class="search_text_box">
+                <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile_search_Result_container">
+        <div class="mobile_search_result_cont">
+          <div class="mobile_search_header_box">
+            <h2>완공사례</h2>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <swiper-container
+            class="Swiper_Result"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home1.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home2.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home1.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home2.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home3.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home4.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home1.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home2.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home3.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home4.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="mobile_search_result_cont">
+          <div class="mobile_search_header_box">
+            <h2>설계사례</h2>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <swiper-container
+            class="Swiper_Result"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home5.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home6.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home7.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home8.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home5.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home6.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home7.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home8.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home7.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home8.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="mobile_search_result_cont">
+          <div class="mobile_search_header_box">
+            <h2>현장Live</h2>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <swiper-container
+            class="Swiper_Result"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home9.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home10.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home11.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home12.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home9.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home10.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home11.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home12.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home9.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/home10.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>세종시 연서면</p>
+                    <div class="p_box">
+                      <p>23.94m²</p>
+                      <p>(71.67평)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="mobile_search_result_cont">
+          <div class="mobile_search_header_box">
+            <h2>건축주 스토리</h2>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <swiper-container
+            class="Swiper_Result"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people1.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>충북 청주시 건축주 스토리</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people2.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>청주 비하동 건축주 스토리</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people3.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>평창 평안리 건축주 스토리</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people4.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>안산 선감동 건축주 스토리</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people1.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>충북 청주시 건축주 스토리</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people2.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>청주 비하동 건축주 스토리</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people3.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>평창 평안리 건축주 스토리</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people4.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>안산 선감동 건축주 스토리</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people1.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>충북 청주시 건축주 스토리</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img
+                    src="/assets/imgs/common/search_result/people2.png"
+                    alt=""
+                  />
+                  <div class="swiper_text">
+                    <p>청주 비하동 건축주 스토리</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="talk_news_cont">
+          <div class="news_header_box">
+            <h2>하우스톡 소식</h2>
+            <span>총 6개</span>
+          </div>
+          <div class="news_img_box">
+            <div class="img_box">
+              <img src="/assets/imgs/common/Talk_News/1.png" alt="" />
+            </div>
+            <div class="news_text_box_cont">
+              <div class="all_texts">
+                <span>2024-04-29</span>
+                <h3>[오픈하우스]세종 연서면 오픈하우스에 초대합니다.</h3>
+                <h4>일시 : 5.17(금) ~ 18(토), 세종시 연서면 신대리</h4>
+              </div>
+              <div class="button_box">
+                <a href="">VIEW</a>
+              </div>
+            </div>
+          </div>
+          <div class="news_img_box">
+            <div class="img_box">
+              <img src="/assets/imgs/common/Talk_News/2.png" alt="" />
+            </div>
+            <div class="news_text_box_cont">
+              <div class="all_texts">
+                <span>2024-04-08</span>
+                <h3>[더 리빙] 4월호 정읍 장금리 주택</h3>
+                <h4>푸르른 녹음과 호수의 풍경을 담은 집, 정읍 전원주택</h4>
+              </div>
+              <div class="button_box">
+                <a href="">VIEW</a>
+              </div>
+            </div>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile_search_result_cont">
+          <div class="mobile_search_header_box">
+            <h2>인테리어 Tip</h2>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <swiper-container
+            class="Swiper_Result"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/1.png" alt="" />
+                  <div class="swiper_text">
+                    <p>마감재 변경, 인테리어 필름</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/2.png" alt="" />
+                  <div class="swiper_text">
+                    <p>DIY 인테리어</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/3.png" alt="" />
+                  <div class="swiper_text">
+                    <p>2024 - 인테리어 트렌드</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/2.png" alt="" />
+                  <div class="swiper_text">
+                    <p>2024 컬러트렌드 - 피치 퍼즈</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/1.png" alt="" />
+                  <div class="swiper_text">
+                    <p>마감재 변경, 인테리어 필름</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/2.png" alt="" />
+                  <div class="swiper_text">
+                    <p>DIY 인테리어</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/1.png" alt="" />
+                  <div class="swiper_text">
+                    <p>마감재 변경, 인테리어 필름</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/2.png" alt="" />
+                  <div class="swiper_text">
+                    <p>DIY 인테리어</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/1.png" alt="" />
+                  <div class="swiper_text">
+                    <p>마감재 변경, 인테리어 필름</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/2.png" alt="" />
+                  <div class="swiper_text">
+                    <p>DIY 인테리어</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="mobile_search_result_cont">
+          <div class="mobile_search_header_box">
+            <h2>건축정보</h2>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <swiper-container
+            class="Swiper_Result"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/5.png" alt="" />
+                  <div class="swiper_text">
+                    <p>마감재 변경, 인테리어 필름</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/6.png" alt="" />
+                  <div class="swiper_text">
+                    <p>DIY 인테리어</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/7.png" alt="" />
+                  <div class="swiper_text">
+                    <p>화재에 강한 목조주택, 내화・방염・내면...</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/8.png" alt="" />
+                  <div class="swiper_text">
+                    <p>실속 있는 집짓기, 스마트한 소형 주택 건축</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/5.png" alt="" />
+                  <div class="swiper_text">
+                    <p>마감재 변경, 인테리어 필름</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/6.png" alt="" />
+                  <div class="swiper_text">
+                    <p>DIY 인테리어</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/7.png" alt="" />
+                  <div class="swiper_text">
+                    <p>화재에 강한 목조주택, 내화・방염・내면...</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/8.png" alt="" />
+                  <div class="swiper_text">
+                    <p>실속 있는 집짓기, 스마트한 소형 주택 건축</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/5.png" alt="" />
+                  <div class="swiper_text">
+                    <p>마감재 변경, 인테리어 필름</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/6.png" alt="" />
+                  <div class="swiper_text">
+                    <p>DIY 인테리어</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+        <div class="mobile_search_result_cont">
+          <div class="mobile_search_header_box">
+            <h2>미디어</h2>
+          </div>
+          <div class="sort_down_cont">
+            <div class="sort_down">
+              <div class="sort_down_text">
+                <p>더보기</p>
+              </div>
+              <div class="sort_down_img">
+                <a href="">
+                  <img
+                    src="/assets/imgs/common/fluent-mdl2_sort-down.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <swiper-container
+            class="Swiper_Result"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="30"
+            slides-per-view="1"
+          >
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/9.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/10.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/11.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/12.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/9.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/10.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/11.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/12.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="slide_container">
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/9.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+                <div class="slide_box">
+                  <img src="/assets/imgs/common/search_result/10.png" alt="" />
+                  <div class="swiper_text">
+                    <p>[목재신문] 하우스톡, 충북제천 오픈하우...</p>
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </div>
 
-        ${require('./include/_footer.html')}
-    </body>
+    ${require('./include/_footer.html')}
+  </body>
 </html>
