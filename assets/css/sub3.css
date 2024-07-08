@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* houesetalkNews_List Start  */
+.houesetalknews_list {
+    padding-top: 97px !important;
+}
+.houesetalknews_list .myswiper_list .swiper-slide {
+    width: 1022px !important;
+    height: 547px !important;
+}
+.houesetalknews_list .swiper-slide img {
+    width: 1022px !important;
+    height: 547px !important;
+}
+
+/* houesetalkNews_List End  */
