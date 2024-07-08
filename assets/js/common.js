@@ -180,16 +180,17 @@ $(document).ready(function () {
 
     var swiper = new Swiper(".mySwiper_list", {
         effect: "coverflow",
-        grabCursor: true,
+        // grabCursor: true,
         centeredSlides: true,
-        slidesPerView: "auto",
+        spaceBetween:30,
+        initialSlide:3,
+        slidesPerView:"auto",
         loop: true,
         coverflowEffect: {
             rotate: 50,
-            stretch: 0,
-            depth: 100,
+            stretch: 1,
             modifier: 1,
-            slideShadows: true,
+            slideShadows: false,
         },
     });
     //scroll_to_top

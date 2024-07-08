@@ -340,12 +340,12 @@ input[type="checkbox" i]:checked::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
   margin-bottom: 130px;
 }
 .conseling_inn .conseling_img_gp img {
-  max-width: 700px;
+  width: 700px;
   height: 596px;
-  width: 100%;
 }
 .conseling_inn .conseling_form {
   max-width: 703px;
@@ -366,6 +366,7 @@ input[type="checkbox" i]:checked::before {
 .conseling_inn .conseling_form .form-input {
   display: flex;
   margin-top: 16px;
+  width: 100% !important;
   flex-wrap: wrap;
   gap: 18px;
 }
