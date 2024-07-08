@@ -72,26 +72,21 @@ $(document).ready(function () {
         $(this).toggleClass("open").find(".mo_snb").toggle();
     });
 
-    // main banner swiper
-    var swiper = new Swiper(".main_banner_swiper", {
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            renderBullet: function (index, className) {
-                return (
-                    '<span class="' +
-                    className +
-                    '">' +
-                    "0" +
-                    (index + 1) +
-                    "</span>"
-                );
-            },
-        },
-        autoplay: {
-            delay: 5000,
-        },
-    });
+  // main banner swiper
+  var swiper = new Swiper(".main_banner_swiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return (
+          '<span class="' + className + '">' + "0" + (index + 1) + "</span>"
+        );
+      },
+    },
+    autoplay: {
+      delay: 5000,
+    },
+  });
 
     var sec_01_swiper = new Swiper(".sec_01_swiper", {
         slidesPerView: 2,
@@ -143,12 +138,15 @@ $(document).ready(function () {
     });
 
     var partners_swiper = new Swiper(".partners_swiper", {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 0,
         autoplay: {
             delay: 5000,
         },
         breakpoints: {
+            390: {
+                slidesPerView: 3,
+            },
             575: {
                 slidesPerView: 5,
             },
@@ -180,16 +178,17 @@ $(document).ready(function () {
 
     var swiper = new Swiper(".mySwiper_list", {
         effect: "coverflow",
-        grabCursor: true,
+        // grabCursor: true,
         centeredSlides: true,
-        slidesPerView: "auto",
+        spaceBetween:30,
+        initialSlide:3,
+        slidesPerView:"auto",
         loop: true,
         coverflowEffect: {
             rotate: 50,
-            stretch: 0,
-            depth: 100,
+            stretch: 1,
             modifier: 1,
-            slideShadows: true,
+            slideShadows: false,
         },
     });
 

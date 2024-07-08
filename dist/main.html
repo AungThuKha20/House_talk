@@ -1,7 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        ${require('./include/_meta.html')}
+        <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Project Name</title>
+
+<!-- CSS -->
+<link
+  href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="../assets/css/reset.css" />
+<link rel="stylesheet" href="../assets/css/common.css" />
+<link rel="stylesheet" href="../assets/css/fonts.css" />
+<link rel="stylesheet" href="../assets/css/sub2.css" />
+<link rel="stylesheet" href="../assets/css/sub1.css" />
+<link rel="stylesheet" href="../assets/css/sub3.css" />
+<link rel="stylesheet" href="../assets/css/sub.css" />
+<link rel="stylesheet" href="../assets/css/main.css" />
+<link rel="stylesheet" href="../assets/css/media.css" />
+<link rel="stylesheet" href="../assets/css/media3.css" />
+
+<link rel="stylesheet" href="../assets/css/media1.css" />
+
+<!-- AOS animation library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+<!-- Jquery -->
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"
+></script>
+<!-- AOS animation library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- Common script -->
+<script src="../assets/js/common.js" />
+
         <script>
             (function(d) {
               var config = {
@@ -14,9 +56,219 @@
         </script>
     </head>
     <body>
-        ${require('./include/_header.html')}
-        ${require('./include/_mainBanner.html')}
-        ${require('./include/_subQuick_menu.html')}
+        <header class="header">
+    <div class="lnb_bg"></div>
+    <div class="header_inn">
+        <a href="/" class="head_img">
+            <img src="../../assets/imgs/main/house_talk_logo.png" alt="house talk">
+        </a>
+        <ul class="gnb">
+            <li>
+                <a href="">회사소개</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">인사말</a></li>
+                            <li><a href="">회사소개</a></li>
+                            <li><a href="">주요연혁</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="">건축갤러리</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">현장 live</a></li>
+                            <li><a href="">완공 사례</a></li>
+                            <li><a href="">설계 사례</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </li>
+            <li><a href="">주택전시장</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">전시장</a></li>
+                            <li><a href="">방문신청</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </li>
+            <li><a href="">하우스톡 소식</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">하우스톡 소식</a></li>
+                            <li><a href="">건축정보</a></li>
+                            <li><a href="">인테리어Tip</a></li>
+                            <li><a href="">건축주스토리</a></li>
+                            <li><a href="">매니저스토리</a></li>
+                        </ul>  
+                    </div>
+                </div>
+            </li>
+            <li><a href="">미디어</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">언론보도</a></li>
+                            <li><a href="">유튜브</a></li>
+                            <li><a href="">네이버</a></li>
+                            <li><a href="">SNS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="">상담/신청</a>
+                <div class="depth2">
+                    <div class="depth2_wrapp">
+                        <ul class="lnb">
+                            <li><a href="">건축 상담</a></li>
+                            <li><a href="">가이드 북 신청</a></li>
+                            <li><a href="">AS신청</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="head_contact">
+            <span class="txt">건축문의</span>
+            <strong>1588-9704</strong>
+            <button id="all_search" type="button" class="header_search_btn cursor-pointer"></button>
+            <button class="hamburger">
+                <span>line</span>
+                <span>line</span>
+                <span>line</span>
+            </button>
+        </div>
+    </div>
+    <div class="all_search_input">
+        <input type="search" placeholder="검색어를 입력하세요.">
+        <button type="button"  class="header_search_btn cursor-pointer"></button>
+    </div>
+
+    <!-- mobile menu -->
+    <ul class="mo_menu">
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>회사소개</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">인사말</a></li>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">주요연혁</a></li>
+            </ul>
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>건축갤러리</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">현장 live</a></li>
+                <li><a href="">완공 사례</a></li>
+                <li><a href="">설계 사례</a></li>
+            </ul>  
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>주택전시장</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">전시장</a></li>
+                <li><a href="">방문신청</a></li>
+            </ul>  
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>하우스톡 소식</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">하우스톡 소식</a></li>
+                <li><a href="">건축정보</a></li>
+                <li><a href="">인테리어Tip</a></li>
+                <li><a href="">건축주스토리</a></li>
+                <li><a href="">매니저스토리</a></li>
+            </ul>  
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>미디어</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">언론보도</a></li>
+                <li><a href="">유튜브</a></li>
+                <li><a href="">네이버</a></li>
+                <li><a href="">SNS</a></li>
+            </ul>
+        </li>
+        <li class="mo_list depth1">
+            <a href="#" class="mo_item"><span>상담/신청</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
+            <ul class="mo_snb">
+                <li><a href="">건축 상담</a></li>
+                <li><a href="">가이드 북 신청</a></li>
+                <li><a href="">AS신청</a></li>
+            </ul>
+        </li>
+    </ul>
+</header>
+        <div class="main_banner">
+    <div class="main_banner_inn">
+        <div class="swiper main_banner_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide main_banner_img"
+                style="background: url(../../assets/imgs/main/banner01.png) no-repeat;">
+                    <div class="main_banner_txt">
+                        <p>THE LIVING 4월호 게재</p>
+                        <h1>전라북도 정읍시 장금리</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide main_banner_img"
+                style="background: url(../../assets/imgs/main/banner02.png) no-repeat;">
+                    <div class="main_banner_txt">
+                        <p>THE LIVING 4월호 게재</p>
+                        <h1>전라북도 정읍시 장금리</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide main_banner_img"
+                style="background: url(../../assets/imgs/main/banner01.png) no-repeat;">
+                    <div class="main_banner_txt">
+                        <p>THE LIVING 4월호 게재</p>
+                        <h1>전라북도 정읍시 장금리</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="main_swiper-pagination">
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="sub_quick_menu_gp">
+  <div class="sub_quick_menu">
+    <button class="bg_blue">
+      <img src="/assets/imgs/icons/tele.png" alt="" />
+      <p class="txt_white">
+        1588- <br />
+        9704
+      </p>
+    </button>
+    <button>
+      <img src="/assets/imgs/icons/house_search.png" alt="" />
+      <p>건축문의</p>
+    </button>
+    <button>
+      <img src="/assets/imgs/icons/doc.png" alt="" />
+      <p>가이드북</p>
+    </button>
+    <button>
+      <img src="/assets/imgs/icons/house.png" alt="" />
+      <p>AS신청</p>
+    </button>
+  </div>
+  <div class="scroll_top">
+    <button>
+        <img src="/assets/imgs/icons/top_btn.png" alt="">
+    </button>
+  </div>
+  <div class="dm">
+    <button>
+        <img src="/assets/imgs/icons/text.png" alt="">
+    </button>
+  </div>
+</div>
+
         <main class="main"> 
             <section class="main_sec_01">
                 <div class="main_sec_inn container">
@@ -290,9 +542,192 @@
             </section>
 
            <div class="container">
-            ${require('./include/_counseling.html')}
+            <div class="conseling">
+    <div class="conseling_inn ">
+       <div class="conseling_img_gp">
+         <img src="/assets/imgs/sub3/conseling-man.png" alt="">
+       </div>
+       <div class="conseling_form">
+        <form action="">
+            <h2>빠른 건축상담</h2>
+            <div class="form-check">
+                <div class="checkbox_wrap">
+                    <input type="checkbox" name="check" id="consel_chk01"  />
+                    <label for="consel_chk01"><span>건축상담</span></label>
+                  </div>
+                  <div class="checkbox_wrap">
+                    <input type="checkbox" name="check" id="consel_chk02" />
+                    <label for="consel_chk02"><span>모델하우스 방문예약</span></label>
+                  </div>
+                  <div class="checkbox_wrap">
+                    <input type="checkbox" name="check" id="consel_chk03" checked/>
+                    <label for="consel_chk03"><span>가이드북 신청</span></label>
+                  </div>
+            </div>
+            <div style="width: 100%;" class="form-input ">
+                <div class="input_wrap">
+                    <input
+                      type="text"
+                      name=""
+                      class="custom_input w-314"
+                      placeholder="성함"
+                      value=""
+                    />
+                </div>
+                <div class="input_wrap">
+                    <input
+                      type="text"
+                      name=""
+                      class="custom_input w-314"
+                      placeholder="연락처"
+                      value=""
+                    />
+                </div>
+                <div class="input_wrap">
+                    <input
+                      type="text"
+                      name=""
+                      class="custom_input w-646"
+                      placeholder="연락처"
+                      value=""
+                    />
+                </div>
+                <div class="captcha_gp">
+                   <div class="captcha">
+                      <h3>등록 코드</h3>
+                      <img src="/assets/imgs/sub3/captcha.png" alt="">
+                   </div>
+                </div>
+                <div style="position: relative;" class="input_wrap input_wrap2">
+                  <input
+                    type="text"
+                    name=""
+                    class="custom_input w-314 custom_placeholder"
+                    placeholder="왼쪽 6자리 문자 입력"
+                    value=""
+                  />
+                  <div class="reset_btn">
+                    <img src="/assets/imgs/icons/system-uicons_reset.png" alt="">
+                  </div>
+                </div>
+                <div class="form_note">
+                  <p>*개인정보 수집 및 이용에 대한 동의 <span>동의</span></p>
+                </div>
+            </div>
+            <div class="consultation_reception">
+              <button type="" class="">상담접수</button>
+          </div>
+        </form>
+       </div>
+    </div>
+</div>
            </div>
         </main>
-        ${require('./include/_footer.html')}
+        <section class="partners">
+    <div class="partners_inn container">
+        <div class="swiper partners_swiper">
+            <div class="swiper-wrapper partners_swiper_conts">
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_01.png" alt="house talk">
+                </a>
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_02.png" alt="house talk">
+                </a>
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_03.png" alt="house talk">
+                </a>
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_04.png" alt="house talk">
+                </a>
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_05.png" alt="house talk">
+                </a>
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_06.png" alt="house talk">
+                </a>
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_07.png" alt="house talk">
+                </a>
+                <a href="#" class="swiper-slide partners_swiper_cont">
+                    <img src="../../assets/imgs/main/partner_01.png" alt="house talk">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer_inn">
+        <div class="foot_nav">
+            <div class="foot_nav_inn container">
+                <div class="foot_img pc_hidden">
+                    <img src="../../assets/imgs/main/house_talk_white_logo.png" alt="house logo">
+                </div>
+                <div class="foot_gnb">
+                    <a href="">회사소개</a>
+                    <span class="foot_hor_ln">line</span>
+                    <a href="" class="white_bold">개인정보취급방침</a>
+                    <span class="foot_hor_ln">line</span>
+                    <a href="">이용약관</a>
+                    <span class="foot_hor_ln">line</span>
+                    <a href="">그룹웨어</a>
+                </div>
+                <div class="foot_contact">
+                    건축문의 1588 - 9704
+                    <span class="foot_hor_ln">line</span>
+                    무료전화 080 - 850 - 9704
+                </div>
+            </div>
+        </div>
+        <div class="foot_info_wrpp container">
+            <div class="foot_info_inn">
+                <div class="foot_img mobile_hidden">
+                    <img src="../../assets/imgs/main/house_talk_white_logo.png" alt="house logo">
+                </div>
+                <div class="foot_info">
+                    <div class="foot_info_01">
+                        <p>(주)하우스톡(HT종합건설)</p>
+                        <span class="foot_hor_ln">line</span>
+                        <p>사업자등록번호 264 - 81 - 47586</p>
+                        <span class="foot_hor_ln">line</span>
+                        <p>건설업 등록번호 01 - 4179</p>
+                        <span class="foot_hor_ln">line</span>
+                        <p>대표이사 김강일</p>
+                    </div>
+                    <div class="foot_info_02">
+                        <p>E-mail housingtalk@naver.com</p>
+                        <span class="foot_hor_ln">line</span>
+                        <p>FAX 02- 584 - 3604</p>
+                        <span class="foot_hor_ln">line</span>
+                        <p>대표번호 1588 - 9704</p>
+                    </div>
+                    <div class="foot_info_03">
+                        <p>본사 서울시 서초구 효령로</p>
+                        <span class="foot_hor_ln">line</span>
+                        <p>남부지사 경상남도 진주시 진양호로 50 - 1 1F (평거동 111 - 5)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot_sns">
+                <a href="">
+                    <img src="../../assets/imgs/main/foot_b.png" alt="house talk">
+                </a>
+                <a href="">
+                    <img src="../../assets/imgs/main/foot_f.png" alt="house talk">
+                </a>
+                <a href="">
+                    <img src="../../assets/imgs/main/foot_i.png" alt="house talk">
+                </a>
+                <a href="">
+                    <img src="../../assets/imgs/main/foot_y.png" alt="house talk">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="foot_cr">
+        COPYRIGHTⓒ 2024 HOUSETALK CO, LIMITED ALL RIGHT RESERVED
+    </div>
+</footer>
+
     </body>
 </html>

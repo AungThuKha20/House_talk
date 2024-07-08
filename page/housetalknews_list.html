@@ -1,60 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        ${require('./include/_meta.html')}
-        <script>
-            (function(d) {
-              var config = {
-                kitId: 'adw8piw',
-                scriptTimeout: 3000,
-                async: true
-              },
-              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
-    </head>
-    <body>
-        ${require('./include/_header.html')}
-        ${require('./include/_subQuick_menu.html')}
-        <div class="houesetalknews_list container">
-            <div class="sub_page_title">
-                <h2>건축주 스토리</h2>
-                <p>집 짓고 사는 즐거움, 하우스톡 건축주와의 동행 인터뷰</p>
-            </div>
-            <div class="swiper mySwiper_list">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                  </div>
-                </div>
-              </div>
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="houesetalknews_list container">
+      <div class="sub_page_title">
+        <h2>건축주 스토리</h2>
+        <p>집 짓고 사는 즐거움, 하우스톡 건축주와의 동행 인터뷰</p>
+      </div>
+      <div class="swiper mySwiper_list">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/imgs/sub3/Rectangle 146.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/imgs/sub3/Union.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/imgs/sub3/Union (1).png" />
+          </div>
         </div>
-       
+      </div>
+    </div>
 
-        ${require('./include/_footer.html')}
-    </body>
+    ${require('./include/_footer.html')}
+  </body>
 </html>
