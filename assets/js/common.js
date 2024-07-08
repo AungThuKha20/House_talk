@@ -137,21 +137,24 @@ $(document).ready(function () {
     },
   });
 
-  var partners_swiper = new Swiper(".partners_swiper", {
-    slidesPerView: 3,
-    spaceBetween: 0,
-    autoplay: {
-      delay: 5000,
-    },
-    breakpoints: {
-      575: {
-        slidesPerView: 5,
-      },
-      1000: {
-        slidesPerView: 7,
-      },
-    },
-  });
+    var partners_swiper = new Swiper(".partners_swiper", {
+        slidesPerView: 2,
+        spaceBetween: 0,
+        autoplay: {
+            delay: 5000,
+        },
+        breakpoints: {
+            390: {
+                slidesPerView: 3,
+            },
+            575: {
+                slidesPerView: 5,
+            },
+            1000: {
+                slidesPerView: 7,
+            },
+        },
+    });
 
   // main section 05 tab
   $(".main_sec_05_btn").on("click", function () {
