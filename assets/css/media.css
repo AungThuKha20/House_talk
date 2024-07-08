@@ -124,5 +124,12 @@
     .main_sec_02_top h3 {font-size: 25px;}
     .main_sec_02_top p {font-size: 16px;}
     .footer .foot_nav .foot_contact {font-size: 14px;}
+   
+      .header .head_contact strong{
+        display: none;
+      }
+      .header .head_contact .txt{
+        display: none;
+      }
     
 }

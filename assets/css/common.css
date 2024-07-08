@@ -340,7 +340,7 @@ input[type="checkbox" i]:checked::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 24px !important;
   margin-bottom: 130px;
 }
 .conseling_inn .conseling_img_gp img {
@@ -368,6 +368,7 @@ input[type="checkbox" i]:checked::before {
   margin-top: 16px;
   width: 100% !important;
   flex-wrap: wrap;
+  align-items: center;
   gap: 18px;
 }
 .conseling_inn .conseling_form .form-input .captcha_gp {
