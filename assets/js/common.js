@@ -72,26 +72,21 @@ $(document).ready(function () {
         $(this).toggleClass("open").find(".mo_snb").toggle();
     });
 
-    // main banner swiper
-    var swiper = new Swiper(".main_banner_swiper", {
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            renderBullet: function (index, className) {
-                return (
-                    '<span class="' +
-                    className +
-                    '">' +
-                    "0" +
-                    (index + 1) +
-                    "</span>"
-                );
-            },
-        },
-        autoplay: {
-            delay: 5000,
-        },
-    });
+  // main banner swiper
+  var swiper = new Swiper(".main_banner_swiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      renderBullet: function (index, className) {
+        return (
+          '<span class="' + className + '">' + "0" + (index + 1) + "</span>"
+        );
+      },
+    },
+    autoplay: {
+      delay: 5000,
+    },
+  });
 
     var sec_01_swiper = new Swiper(".sec_01_swiper", {
         slidesPerView: 2,

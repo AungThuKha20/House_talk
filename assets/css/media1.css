@@ -1,0 +1,136 @@
+@media screen and (max-width: 1470.98px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 1300.98px) {
+  /* constructconsult_list */
+  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
+    width: 765px;
+  }
+  .constructconsult_list
+    .common_consulation_form
+    table
+    tr
+    .common_consul_td4
+    a {
+    padding: 7px 19px;
+  }
+  .constructconsult_list .common_consulation_form table tr td {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1000.98px) {
+  /* constructconsult_list */
+
+  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
+    width: 565px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td3 {
+    width: 200px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td4 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  /* constructconsult_list */
+
+  .constructconsult_list .common_consulation_form table tr td {
+    font-size: 14px;
+  }
+  .constructconsult_list .common_search input {
+    width: 186px;
+  }
+  .constructconsult_list .common_search img {
+    left: -14%;
+  }
+  .constructconsult_list .common_search input {
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  .constructconsult_list .common_search img {
+    width: 18px;
+    height: 18px;
+  }
+  .constructconsult_list .search_btn button a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  /* constructconsult_list */
+
+  .constructconsult_list .common_consulation_form table tr td {
+    font-size: 13px;
+  }
+
+  .constructconsult_list
+    .common_consulation_form
+    table
+    tr
+    .common_consul_td4
+    a {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .constructconsult_list .search_btn button {
+    width: 120px;
+  }
+  .constructconsult_list .search_btn button a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 483px) {
+  /* constructconsult_list */
+  .constructconsult_list .common_consulation_form table tr td {
+    font-size: 12px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td3 {
+    width: 110px;
+  }
+  .constructconsult_list
+    .common_consulation_form
+    table
+    tr
+    .common_consul_td4
+    a {
+    padding: 4px;
+    font-size: 10px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td1 {
+    width: 100px;
+  }
+  .constructconsult_lis .common_consulation_form table tr .common_consul_td5 {
+    min-width: 40px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
+    min-width: 60px;
+  }
+  .common_consulation_form table tr .common_consul_td2 .img_group {
+    width: 8px;
+    height: 13px;
+    margin-right: 5px;
+  }
+  .constructconsult_list .common_search img {
+    left: -10%;
+    top: 10%;
+  }
+  .constructconsult_list .common_search input {
+    margin-bottom: 15px;
+    width: 168px;
+  }
+  .constructconsult_list .search_btn button a {
+    font-size: 14px;
+  }
+  .constructconsult_list .constructconsult_list_title {
+    font-size: 20px;
+  }
+  .constructconsult_list h5 {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+}
