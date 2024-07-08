@@ -1,9 +1,8 @@
 /* constructconsult_form */
-.container.constructconsult_form
-{
+.container.constructconsult_form {
   margin-top: 97px;
 }
-.container.constructconsult_list{
+.container.constructconsult_list {
   margin-top: 120px;
 }
 .constructconsult_form .constructconsult_form_title {
@@ -28,7 +27,7 @@
   .common_constructconsult_form
   .common_sub_table
   .common_sub_table_th {
-  width: 204px;
+  min-width: 204px;
 }
 
 .construct_tr {
@@ -39,7 +38,7 @@
   border-top: none;
 }
 .constructconsult_form .common_constructconsult_table_th {
-  width: 290px;
+  min-width: 290px;
   padding: 56px 0;
   font-size: 28px;
   font-weight: 700;
@@ -64,6 +63,10 @@
 }
 .constructconsult_form .common_sub_table .construct_td_btn a {
   font-size: 18px;
+  border: 1px solid #9999;
+  padding: 4px 12px;
+  background: #f6f6f6;
+
 }
 .constructconsult_form .common_sub_table .construct_td {
   display: flex;
@@ -106,6 +109,8 @@
 }
 .constructconsult_form .construct_td_text1_cont1_span {
   font-size: 16px;
+  line-height: 30px;
+  vertical-align: top;
 }
 .constructconsult_form .common_sub_table .select_box input,
 .constructconsult_form .common_sub_table .select_box3 input {
@@ -252,28 +257,28 @@
 }
 
 /* constructconsult_list */
-.constructconsult_list .constructconsult_list_title{
+.constructconsult_list .constructconsult_list_title {
   text-align: center;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 16px;
 }
-.constructconsult_list h5{
+.constructconsult_list h5 {
   text-align: center;
   margin-bottom: 43px;
 }
-.constructconsult_list .search_btn{
+.constructconsult_list .search_btn {
   float: right;
   display: flex;
   gap: 24px;
 }
-.constructconsult_list .search_btn button{
+.constructconsult_list .search_btn button {
   width: 180px;
   height: 35px;
   border: none;
-  background:#121B2A;
+  background: #121b2a;
 }
-.constructconsult_list .search_btn button a{
+.constructconsult_list .search_btn button a {
   color: white;
   font-size: 18px;
   font-weight: 600;
