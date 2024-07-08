@@ -1,0 +1,24 @@
+.sub_page_content {
+  margin: 191.5px 0px 218.5px 0px;
+}
+.sub_page_content h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.96px;
+  letter-spacing: -0.48px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.search_Result{
+    margin-bottom: 130px;
+}
+.search_img_box_cont .search_text_box .p_box {
+  display: flex;
+  gap: 5px;
+}
+.search_img_box_cont .search_text_box .p_box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+}

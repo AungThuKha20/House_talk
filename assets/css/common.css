@@ -337,6 +337,7 @@ input[type="checkbox" i]:checked::before {
   text-align: center;
   padding-top: 86px;
   padding-bottom: 86px;
+  margin-top: 97px;
 }
 .sub_page_title p {
   font-weight: 400;
@@ -344,6 +345,13 @@ input[type="checkbox" i]:checked::before {
   line-height: 28.64px;
   letter-spacing: 0.8px;
   padding-top: 32px;
+}
+.sub_menu_header h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66.83px;
+  letter-spacing: -0.48px;
+  text-align: center;
 }
 .sub_menu_title {
   display: flex;
@@ -612,7 +620,6 @@ input[type="checkbox" i]:checked::before {
 .search_result_cont {
   margin: 56px 0px;
   border-bottom: 1px solid #dedede;
-  padding-bottom: 115px;
 }
 .search_result_cont .search_header_box {
   display: flex;
@@ -639,6 +646,9 @@ input[type="checkbox" i]:checked::before {
   display: flex;
   justify-content: space-between;
 }
+.search_img_box_cont .search_img_box img{
+  height: 214px;
+}
 .search_img_box_cont .search_img_box .search_text_box{
     display: flex;
     justify-content: space-between;
@@ -653,11 +663,10 @@ input[type="checkbox" i]:checked::before {
 /* kzwk */
 /* mayThu */
 /*common filter*/
-.container.common_filter {
-  margin-top: 100px;
+.common_filter {
+  margin-top: 24px;
 }
 .common_filter_box {
-  margin-top: 140px;
   display: flex;
   justify-content: space-between;
 }
