@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* houesetalkNews_List Start  */
+.houesetalknews_list {
+    padding-top: 97px !important;
+}
+.houesetalknews_list .mySwiper_list {
+    width: 100%;
+}
+.houesetalknews_list .swiper-wrapper {
+    /* display: flex;
+    justify-content: start;
+    width: 100%; */
+}
+.houesetalknews_list .swiper-slide  {
+    width: fit-content !important;
+    height: 547px !important;
+}
+.houesetalknews_list .swiper-slide img {
+    width: 500px !important;
+    height: 547px !important;
+}
+.houesetalknews_list .swiper-slide.swiper-slide-active  {
+    width: 1022px !important; 
+    height: 547px !important; 
+}
+.houesetalknews_list .swiper-slide.swiper-slide-active img  {
+    width: fit-content !important; 
+    height: 547px !important; 
+}
+
+
+/* houesetalkNews_List End  */

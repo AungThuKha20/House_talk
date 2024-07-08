@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------
+    File definitio: Responsive css on all pages
+    Order: header > main > sub pages > footer
+-------------------------------------------------------------------*/
+
+@media screen and (max-width: 1663.98px) {
+   
+
+}
+@media screen and (max-width: 1470.98px) {
+    .conseling_inn .conseling_form .form-input .captcha_gp img {
+        width: 207px;
+        height: 72px;
+    }
+    .conseling_inn .conseling_form {
+        width: 100% !important;
+    }
+    .w-314 {
+        width: 200px !important;
+    }
+    .w-646 {
+        width: 416px !important;
+    }
+   .conseling_inn .conseling_form .form-input .captcha_gp .captcha {
+        width: 100px;
+        height:20px;
+    }
+    .conseling_inn .conseling_form .form-input .captcha_gp {
+        width: 300px !important;
+        align-items: center;
+    }
+     
+}
+@media screen and (max-width: 1300.98px) {
+}
+@media screen and (max-width: 1000.98px) {
+    
+}
+@media screen and (max-width: 767.98px) {
+   
+
+}
+@media screen and (max-width: 575.98px) {
+
+}
+@media screen and (max-width: 483px) {
+    
+    
+}
