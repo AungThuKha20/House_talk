@@ -784,6 +784,9 @@ input[type="checkbox" i]:checked::before {
   line-height: 27px;
   letter-spacing: 0.5px;
 }
+.product_cont_box .home_img_box img{
+  height: 353px;
+}
 .talk_news_cont {
   margin: 56px 0px;
 }
