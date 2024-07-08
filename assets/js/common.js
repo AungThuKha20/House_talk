@@ -188,20 +188,6 @@ $(document).ready(function () {
       slideShadows: false,
     },
   });
-  //scroll_to_top
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    var scrollButton = document.querySelector(".scroll_top");
-    document.body.scrollTop > 100 || document.documentElement.scrollTop > 100;
-    document
-      .querySelector(".scroll_top button")
-      .addEventListener("click", function () {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-  }
 
   // main range
   $(".vertical").each(function () {
@@ -261,4 +247,19 @@ $(document).ready(function () {
     sectionSelect5.classList.toggle("active");
     sectionSelect5.classList.toggle("on5");
   });
+
+  //scroll_to_top
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    var scrollButton = document.querySelector(".scroll_top");
+    document.body.scrollTop > 100 || document.documentElement.scrollTop > 100;
+    document
+      .querySelector(".scroll_top button")
+      .addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+  }
 });

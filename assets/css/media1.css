@@ -5,6 +5,29 @@
   body {
     overflow-x: hidden;
   }
+
+  /* construct form */
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th {
+    min-width: 120px;
+  }
+  .constructconsult_form .input_box3 {
+    width: 260px;
+  }
+  .constructconsult_form .common_sub_table .common_select_box.select_box2 input,
+  .constructconsult_form
+    .common_sub_table
+    .common_select_box.select_box2
+    .section_select {
+    width: 200px;
+  }
+
+  .constructconsult_form .common_sub_table .common_select_box.select_box2 {
+    width: 200px;
+  }
+  /* construct form end */
 }
 @media screen and (max-width: 1300.98px) {
   /* constructconsult_list */
@@ -22,6 +45,35 @@
   .constructconsult_list .common_consulation_form table tr td {
     font-size: 16px;
   }
+  /* constructconsult_list end */
+
+  /* construction form */
+  .constructconsult_form .common_sub_table .select_box input,
+  .constructconsult_form .common_sub_table .select_box3 input,
+  .constructconsult_form
+    .common_sub_table
+    .common_select_box.select_box
+    .section_select,
+  .constructconsult_form .common_input {
+    width: 300px;
+  }
+
+  .constructconsult_form .common_sub_table .select_box::after {
+    top: 45%;
+    left: 30%;
+  }
+  .constructconsult_form .select_box.active::after,
+  .constructconsult_form .common_sub_table .select_box1.active::after,
+  .constructconsult_form .common_sub_table .select_box2.active::after,
+  .constructconsult_form .common_sub_table .select_box3.active::after {
+    transform: rotate(-180deg);
+    top: 10%;
+  }
+  .constructconsult_form .input_box {
+    width: 188px;
+    margin: 0px 0px 0px 5px;
+}
+  /* construction form  end*/
 }
 @media screen and (max-width: 1000.98px) {
   /* constructconsult_list */

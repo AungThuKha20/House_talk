@@ -986,9 +986,7 @@ input[type="checkbox" i]:checked::before {
 /* common filter end */
 
 /* common input */
-.common_input {
-  margin: 20px;
-}
+
 .common_input input {
   height: 60px;
   border: none;
