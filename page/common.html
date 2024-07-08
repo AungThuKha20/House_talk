@@ -1,105 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        ${require('./include/_meta.html')}
-        <script>
-            (function(d) {
-              var config = {
-                kitId: 'adw8piw',
-                scriptTimeout: 3000,
-                async: true
-              },
-              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
-    </head>
-    <body >
-        ${require('./include/_header.html')}
-        <div style="padding: 150px 100px;">
-            <h1 style="font-size: 30px;font-weight: 500;">Common HTML - 공통 html</h1>
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    <div style="padding: 150px 100px">
+      <h1 style="font-size: 30px; font-weight: 500">Common HTML - 공통 html</h1>
 
-            <!--  common title -->
-            <h4 class="sub_custom_title">text</h4>
+      <!--  common title -->
+      <h4 class="sub_custom_title">text</h4>
 
-            <!--           INPUT             -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common Input</h3>
-            <div class="input_wrap">
-                <input type="text" name="" class="custom_input" placeholder="입력 해 주세요" value=""/>
-            </div>
+      <!--           INPUT             -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common Input
+      </h3>
+      <div class="input_wrap">
+        <input
+          type="text"
+          name=""
+          class="custom_input"
+          placeholder="입력 해 주세요"
+          value=""
+        />
+      </div>
 
-            <div class="input_wrap">
-                <input type="text" name="" class="custom_input_form" placeholder="입력 해 주세요" value=""/>
-            </div>
+      <div class="input_wrap">
+        <input
+          type="text"
+          name=""
+          class="custom_input_form"
+          placeholder="입력 해 주세요"
+          value=""
+        />
+      </div>
 
-            <!--            TEXAREA              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common TEXAREA</h3>
+      <!--            TEXAREA              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common TEXAREA
+      </h3>
 
-            <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">html is ...</textarea>
+      <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">
+html is ...</textarea
+      >
 
-            <!--            LIST              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common LIST</h3>
-            <div class="list_wrap">
-                <ul class="lists">
-                    <li class="list_item">
-                        list content 01
-                    </li>
-                    <li class="list_item">
-                        list content 02
-                    </li>
-                </ul>
-            </div>
+      <!--            LIST              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common LIST
+      </h3>
+      <div class="list_wrap">
+        <ul class="lists">
+          <li class="list_item">list content 01</li>
+          <li class="list_item">list content 02</li>
+        </ul>
+      </div>
 
-            <!--            RADIO BUTTON              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common RADIO BUTTON</h3>
-            <div class="radio_wrap">
-                <input type="radio" name="radio" id="item01" checked="">
-                <label for="item01"><span>item01</span></label>
-            </div>
-            <div class="radio_wrap">
-                <input type="radio" name="radio" id="item02" checked="">
-                <label for="item02"><span>item01</span></label>
-            </div>
+      <!--            RADIO BUTTON              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common RADIO BUTTON
+      </h3>
+      <div class="radio_wrap">
+        <input type="radio" name="radio" id="item01" checked="" />
+        <label for="item01"><span>item01</span></label>
+      </div>
+      <div class="radio_wrap">
+        <input type="radio" name="radio" id="item02" checked="" />
+        <label for="item02"><span>item01</span></label>
+      </div>
 
-            <!--            CHECK BOX              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common CHECK BOX</h3>
-            <div class="checkbox_wrap">
-                <input type="checkbox" name="check" id="chk01" checked="">
-                <label for="chk01"><span>item01</span></label>
-            </div>
-            <div class="checkbox_wrap">
-                <input type="checkbox" name="check" id="chk02">
-                <label for="chk02"><span>item02</span></label>
-            </div>
+      <!--            CHECK BOX              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common CHECK BOX
+      </h3>
+      <div class="checkbox_wrap">
+        <input type="checkbox" name="check" id="chk01" checked="" />
+        <label for="chk01"><span>item01</span></label>
+      </div>
+      <div class="checkbox_wrap">
+        <input type="checkbox" name="check" id="chk02" />
+        <label for="chk02"><span>item02</span></label>
+      </div>
 
-            <!--            TABLE              -->
-            <h3 style="margin: 20px 0;border-bottom: 1px solid #999; color:#ff8a00">Common Table</h3>
+      <!--            TABLE              -->
+      <h3 style="margin: 20px 0; border-bottom: 1px solid #999; color: #ff8a00">
+        Common Table
+      </h3>
 
-            <div class="table_wrap">
-                <table class="table">
-                    <caption style="display: none;">Caption</caption>
-                    <colgroup>
-                        <col width="15%">
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th>head</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>body</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+      <div class="table_wrap">
+        <table class="table">
+          <caption style="display: none">
+            Caption
+          </caption>
+          <colgroup>
+            <col width="15%" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>head</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>body</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
+      <!--            SELECT BOX              -->
+    </div>
 
+    <div class="container common_filter">
+      <div class="common_filter_box">
+        <ul>
+          <li class="common_filter1" onclick="hideShow(1)">
+            <a href="#">스타일</a>
+          </li>
+          <li class="common_filter2" onclick="hideShow(2)">
+            <a href="#">스타일</a>
+          </li>
+          <li class="common_filter3" onclick="hideShow(3)">
+            <a href="#">스타일</a>
+          </li>
+        </ul>
 
+      
+      </div>
+      <div class="common_search">
+        <input
+          type="text"
+          placeholder="검색어를 입력하세요."
+        />
+        <img src="/assets/imgs/icons/ico_srch_btn.png" alt="" />
+      </div>
+      <ul class="common_filter_items common_filter_item1">
+        <li><a href="#">네츄럴</a></li>
+        <li><a href="#">모던</a></li>
+        <li><a href="#">지중해</a></li>
+        <li><a href="#">치장벽돌</a></li>
+        <li><a href="#">프리미엄</a></li>
+      </ul>
+      <ul class="common_filter_items common_filter_item2 toggle2">
+        <li style="padding: 6px 10px"><a href="#">수도권/경기도</a></li>
+        <li><a href="#">강원도</a></li>
+        <li><a href="#">충청도</a></li>
+        <li><a href="#">경상도</a></li>
+        <li><a href="#">전라도</a></li>
+        <li><a href="#">제주도</a></li>
+      </ul>
+      <ul class="common_filter_items common_filter_item3 toggle3">
+        <li><a href="#">30평대</a></li>
+        <li><a href="#">40평대</a></li>
+        <li><a href="#">50평대</a></li>
+        <li><a href="#">60평이상</a></li>
+      </ul>
+    </div>
 
-            <!--            SELECT BOX              -->
+    <div class="common_select_box">
+      <input type="text" placeholder="선택" class="on" />
+      <div class="section_select">
+        <div>건축상담 신청</div>
+        <div>오픈하우스 방문 신청</div>
+        <div>건축박람회 티켓 신청</div>
+      </div>
+    </div>
+    
+      <input type="text" class="common_input"/>
+    <div class="container common_alert_box">
+      <div class="common_alert_box_cont">
+        <h3 style="padding-bottom: 7px">localhosy:8080내용:</h3>
+        <h3>비밀번호를 입력해 주세요.</h3>
+        <button><a href="#">확인</a></button>
+      </div>
+    </div>
+    <div class="container common_consulation_form">
+      <table>
+        <tbody>
+          <tr>
+            <td class="common_consul_td1" height="41">77755899</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />부지 140평 30평대 건축문의
+            </td>
+            <td class="common_consul_td3">홍*동</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.09</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755898</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />35 ~ 40평의 비묭문의
+            </td>
+            <td class="common_consul_td3">김*순</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.08</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755897</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />전원주택 단지 건축
+            </td>
+            <td class="common_consul_td3">박*재</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.07</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755896</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />건축상담
+            </td>
+            <td class="common_consul_td3">허*윤</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.06</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755895</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />건축 상담 신청합니다.
+            </td>
+            <td class="common_consul_td3">김*택</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.04</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755894</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />부지 140평 30평대 건축문의
+            </td>
+            <td class="common_consul_td3">송*들</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.03</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755893</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />건축상담
+            </td>
+            <td class="common_consul_td3">한*수</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.02</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755892</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />단층주택 가격문의
+            </td>
+            <td class="common_consul_td3">김*범</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.02</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755891</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />단층주택 가격문의
+            </td>
+            <td class="common_consul_td3">양*호</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.05.01</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755890</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />단층주택 가격문의
+            </td>
+            <td class="common_consul_td3">박*수</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.04.30</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755889</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />풀빌라 펜션 건축
+            </td>
+            <td class="common_consul_td3">김*태</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.04.29</td>
+          </tr>
+          <tr>
+            <td class="common_consul_td1" height="41">77755888</td>
+            <td class="common_consul_td2">
+              <img
+                src="/assets/imgs/icons/Group 246.png"
+                alt=""
+                class="img_group"
+              />건축 상담 신청합니다.
+            </td>
+            <td class="common_consul_td3">이*훈</td>
+            <td class="common_consul_td4"><a href="#">상담접수</a></td>
+            <td class="common_consul_td5">2024.04.28</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-  
-        </div>
-        ${require('./include/_footer.html')}
-    </body>
+    ${require('./include/_footer.html')}
+  </body>
 </html>
