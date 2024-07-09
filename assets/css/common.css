@@ -638,6 +638,9 @@ input[type="checkbox" i]:checked::before {
   align-items: center;
   text-align: center;
 }
+.sort_down:hover{
+  cursor: pointer;
+}
 .sort_down .sort_down_text {
   font-weight: 500;
   font-size: 18px;
@@ -646,13 +649,15 @@ input[type="checkbox" i]:checked::before {
   text-align: center;
   color: #747474;
 }
-.sort_down .sort_down_img {
+.sort_down .sort_down_img img {
   width: 20px;
   height: 20px;
+  align-items: center;
 }
 .list_btn_cont {
   display: flex;
   justify-content: center;
+  margin-bottom: 130px;
 }
 .list_btn {
   width: 160px;
@@ -740,6 +745,9 @@ input[type="checkbox" i]:checked::before {
   width: 8px;
   height: 10px;
 }
+.pagination_box .img_box_cont:hover{
+  cursor: pointer;
+}
 .pagination_box .img_box_cont {
   display: flex;
   gap: 8px;
@@ -750,6 +758,9 @@ input[type="checkbox" i]:checked::before {
   padding: 4px 0px;
   align-items: center;
   align-content: center;
+}
+.pagination_box .text_box p:hover{
+  cursor: pointer;
 }
 /* pagination end */
 
@@ -774,6 +785,9 @@ input[type="checkbox" i]:checked::before {
   line-height: 27px;
   letter-spacing: 1px;
 }
+.product_cont_box .area_box h2:hover{
+  cursor: pointer;
+}
 .product_cont_box .area_box .p_box {
   display: flex;
   gap: 5px;
@@ -782,11 +796,18 @@ input[type="checkbox" i]:checked::before {
   line-height: 27px;
   color: #747474;
 }
+.product_cont_box .area_box .p_box p:hover{
+  cursor: pointer;
+}
 .product_cont_box .home_img_box img{
   height: 353px;
 }
+.product_cont_box .home_img_box img:hover{
+  cursor: pointer;
+}
 .talk_news_cont {
   margin: 56px 0px;
+  border-bottom: 1px solid #DEDEDE;
 }
 .talk_news_cont .news_header_box {
   display: flex;
@@ -822,6 +843,9 @@ input[type="checkbox" i]:checked::before {
   width: 100%;
   height: 100%;
 }
+.news_img_box .img_box img:hover{
+  cursor: pointer;
+}
 .news_img_box .news_text_box_cont {
   display: flex;
   flex-direction: column;
@@ -841,17 +865,26 @@ input[type="checkbox" i]:checked::before {
   font-size: 20px;
   letter-spacing: 0.5px;
 }
+.news_img_box .news_text_box_cont .all_texts span:hover{
+  cursor: pointer;
+}
 .news_img_box .news_text_box_cont .all_texts h3 {
   font-size: 34px;
   font-weight: 600;
   line-height: 40.57px;
   letter-spacing: 0.5px;
 }
+.news_img_box .news_text_box_cont .all_texts h3:hover{
+  cursor: pointer;
+}
 .news_img_box .news_text_box_cont .all_texts h4 {
   font-size: 24px;
   font-weight: 400;
   line-height: 28.64px;
   letter-spacing: 0.8px;
+}
+.news_img_box .news_text_box_cont .all_texts h4:hover{
+  cursor: pointer;
 }
 .news_img_box .news_text_box_cont .button_box a {
   font-weight: 700;
@@ -893,10 +926,14 @@ input[type="checkbox" i]:checked::before {
 .search_img_box_cont .search_img_box .search_text_box {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .search_img_box_cont .search_img_box img{
   height: 214px;
   width: 100%;
+}
+.search_img_box_cont .search_img_box img:hover{
+  cursor: pointer;
 }
 .search_img_box_cont .search_img_box .search_text_box{
     display: flex;
@@ -907,6 +944,9 @@ input[type="checkbox" i]:checked::before {
   font-size: 20px;
   line-height: 32px;
   letter-spacing: -0.48px;
+}
+.search_img_box_cont .search_img_box .search_text_box p:hover {
+  cursor: pointer;
 }
 /* content end */
 /* kzwk */
@@ -1449,3 +1489,176 @@ input[type="checkbox" i]:checked::before {
   color: #051e60;
 }
 /* common consulation form end */
+
+
+/* common  architecture gallery start*/
+.concept_summary_box {
+  display: flex;
+}
+
+.concept_summary_box .concept_box {
+  width: 50%;
+  border: 1px solid #eaeaea;
+}
+
+.concept_summary_box .concept_box h3,
+.concept_summary_box .summary_box h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #eaeaea;
+  padding: 29px 0px 29px 32px;
+}
+
+.concept_summary_box .concept_box p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  padding: 32px 32px 119px 32px;
+}
+
+.concept_summary_box .summary_box {
+  width: 50%;
+  border-width: 1px 1px 1px 0px;
+  border-color: #eaeaea;
+  border-style: solid;
+}
+
+.summary_content_box {
+  display: flex;
+  gap: 45px;
+}
+
+.summary_content_box .content {
+  padding: 32px;
+}
+
+.summary_content_box .content .content_sub {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary_content_box .content .content_sub_box {
+  display: flex;
+  gap: 16px;
+}
+
+.summary_content_box .content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+}
+
+.floor_plan_box {
+  border-width: 0px 1px 1px 1px;
+  border-color: #eaeaea;
+  border-style: solid;
+  padding: 29px 0px 29px 32px;
+}
+
+.floor_plan_box p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+}
+
+.home_map_box {
+  border-width: 0px 1px 1px 1px;
+  border-color: #eaeaea;
+  border-style: solid;
+  padding: 117px 110px;
+  margin-bottom: 72px;
+}
+.home_map_box .img_box {
+  display: flex;
+}
+.home_exterior_box h3 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66.83px;
+  letter-spacing: -0.48px;
+  margin: 72px 0px 24px 32px;
+}
+.exterior_swiper_box{
+  position: relative;
+}
+.mySwiper_Exterior{
+  width: 100vw;
+}
+.mySwiper_Exterior .swiper-wrapper img{
+  max-width: 1440px;
+  width: 100%;
+}
+.exterior_swiper_box .swiper-button-prev{
+  color: #000000;
+  left: -100px;
+}
+.exterior_swiper_box .swiper-button-next{
+  color: #000000;
+  right: -100px;
+}
+.home_interior_box h3 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66.83px;
+  letter-spacing: -0.48px;
+  margin: 72px 0px 24px 32px;
+}
+.interior_image_cont {
+  position: relative;
+  display: inline-block;
+}
+
+.interior_image_cont img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+  background-color: #ffffff;
+}
+.overlay2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 68.7%;
+  opacity: 50%;
+  background-color: #ffffff;
+}
+.text_area_wrap textarea {
+  resize: none;
+  background-color: #f6f6f6;
+  border: 1px solid #f6f6f6;
+  font-size: 24px;
+  font-weight: 500px;
+  line-height: 28.64px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  padding: 22px 8px;
+  width: 646px;
+  height: 215px;
+}
+.consult_housing {
+  border-top: 1px solid #eaeaea;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  padding-top: 106px;
+  padding-bottom: 16px;
+}
+.consult_housing .conseling_inn {
+  margin-bottom: 0px;
+}
+/* common  architecture gallery end*/
