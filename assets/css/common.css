@@ -431,7 +431,7 @@ input[type="checkbox" i]:checked::before {
 }
 .conseling_inn .conseling_form .consultation_reception button:hover {
   background-color: var(--bs-white);
-  color:var(--bs-primary)
+  color: var(--bs-primary);
 }
 
 /* mobile menu */
@@ -477,9 +477,7 @@ input[type="checkbox" i]:checked::before {
   height: auto;
   width: 100%;
   display: none;
-  transition:
-    top 0.3s ease,
-    opacity 3s ease;
+  transition: top 0.3s ease, opacity 3s ease;
   top: -100%;
   padding: 30px 0;
   opacity: 0;
@@ -1050,9 +1048,7 @@ input[type="checkbox" i]:checked::before {
 /* common filter end */
 
 /* common input */
-.common_input {
-  margin: 20px;
-}
+
 .common_input input {
   height: 60px;
   border: none;
@@ -1097,7 +1093,6 @@ input[type="checkbox" i]:checked::before {
 /* select box */
 .common_select_box {
   position: relative;
-  margin: 20px;
 }
 .common_select_box input {
   cursor: pointer;
@@ -1348,7 +1343,7 @@ input[type="checkbox" i]:checked::before {
 
 /* common input */
 
-.common_input{
+.common_input {
   height: 60px;
   border: none;
   width: 390px;
