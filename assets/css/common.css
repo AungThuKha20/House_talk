@@ -113,6 +113,7 @@ img {
 .form-check label {
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
   line-height: 32px;
   letter-spacing: -0.48px;
   text-align: left;

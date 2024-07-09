@@ -490,11 +490,11 @@
       }
       .houesetalknews_list .mySwiper_list .swiper-button-next {
         right: 20px !important;
-        color: var(--bs-black) !important;
+        font-size: 10px !important;
       }
       .houesetalknews_list .mySwiper_list .swiper-button-prev {
         left: 20px !important;
-        color: var(--bs-black) !important;
+        font-size: 10px !important;
       }
       .houesetalknews_list .swiper-slide iframe {
         width: 100% !important;
