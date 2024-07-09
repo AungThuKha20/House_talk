@@ -156,26 +156,6 @@ $(document).ready(function () {
         },
     });
 
-    var swiper = new Swiper(".mySwiper_Exterior", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-
-    // main section 05 tab
-    $(".main_sec_05_btn").on("click", function () {
-        // 모든 버튼에서 active 클래스 제거
-        $(".main_sec_05_btn").removeClass("active");
-        // 클릭된 버튼에 active 클래스 추가
-        $(this).addClass("active");
   // main section 05 tab
   $(".main_sec_05_btn").on("click", function () {
     // 모든 버튼에서 active 클래스 제거
@@ -196,70 +176,65 @@ $(document).ready(function () {
   // 페이지 로드 시 첫 번째 항목 표시
   $('.main_sec_05_item[data-id="1"]').addClass("active");
 
-  var swiper = new Swiper(".mySwiper_list", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    spaceBetween: 300, 
-    speed: 300,
-    initialSlide: 3,
-    loop: true,
-    coverflowEffect: {
-      rotate: 45,
-      stretch: 0,
-      depth: 100,
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-      320: {
-        spaceBetween: 50
-      },
-      480: {
-        spaceBetween: 100
-      },
-      640: {
-        spaceBetween: 100
-      },
-      768: {
-        spaceBetween: 100
-      },
-      1024: {
-        spaceBetween: 150
-      },
-      1440: {
-        spaceBetween: 300,
-      allowTouchMove:true,
+    var swiper = new Swiper(".mySwiper_Exterior", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
 
-        
-      }
-    }
-  });
-
+      var swiper_list = new Swiper(".mySwiper_list", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        spaceBetween: 300, 
+        speed: 300,
+        initialSlide: 3,
+        loop: true,
+        coverflowEffect: {
+          rotate: 45,
+          stretch: 0,
+          depth: 100,
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          320: {
+            spaceBetween: 50
+          },
+          480: {
+            spaceBetween: 100
+          },
+          640: {
+            spaceBetween: 100
+          },
+          768: {
+            spaceBetween: 100
+          },
+          1024: {
+            spaceBetween: 150
+          },
+          1440: {
+            spaceBetween: 300,
+          allowTouchMove:true,
+    
+            
+          }
+        }
+      });
    
-    //scroll_to_top
-    window.onscroll = function () {
-        scrollFunction();
-    };
 
-
-        // 
-    function scrollFunction() {
-        var scrollButton = document.querySelector(".scroll_top");
-        document.body.scrollTop > 100 ||
-            document.documentElement.scrollTop > 100;
-    }
-
-    document
-        .querySelector(".scroll_top button")
-        .addEventListener("click", function () {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-      })
   // main range
   $(".vertical").each(function () {
     var rangeInput = $(this);
@@ -319,28 +294,9 @@ $(document).ready(function () {
     sectionSelect5.classList.toggle("on5");
   });
 
-  //scroll_to_top
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    var scrollButton = document.querySelector(".scroll_top");
-    document.body.scrollTop > 100 || document.documentElement.scrollTop > 100;
-    document
-      .querySelector(".scroll_top button")
-      .addEventListener("click", function () {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-  }
-  const swiperEl = document.querySelector(".mySwiper_Result");
-  Object.assign(swiperEl, {
-    slidesPerView: 2,
-    spaceBetween: 10,
-    pagination: {
-      clickable: true,
-    },
-  });
-  swiperEl.initialize();
-
+ 
 });
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
