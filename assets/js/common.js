@@ -176,21 +176,64 @@ $(document).ready(function () {
   // 페이지 로드 시 첫 번째 항목 표시
   $('.main_sec_05_item[data-id="1"]').addClass("active");
 
-  var swiper = new Swiper(".mySwiper_list", {
-    effect: "coverflow",
-    // grabCursor: true,
-    centeredSlides: true,
-    spaceBetween: 30,
-    initialSlide: 3,
-    slidesPerView: "auto",
-    loop: true,
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 1,
-      modifier: 1,
-      slideShadows: false,
-    },
-  });
+    var swiper = new Swiper(".mySwiper_Exterior", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var swiper_list = new Swiper(".mySwiper_list", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        spaceBetween: 300, 
+        speed: 300,
+        initialSlide: 3,
+        loop: true,
+        coverflowEffect: {
+          rotate: 45,
+          stretch: 0,
+          depth: 100,
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          320: {
+            spaceBetween: 50
+          },
+          480: {
+            spaceBetween: 100
+          },
+          640: {
+            spaceBetween: 100
+          },
+          768: {
+            spaceBetween: 100
+          },
+          1024: {
+            spaceBetween: 150
+          },
+          1440: {
+            spaceBetween: 300,
+          allowTouchMove:true,
+    
+            
+          }
+        }
+      });
+   
 
   // main range
   $(".vertical").each(function () {
@@ -251,38 +294,9 @@ $(document).ready(function () {
     sectionSelect5.classList.toggle("on5");
   });
 
-  //scroll_to_top
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    var scrollButton = document.querySelector(".scroll_top");
-    document.body.scrollTop > 100 || document.documentElement.scrollTop > 100;
-    document
-      .querySelector(".scroll_top button")
-      .addEventListener("click", function () {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-  }
+ 
 });
-function hideShow(x) {
-  if (x == 1) {
-    document.querySelector(".common_filter_item1").style.display = "block";
-    document.querySelector(".common_filter_item2").style.display = "none";
-    document.querySelector(".common_filter_item3").style.display = "none";
-  } else if (x == 2) {
-    document.querySelector(".common_filter_item2").style.display = "block";
-    document.querySelector(".common_filter_item1").style.display = "none";
-    document.querySelector(".common_filter_item3").style.display = "none";
-  } else if (x == 3) {
-    document.querySelector(".common_filter_item3").style.display = "block";
-    document.querySelector(".common_filter_item1").style.display = "none";
-    document.querySelector(".common_filter_item2").style.display = "none";
-  } else {
-    document.querySelector(".common_filter_item1").style.display = "none";
-    document.querySelector(".common_filter_item2").style.display = "none";
-    document.querySelector(".common_filter_item3").style.display = "none";
-  }
-  return;
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
