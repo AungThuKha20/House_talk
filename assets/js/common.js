@@ -156,6 +156,20 @@ $(document).ready(function () {
         },
     });
 
+    var swiper = new Swiper(".mySwiper_Exterior", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
     // main section 05 tab
     $(".main_sec_05_btn").on("click", function () {
         // 모든 버튼에서 active 클래스 제거
@@ -238,3 +252,4 @@ $(document).ready(function () {
         updateRangeValue();
     });
 });
+

@@ -1,113 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        ${require('./include/_meta.html')}
-        <script>
-            (function(d) {
-              var config = {
-                kitId: 'adw8piw',
-                scriptTimeout: 3000,
-                async: true
-              },
-              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
-    </head>
-    <body>
-        ${require('./include/_header.html')}
-        ${require('./include/_subQuick_menu.html')}
-        <div class="">
-            <img src="/assets/imgs/common/construction_detail/heading_img.png" alt="">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="">
+      <img
+        src="/assets/imgs/common/construction_detail/heading_img.png"
+        alt=""
+      />
+    </div>
+    <div class="container construction_example_detail">
+      <div class="detail_text_box">
+        <p>2023 경상남도 우수주택 선정, 하동 만리(萬里津)</p>
+        <h3>경남 진주시 충무공동</h3>
+      </div>
+      <div class="concept_summary_box">
+        <div class="concept_box">
+          <h3>Concept</h3>
+          <p>
+            도로보다 높이오른 대지 위,뻗어 내려오는 돌산을 등지고 모던한 외관의
+            집 한채가 서있습니다. 흑백의 강렬한 대비와 간결한 매스가 돋보이는
+            주택은 주변풍경을 담기 휘해 여러 방향으로 창을 내었습니다.’귀한
+            사람들이 많이 모여 휴식을 취하고 가는 높은 땅'이라는 뜻의
+            만리진(萬里津)은 2023경상남도 우수 주택에 선정되었습니다.
+          </p>
+        </div>
+        <div class="summary_box">
+          <h3>Summary</h3>
+          <div class="summary_content_box">
+            <div class="content">
+              <div class="content_sub">
+                <div class="content_sub_box">
+                  <p>연 면 적</p>
+                  <p>168.34m²(50.92평)</p>
+                </div>
+                <div class="content_sub_box">
+                  <p>1 층 면 적</p>
+                  <p>98.53m²(29.81평)</p>
+                </div>
+                <div class="content_sub_box">
+                  <p>2 층 면 적</p>
+                  <p>57.86m²(17.5평)</p>
+                </div>
+                <div class="content_sub_box">
+                  <p>포 치 면 적</p>
+                  <p>11.95m²(3.61평)</p>
+                </div>
+                <div class="content_sub_box">
+                  <p>건 축 구 조</p>
+                  <p>경량목구조</p>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="content_sub">
+                <div class="content_sub_box">
+                  <p>외 장 재</p>
+                  <p>
+                    스타코플렉스 <br />
+                    세라믹사이딩 파벽돌
+                  </p>
+                </div>
+                <div class="content_sub_box">
+                  <p>지 붕 재</p>
+                  <p>칼라강판</p>
+                </div>
+                <div class="content_sub_box">
+                  <p>내 장 재</p>
+                  <p>실크벽지 강마</p>
+                </div>
+                <div class="content_sub_box">
+                  <p>창 호 재</p>
+                  <p>독일식 시스템 창호</p>
+                </div>
+              </div>
+            </div>
           </div>
-        <div class="container construction_example_detail">
-            <div class="detail_text_box">
-                <p>2023 경상남도 우수주택 선정, 하동 만리(萬里津)</p>
-                <h3>경남 진주시 충무공동</h3>
+        </div>
+      </div>
+      <div class="floor_plan_box">
+        <p>Floor Plan</p>
+      </div>
+      <div class="home_map_box">
+        <div class="img_box">
+          <img
+            src="/assets/imgs/common/construction_detail/floor_plan1.png"
+            alt=""
+          />
+          <img
+            src="/assets/imgs/common/construction_detail/floor_plan2.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="home_exterior_box">
+        <h3>Exterior</h3>
+        <div class="exterior_swiper_box">
+          <div class="swiper mySwiper_Exterior">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
+              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
+              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
+              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
             </div>
-            <div class="concept_summary_box">
-                <div class="concept_box">
-                    <h3>Concept</h3>
-                    <p>도로보다 높이오른 대지 위,뻗어 내려오는 돌산을 등지고 모던한 외관의 집 한채가 서있습니다. 흑백의 강렬한 대비와 간결한 매스가 돋보이는 주택은 
-                        주변풍경을 담기 휘해 여러 방향으로 창을 내었습니다.’귀한 사람들이 많이 모여 휴식을 취하고 가는 높은 땅'이라는 뜻의 만리진(萬里津)은 2023경상남도 
-                        우수 주택에 선정되었습니다.</p>
-                </div>
-                <div class="summary_box">
-                    <h3>Summary</h3>
-                    <div class="summary_content_box">
-                        <div class="content">
-                            <div class="content_sub">
-                                <div class="content_sub_box">
-                                    <p>연   면   적</p>
-                                    <p>168.34m²(50.92평)</p>
-                                </div>
-                                <div class="content_sub_box">
-                                    <p>1 층  면  적</p>
-                                    <p>98.53m²(29.81평)</p>
-                                </div>
-                                <div class="content_sub_box">
-                                    <p>2 층 면 적</p>
-                                    <p>57.86m²(17.5평)</p>
-                                </div>
-                                <div class="content_sub_box">
-                                    <p>포 치 면 적</p>
-                                    <p>11.95m²(3.61평)</p>
-                                </div>
-                                <div class="content_sub_box">
-                                    <p>건 축 구 조</p>
-                                    <p>경량목구조</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="content_sub">
-                                <div class="content_sub_box">
-                                    <p>외   장   재</p>
-                                    <p>스타코플렉스 <br> 세라믹사이딩  파벽돌</p>
-                                </div>
-                                <div class="content_sub_box">
-                                    <p>지   붕   재</p>
-                                    <p>칼라강판</p>
-                                </div>
-                                <div class="content_sub_box">
-                                    <p>내   장   재</p>
-                                    <p>실크벽지 강마</p>
-                                </div>
-                                <div class="content_sub_box">
-                                    <p>창   호   재</p>
-                                    <p>독일식 시스템 창호</p>
-                                </div>
-                            </div>
-                        </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      <div class="home_interior_box">
+        <h3>Interior</h3>
+        <div class="interior_image_cont">
+          <img
+          src="/assets/imgs/common/construction_detail/Interior1.png"
+          alt=""
+          class="img_box"
+        />
+        <div class="overlay"></div>
+        </div>
+        <div class="interior_image_cont">
+          <img
+          src="/assets/imgs/common/construction_detail/Interior2.png"
+          alt=""
+          class="img_box"
+        />
+        <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="conseling consult_housing">
+        <div class="conseling_inn ">
+           <div class="conseling_img_gp">
+             <img src="/assets/imgs/common/construction_detail/home_over_text.png" alt="">
+           </div>
+           <div class="conseling_form">
+            <form action="">
+                <h2>이 주택으로 상담하기</h2>
+                <div style="width: 100%;" class="form-input ">
+                    <div class="input_wrap">
+                        <input
+                          type="text"
+                          name=""
+                          class="custom_input w-314"
+                          placeholder="성함"
+                          value=""
+                        />
+                    </div>
+                    <div class="input_wrap">
+                        <input
+                          type="text"
+                          name=""
+                          class="custom_input w-314"
+                          placeholder="연락처"
+                          value=""
+                        />
+                    </div>
+                    <div class="text_area_wrap">
+                      <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">해당 건축에 대한 건축문의를 하고 싶어요.</textarea>
+                    </div>
+                    <div class="form_note">
+                      <p>*개인정보 수집 및 이용에 대한 동의 <span>동의</span></p>
                     </div>
                 </div>
-            </div>
-            <div class="floor_plan_box">
-                <p>Floor Plan</p>
-            </div>
-            <div class="home_map_box">
-                <div class="img_box">
-                    <img src="/assets/imgs/common/construction_detail/floor_plan1.png" alt="">
-                    <img src="/assets/imgs/common/construction_detail/floor_plan2.png" alt="">
-                </div>
-            </div>
-            <div class="home_exterior_box">
-                <h3>Exterior</h3>
-                <div class="slider">
-                    <div class="slides">
-                        <div class="slide"><img src="/assets/imgs/common/construction_detail/slider1.png" alt="Image 1"></div>
-                        <div class="slide"><img src="/assets/imgs/common/construction_detail/slider1.png" alt="Image 2"></div>
-                        <div class="slide"><img src="/assets/imgs/common/construction_detail/slider1.png" alt="Image 3"></div>
-                    </div>
-                    <button class="slider-btn prev-btn"><img src="/assets/imgs/common/construction_detail/previous.png" alt=""></button>
-                    <button class="slider-btn next-btn"><img src="/assets/imgs/common/construction_detail/next.png" alt=""></button>
-                </div>
-            </div>
-            <div class="home_interior">
-                <h3>Interior</h3>
-                <img src="/assets/imgs/common/construction_detail/Interior1.png" alt="" class="img_box">
-                <img src="/assets/imgs/common/construction_detail/Interior2.png" alt="" class="img_box">
-            </div>
-        </div>  
-        ${require('./include/_footer.html')}
-    </body>
+                <div class="consultation_reception">
+                  <button type="" class="">상담접수</button>
+              </div>
+            </form>
+           </div>
+        </div>
+    </div>
+    <div class="list_btn_cont">
+      <div class="list_btn">
+          <a href="">목 록</a>
+      </div>
+  </div>
+    ${require('./include/_footer.html')}
+  </body>
 </html>
