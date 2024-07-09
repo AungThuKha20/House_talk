@@ -779,10 +779,8 @@ input[type="checkbox" i]:checked::before {
   gap: 5px;
 }
 .product_cont_box .area_box .p_box p {
-  font-weight: 400;
-  font-size: 20px;
   line-height: 27px;
-  letter-spacing: 0.5px;
+  color: #747474;
 }
 .product_cont_box .home_img_box img{
   height: 353px;

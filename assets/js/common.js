@@ -176,21 +176,49 @@ $(document).ready(function () {
   // 페이지 로드 시 첫 번째 항목 표시
   $('.main_sec_05_item[data-id="1"]').addClass("active");
 
-    var swiper = new Swiper(".mySwiper_list", {
-        effect: "coverflow",
-        // grabCursor: true,
-        centeredSlides: true,
-        spaceBetween:1,
-        initialSlide:3,
-        slidesPerView:3,
-        loop: true,
-        coverflowEffect: {
-            rotate: 0,
-            stretch: 1,
-            modifier: 1,
-            slideShadows: false,
-        },
-    });
+  var swiper = new Swiper(".mySwiper_list", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    spaceBetween: 300, 
+    speed: 300,
+    initialSlide: 3,
+    loop: true,
+    coverflowEffect: {
+      rotate: 45,
+      stretch: 0,
+      depth: 100,
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      320: {
+        spaceBetween: 50
+      },
+      480: {
+        spaceBetween: 100
+      },
+      640: {
+        spaceBetween: 100
+      },
+      768: {
+        spaceBetween: 100
+      },
+      1024: {
+        spaceBetween: 150
+      },
+      1440: {
+        spaceBetween: 300,
+      allowTouchMove:true,
+
+        
+      }
+    }
+  });
 
    
     //scroll_to_top
