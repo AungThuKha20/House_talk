@@ -6,6 +6,7 @@
 }
 .houesetalknews_list .mySwiper_list {
     width: 100%;
+    
 }
 .houesetalknews_list .swiper-wrapper {
     /* display: flex;
@@ -17,7 +18,7 @@
     height: 547px !important;
 }
 .houesetalknews_list .swiper-slide img {
-    width: 500px !important;
+    width: 400px !important;
     height: 547px !important;
 }
 .houesetalknews_list .swiper-slide.swiper-slide-active  {
@@ -25,7 +26,7 @@
     height: 547px !important; 
 }
 .houesetalknews_list .swiper-slide.swiper-slide-active img  {
-    width: fit-content !important; 
+    width: 100% !important; 
     height: 547px !important; 
 }
 
