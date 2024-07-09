@@ -2,21 +2,24 @@
 .container.constructconsult_form {
   margin-top: 97px;
 }
-.container.constructconsult_list {
+.container.constructconsult_list,
+.container.appforguidebook_list {
   margin-top: 120px;
 }
 .constructconsult_form .constructconsult_form_title {
   display: flex;
   justify-content: space-between;
 }
-.constructconsult_form .constructconsult_form_title h1 {
+.constructconsult_form .constructconsult_form_title h1,
+.constructconsult .constructconsult_form_title h1 {
   font-size: 56px;
   margin-top: 94px;
   margin-bottom: 60px;
   font-weight: 700;
   color: var(--bs-black);
 }
-.constructconsult_form .constructconsult_form_title h4 {
+.constructconsult_form .constructconsult_form_title h4,
+.constructconsult .constructconsult_form_title h4 {
   font-size: 24px;
   margin-top: 94px;
   margin-bottom: 60px;
@@ -28,8 +31,11 @@
   .common_sub_table
   .common_sub_table_th {
   min-width: 204px;
+  font-size: 20px;
 }
-
+.constructconsult_form .common_constructconsult_form .common_sub_table th {
+  font-size: 20px;
+}
 .construct_tr {
   border: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -44,7 +50,9 @@
   font-weight: 700;
   text-align: left;
 }
-
+.constructconsult_list .common_consulation_form .common_consul_td2 {
+  display: flex;
+}
 .constructconsult_form .common_constructconsult_form_table .construct_td1 {
   padding: 56px 0;
 }
@@ -66,7 +74,6 @@
   border: 1px solid #9999;
   padding: 4px 12px;
   background: #f6f6f6;
-
 }
 .constructconsult_form .common_sub_table .construct_td {
   display: flex;
@@ -202,6 +209,19 @@
   border-top: none;
   outline: none;
 }
+.constructconsult_form .common_sub_table .select_box3.on3 input,
+.constructconsult_form .common_sub_table .select_box3.on4 input,
+.constructconsult_form .common_sub_table .select_box3.on5 input {
+  border: 1px solid var(--bs-black);
+  background: #f6f6f6;
+  height: 60px;
+  width: 298px;
+  cursor: pointer;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  outline: none;
+}
 .constructconsult_form .common_sub_table .select_box3 .section_select {
   width: 390px;
 }
@@ -239,13 +259,13 @@
 }
 /* constructconsult_form end */
 
-/* common input */
+/* input */
 .constructconsult_list .common_search input {
   width: 226px;
   height: 36px;
   border: none;
   padding-left: 45px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #000;
 }
 .constructconsult_list .common_search img {
@@ -257,6 +277,10 @@
 }
 
 /* constructconsult_list */
+.constructconsult_list .d-none {
+  display: none;
+}
+
 .constructconsult_list .constructconsult_list_title {
   text-align: center;
   font-weight: 700;
@@ -268,9 +292,10 @@
   margin-bottom: 43px;
 }
 .constructconsult_list .search_btn {
-  float: right;
+  justify-content: end;
   display: flex;
   gap: 24px;
+  width: 100%;
 }
 .constructconsult_list .search_btn button {
   width: 180px;
@@ -284,3 +309,91 @@
   font-weight: 600;
 }
 /* constructconsult_list end */
+
+/* appforguidebook_list */
+.constructconsult_list .appforguidebook_list_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+/* appforguidebook_list end */
+
+/* constructconsult  */
+.constructconsult
+  .common_constructconsult_form
+  .common_sub_table
+  .common_sub_table_th {
+  font-size: 20px;
+}
+.constructconsult .common_sub_table td {
+  width: 100%;
+}
+.constructconsult .common_sub_table th {
+  font-size: 20px;
+  font-weight: 400;
+  min-width: 220px;
+}
+.constructconsult .common_sub_table ul {
+  padding-left: 20px;
+}
+.constructconsult .common_sub_table ul li {
+  list-style: disc;
+}
+.constructconsult .common_sub_table .construct_td_bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+.constructconsult .construct_tr {
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/* constructconsult  end*/
+
+/* appforguidebook */
+.appforguidebook .guide_tr {
+  padding: 56px 0px 0px 0px;
+}
+.appforguidebook .guide_cont {
+  background: #f6f6f6;
+  padding: 48px 40px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.appforguidebook .construct_td {
+  padding: 56px 0;
+}
+.pc_hidden_p {
+  display: none;
+}
+
+/* appforguidebook  end*/
+
+/* appforas_list */
+.appforas_list .input_box {
+  margin: 0px;
+}
+.appforas_list .form_date {
+  width: 390px;
+  height: 60px;
+  background: #f6f6f6;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #9999;
+}
+.appforas_list .scroll_box {
+  border: 1px solid #dedede;
+  border-width: 1px 1px 1px 1px;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 250px;
+  width: 100%;
+}
+
+/* appforas_list end*/

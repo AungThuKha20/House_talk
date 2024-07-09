@@ -228,7 +228,7 @@
         </li>
     </ul>
 </header>
-    <div class="sub_quick_menu_gp">
+    <!-- <div class="sub_quick_menu_gp">
   <div class="sub_quick_menu">
     <button class="bg_blue">
       <img src="/assets/imgs/icons/tele.png" alt="" />
@@ -251,7 +251,7 @@
     </button>
   </div>
   <div class="scroll_top">
-    <button class="scroll_top_btn" onclick="scrollToTop()">
+    <button>
         <img src="/assets/imgs/icons/top_btn.png" alt="">
     </button>
   </div>
@@ -261,181 +261,224 @@
     </button>
   </div>
 </div>
+ -->
+    <div class="container appforas_list constructconsult_form">
+      <div class="constructconsult_form_title">
+        <h1>A/S 신청</h1>
+        <h4>본사 A/S팀의 빠르고 정확한 사후관리를 약속합니다.</h4>
+      </div>
 
-    <div class="heading_img">
-      <img
-        src="/assets/imgs/common/construction_detail/heading_img.png"
-        alt=""
-      />
+      <hr />
+      <div class="common_constructconsult_form">
+        <table class="common_constructconsult_form_table" width="100%">
+          <tbody>
+            <tr class="construct_tr">
+              <th
+                class="common_constructconsult_table_th"
+                style="vertical-align: top"
+              >
+                상담자 정보 입력
+              </th>
+              <td class="construct_td1">
+                <div class="common_sub_table">
+                  <table width="">
+                    <tbody>
+                      <tr>
+                        <th
+                          class="common_sub_table_th"
+                          style="vertical-align: top"
+                        >
+                          *이름
+                        </th>
+                        <td style="vertical-align: top">
+                          <input type="text" class="common_input input_box11" />
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th>*연락처</th>
+                        <td class="construct_td">
+                          <div class="common_select_box select_box1">
+                            <input type="text" placeholder="선택" class="on" />
+                            <div class="section_select">
+                              <div>건축상담 신청</div>
+                              <div>오픈하우스 방문 신청</div>
+                              <div>건축박람회 티켓 신청</div>
+                            </div>
+                          </div>
+                          <span>-</span>
+                          <input type="text" class="input_box common_input" />
+                          <span>-</span>
+                          <input type="text" class="input_box common_input" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>*현장주소</th>
+                        <td class="construct_td">우편번호 검색</td>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <td style="vertical-align: top" class="last_td">
+                          <input type="text" class="input_box common_input" />
+                          <input type="text" class="common_input" />
+                          <input type="text" class="input_box common_input" />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+            <!-- tr2 -->
+            <tr class="construct_tr">
+              <th
+                class="common_constructconsult_table_th"
+                style="vertical-align: top"
+              >
+                상담자 정보 입력
+              </th>
+              <td class="construct_td1">
+                <div class="common_sub_table">
+                  <table width="">
+                    <tbody>
+                      <tr>
+                        <th
+                          class="common_sub_table_th"
+                          style="vertical-align: top"
+                        >
+                          *현장소장
+                        </th>
+                        <td
+                          style="vertical-align: top; margin-top: 0px"
+                          class="construct_td"
+                        >
+                          <input type="text" class="common_input input_boxs" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>*완공날짜</th>
+                        <td class="construct_td">
+                          <input type="date" name="" id="" class="form_date" />
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th>*제목</th>
+                        <td class="construct_td construct_td2">
+                          <input type="text" class="input_box4 common_input" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <th style="vertical-align: top">*세부내용</th>
+                        <td class="construct_td construct_td2">
+                          <div class="scroll_box"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>*세부내용</th>
+                        <td class="construct_td construct_td_btn">
+                          <button><a href="#">파일 선택</a></button>
+                          <h3 style="vertical-align: middle">
+                            선택된 파일 없음
+                          </h3>
+                        </td>
+                        <td class="construct_td construct_td_btn">
+                          <button><a href="#">파일 선택</a></button>
+                          <h3 style="vertical-align: middle">
+                            선택된 파일 없음
+                          </h3>
+                        </td>
+                        <td class="construct_td construct_td_btn">
+                          <button><a href="#">파일 선택</a></button>
+                          <h3 style="vertical-align: middle">
+                            선택된 파일 없음
+                          </h3>
+                        </td>
+                        <td class="construct_td construct_td_btn">
+                          <button><a href="#">파일 선택</a></button>
+                          <h3 style="vertical-align: middle">
+                            선택된 파일 없음
+                          </h3>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th style="vertical-align: top">*비밀번호</th>
+                        <td>
+                          <input type="text" class="common_input common_input1" />
+                        </td>
+                      </tr>
+                      <tr align="left">
+                        <th></th>
+                        <td class="construct_td_img">
+                          <img src="/assets/imgs/icons/Frame_5417.png" alt="" />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </tr>
+            <!-- tr3 -->
+            <tr class="construct_tr3 construct_tr">
+              <table>
+                <tbody>
+                  <tr>
+                    <th class="common_constructconsult_table_th" rowspan="3">
+                      개인정보 수집 및 <br />
+                      이용동의
+                    </th>
+                    <td class="construct_td_text">
+                      <p class="construct_td_text_cont">
+                        ㈜하우스톡 종합건걸 (이하'회사’는)은 이용자의 개인정보를
+                        매우 소중하게 생각하고 있으며, ‘개인정보보호법',
+                        ‘정보통신망 이용촉진 및 정보보호에 관한 법률' 등
+                        관련법령을 <br />
+                        준수하고 있습니다. 회사가 이용자의 개인정보를 수집
+                        ・이용하고자 하는 경우에는 위 법령에 따라 이용자의
+                        동의를 얻어야 하는바, 귀하께서는 아래의 사항을 자세히
+                        읽어보시
+                        <br />
+                        고 모든 내용을 이해하신 후에 개인정보의 수집 및 이용에
+                        대한 동의 여부를 선택해 주시기 바랍니다.
+                        <br />
+                        <br />
+                        <br />
+                        수집・이용의 목적 <br />
+                        회사는 다음과 같은 목적을 위해 이용자의 개인정보를
+                        수집합니다.
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="construct_td_text1">
+                        <p class="construct_td_text1_cont1">
+                          개인정보 수집 및 이용동의를 자세히 읽어 보신 후 동의해
+                          주시기 바랍니다.
+                        </p>
+                        <div style="margin-top: 21px">
+                          <input type="checkbox" name="" id="" />
+                          <span class="construct_td_text1_cont1_span"
+                            >동의</span
+                          >
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </tr>
+          </tbody>
+        </table>
+        <div class="view_form_btn_cont construct_form_btn">
+          <div class="view_form_btn">
+            <a href="" class="to_list_btn">목록으로</a>
+            <a href="" class="apply_btn">신청하기</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="container construction_example_detail">
-      <div class="detail_text_box">
-        <p>2023 경상남도 우수주택 선정, 하동 만리(萬里津)</p>
-        <h3>경남 진주시 충무공동</h3>
-      </div>
-      <div class="concept_summary_box">
-        <div class="concept_box">
-          <h3>Concept</h3>
-          <p>
-            도로보다 높이오른 대지 위,뻗어 내려오는 돌산을 등지고 모던한 외관의
-            집 한채가 서있습니다. 흑백의 강렬한 대비와 간결한 매스가 돋보이는
-            주택은 주변풍경을 담기 휘해 여러 방향으로 창을 내었습니다.’귀한
-            사람들이 많이 모여 휴식을 취하고 가는 높은 땅'이라는 뜻의
-            만리진(萬里津)은 2023경상남도 우수 주택에 선정되었습니다.
-          </p>
-        </div>
-        <div class="summary_box">
-          <h3>Summary</h3>
-          <div class="summary_content_box">
-            <div class="content">
-              <div class="content_sub">
-                <div class="content_sub_box">
-                  <p>연 면 적</p>
-                  <p>168.34m²(50.92평)</p>
-                </div>
-                <div class="content_sub_box">
-                  <p>1 층 면 적</p>
-                  <p>98.53m²(29.81평)</p>
-                </div>
-                <div class="content_sub_box">
-                  <p>2 층 면 적</p>
-                  <p>57.86m²(17.5평)</p>
-                </div>
-                <div class="content_sub_box">
-                  <p>포 치 면 적</p>
-                  <p>11.95m²(3.61평)</p>
-                </div>
-                <div class="content_sub_box">
-                  <p>건 축 구 조</p>
-                  <p>경량목구조</p>
-                </div>
-              </div>
-            </div>
-            <div class="content">
-              <div class="content_sub">
-                <div class="content_sub_box">
-                  <p>외 장 재</p>
-                  <p>
-                    스타코플렉스 <br />
-                    세라믹사이딩 파벽돌
-                  </p>
-                </div>
-                <div class="content_sub_box">
-                  <p>지 붕 재</p>
-                  <p>칼라강판</p>
-                </div>
-                <div class="content_sub_box">
-                  <p>내 장 재</p>
-                  <p>실크벽지 강마</p>
-                </div>
-                <div class="content_sub_box">
-                  <p>창 호 재</p>
-                  <p>독일식 시스템 창호</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="floor_plan_box">
-        <p>Floor Plan</p>
-      </div>
-      <div class="home_map_box">
-        <div class="img_box">
-          <div class="img_box_cont">
-            <img
-            src="/assets/imgs/common/construction_detail/floor_plan1.png"
-            alt=""
-          />
-          </div>
-          <div class="img_box_cont">
-            <img
-            src="/assets/imgs/common/construction_detail/floor_plan2.png"
-            alt=""
-          />
-          </div>
-        </div>
-      </div>
-      <div class="home_exterior_box">
-        <h3>Exterior</h3>
-        <div class="exterior_swiper_box">
-          <div class="swiper mySwiper_Exterior">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
-              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
-              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
-              <div class="swiper-slide"><img src="/assets/imgs/common/construction_detail/slider1.png"></div>
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-        </div>
-      </div>
-      <div class="home_interior_box">
-        <h3>Interior</h3>
-        <div class="interior_image_cont">
-          <img
-          src="/assets/imgs/common/construction_detail/Interior1.png"
-          alt=""
-          class="img_box"
-        />
-        <div class="overlay"></div>
-        </div>
-        <div class="interior_image_cont">
-          <img
-          src="/assets/imgs/common/construction_detail/Interior2.png"
-          alt=""
-          class="img_box"
-        />
-        <div class="overlay"></div>
-        </div>
-      </div>
-      <div class="conseling consult_housing">
-        <div class="conseling_inn ">
-           <div class="conseling_img_gp">
-             <img src="/assets/imgs/common/construction_detail/home_over_text.png" alt="">
-           </div>
-           <div class="conseling_form">
-            <form action="">
-                <h2>이 주택으로 상담하기</h2>
-                <div style="width: 100%;" class="form-input ">
-                  <div class="input_wrap">
-                    <input
-                      type="text"
-                      name=""
-                      class="custom_input w-314"
-                      placeholder="성함"
-                      value=""
-                    />
-                </div>
-                <div class="input_wrap">
-                    <input
-                      type="text"
-                      name=""
-                      class="custom_input w-314"
-                      placeholder="연락처"
-                      value=""
-                    />
-                </div>
-                    <div class="text_area_wrap">
-                      <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">해당 건축에 대한 건축문의를 하고 싶어요.</textarea>
-                    </div>
-                    <div class="form_note">
-                      <p>*개인정보 수집 및 이용에 대한 동의 <span>동의</span></p>
-                    </div>
-                </div>
-                <div class="consultation_reception">
-                  <button type="" class="">상담접수</button>
-              </div>
-            </form>
-           </div>
-        </div>
-    </div>
-    <div class="list_btn_cont">
-      <div class="list_btn">
-          <a href="">목 록</a>
-      </div>
-  </div>
+
     <section class="partners">
     <div class="partners_inn container">
         <div class="swiper partners_swiper">
@@ -542,5 +585,6 @@
     </div>
 </footer>
 
+    <script></script>
   </body>
 </html>

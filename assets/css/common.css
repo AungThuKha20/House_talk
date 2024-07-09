@@ -986,20 +986,20 @@ input[type="checkbox" i]:checked::before {
   text-align: center;
 }
 
-.common_filter .common_filter_box .common_search input {
+/* .common_filter .common_filter_box .common_search input {
   width: 226px;
   height: 36px;
   border: none;
   padding-left: 45px;
   border-bottom: 1px solid #000;
-}
-.common_filter .common_filter_box .common_search img {
+} */
+/* .common_filter .common_filter_box .common_search img {
   position: relative;
   top: 13%;
   width: 15px;
   height: 15px;
   right: 9%;
-}
+} */
 .common_filter .common_filter_item1 {
   width: 134px;
   text-align: center;
@@ -1279,21 +1279,6 @@ input[type="checkbox" i]:checked::before {
   text-align: center;
 }
 
-.common_search input {
-  width: 226px;
-  height: 36px;
-  font-size: 14px;
-  border: none;
-  padding-left: 45px;
-  border-bottom: 1px solid #000;
-}
-.common_search img {
-  position: relative;
-  top: 13%;
-  width: 15px;
-  height: 15px;
-  right: 2%;
-}
 .common_filter .common_filter_item1 {
   width: 134px;
   text-align: center;
@@ -1339,6 +1324,24 @@ input[type="checkbox" i]:checked::before {
   color: #000;
 }
 /* common filter end */
+
+/* common_search */
+.common_search input {
+  width: 226px;
+  height: 36px;
+  font-size: 14px;
+  border: none;
+  padding-left: 45px;
+  border-bottom: 1px solid #000;
+}
+.common_search img {
+  position: relative;
+  top: 13%;
+  width: 15px;
+  height: 15px;
+  right: 2%;
+}
+/* common_search end */
 
 /* common input */
 
@@ -1490,6 +1493,27 @@ input[type="checkbox" i]:checked::before {
   color: #051e60;
 }
 /* common consulation form end */
+
+/* common guide book */
+.common_guide_book {
+  display: flex;
+  gap: 62px;
+  border: 1px solid #dee2e6;
+  border-width: 1px 0px;
+  width: 100%;
+  padding: 56px 0px 40px 0px;
+}
+.common_guide_book img {
+  width: 720px;
+  height: 445px;
+}
+.common_guide_book ul li {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  padding-top: 30px;
+  list-style: disc;
+}
 
 
 /* common  architecture gallery start*/
