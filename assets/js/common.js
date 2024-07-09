@@ -137,24 +137,24 @@ $(document).ready(function () {
     },
   });
 
-    var partners_swiper = new Swiper(".partners_swiper", {
-        slidesPerView: 2,
-        spaceBetween: 0,
-        autoplay: {
-            delay: 5000,
-        },
-        breakpoints: {
-            390: {
-                slidesPerView: 3,
-            },
-            575: {
-                slidesPerView: 5,
-            },
-            1000: {
-                slidesPerView: 7,
-            },
-        },
-    });
+  var partners_swiper = new Swiper(".partners_swiper", {
+    slidesPerView: 2,
+    spaceBetween: 0,
+    autoplay: {
+      delay: 5000,
+    },
+    breakpoints: {
+      390: {
+        slidesPerView: 3,
+      },
+      575: {
+        slidesPerView: 5,
+      },
+      1000: {
+        slidesPerView: 7,
+      },
+    },
+  });
 
   // main section 05 tab
   $(".main_sec_05_btn").on("click", function () {
@@ -266,3 +266,23 @@ $(document).ready(function () {
       });
   }
 });
+function hideShow(x) {
+  if (x == 1) {
+    document.querySelector(".common_filter_item1").style.display = "block";
+    document.querySelector(".common_filter_item2").style.display = "none";
+    document.querySelector(".common_filter_item3").style.display = "none";
+  } else if (x == 2) {
+    document.querySelector(".common_filter_item2").style.display = "block";
+    document.querySelector(".common_filter_item1").style.display = "none";
+    document.querySelector(".common_filter_item3").style.display = "none";
+  } else if (x == 3) {
+    document.querySelector(".common_filter_item3").style.display = "block";
+    document.querySelector(".common_filter_item1").style.display = "none";
+    document.querySelector(".common_filter_item2").style.display = "none";
+  } else {
+    document.querySelector(".common_filter_item1").style.display = "none";
+    document.querySelector(".common_filter_item2").style.display = "none";
+    document.querySelector(".common_filter_item3").style.display = "none";
+  }
+  return;
+}
