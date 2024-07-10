@@ -7,6 +7,9 @@
   }
 
   /* construct form */
+  .constructconsult_list .common_consulation_form .common_consul_td2 {
+    width: auto;
+  }
   .constructconsult_form
     .common_constructconsult_form
     .common_sub_table
@@ -23,17 +26,29 @@
     .section_select {
     width: 200px;
   }
-
+  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
+    width: 465px;
+  }
   .constructconsult_form .common_sub_table .common_select_box.select_box2 {
     width: 200px;
   }
   /* construct form end */
+  /* appforguidebook_list */
+  .common_guide_book img {
+    width: 650px;
+    height: 450px;
+  }
+  .common_guide_book ul li {
+    font-size: 22px;
+  }
+  /* appforguidebook_list end*/
 }
 @media screen and (max-width: 1300.98px) {
-  /* constructconsult_list */
-  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
-    width: 765px;
+  .constructconsult .constructconsult_form_title h1 {
+    font-size: 46px;
   }
+  /* constructconsult_list */
+
   .constructconsult_list
     .common_consulation_form
     table
@@ -48,6 +63,21 @@
   /* constructconsult_list end */
 
   /* construction form */
+  .constructconsult_form .common_sub_table .construct_td.construct_td_btn h3,
+  .constructconsult_form .common_sub_table .construct_td_btn a {
+    font-size: 16px;
+  }
+  .constructconsult_form .constructconsult_form_title h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .constructconsult_form .constructconsult_form_title h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .constructconsult_form .common_sub_table .select_box3 .section_select {
+    width: 300px;
+  }
   .constructconsult_form .common_sub_table .select_box input,
   .constructconsult_form .common_sub_table .select_box3 input,
   .constructconsult_form
@@ -60,7 +90,7 @@
 
   .constructconsult_form .common_sub_table .select_box::after {
     top: 45%;
-    left: 30%;
+    left: 38%;
   }
   .constructconsult_form .select_box.active::after,
   .constructconsult_form .common_sub_table .select_box1.active::after,
@@ -72,14 +102,34 @@
   .constructconsult_form .input_box {
     width: 188px;
     margin: 0px 0px 0px 5px;
-}
-  /* construction form  end*/
+  }
+  .constructconsult_form .input_box2 {
+    width: 200px;
+  }
+  .constructconsult_form .input_box3 {
+    width: 220px;
+  }
+  .constructconsult_form .common_constructconsult_table_th {
+    min-width: 140px;
+    font-size: 18px;
+  }
+  /* appforguidebook_list */
+  .common_guide_book img {
+    width: 520px;
+    height: 400px;
+  }
+  .common_guide_book ul li {
+    font-size: 18px;
+  }
+  /* appforguidebook_list end*/
 }
 @media screen and (max-width: 1000.98px) {
   /* constructconsult_list */
-
   .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
-    width: 565px;
+    width: 365px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
+    width: 360px;
   }
   .constructconsult_list .common_consulation_form table tr .common_consul_td3 {
     width: 200px;
@@ -87,10 +137,135 @@
   .constructconsult_list .common_consulation_form table tr .common_consul_td4 {
     width: 200px;
   }
+
+  /* construction form */
+
+  .constructconsult_form .common_sub_table .select_box input,
+  .constructconsult_form .common_sub_table .select_box3 input,
+  .constructconsult_form
+    .common_sub_table
+    .common_select_box.select_box
+    .section_select,
+  .constructconsult_form .common_input {
+    width: 200px;
+  }
+  .constructconsult_form .common_sub_table .select_box::after {
+    top: 45%;
+    left: 25%;
+  }
+  .constructconsult_form .select_box.active::after,
+  .constructconsult_form .common_sub_table .select_box1.active::after,
+  .constructconsult_form .common_sub_table .select_box2.active::after,
+  .constructconsult_form .common_sub_table .select_box3.active::after {
+    transform: rotate(-180deg);
+    top: 10%;
+  }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th {
+    min-width: 80px;
+  }
+  .constructconsult_form .common_select_box input,
+  .constructconsult_form .common_input {
+    height: 50px;
+  }
+  .constructconsult_form .common_sub_table .construct_td span {
+    margin-top: 10px;
+  }
+  .constructconsult_form .common_select_box::after,
+  .constructconsult_form .common_sub_table .select_box1::after {
+    width: 14px;
+    height: 14px;
+  }
+  /* construction form  end*/
+
+  /* appforguidebook_list */
+  .common_guide_book {
+    gap: 40px;
+  }
+  .common_guide_book img {
+    width: 400px;
+    height: 350px;
+  }
+  .common_guide_book ul li {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  /* appforguidebook_list end*/
+
+  /* constructconsult  */
+
+  .constructconsult .common_sub_table th {
+    min-width: 200px;
+  }
+  .constructconsult_list .appforguidebook_list_title {
+    font-size: 25px;
+  }
+  /* constructconsult end */
+
+  /* form responsive */
+  /*  */
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th {
+    font-size: 17px;
+  }
+  .constructconsult_form .common_constructconsult_form .common_sub_table th {
+    font-size: 17px;
+  }
+  .constructconsult_form .common_sub_table .common_select_box.select_box1 {
+    width: 130px;
+  }
+  .common_select_box input {
+    width: 130px;
+  }
+  .constructconsult_form .common_input {
+    width: 130px;
+  }
+  .constructconsult_form .common_sub_table .construct_td {
+    font-size: 17px;
+    gap: 4px;
+  }
+  .constructconsult_form .common_sub_table .construct_td span {
+    padding-left: 2px;
+  }
+  /*  */
 }
 @media screen and (max-width: 767.98px) {
-  /* constructconsult_list */
+  /* form responsive */
+  .constructconsult_form .common_constructconsult_table_th {
+    min-width: 100px;
+    font-size: 16px;
+  }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th,
+  .constructconsult_form .common_constructconsult_form .common_sub_table th {
+    min-width: 60px;
+    font-size: 14px;
+  }
+  .constructconsult_form .common_sub_table .construct_td {
+    font-size: 14px;
+  }
+  .constructconsult_form .common_select_box input,
+  .constructconsult_form .common_input {
+    width: 100px;
+    height: 35px;
+  }
+  .constructconsult_form .common_sub_table .common_select_box.select_box1 {
+    width: 100px;
+  }
+  .common_select_box input,
+  .constructconsult_form .common_sub_table .select_box1.on1 input {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+  }
 
+  /* constructconsult list */
   .constructconsult_list .common_consulation_form table tr td {
     font-size: 14px;
   }
@@ -111,78 +286,416 @@
   .constructconsult_list .search_btn button a {
     font-size: 15px;
   }
-}
-@media screen and (max-width: 575.98px) {
-  /* constructconsult_list */
-
-  .constructconsult_list .common_consulation_form table tr td {
-    font-size: 13px;
-  }
-
-  .constructconsult_list
-    .common_consulation_form
-    table
-    tr
-    .common_consul_td4
-    a {
-    padding: 6px;
-    font-size: 12px;
-  }
-  .constructconsult_list .search_btn button {
-    width: 120px;
-  }
-  .constructconsult_list .search_btn button a {
-    font-size: 13px;
-  }
-}
-
-@media screen and (max-width: 483px) {
-  /* constructconsult_list */
-  .constructconsult_list .common_consulation_form table tr td {
-    font-size: 12px;
+  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
+    width: 200px;
   }
   .constructconsult_list .common_consulation_form table tr .common_consul_td3 {
-    width: 110px;
+    width: 140px;
   }
-  .constructconsult_list
-    .common_consulation_form
-    table
-    tr
-    .common_consul_td4
-    a {
-    padding: 4px;
-    font-size: 10px;
+  /* appforguidebook_list */
+  .common_guide_book {
+    gap: 30px;
   }
-  .constructconsult_list .common_consulation_form table tr .common_consul_td1 {
-    width: 100px;
+  .common_guide_book img {
+    width: 260px;
+    height: 200px;
   }
-  .constructconsult_lis .common_consulation_form table tr .common_consul_td5 {
-    min-width: 40px;
+  .common_guide_book ul li {
+    font-size: 13px;
+    padding: 5px 0;
+    line-height: 23px;
   }
-  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
-    min-width: 60px;
+  /* appforguidebook_list end*/
+
+  /* constructconsult */
+  .constructconsult_form .common_constructconsult_table_th {
+    font-size: 16px;
   }
-  .common_consulation_form table tr .common_consul_td2 .img_group {
-    width: 8px;
-    height: 13px;
-    margin-right: 5px;
+  .constructconsult
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th,
+  .constructconsult .common_sub_table th {
+    font-size: 13px;
   }
-  .constructconsult_list .common_search img {
-    left: -10%;
-    top: 10%;
+  .constructconsult .common_sub_table td {
+    font-size: 13px;
   }
-  .constructconsult_list .common_search input {
-    margin-bottom: 15px;
-    width: 168px;
+  /* constructconsult end */
+
+  /* appforguidebook */
+  .appforguidebook .constructconsult_form_title h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
   }
-  .constructconsult_list .search_btn button a {
+  .appforguidebook .constructconsult_form_title h4 {
     font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .appforguidebook .form_text3 {
+    font-size: 13px;
+    padding: 10px;
+    background: #f6f6f6;
+  }
+  .appforguidebook .view_form_btn a {
+    padding: 19px 58px;
+  }
+  .appforguidebook .constructconsult_table_th {
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: 700;
+  }
+  .form_text {
+    display: flex;
+    justify-content: start;
+  }
+  .form_text1 {
+    gap: 40px;
+  }
+  .form_text2 {
+    gap: 30px;
+  }
+  .form_text3 {
+    gap: 20px;
+  }
+  .form_text3 .form_text_left {
+    min-width: 78px;
+  }
+  .form_text_left,
+  .form_text_right {
+    font-size: 13px;
+
+    line-height: 30px;
+  }
+
+  .appforguidebook .constructconsult_table_th,
+  .constructconsult .constructconsult_table_th {
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: 700;
+  }
+  .appforguidebook ul,
+  .constructconsult ul {
+    padding-left: 20px;
+  }
+  .appforguidebook ul li,
+  .constructconsult ul li {
+    list-style: disc;
+  }
+  /* appforguidebook end */
+
+  .appforguidebook .common_constructconsult_form.pc_hidden_p,
+  .constructconsult .common_constructconsult_form.pc_hidden_p {
+    display: block;
+  }
+  .appforguidebook .common_constructconsult_form.mobile_hidden_m,
+  .constructconsult .common_constructconsult_form.mobile_hidden_m {
+    display: none;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  /* form responsive */
+  .constructconsult_form .common_constructconsult_table_th {
+    min-width: 100px;
+    font-size: 14px;
+  }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th,
+  .constructconsult_form .common_constructconsult_form .common_sub_table th {
+    min-width: 60px;
+    font-size: 13px;
+  }
+  .constructconsult_form .common_sub_table .construct_td {
+    font-size: 13px;
+  }
+  .constructconsult_form .common_select_box input,
+  .constructconsult_form .common_input {
+    width: 70px;
+    height: 35px;
+  }
+  .constructconsult_form .common_sub_table .common_select_box.select_box1 {
+    width: 70px;
+  }
+  .common_select_box input,
+  .constructconsult_form .common_sub_table .select_box1.on1 input {
+    width: 70px;
+  }
+  .constructconsult_form .input_box {
+    margin: 0px;
+  }
+  .constructconsult_form .common_sub_table .common_select_box::after {
+    width: 13px;
+    height: 13px;
+  }
+  .constructconsult_form .common_constructconsult_form_table .construct_td1,
+  .constructconsult_form .common_constructconsult_table_th {
+    padding: 36px 0;
+  }
+  .constructconsult_form .common_sub_table td {
+    padding-bottom: 20px;
+  }
+  .constructconsult_form .common_sub_table .construct_td span {
+    padding-left: 0px;
+  }
+  /*constructconsult_list */
+
+  .constructconsult_list .common_search input {
+    margin-bottom: 10px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td4 {
+    width: 100px;
   }
   .constructconsult_list .constructconsult_list_title {
     font-size: 20px;
   }
   .constructconsult_list h5 {
+    font-size: 17px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
+    width: 300px;
+  }
+
+  .constructconsult_list
+    .common_consulation_form
+    table
+    tr
+    .common_consul_td2
+    h4 {
+    font-size: 17px;
+  }
+  .constructconsult_list
+    .common_consulation_form
+    table
+    tr
+    .common_consul_td2
+    .date {
     font-size: 14px;
-    margin-bottom: 25px;
+    color: #6c757d !important;
+  }
+  .constructconsult_list .d-block {
+    display: block;
+  }
+  .constructconsult_list .d_md_none {
+    display: none;
+  }
+
+  /* appforguidebook_list */
+  .common_guide_book {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+  .common_guide_book img {
+    width: 100%;
+    height: 250px;
+  }
+  .common_guide_book ul {
+    margin-left: 20px;
+  }
+  .common_guide_book ul li {
+    font-size: 14px;
+    padding: 5px 0;
+    line-height: 23px;
+  }
+  /* appforguidebook_list end*/
+
+  /* constructconsult */
+  .common_guide_book {
+    border: 1px solid #dee2e6;
+    border-width: 0px 0px 1px 0px;
+    padding: 10px 0;
+  }
+  .constructconsult .common_sub_table th {
+    min-width: 150px;
+  }
+  /* constructconsult end*/
+}
+
+@media screen and (max-width: 483px) {
+  /* constructconsult*/
+  .constructconsult_list .search_btn button {
+    width: 100px;
+  }
+  .constructconsult .common_sub_table th {
+    min-width: 60px;
+  }
+  .constructconsult .view_form_btn a {
+    padding: 19px 65px;
+    font-size: 13px;
+  }
+  .constructconsult .view_form_btn_cont {
+    margin: 40px 0px 90px 0px;
+  }
+  /* constructconsult end*/
+
+  /* appforguidebook */
+  .container.appforguidebook {
+    margin-top: 37px;
+  }
+  .appforguidebook .constructconsult_form_title h1,
+  .constructconsult .constructconsult_form_title h1 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .appforguidebook .constructconsult_form_title h4,
+  .constructconsult .constructconsult_form_title h4 {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  .appforguidebook .guide_cont {
+    font-size: 13px;
+    padding: 10px;
+  }
+  .appforguidebook .view_form_btn a,
+  .appforas_list .view_form_btn a {
+    padding: 19px 58px;
+  }
+  .appforguidebook .constructconsult_table_th,
+  .constructconsult .constructconsult_table_th {
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: 700;
+  }
+  .form_text {
+    display: flex;
+    justify-content: start;
+  }
+  .form_text1 {
+    gap: 30px;
+  }
+  .form_text2 {
+    gap: 20px;
+  }
+  .form_text3 .form_text_left h4,
+  .form_text2 .form_text_left h4 {
+    min-width: 70px;
+  }
+  .form_text_left,
+  .form_text_right {
+    font-size: 13px;
+
+    line-height: 30px;
+  }
+
+  .pc_hidden_p {
+    display: block;
+  }
+  .mobile_hidden_m {
+    display: none;
+  }
+  /* appforguidebook  end*/
+
+  /* form responsive */
+  .constructconsult_form .common_constructconsult_table_th {
+    font-size: 16px;
+    display: block;
+    padding: 20px 0px 0px 0px;
+  }
+  .constructconsult_form .construct_td_text .construct_td_text_cont {
+    padding: 20px;
+  }
+  .constructconsult_form .construct_td_text .construct_td_text_cont {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .constructconsult_form .common_sub_table .construct_td.construct_td_btn h3,
+  .constructconsult_form .common_sub_table .construct_td_btn a {
+    font-size: 13px;
+  }
+  .constructconsult_form .construct_td_text1_cont1 {
+    font-size: 13px;
+    width: 80%;
+  }
+  .constructconsult_form .construct_td_text1_cont1 input {
+    width: 5px;
+    height: 5px;
+  }
+  .construct_td_text1_cont1_span {
+    font-size: 13px;
+  }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th,
+  .constructconsult_form .common_constructconsult_form .common_sub_table th {
+    width: 58px;
+    font-size: 13px;
+  }
+  .constructconsult_form .common_sub_table .construct_td {
+    font-size: 13px;
+  }
+  .constructconsult_form .common_select_box input,
+  .constructconsult_form .common_input {
+    width: 88px;
+    height: 35px;
+    background: var(--bs-white);
+    border: 1px solid #dedede;
+  }
+  .constructconsult_form .common_sub_table .common_select_box.select_box1 {
+    width: 88px;
+  }
+  .common_select_box input,
+  .constructconsult_form .common_sub_table .select_box1.on1 input {
+    width: 88px;
+  }
+  .constructconsult_form .input_box {
+    margin: 0px;
+  }
+  .constructconsult_form .common_sub_table .common_select_box::after {
+    width: 10px;
+    height: 10px;
+  }
+  .constructconsult_form .construct_tr,
+  .constructconsult_form td {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .constructconsult_form .common_sub_table td {
+    padding-bottom: 20px;
+  }
+  .constructconsult_form .common_sub_table .construct_td span {
+    padding-left: 0px;
+  }
+  .constructconsult_form .common_sub_table .construct_td {
+    gap: 1px;
+  }
+  .constructconsult_form .common_input1 {
+    padding: 0px 2px;
+    width: 95%;
+    background: var(--bs-white);
+    border: 1px solid #dedede;
+  }
+  .constructconsult_form .input_box4,
+  .constructconsult_form .input_boxs {
+    width: 95%;
+  }
+  .constructconsult_form .input_box11 {
+    width: 100%;
+  }
+  .constructconsult_form .input_boxs {
+    width: 95%;
+  }
+  .constructconsult_form .common_sub_table .last_td {
+    padding-bottom: 0px;
+  }
+  .appforas_list .form_date {
+    width: 95%;
+    height: 35px;
+    border: 1px solid #dedede;
+    background: var(--bs-white);
+  }
+  .appforas_list .scroll_box {
+    height: 100px;
+    width: 95%;
+  }
+  .constructconsult_form table {
+    overflow-x: hidden;
+  }
+  .constructconsult_form .common_sub_table .construct_td_img img {
+    width: 200px;
+    height: 46px;
   }
 }
