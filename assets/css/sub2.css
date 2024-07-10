@@ -127,9 +127,13 @@ swiper-slide img {
 }
 .daily_range_box .range_cont input[type=range]{
   width: 100%;
-  height: 22px;
+  height: 22px !important;
   margin: 0;
   padding: 0;
+}
+input[type="range"]::-webkit-slider-runnable-track{
+  border-radius: 11px;
+  height: 22px;
 }
 .progressBar {
   border: solid 2px #82CFD0;
@@ -142,4 +146,50 @@ swiper-slide img {
 }
 .progressBar::-webkit-slider-thumb {
   opacity: 0;
+}
+.product_range_box{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.product_range_box .sub_menu_hor_ln {
+  background-color: #747474;
+  width: 1px;
+  height: 11px;
+  text-indent: -999999999px;
+  display: inline;
+}
+.product_range_box .text_blue{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.09px;
+  letter-spacing: -0.48px;
+  color: #3074F1;
+}
+.product_range_box .date_box{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.09px;
+  letter-spacing: -0.48px;
+  color: #000000;
+}
+.product_range_box .text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.09px;
+  letter-spacing: -0.48px;
+  text-align: right;
+}
+.range_text_box{
+  display: flex;
+  gap: 77px;
+}
+.range_text_box .range_text_sub{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mobile_filter_box{
+  display: flex;
+  justify-content: space-between;
 }
