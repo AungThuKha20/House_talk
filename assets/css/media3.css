@@ -344,6 +344,7 @@
 .houesetalknews_view .view_talk_txt {
   padding: 12px 32px;
   font-size: 18px;
+  margin-top: 30px;
   letter-spacing: 0.4px;
 }
 .houesetalknews_view .view_talk .view_talk_para p {
@@ -472,9 +473,13 @@
       .houesetalknews_list .pagination {
         margin-top: 53px !important;
     }
+    .houesetalknews_view .sub_page_title {
+      margin-bottom: 20px;
+    }
     .houesetalknews_view .view_talk_txt {
       padding: 10px 22px;
       font-size: 16px;
+      margin-top: 10px;
       letter-spacing: 0.4px;
     }
     .houesetalknews_view .view_talk .view_talk_para p {
@@ -617,6 +622,9 @@
       padding: 8px 20px;
       font-size: 14px;
       letter-spacing: -0.2px;
+    }
+    .houesetalknews_view .sub_page_title {
+      margin-bottom: 5px;
     }
     .houesetalknews_view .view_talk .view_talk_para p {
       font-size: 16px;
