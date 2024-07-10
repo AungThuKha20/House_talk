@@ -195,14 +195,15 @@ $(document).ready(function () {
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
-        spaceBetween: 300, 
+        spaceBetween: 197, 
         speed: 300,
         initialSlide: 3,
         loop: true,
         coverflowEffect: {
           rotate: 45,
           stretch: 0,
-          depth: 100,
+          depth: 10,
+          scale:1,
           clickable: true,
         },
         navigation: {
@@ -211,25 +212,31 @@ $(document).ready(function () {
         },
         breakpoints: {
           320: {
-            spaceBetween: 50
+            spaceBetween: 50,
+          allowTouchMove:true,
+
           },
           480: {
-            spaceBetween: 100
+            spaceBetween: 0,
+          allowTouchMove:true,
+          speed: 500,
           },
           640: {
-            spaceBetween: 100
+            spaceBetween: 100,
+          allowTouchMove:true,
           },
           768: {
-            spaceBetween: 100
+            spaceBetween: 100,
+          allowTouchMove:true,
           },
           1024: {
             spaceBetween: 150
           },
           1440: {
-            spaceBetween: 300,
-          allowTouchMove:true,
-    
-            
+            spaceBetween: 250,
+          },
+          1670: {
+            spaceBetween:300,
           }
         }
       });
