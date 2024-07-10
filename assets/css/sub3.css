@@ -153,6 +153,27 @@
   line-height: 38.19px;
   letter-spacing: 0.5px;
 }
+.houesetalknews_view .view_talk_utube iframe {
+  height: 810px;
+}
+.houesetalknews_view .view_talk_utube {
+  padding-bottom: 72px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.houesetalknews_view .button_gp {
+  padding: 37px 0px 130px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.houesetalknews_view .button_gp .consult_link {
+  margin-top: 56px;
+}
+.houesetalknews_view .button_gp .consult_link img {
+  width: 40px;
+  height:40px;
+}
 /* ..houesetalknews_view .view_talk .view_talk_img */
 
 /* houesetalkNews_View End  */
