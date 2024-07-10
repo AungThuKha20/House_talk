@@ -30,7 +30,7 @@
   .common_constructconsult_form
   .common_sub_table
   .common_sub_table_th {
-  min-width: 204px;
+  /* min-width: 204px; */
   font-size: 20px;
 }
 .constructconsult_form .common_constructconsult_form .common_sub_table th {
@@ -49,6 +49,9 @@
   font-size: 28px;
   font-weight: 700;
   text-align: left;
+}
+.constructconsult_form .input_gap {
+  margin: 0 10px;
 }
 .constructconsult_list .common_consulation_form .common_consul_td2 {
   display: flex;
@@ -257,24 +260,13 @@
   background: var(--bs-white);
   border: 1px solid #dedede;
 }
+.constructconsult_form .common_sub_table .select_box3.on3 input,
+.constructconsult_form .common_sub_table .select_box3.on4 input,
+.constructconsult_form .common_sub_table .select_box3.on5 input {
+  width: 100%;
+}
 /* constructconsult_form end */
 
-/* input */
-.constructconsult_list .common_search input {
-  width: 226px;
-  height: 36px;
-  border: none;
-  padding-left: 45px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #000;
-}
-.constructconsult_list .common_search img {
-  position: relative;
-  top: 4%;
-  width: 21px;
-  height: 21px;
-  left: -10%;
-}
 
 /* constructconsult_list */
 .constructconsult_list .d-none {
@@ -358,16 +350,22 @@
 .appforguidebook .guide_tr {
   padding: 56px 0px 0px 0px;
 }
-.appforguidebook .guide_cont {
+.constructconsult_form .guide_cont {
   background: #f6f6f6;
   padding: 48px 40px;
   line-height: 19px;
   font-size: 16px;
   font-weight: 400px;
 }
-.appforguidebook .construct_td {
-  padding: 56px 0;
+.constructconsult.constructconsult_form .guide_cont {
+  margin-top: 58px;
 }
+.constructconsult_form .construct_tr2_td{
+  padding-top: 50px;
+}
+/* .constructconsult_form .construct_td {
+  padding: 56px 0;
+} */
 .pc_hidden_p {
   display: none;
 }
