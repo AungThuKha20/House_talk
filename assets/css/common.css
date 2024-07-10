@@ -113,6 +113,7 @@ img {
 .form-check label {
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
   line-height: 32px;
   letter-spacing: -0.48px;
   text-align: left;
@@ -575,7 +576,6 @@ input[type="checkbox" i]:checked::before {
   letter-spacing: -0.48px;
   text-align: center;
   padding-top: 86px;
-  padding-bottom: 86px;
   margin-top: 97px;
 }
 .sub_page_title p {
@@ -919,9 +919,9 @@ input[type="checkbox" i]:checked::before {
   align-items: flex-end;
 }
 .search_img_box_cont {
-  display: flex;
-  justify-content: space-between;
-  gap: 53px;
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
 }
 .search_img_box_cont .search_img_box .search_text_box {
   display: flex;
@@ -959,7 +959,7 @@ input[type="checkbox" i]:checked::before {
 .common_filter_box {
   width: 100%;
 }
-.common_filter .common_filter_box ul {
+/* .common_filter .common_filter_box ul {
   height: 40px;
   width: auto;
   display: flex;
@@ -981,8 +981,22 @@ input[type="checkbox" i]:checked::before {
   font-weight: 400;
   line-height: 40px;
   text-align: center;
-}
+} */
 
+.common_filter .common_filter_box .common_search input {
+  width: 226px;
+  height: 36px;
+  border: none;
+  padding-left: 45px;
+  border-bottom: 1px solid #000;
+}
+.common_filter .common_filter_box .common_search img {
+  position: relative;
+  top: 13%;
+  width: 15px;
+  height: 15px;
+  right: 9%;
+}
 .common_filter .common_filter_item1 {
   width: 134px;
   text-align: center;
@@ -1224,9 +1238,40 @@ input[type="checkbox" i]:checked::before {
 }
 /* footer end */
 
-/* common_search */
-.common_search {
-  float: right;
+/*common filter*/
+.container.common_filter {
+  margin-top: 100px;
+}
+.common_filter_box {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.common_filter .common_filter_box ul {
+  height: 40px;
+  width: 400px;
+  display: flex;
+  border-right: 1px solid #111;
+  flex-direction: row;
+  text-align: center;
+}
+
+.common_filter .common_filter_box li {
+  width: 130px;
+  display: flex;
+  flex: auto;
+  height: 40px;
+  padding: 13px 40px;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  border-color: #111;
+  box-sizing: border-box;
+}
+.common_filter .common_filter_box li a {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
 }
 .common_search input {
   width: 226px;
@@ -1417,6 +1462,15 @@ input[type="checkbox" i]:checked::before {
 }
 
 /* common  architecture gallery start*/
+.heading_img{
+  width: 100%;
+  max-height: 1080px;
+  height: 100%;
+}
+.heading_img img{
+  width: 100%;
+  height: 100%;
+}
 .concept_summary_box {
   display: flex;
 }
@@ -1498,9 +1552,14 @@ input[type="checkbox" i]:checked::before {
   border-style: solid;
   padding: 117px 110px;
   margin-bottom: 72px;
+  width: 100%;
 }
 .home_map_box .img_box {
   display: flex;
+  width: 100%;
+}
+.home_map_box .img_box img{
+  width: 100%;
 }
 .home_exterior_box h3 {
   font-weight: 700;
@@ -1563,6 +1622,10 @@ input[type="checkbox" i]:checked::before {
   opacity: 50%;
   background-color: #ffffff;
 }
+.text_area_wrap{
+  width: 100%;
+  height: 212px;
+}
 .text_area_wrap textarea {
   resize: none;
   background-color: #f6f6f6;
@@ -1573,8 +1636,8 @@ input[type="checkbox" i]:checked::before {
   letter-spacing: 0.5px;
   color: #000000;
   padding: 22px 8px;
-  width: 646px;
-  height: 215px;
+  width: 100%;
+  height: 100%;
 }
 .consult_housing {
   border-top: 1px solid #eaeaea;

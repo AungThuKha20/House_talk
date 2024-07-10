@@ -28,7 +28,7 @@
 <link rel="stylesheet" href="/assets/css/media2.css">
 <link rel="stylesheet" href="/assets/css/media3.css">
 
-<link rel="stylesheet" href="../assets/css/media1.css" />
+<link rel="stylesheet" href="/assets/css/media1.css" />
 <link rel="stylesheet" href="/assets/css/media3.css">
 
 <!-- AOS animation library -->
@@ -251,7 +251,7 @@
     </button>
   </div>
   <div class="scroll_top">
-    <button>
+    <button class="scroll_top_btn" onclick="scrollToTop()">
         <img src="/assets/imgs/icons/top_btn.png" alt="">
     </button>
   </div>
@@ -262,7 +262,7 @@
   </div>
 </div>
 
-    <div class="">
+    <div class="heading_img">
       <img
         src="/assets/imgs/common/construction_detail/heading_img.png"
         alt=""
@@ -342,14 +342,18 @@
       </div>
       <div class="home_map_box">
         <div class="img_box">
-          <img
+          <div class="img_box_cont">
+            <img
             src="/assets/imgs/common/construction_detail/floor_plan1.png"
             alt=""
           />
-          <img
+          </div>
+          <div class="img_box_cont">
+            <img
             src="/assets/imgs/common/construction_detail/floor_plan2.png"
             alt=""
           />
+          </div>
         </div>
       </div>
       <div class="home_exterior_box">
@@ -395,24 +399,24 @@
             <form action="">
                 <h2>이 주택으로 상담하기</h2>
                 <div style="width: 100%;" class="form-input ">
-                    <div class="input_wrap">
-                        <input
-                          type="text"
-                          name=""
-                          class="custom_input w-314"
-                          placeholder="성함"
-                          value=""
-                        />
-                    </div>
-                    <div class="input_wrap">
-                        <input
-                          type="text"
-                          name=""
-                          class="custom_input w-314"
-                          placeholder="연락처"
-                          value=""
-                        />
-                    </div>
+                  <div class="input_wrap">
+                    <input
+                      type="text"
+                      name=""
+                      class="custom_input w-314"
+                      placeholder="성함"
+                      value=""
+                    />
+                </div>
+                <div class="input_wrap">
+                    <input
+                      type="text"
+                      name=""
+                      class="custom_input w-314"
+                      placeholder="연락처"
+                      value=""
+                    />
+                </div>
                     <div class="text_area_wrap">
                       <textarea id="id" name="id" rows="5" cols="33" class="custom_textarea">해당 건축에 대한 건축문의를 하고 싶어요.</textarea>
                     </div>
