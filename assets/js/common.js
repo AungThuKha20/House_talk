@@ -222,7 +222,7 @@ $(document).ready(function () {
           speed: 500,
           },
           640: {
-            spaceBetween: 100,
+            spaceBetween: 50,
           allowTouchMove:true,
           },
           768: {
