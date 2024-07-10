@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="community_story_view container">
+        <div class="sub_page_title">
+            <h2>인테리어 Tip</h2>
+            <h5>다양한 인테리어 사례와 아이디어 모음 Zip</h5>
+        </div>
+        <div class="view_talk">
+            <p class="view_talk_txt"><span>2024.04.12</span> 마감재 변경, 인테리어 필름</p>
+            <div class="story_view_area">
+                <img src="/assets/imgs/sub3/Frame 5565.png" alt="">
+            </div>
+        </div>
+        <div class="button_gp">
+            <a class="list_btn">목록</a>
+            <a href="" class="consult_link">
+                <img src="/assets/imgs/sub3/Frame 504.png" alt="">
+            </a>
+        </div>
+     
+    </div>
+
+    ${require('./include/_footer.html')}
+  </body>
+</html>

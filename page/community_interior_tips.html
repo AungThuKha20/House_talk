@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="community_interior_tips container">
+      <div class="sub_page_title">
+        <h2>인테리어 Tip</h2>
+        <p>다양한 인테리어 사례와 아이디오 모음 zip</p>
+      </div>
+      <div class="search_btn_gp">
+        <div class="search_btn">
+          <div class="common_search">
+            <input type="text" placeholder="검색어를 입력하세요." />
+            <img src="/assets/imgs/icons/ico_srch_btn.png" alt="" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="search_Result_container">
+        <div class="search_result_cont">
+          <div class="search_img_box_cont">
+            <div class="search_img_box">
+              <img src="/assets/imgs/sub3/tips_1.png" alt="" />
+              <div class="search_text_box">
+                <p>마감재 변경, 인테리어 필름</p>
+                <div class="p_box">
+                  <p>2024.04.12</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box">
+              <img src="/assets/imgs/sub3/tips_2.png" alt="" />
+              <div class="search_text_box">
+                <p>DIY 인테리어</p>
+                <div class="p_box">
+                  <p>2024.04.12</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden_2">
+              <img src="/assets/imgs/sub3/tips_3.png" alt="" />
+              <div class="search_text_box">
+                <p>2024 - 인테리어 트렌드</p>
+                <div class="p_box">
+                  <p>2024.04.12</p>
+                </div>
+              </div>
+            </div>
+            <div class="search_img_box img_mobile_hidden">
+              <img src="/assets/imgs/sub3/tips_4.png" alt="" />
+              <div class="search_text_box">
+                <p>2024 컬러 트렌드 - 피치 퍼즈</p>
+                <div class="p_box">
+                  <p>2024.04.12</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="pagination">
+        <div class="pagination_box">
+          <div class="img_box_cont left">
+            <a class="img_box">
+              <img src="/assets/imgs/common/left.png" alt="" />
+            </a>
+            <a class="img_box">
+              <img src="/assets/imgs/common/iconoir_arrow-right.png" alt="" />
+            </a>
+          </div>
+          <div class="text_box">
+            <a>1</a>
+            <a>2</a>
+            <a>3</a>
+            <a>4</a>
+            <a>5</a>
+          </div>
+          <div class="img_box_cont right">
+            <a class="img_box">
+              <img src="/assets/imgs/common/start_hover.png" alt="" />
+            </a>
+            <a class="img_box">
+              <img src="/assets/imgs/common/right.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    ${require('./include/_footer.html')}
+  </body>
+</html>
