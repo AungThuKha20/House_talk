@@ -71,3 +71,75 @@ swiper-slide img {
 .construction_example_list .common_filter .common_filter_box {
   margin-top: 13px;
 }
+.space_between{
+  width: 100%;
+  height: 27px;
+  margin-left: 32px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.h2_space{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  width: 100%;
+  height: 100%;
+}
+.scene_live_detail .search_result_cont .search_img_box_cont .search_img_box img{
+  height: 270px;
+}
+.scene_live_detail .search_result_cont{
+  padding-bottom: 30px;
+  margin: 72px 0px;
+}
+.scene_live_detail .concept_summary_box{
+  margin-top: 229px;
+}
+.summary_img_box{
+  display: flex;
+  gap: 16px;
+  margin: 112px 53px 0px 43px;
+}
+.scene_live_detail .home_map_box{
+  margin-bottom: 0px;
+}
+.daily_progress_text {
+  border-width: 0px 1px 1px 1px;
+  border-color: #eaeaea;
+  border-style: solid;
+  padding: 29px 0px 29px 32px;
+}
+
+.daily_progress_text h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+}
+.daily_range_box{
+  border-width: 0px 1px 1px 1px;
+  border-color: #eaeaea;
+  border-style: solid;
+  padding: 29px 32px 29px 32px;
+}
+.daily_range_box .range_cont input[type=range]{
+  width: 100%;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+}
+.progressBar {
+  border: solid 2px #82CFD0;
+  border-radius: 11px;
+  width: 100%;
+  height: 22px;
+}
+.progressBar::-webkit-slider-runnable-track {
+  height: 22px;
+}
+.progressBar::-webkit-slider-thumb {
+  opacity: 0;
+}

@@ -575,7 +575,6 @@ input[type="checkbox" i]:checked::before {
   letter-spacing: -0.48px;
   text-align: center;
   padding-top: 86px;
-  padding-bottom: 86px;
   margin-top: 97px;
 }
 .sub_page_title p {
@@ -923,7 +922,7 @@ input[type="checkbox" i]:checked::before {
 .search_img_box_cont {
  display: flex;
  justify-content: space-between;
- gap: 53px;
+ gap: 20px;
 }
 .search_img_box_cont .search_img_box .search_text_box {
   display: flex;
@@ -961,7 +960,7 @@ input[type="checkbox" i]:checked::before {
   display: flex;
   justify-content: space-between;
 }
-.common_filter .common_filter_box ul {
+/* .common_filter .common_filter_box ul {
   height: 40px;
   width: 400px;
   display: flex;
@@ -985,7 +984,7 @@ input[type="checkbox" i]:checked::before {
   font-weight: 400;
   line-height: 10px;
   text-align: center;
-}
+} */
 
 .common_filter .common_filter_box .common_search input {
   width: 226px;
@@ -1250,7 +1249,7 @@ input[type="checkbox" i]:checked::before {
   margin-top: 100px;
 }
 .common_filter_box {
-  margin-top: 140px;
+  margin-top: 110px;
   display: flex;
   justify-content: space-between;
 }
@@ -1260,6 +1259,7 @@ input[type="checkbox" i]:checked::before {
   display: flex;
   border-right: 1px solid #111;
   flex-direction: row;
+  text-align: center;
 }
 
 .common_filter .common_filter_box li {
