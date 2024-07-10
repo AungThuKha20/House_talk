@@ -954,7 +954,6 @@ input[type="checkbox" i]:checked::before {
 /*common filter*/
 .common_filter {
   margin-top: 24px;
-  float: left;
   width: 100%;
 }
 .common_filter_box {
