@@ -158,9 +158,6 @@
   .constructconsult.constructconsult_form .common_constructconsult_table_th {
     padding-bottom: 30px;
   }
-  .constructconsult .common_sub_table th {
-    width: 20%;
-  }
   .constructconsult.constructconsult_form .guide_cont {
     margin-top: 0px;
   }
@@ -592,9 +589,7 @@
   }
 
   /* constructconsult */
-  .container.constructconsult  {
-    width: 20%;
-  }
+
   /* form responsive */
   .constructconsult_form .common_sub_table .select_box1::after {
     left: 80%;
