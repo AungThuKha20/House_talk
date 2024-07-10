@@ -26,9 +26,11 @@
   width: 1022px !important;
   height: 547px !important;
 }
-.houesetalknews_list  .swiper-button-next:after, .houesetalknews_list .swiper-button-prev:after {
+.houesetalknews_list .swiper-button-next:after,
+.houesetalknews_list .swiper-button-prev:after {
   font-size: 50px;
-  color:#747474;
+  color: #747474;
+  user-select: none;
 }
 .houesetalknews_list .mySwiper_list .swiper-button-next {
   right: 350px;
@@ -49,12 +51,12 @@
   text-align: left;
 }
 .houesetalknews_list .swiper_txt p {
-    font-size: 24px;
-    font-weight: 400;
-    margin-top: 20px;
-    line-height: 28.64px;
-    letter-spacing: 0.8px;
-    text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  line-height: 28.64px;
+  letter-spacing: 0.8px;
+  text-align: left;
 }
 
 .houesetalknews_list .talk_list {
@@ -88,29 +90,69 @@
   color: #747474;
 }
 .houesetalknews_list .pagination {
-    margin-top: 93px !important;
+  margin-top: 93px !important;
 }
 .houesetalknews_list .search_btn_gp {
-    display: flex;
-    width:100%;
-    justify-content: end;
+  display: flex;
+  width: 100%;
+  justify-content: end;
 }
 .houesetalknews_list .search_btn img {
-    width: 21px;
-    right: 35px !important;
-    top: 50%;
-    transform: translateY(-50%) ;
-    height:21px;
+  width: 21px;
+  right: 35px !important;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 21px;
 }
-.houesetalknews_list .search_btn .common_search  {
-   height: 35px !important;
+.houesetalknews_list .search_btn .common_search {
+  height: 35px !important;
 }
-.houesetalknews_list .search_btn .common_search input  {
-    padding-right: 45px !important;
+.houesetalknews_list .search_btn .common_search input {
+  padding-right: 45px !important;
 }
 
 .pagination {
-    user-select: none;
+  user-select: none;
 }
 
 /* houesetalkNews_List End  */
+/* houesetalkNews_View Start  */
+.houesetalknews_view .sub_page_title {
+  text-align: start;
+  border-bottom: 2px solid var(--bs-black);
+}
+.houesetalknews_view .view_talk_txt {
+  width: 100%;
+  height: fit-content;
+  text-align: start;
+  padding: 12px 32px;
+  border-bottom: 1px solid #d9d9d9;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.houesetalknews_view .view_talk .view_talk_img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  gap: 4px;
+}
+.houesetalknews_view .view_talk .view_talk_para {
+  padding-top: 36px;
+  width:100%;
+  border-top: 1px solid #d9d9d9;
+  height:fit-content;
+  margin-bottom: 127px;
+}
+.houesetalknews_view .view_talk .view_talk_para p {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.19px;
+  letter-spacing: 0.5px;
+}
+/* ..houesetalknews_view .view_talk .view_talk_img */
+
+/* houesetalkNews_View End  */
