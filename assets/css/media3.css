@@ -356,7 +356,12 @@
 .houesetalknews_view .view_talk_utube {
   padding-bottom: 62px;
 }
-
+.houesetalknews_view .button_gp .consult_link {
+  margin-top: 46px;
+}
+.houesetalknews_view .button_gp {
+  padding: 40px 0px 60px 0px;
+}
 }
 @media screen and (max-width: 767.98px) {
     .conseling_inn {
@@ -486,6 +491,12 @@
     .houesetalknews_view .view_talk_utube {
       padding-bottom: 52px;
     }
+    .houesetalknews_view .button_gp .consult_link {
+      margin-top: 36px;
+  }
+  .houesetalknews_view .button_gp {
+    padding: 30px 0px 30px 0px;
+  }
 }
 @media screen and (max-width: 575.98px) {
       .conseling_inn .conseling_form {
@@ -605,10 +616,10 @@
     .houesetalknews_view .view_talk_txt {
       padding: 8px 20px;
       font-size: 14px;
-      letter-spacing: 0.4px;
+      letter-spacing: -0.2px;
     }
     .houesetalknews_view .view_talk .view_talk_para p {
-      font-size: 18px;
+      font-size: 16px;
       letter-spacing: 0.3px;
     }
     .houesetalknews_view .view_talk .view_talk_para {
@@ -621,6 +632,15 @@
     .houesetalknews_view .view_talk_utube {
       padding-bottom: 32px;
     }
+    .houesetalknews_view .view_talk .view_talk_img {
+      margin-bottom: 20px;
+    }
+    .houesetalknews_view .button_gp {
+      padding: 16px 0px 16px 0px;
+    }
+    .houesetalknews_view .button_gp .consult_link {
+      margin-top: 16px;
+  }
 }
 @media screen and (max-width: 483px) {
     .conseling_inn .conseling_form {
