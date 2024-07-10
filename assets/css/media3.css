@@ -5,7 +5,7 @@
     Order: header > main > sub pages > footer
 -------------------------------------------------------------------*/
 
-@media screen and (max-width: 1663.98px) {
+@media screen and (max-width: 1669.98px) {
   .houesetalknews_list .mySwiper_list .swiper-button-next {
     right:200px;
   }
@@ -269,8 +269,13 @@
   .houesetalknews_list .swiper-slide {
     height: 380px !important;
   }
+  .houesetalknews_list  .swiper-button-next:after, .houesetalknews_list .swiper-button-prev:after {
+    font-size: 30px;
+    padding: 20px 50px;
+
+  }
   .houesetalknews_list .mySwiper_list .swiper-button-next {
-    right: 80px !important;;
+    right: 80px !important;
   }
   .houesetalknews_list .mySwiper_list .swiper-button-prev {
     left: 80px !important;
@@ -489,12 +494,15 @@
         padding: 20px 15px;
       }
       .houesetalknews_list .mySwiper_list .swiper-button-next {
-        right: 20px !important;
+        right:10px !important;
         font-size: 10px !important;
       }
       .houesetalknews_list .mySwiper_list .swiper-button-prev {
-        left: 20px !important;
+        left: 10px !important;
         font-size: 10px !important;
+      }
+      .houesetalknews_list  .swiper-button-next:after, .houesetalknews_list .swiper-button-prev:after {
+        color:var(--bs-white);
       }
       .houesetalknews_list .swiper-slide iframe {
         width: 100% !important;
