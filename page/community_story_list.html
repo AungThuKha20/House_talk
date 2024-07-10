@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="community_story_list container">
+      <div class="sub_page_title">
+        <h2>건축주 스토리</h2>
+        <p>집 짓고 사는 즐거움, 하우스톡 건축주와의 동행 인터뷰</p>
+      </div>
+      <div class="search_btn_gp">
+        <div class="search_btn">
+          <div class="common_search">
+            <input type="text" placeholder="검색어를 입력하세요." />
+            <img src="/assets/imgs/icons/ico_srch_btn.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="story_list_box">
+        <div class="news_img_box">
+          <div class="img_box">
+            <img src="/assets/imgs/common/Talk_News/1.png" alt="" />
+          </div>
+          <div class="news_text_box_cont">
+            <div class="all_texts">
+              <span>2024-04-29</span>
+              <h3>[오픈하우스]세종 연서면 오픈하우스에 초대합니다.</h3>
+              <h4>일시 : 5.17(금) ~ 18(토), 세종시 연서면 신대리</h4>
+            </div>
+            <div class="button_box">
+              <a href="">VIEW</a>
+            </div>
+          </div>
+        </div>
+        <div class="news_img_box">
+          <div class="img_box">
+            <img src="/assets/imgs/common/Talk_News/2.png" alt="" />
+          </div>
+          <div class="news_text_box_cont">
+            <div class="all_texts">
+              <span>2024-04-08</span>
+              <h3>[더 리빙] 4월호 정읍 장금리 주택</h3>
+              <h4>푸르른 녹음과 호수의 풍경을 담은 집, 정읍 전원주택</h4>
+            </div>
+            <div class="button_box">
+              <a href="">VIEW</a>
+            </div>
+          </div>
+        </div>
+        <div class="news_img_box">
+          <div class="img_box">
+            <img src="/assets/imgs/sub3/img_box3.png" alt="" />
+          </div>
+          <div class="news_text_box_cont">
+            <div class="all_texts">
+              <span>2024-03-11</span>
+              <h3>[오픈하우스] 순천 스위스 동화마을 오픈하우스 개최</h3>
+              <h4>일시 : 3.22(금) ~ 23(토), 전남 순천시 흘산리</h4>
+            </div>
+            <div class="button_box">
+              <a href="">VIEW</a>
+            </div>
+          </div>
+        </div>
+        <div class="news_img_box">
+          <div class="img_box">
+            <img src="/assets/imgs/sub3/img_box4.png" alt="" />
+          </div>
+          <div class="news_text_box_cont">
+            <div class="all_texts">
+              <span>2024-04-29</span>
+              <h3>[건축박람회] 2024 대구건축 박람회 무료입장권</h3>
+              <h4>일시 : 3.7(목) ~ 10(일), 대구 엑스코 전시장</h4>
+            </div>
+            <div class="button_box">
+              <a href="">VIEW</a>
+            </div>
+          </div>
+        </div>
+        <div class="news_img_box">
+          <div class="img_box">
+            <img src="/assets/imgs/sub3/img_box5.png" alt="" />
+          </div>
+          <div class="news_text_box_cont">
+            <div class="all_texts">
+              <span>2024-04-29</span>
+              <h3>[오픈하우스]경남 김해시 오픈하우스에 초대합니다.</h3>
+              <h4>일시 : 2.23(금) ~ 24(토), 경남 김해시 관동동</h4>
+            </div>
+            <div class="button_box">
+              <a href="">VIEW</a>
+            </div>
+          </div>
+        </div>
+        <div class="news_img_box">
+          <div class="img_box">
+            <img src="/assets/imgs/sub3/img_box6.png" alt="" />
+          </div>
+          <div class="news_text_box_cont">
+            <div class="all_texts">
+              <span>2024-04-29</span>
+              <h3>[오픈하우스]세종 연서면 오픈하우스에 초대합니다.</h3>
+              <h4>일시 : 5.17(금) ~ 18(토), 세종시 연서면 신대리</h4>
+            </div>
+            <div class="button_box">
+              <a href="">VIEW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <div class="pagination_box">
+          <div class="img_box_cont left">
+            <a class="img_box">
+              <img src="/assets/imgs/common/left.png" alt="" />
+            </a>
+            <a class="img_box">
+              <img src="/assets/imgs/common/iconoir_arrow-right.png" alt="" />
+            </a>
+          </div>
+          <div class="text_box">
+            <a>1</a>
+            <a>2</a>
+            <a>3</a>
+            <a>4</a>
+            <a>5</a>
+          </div>
+          <div class="img_box_cont right">
+            <a class="img_box">
+              <img src="/assets/imgs/common/start_hover.png" alt="" />
+            </a>
+            <a class="img_box">
+              <img src="/assets/imgs/common/right.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        ${require('./include/_counseling.html')}
+       </div>
+
+    </div>
+
+    ${require('./include/_footer.html')}
+  </body>
+</html>
