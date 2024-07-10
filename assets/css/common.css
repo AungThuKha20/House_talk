@@ -1435,7 +1435,9 @@ input[type="checkbox" i]:checked::before {
   width: 50%;
   border: 1px solid #eaeaea;
 }
-
+.concept_summary_box .concept_box img{
+  width: 100%;
+}
 .concept_summary_box .concept_box h3,
 .concept_summary_box .summary_box h3 {
   font-weight: 600;
@@ -1515,7 +1517,7 @@ input[type="checkbox" i]:checked::before {
   width: 100%;
 }
 .home_map_box .img_box img{
-  width: 100%;
+  width: 50%;
 }
 .home_exterior_box h3 {
   font-weight: 700;
