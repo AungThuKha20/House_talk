@@ -92,12 +92,14 @@
 .houesetalknews_list .pagination {
   margin-top: 93px !important;
 }
-.houesetalknews_list .search_btn_gp , .community_story_list .search_btn_gp {
+.houesetalknews_list .search_btn_gp,
+.community_story_list .search_btn_gp {
   display: flex;
   width: 100%;
   justify-content: end;
 }
-.houesetalknews_list .search_btn img , .community_story_list .search_btn img {
+.houesetalknews_list .search_btn img,
+.community_story_list .search_btn img {
   width: 21px;
   right: 35px !important;
   top: 50%;
@@ -105,18 +107,25 @@
   height: 21px;
   margin-bottom: 2px;
 }
-.houesetalknews_list .search_btn .common_search ,.community_story_list .search_btn .common_search  {
+.houesetalknews_list .search_btn .common_search,
+.community_story_list .search_btn .common_search {
   height: 36px !important;
 }
-.houesetalknews_list .search_btn .common_search input ,.community_story_list .search_btn .common_search input {
+.houesetalknews_list .search_btn .common_search input,
+.community_story_list .search_btn .common_search input {
   padding-right: 45px !important;
 }
 
 .pagination {
   user-select: none;
 }
-.houesetalknews_list .sub_page_title ,.community_story_list .sub_page_title {
+.houesetalknews_list .sub_page_title,
+.community_story_list .sub_page_title,
+.community_story_view .sub_page_title {
   margin-bottom: 115px;
+}
+.community_story_view .sub_page_title {
+  
 }
 /* houesetalkNews_List End  */
 /* houesetalkNews_View Start  */
@@ -146,9 +155,9 @@
 }
 .houesetalknews_view .view_talk .view_talk_para {
   padding-top: 36px;
-  width:100%;
+  width: 100%;
   border-top: 1px solid #d9d9d9;
-  height:fit-content;
+  height: fit-content;
   margin-bottom: 127px;
 }
 .houesetalknews_view .view_talk .view_talk_para p {
@@ -169,14 +178,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .houesetalknews_view .button_gp .consult_link {
   margin-top: 56px;
 }
 .houesetalknews_view .button_gp .consult_link img {
   width: 40px;
-  height:40px;
+  height: 40px;
 }
 
 /* houesetalkNews_View End  */

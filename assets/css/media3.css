@@ -131,7 +131,8 @@
     margin-top: 29px;
   }
   .houesetalknews_list .sub_page_title,
-  .community_story_list .sub_page_title {
+  .community_story_list .sub_page_title,
+  .community_story_view .sub_page_title {
     margin-bottom: 80px;
   }
   /*  */
@@ -322,7 +323,8 @@
     margin: 14px auto;
   }
   .houesetalknews_list .sub_page_title,
-  .community_story_list .sub_page_title {
+  .community_story_list .sub_page_title,
+  .community_story_view .sub_page_title {
     margin-bottom: 70px;
   }
   .houesetalknews_list .swiper_txt h3 {
@@ -464,7 +466,8 @@
     left: 60px !important;
   }
   .houesetalknews_list .sub_page_title,
-  .community_story_list .sub_page_title {
+  .community_story_list .sub_page_title,
+  .community_story_view .sub_page_title {
     margin-bottom: 50px;
   }
   .houesetalknews_list .swiper_txt {
@@ -485,7 +488,8 @@
     margin-top: 53px !important;
   }
   .houesetalknews_list .sub_page_title,
-  .community_story_list .sub_page_title {
+  .community_story_list .sub_page_title,
+  .community_story_view .sub_page_title {
     margin-bottom: 20px;
   }
   .houesetalknews_view .view_talk_txt {
@@ -606,9 +610,13 @@
     width: 100% !important;
     height: 320px !important;
   }
+  .community_story_list .story_list_box {
+    margin-top: 0px;
+  }
   .houesetalknews_list .sub_page_title,
-  .community_story_list .sub_page_title {
-    margin-bottom: 40px;
+  .community_story_list .sub_page_title,
+  .community_story_view .sub_page_title {
+    margin-bottom: 20px;
   }
   .houesetalknews_list .swiper-slide {
     height: 320px !important;
@@ -665,6 +673,16 @@
   }
   .houesetalknews_view .button_gp .consult_link {
     margin-top: 16px;
+  }
+  .pagination_box .text_box a {
+    font-size: 16px;
+  }
+  .pagination_box .text_box a:nth-child(1) {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .conseling_inn {
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 483px) {
@@ -746,5 +764,9 @@
   .houesetalknews_list .swiper_txt p {
     font-size: 14px;
     margin-top: 0px !important;
+  }
+  .pagination_box .text_box a:nth-child(4),
+  .pagination_box .text_box a:nth-child(5) {
+    display: none;
   }
 }
