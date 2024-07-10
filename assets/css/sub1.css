@@ -3,7 +3,8 @@
   margin-top: 97px;
 }
 .container.constructconsult_list,
-.container.appforguidebook_list {
+.container.appforguidebook_list,
+.container.showroom_form {
   margin-top: 120px;
 }
 .constructconsult_form .constructconsult_form_title {
@@ -267,7 +268,6 @@
 }
 /* constructconsult_form end */
 
-
 /* constructconsult_list */
 .constructconsult_list .d-none {
   display: none;
@@ -346,6 +346,10 @@
 
 /* constructconsult  end*/
 
+.appforguidebook_list .common_guide_book {
+  border: none;
+}
+.com
 /* appforguidebook */
 .appforguidebook .guide_tr {
   padding: 56px 0px 0px 0px;
@@ -360,7 +364,7 @@
 .constructconsult.constructconsult_form .guide_cont {
   margin-top: 58px;
 }
-.constructconsult_form .construct_tr2_td{
+.constructconsult_form .construct_tr2_td {
   padding-top: 50px;
 }
 /* .constructconsult_form .construct_td {
@@ -395,3 +399,50 @@
 }
 
 /* appforas_list end*/
+
+/* showroom form */
+.showroom_form .showroom_img,
+.showroom_form .showroom_img2,
+.showroom_form .showroom_img3 {
+  width: 100%;
+  height: 800px;
+}
+.showroom_form .showroom_img img,
+.showroom_form .showroom_img2 img,
+.showroom_form .showroom_img3 img {
+  width: 100%;
+  height: 800px;
+}
+.showroom_text {
+  display: flex;
+  margin: 72px 0 0 0;
+  width: 100%;
+  height: 112px;
+  padding: 0 30px;
+  background: #ede3da;
+  justify-content: space-between;
+}
+.showroom_text_left {
+  font-size: 22px;
+  text-align: center;
+  line-height: 120px;
+  font-weight: 600;
+}
+.showroom_text_left span {
+  color: #937e69;
+}
+.showroom_text_right {
+  font-size: 22px;
+  text-align: center;
+  color: #121b2a;
+  font-weight: 600;
+  line-height: 120px;
+}
+.showroom_form h5 {
+  margin-bottom: 86px;
+}
+
+.showroom_form .icon{
+  width: 24px;
+  height: 24px;
+}
