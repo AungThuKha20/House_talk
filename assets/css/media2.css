@@ -16,6 +16,25 @@
     width: 280px !important;
   }
 }
+@media screen and (max-width: 1480px) {
+  .product_range_box {
+    flex-wrap: wrap;
+  }
+  .product_range_box .text_blue {
+    width: 15%;
+  }
+  .product_range_box .date_box {
+    width: 30%;
+    text-align: center;
+  }
+  .product_range_box input[type="range"] {
+    width: 80%;
+  }
+  .product_range_box .text {
+    width: 10%;
+    text-align: left;
+  }
+}
 @media screen and (max-width: 1470.98px) {
   .text_area_wrap {
     height: 180px;
@@ -144,10 +163,10 @@
     font-size: 16px;
   }
   .summary_content_box .content p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .concept_summary_box .concept_box p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .summary_content_box {
     padding-left: 20px;
@@ -174,7 +193,11 @@
   }
   .home_map_box .img_box {
     flex-direction: column;
+    justify-content: center;
   }
+  .home_map_box .img_box img {
+    width: 100%;
+}
   .exterior_swiper_box .swiper-button-prev {
     display: none;
   }
@@ -258,6 +281,9 @@
     letter-spacing: 0.8px;
     padding: 32px 32px 32px 20px;
   }
+  .summary_content_box .content {
+    width: 100%;
+  }
   .summary_content_box .content p {
     font-size: 18px;
     letter-spacing: 0.8px;
@@ -278,10 +304,17 @@
     flex-direction: row;
     padding: 32px 20px;
     gap: 45px;
-    justify-content: flex-start;
   }
   .sub_page_title {
     padding: 0px;
+  }
+  .summary_img_box {
+    margin: 0px 20px;
+  }
+  .scene_live_detail .summary_content_box {
+    flex-direction: row;
+    padding: 10px 20px;
+    gap: 45px;
   }
 }
 
@@ -291,9 +324,6 @@
   }
   .consult_housing .w-314 {
     width: 200px !important;
-  }
-  .floor_plan_box {
-    padding: 20px 0px 20px 10px;
   }
   .floor_plan_box p {
     font-size: 20px;
@@ -393,11 +423,9 @@
   .concept_summary_box .concept_box h3,
   .concept_summary_box .summary_box h3 {
     font-size: 20px;
-    padding: 20px 0px 20px 10px;
   }
   .concept_summary_box .concept_box p {
     font-size: 16px;
-    padding: 32px 10px;
   }
   .summary_content_box .content p {
     font-size: 16px;
@@ -406,9 +434,29 @@
     flex-wrap: wrap;
     gap: 20px;
   }
-  .mobile_filter_box .common_search input {
-    width: 400px;
+  .mobile_width .common_search input {
+    width: 186px !important;
     text-align: center;
+  }
+  .product_range_box .text_blue {
+    font-size: 14px;
+    width: 20%;
+  }
+  .product_range_box .date_box {
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .product_range_box input[type="range"] {
+    width: 80%;
+  }
+  .product_range_box .text {
+    width: 10%;
+    text-align: left;
+    font-size: 14px;
+  }
+  .scene_live_list .product_cont_box .area_box {
+    margin-top: 0px;
   }
 }
 
@@ -552,7 +600,6 @@
   }
   .summary_content_box {
     gap: 20px;
-    padding-left: 10px;
   }
   .summary_content_box .content p {
     font-size: 14px;
@@ -577,6 +624,10 @@
     margin-bottom: 0px;
     margin-top: 40px;
   }
+  .design_list .product_cont {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
   .mobile_filter_box .common_search input {
     width: 300px;
     text-align: center;
@@ -585,15 +636,18 @@
   .mobile_filter_box li {
     width: 100px !important;
   }
+  .mobile_width .common_search input {
+    width: 186px !important;
+    text-align: center;
+  }
+  .consult_housing .conseling_inn {
+    margin-bottom: 30px !important;
+  }
 }
 
 @media screen and (max-width: 483px) {
   .text_area_wrap textarea {
     font-size: 14px !important;
-}
-  .summary_content_box {
-    flex-direction: column;
-    gap: 15px;
   }
   .heading_img img {
     height: 300px;
@@ -655,20 +709,28 @@
   .detail_text_box p {
     font-size: 14px;
   }
+  .summary_content_box {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+  }
   .concept_summary_box .concept_box h3,
   .concept_summary_box .summary_box h3 {
     font-size: 16px;
-    padding: 20px 0px 20px 5px;
+    padding: 20px 0px 20px 20px;
   }
   .concept_summary_box .concept_box p {
-    font-size: 13px;
-    padding: 10px 5px;
+    font-size: 14px;
+    padding: 10px 20px;
   }
   .summary_content_box .content p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .summary_content_box .content .content_sub_box {
     gap: 6px;
+  }
+  .floor_plan_box {
+    padding-left: 20px;
   }
   .list_btn {
     width: 100px;
@@ -693,13 +755,19 @@
     padding: 4px 8px;
     border-radius: 80px;
   }
+  .product_range_box .text_blue {
+    width: 30%;
+  }
+  .product_range_box .date_box {
+    width: 60%;
+  }
 }
-@media screen and (max-width: 365px){
+@media screen and (max-width: 365px) {
   .consult_housing .w-314 {
     width: 100px !important;
     font-size: 12px !important;
   }
   .text_area_wrap textarea {
     font-size: 12px !important;
-}
+  }
 }
