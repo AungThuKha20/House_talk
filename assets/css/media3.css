@@ -124,6 +124,9 @@
     font-size: 28px;
     padding: 36px 0px 72px 0px;
   }
+  .pressrelease_list .talk_list .product_cont_box .area_box h2 {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 1300.98px) {
   .conseling_inn .conseling_img_gp img {
@@ -212,7 +215,7 @@
     font-size: 22px;
     margin-top: 5px;
   }
-  .houesetalknews_list .talk_list .product_cont_box .area_box p {
+.talk_list .product_cont_box .area_box p {
     font-size: 19px;
   }
   /* houesetalknews_view   */
@@ -239,6 +242,9 @@
   .community_interior_tips .search_img_box_cont .search_img_box img {
     /* width: 336px; */
     height:auto;
+  }
+  .pressrelease_list .talk_list .product_cont_box .area_box h2 {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 1000.98px) {
@@ -352,14 +358,14 @@
     line-height: 20px;
     margin-top: 0px;
   }
-  .houesetalknews_list .talk_list {
+  .talk_list {
     margin-top: 50px;
   }
   .product_cont_box .area_box h2 {
     line-height: 20px;
     letter-spacing: -0.5px;
   }
-  .houesetalknews_list .talk_list .product_cont_box .area_box p {
+  .talk_list .product_cont_box .area_box p {
     font-size: 18px;
     line-height: 20px;
   }
@@ -392,6 +398,9 @@
   .view_talk_para2 p {
     font-size: 24px;
     padding: 24px 0px 50px 0px;
+  }
+  .common_search {
+    display: none !important;
   }
 }
 @media screen and (max-width: 767.98px) {
@@ -502,7 +511,7 @@
     font-size: 20px;
     margin-top: 10px !important;
   }
-  .houesetalknews_list .talk_list .product_cont_box .area_box p {
+  .talk_list .product_cont_box .area_box p {
     font-size: 16px;
   }
   .houesetalknews_list .pagination {
@@ -550,9 +559,13 @@
   .community_interior_tips .search_img_box_cont {
     margin-bottom: 52px;
   }
-  .common_search {
-    display: none !important;
+  .pressrelease_list .talk_list .product_cont_box .area_box h2 {
+    font-size: 16px;
   }
+  .pressrelease_list .talk_list .product_cont_box .area_box p {
+    font-size: 14px;
+    }
+ 
 }
 @media screen and (max-width: 575.98px) {
   .conseling_inn .conseling_form {
@@ -668,10 +681,10 @@
     font-size: 16px;
     margin-top: 0px !important;
   }
-  .houesetalknews_list .talk_list {
+ .talk_list {
     margin-top: 20px;
   }
-  .houesetalknews_list .talk_list .product_cont_box .area_box p {
+.talk_list .product_cont_box .area_box p {
     font-size: 14px;
     margin-top: 0px;
   }
@@ -738,6 +751,9 @@
   .community_interior_tips .search_img_box_cont {
     margin-bottom: 20px;
   }
+  .pressrelease_list .product_cont_box .p_box {
+    justify-content: start;
+}
 }
 @media screen and (max-width: 483px) {
   .conseling_inn .conseling_form {

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+      <div class="key_story_banner"> 
+        <div class="wrapper">
+            <h1>최고의 기술력과 경영 역량을 바탕으로 <br>
+                올바른 건축문화를 선도하겠습니다.</h1>
+                <div class="card_gp container">
+                  <div class="card_1">
+                    <img src="/assets/imgs/sub3/Frame 5553.png" alt="">
+                         <p>Excellence <br>
+                            최고
+                        </p>
+                  </div>
+                  <div class="card_1">
+                    <img src="/assets/imgs/sub3/Frame 5553 (1).png" alt="">
+                         <p>Excellence <br>
+                            최고
+                        </p>
+                  </div>
+                  <div class="card_1">
+                    <img src="/assets/imgs/sub3/Frame 5553 (2).png" alt="">
+                         <p>Excellence <br>
+                            최고
+                        </p>
+                  </div>
+                  <div class="card_1">
+                    <img src="/assets/imgs/sub3/Frame 5553 (3).png" alt="">
+                         <p>Excellence <br>
+                            최고
+                        </p>
+                  </div>
+                </div>
+        </div>
+        <div class="line"></div>
+      </div>
+  </body>
+</html>
