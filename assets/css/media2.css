@@ -634,7 +634,7 @@
     padding-right: 30px;
   }
   .mobile_filter_box li {
-    width: 100px !important;
+    width: 150px !important;
   }
   .mobile_width .common_search input {
     width: 186px !important;
@@ -746,7 +746,7 @@
     padding-right: 30px;
   }
   .mobile_filter_box li {
-    width: 82px !important;
+    width: 100px !important;
   }
   .pagination_box .text_box {
     gap: 15px;
