@@ -28,7 +28,7 @@
 <link rel="stylesheet" href="/assets/css/media2.css">
 <link rel="stylesheet" href="/assets/css/media3.css">
 
-<link rel="stylesheet" href="../assets/css/media1.css" />
+<link rel="stylesheet" href="/assets/css/media1.css" />
 <link rel="stylesheet" href="/assets/css/media3.css">
 
 <!-- AOS animation library -->
@@ -251,7 +251,7 @@
     </button>
   </div>
   <div class="scroll_top">
-    <button>
+    <button class="scroll_top_btn" onclick="scrollToTop()">
         <img src="/assets/imgs/icons/top_btn.png" alt="">
     </button>
   </div>
@@ -299,18 +299,62 @@
                       <tr>
                         <th>*연락처</th>
                         <td class="construct_td">
-                          <div class="common_select_box select_box1">
-                            <input type="text" placeholder="선택" class="on" />
-                            <div class="section_select">
-                              <div>건축상담 신청</div>
-                              <div>오픈하우스 방문 신청</div>
-                              <div>건축박람회 티켓 신청</div>
-                            </div>
-                          </div>
-                          <span>-</span>
-                          <input type="text" class="input_box common_input" />
-                          <span>-</span>
-                          <input type="text" class="input_box common_input" />
+                          <details class="custom-select custom_select1">
+                              <summary class="radios radio_width">
+                                <input
+                                  type="radio"
+                                  name="item"
+                                  id="default"
+                                  title="선택"
+                                  checked=""
+                                />
+                                <input
+                                  type="radio"
+                                  name="item"
+                                  id="item1-2"
+                                  title="naver.com"
+                                />
+                                <input
+                                  type="radio"
+                                  name="item"
+                                  id="item2-2"
+                                  title="daum.net"
+                                />
+                                <input
+                                  type="radio"
+                                  name="item"
+                                  id="item3-2"
+                                  title="gamail.com"
+                                />
+                                <input
+                                  type="radio"
+                                  name="item"
+                                  id="item4-2"
+                                  title="kakao.com"
+                                />
+                              </summary>
+                              <ul class="list">
+                                <li>
+                                  <label for="item1-2">
+                                    naver.com
+                                    <span></span>
+                                  </label>
+                                </li>
+                                <li>
+                                  <label for="item2-2">daum.net</label>
+                                </li>
+                                <li>
+                                  <label for="item3-2">gamail.com</label>
+                                </li>
+                                <li>
+                                  <label for="item4-2">kakao.com</label>
+                                </li>
+                              </ul>
+                              <span>-</span>
+                              <input type="text" class="input_box common_input" />
+                              <span>-</span>
+                              <input type="text" class="input_box common_input" />
+                            </details>
                         </td>
                       </tr>
                       <tr>

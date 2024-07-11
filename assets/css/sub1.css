@@ -244,7 +244,7 @@
 
 .constructconsult_form .input_box {
   width: 188px;
-  margin: 0px 0px 0px 5px;
+  /* margin: 0px 0px 0px 5px; */
 }
 .constructconsult_form .input_box1 {
   width: 188px;
@@ -380,7 +380,8 @@
 .appforas_list .input_box {
   margin: 0px;
 }
-.appforas_list .form_date {
+.appforas_list .form_date,
+.constructconsult_form .form_date {
   width: 390px;
   height: 60px;
   background: #f6f6f6;
@@ -389,7 +390,8 @@
   font-size: 16px;
   color: #9999;
 }
-.appforas_list .scroll_box {
+.appforas_list .scroll_box,
+.constructconsult_form .scroll_box {
   border: 1px solid #dedede;
   border-width: 1px 1px 1px 1px;
   overflow: scroll;
@@ -401,21 +403,23 @@
 /* appforas_list end*/
 
 /* showroom form */
-.showroom_form .showroom_img,
-.showroom_form .showroom_img2,
+.showroom_form .showroom_img {
+  width: 100%;
+  height: auto;
+}
+
+.showroom_form .showroom_img2 {
+  width: 100%;
+  height: auto;
+}
 .showroom_form .showroom_img3 {
   width: 100%;
-  height: 800px;
-}
-.showroom_form .showroom_img img,
-.showroom_form .showroom_img2 img,
-.showroom_form .showroom_img3 img {
-  width: 100%;
-  height: 800px;
+  height: 389px;
 }
 .showroom_text {
+  position: relative;
   display: flex;
-  margin: 72px 0 0 0;
+  margin: 72px 0 26px 0;
   width: 100%;
   height: 112px;
   padding: 0 30px;
@@ -433,6 +437,8 @@
 }
 .showroom_text_right {
   font-size: 22px;
+  display: flex;
+
   text-align: center;
   color: #121b2a;
   font-weight: 600;
@@ -441,8 +447,68 @@
 .showroom_form h5 {
   margin-bottom: 86px;
 }
+.showroom_form .icon {
+  width: 30px;
+  height: 30px;
+  background: #89674f;
+  float: right;
+  margin-top: 45px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.showroom_form .icon img {
+  position: relative;
+  width: 20px;
+  top: -140%;
+  left: 4%;
+  height: 20px;
+}
 
-.showroom_form .icon{
-  width: 24px;
-  height: 24px;
+.showroom_form .mySwiper_Exterior {
+  width: 100%;
+}
+
+/* select box */
+summary.radios.radio_width {
+  width: 390px;
+}
+details.custom_select1[open] {
+  width: 390px;
+}
+details.custom-select.custom_select2 {
+  width: 188px;
+}
+
+/* appforvisit detail */
+.visit-time {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-between;
+  width: 188px;
+  font-size: 16px;
+}
+.visit-time .icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("/assets/imgs/icons/Group.png");
+  background-size: cover;
+  margin-left: 10px;
+}
+/* appforguidebook form */
+.appforguidebook_form .btn {
+  width: 170px;
+  height: 60px;
+  border: 1px solid #3074f1;
+  background: var(--bs-white);
+}
+.appforguidebook_form .btn a {
+  color: #3074f1;
+}
+::placeholder {
+  color: var(--bs-black);
+  font-size: 13px;
+  padding-left: 10px;
 }

@@ -113,6 +113,7 @@ img {
 .form-check label {
   font-size: 20px;
   font-weight: 600;
+  cursor: pointer;
   line-height: 32px;
   letter-spacing: -0.48px;
   text-align: left;
@@ -575,7 +576,6 @@ input[type="checkbox" i]:checked::before {
   letter-spacing: -0.48px;
   text-align: center;
   padding-top: 86px;
-  padding-bottom: 86px;
   margin-top: 97px;
 }
 .sub_page_title p {
@@ -759,7 +759,18 @@ input[type="checkbox" i]:checked::before {
   align-items: center;
   align-content: center;
 }
-.pagination_box .text_box p:hover {
+.pagination_box .text_box a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.48px;
+  letter-spacing: -0.48px;
+  text-align: center;
+}
+.pagination_box .text_box a:nth-child(1) {
+  font-weight: 600;
+  font-size: 24px;
+}
+.pagination_box .text_box a:hover {
   cursor: pointer;
 }
 /* pagination end */
@@ -793,8 +804,11 @@ input[type="checkbox" i]:checked::before {
   gap: 5px;
 }
 .product_cont_box .area_box .p_box p {
+  font-size: 20px;
+  font-weight: 400;
   line-height: 27px;
-  color: #747474;
+  letter-spacing: 0.5px;
+  color: #000;
 }
 .product_cont_box .area_box .p_box p:hover {
   cursor: pointer;
@@ -921,7 +935,7 @@ input[type="checkbox" i]:checked::before {
 .search_img_box_cont {
   display: flex;
   justify-content: space-between;
-  gap: 53px;
+  gap: 20px;
 }
 .search_img_box_cont .search_img_box .search_text_box {
   display: flex;
@@ -951,11 +965,9 @@ input[type="checkbox" i]:checked::before {
 /* content end */
 /* kzwk */
 /* mayThu */
-
-/*common filter*/
 .common_filter {
   margin-top: 24px;
-  float: left;
+  /* float: left; */
   width: 100%;
 }
 .common_filter_box {
@@ -986,7 +998,7 @@ input[type="checkbox" i]:checked::before {
 }
 
 .common_filter .common_filter_item1 {
-  width: 134px;
+  width: 135px;
   text-align: center;
   display: none;
   height: 196px;
@@ -999,8 +1011,8 @@ input[type="checkbox" i]:checked::before {
   position: relative;
   top: 0;
   display: none;
-  left: 133px;
-  width: 134px;
+  left: 134px;
+  width: 135px;
   text-align: center;
   height: 235px;
   border-width: 0px 1px 1px 1px;
@@ -1014,18 +1026,36 @@ input[type="checkbox" i]:checked::before {
 .common_filter .common_filter_items.common_filter_item3 {
   position: relative;
   top: 0;
-  left: 266px;
+  left: 268px;
   display: none;
-  width: 134px;
+  width: 135px;
   text-align: center;
   height: 157px;
   border-width: 0px 1px 1px 1px;
   border-style: solid;
   border-color: #111;
 }
+.common_search {
+  float: right;
+}
+.common_search input {
+  width: 226px;
+  height: 36px;
+  font-size: 14px;
+  border: none;
+  padding-right: 40px;
+  padding-left: 45px;
+  border-bottom: 1px solid #000;
+}
+.common_search img {
+  position: relative;
+  top: 13%;
+  width: 19px;
+  height: 19px;
+  right: 9%;
+}
 
 /* common filter end */
-
 /* common input */
 
 .common_input input {
@@ -1235,7 +1265,6 @@ input[type="checkbox" i]:checked::before {
   height: 36px;
   font-size: 14px;
   border: none;
-  padding-right: 40px;
   padding-left: 45px;
   border-bottom: 1px solid #000;
 }
@@ -1252,7 +1281,7 @@ input[type="checkbox" i]:checked::before {
 details {
   position: relative;
   width: 300px;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
 }
 
 details[open] {
@@ -1382,9 +1411,9 @@ summary.radios:before {
   border: 1px solid #f6f6f6;
   border-radius: 3px;
 }
-.custom-select.custom_select1 {
+/* .custom-select.custom_select1 {
   width: 41%;
-}
+} */
 /* select box end */
 /* common input */
 
@@ -1397,7 +1426,7 @@ summary.radios:before {
 /* common input end */
 
 /* select box */
-.common_select_box {
+/* .common_select_box {
   position: relative;
 }
 .common_select_box input {
@@ -1459,7 +1488,7 @@ summary.radios:before {
 }
 .common_select_box.active .section_select {
   display: block;
-}
+} */
 /* select box end */
 
 /* common alert box */
@@ -1558,6 +1587,15 @@ summary.radios:before {
 }
 
 /* common  architecture gallery start*/
+.heading_img {
+  width: 100%;
+  max-height: 1080px;
+  height: 100%;
+}
+.heading_img img {
+  width: 100%;
+  height: 100%;
+}
 .concept_summary_box {
   display: flex;
 }
@@ -1566,7 +1604,9 @@ summary.radios:before {
   width: 50%;
   border: 1px solid #eaeaea;
 }
-
+.concept_summary_box .concept_box img {
+  width: 100%;
+}
 .concept_summary_box .concept_box h3,
 .concept_summary_box .summary_box h3 {
   font-weight: 600;
@@ -1639,9 +1679,14 @@ summary.radios:before {
   border-style: solid;
   padding: 117px 110px;
   margin-bottom: 72px;
+  width: 100%;
 }
 .home_map_box .img_box {
   display: flex;
+  width: 100%;
+}
+.home_map_box .img_box img {
+  width: 50%;
 }
 .home_exterior_box h3 {
   font-weight: 700;
@@ -1704,6 +1749,10 @@ summary.radios:before {
   opacity: 50%;
   background-color: #ffffff;
 }
+.text_area_wrap {
+  width: 100%;
+  height: 212px;
+}
 .text_area_wrap textarea {
   resize: none;
   background-color: #f6f6f6;
@@ -1714,8 +1763,8 @@ summary.radios:before {
   letter-spacing: 0.5px;
   color: #000000;
   padding: 22px 8px;
-  width: 646px;
-  height: 215px;
+  width: 100%;
+  height: 100%;
 }
 .consult_housing {
   border-top: 1px solid #eaeaea;

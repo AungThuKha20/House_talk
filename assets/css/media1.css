@@ -13,7 +13,7 @@
   /* .constructconsult_form
     .common_constructconsult_form
     .common_sub_table
-    .common_sub_table_th {
+    th{
     min-width: 120px;
   } */
   .constructconsult_form .input_box3 {
@@ -77,42 +77,44 @@
     font-size: 18px;
     margin-bottom: 30px;
   }
-  /* .constructconsult_form .common_sub_table .select_box3 .section_select {
-    width: 100%;
-    font-size: 13px;
+  .appforguidebook_form .btn {
+    height: 45px;
   }
-  .constructconsult_form .common_sub_table .select_box3.on3 input,
-  .constructconsult_form .common_sub_table .select_box3.on4 input,
-  .constructconsult_form .common_sub_table .select_box3.on5 input {
-    height: 40px;
-  }
-  .constructconsult_form .common_sub_table .select_box input,
-  .constructconsult_form .common_sub_table .select_box3 input,
-  .constructconsult_form
-    .common_sub_table
-    .common_select_box.select_box
-    .section_select,
-  .constructconsult_form .common_input {
-    width: 100%;
-    font-size: 13px;
-  }
-  .constructconsult_form
-    .common_sub_table
-    .common_select_box.select_box2
-    input {
-    width: 100%;
-    margin-left: 2px;
-  } */
-
-  .custom-select.custom_select1 {
+  details.custom-select.custom_select1 {
     width: 100%;
 
     border: 1px solid #dedede;
   }
-
+  details.custom-select.custom_select2 {
+    width: 33%;
+  }
+  details[open] summary:before {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  summary.radios.radio_width {
+    width: 100%;
+  }
   .custom-select {
     width: 33.33%;
     border: 1px solid #dedede;
+  }
+  .custom-select ul.list {
+    font-size: 19px;
+    width: 100%;
+  }
+  .custom-select input[type="radio"]:after {
+    font-size: 18px;
+    position: absolute;
+    top: 10%;
+    line-height: 30px;
+    vertical-align: middle;
   }
   summary {
     background: var(--bs-white);
@@ -125,6 +127,7 @@
   details {
     margin-right: 0px;
   }
+
   .custom-select .constructconsult_form .common_sub_table .select_box3_cont,
   .constructconsult_form .common_sub_table .select_box3_cont1,
   .constructconsult_form .common_sub_table .select_box3_cont2 {
@@ -177,14 +180,12 @@
   .constructconsult.constructconsult_form .common_constructconsult_table_th {
     padding-bottom: 30px;
   }
-  .constructconsult .common_sub_table th {
-    width: 20%;
-  }
   .constructconsult.constructconsult_form .guide_cont {
     margin-top: 0px;
   }
 
   /* form responsive */
+  
   .constructconsult_form .common_constructconsult_table_th {
     display: block;
     padding: 50px 0px 0px 0px;
@@ -285,6 +286,7 @@
     display: flex;
     width: 100%;
     gap: 6px;
+    margin-bottom: 20px;
   }
   .appforas_list .form_date {
     width: 100%;
@@ -308,6 +310,10 @@
   }
   .constructconsult_form .construct_td {
     padding: 0;
+  }
+  /* guide book form */
+  .appforguidebook_form .common_guide_book {
+    border-top: none;
   }
 }
 @media screen and (max-width: 1000.98px) {
@@ -352,6 +358,17 @@
   /* constructconsult end */
 }
 @media screen and (max-width: 767.98px) {
+  .constructconsult_form .constructconsult_form_title .guidebook_title {
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 10px;
+    height: auto;
+    width: 50%;
+  }
+  .constructconsult_form.appforguidebook_form .constructconsult_form_title h4 {
+    margin-bottom: 10px;
+  }
+
   /* common_filter */
   .common_filter .common_filter_box li a {
     font-size: 14px;
@@ -512,8 +529,39 @@
   .constructconsult .common_constructconsult_form.mobile_hidden_m {
     display: none;
   }
+
+  /* showroom */
+  .sub_custom_title {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .showroom_form h5 {
+    margin-bottom: 36px;
+  }
 }
 @media screen and (max-width: 575.98px) {
+  /* showroom */
+  .showroom_form .showroom_img3 {
+    height: 250px;
+  }
+  .showroom_text {
+    margin: 32px 0 26px 0;
+    padding: 0 5px;
+  }
+  .showroom_text_right,
+  .showroom_text_left {
+    font-size: 15px;
+  }
+  .showroom_form .icon img {
+    width: 16px;
+    height: 16px;
+    top: -180%;
+  }
+  .showroom_form .icon {
+    width: 25px;
+    height: 25px;
+  }
+  /* showroom */
   .common_filter .common_filter_box li {
     width: 33%;
   }
@@ -635,6 +683,13 @@
   .constructconsult .view_form_btn a {
     padding: 3px 65px;
     font-size: 13px;
+  }
+
+  /* constructconsult */
+  /* select box */
+  .custom-select ul.list {
+    font-size: 13px;
+    padding-left: 8px;
   }
 
   /* form responsive */

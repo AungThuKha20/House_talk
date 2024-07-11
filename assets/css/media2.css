@@ -6,9 +6,48 @@
 -------------------------------------------------------------------*/
 
 @media screen and (max-width: 1663.98px) {
+  .exterior_swiper_box .swiper-button-prev {
+    left: 50px;
+  }
+  .exterior_swiper_box .swiper-button-next {
+    right: 50px;
+  }
+  .consult_housing .w-314 {
+    width: 280px !important;
+  }
 }
-
+@media screen and (max-width: 1480px) {
+  .product_range_box {
+    flex-wrap: wrap;
+  }
+  .product_range_box .text_blue {
+    width: 15%;
+  }
+  .product_range_box .date_box {
+    width: 30%;
+    text-align: center;
+  }
+  .product_range_box input[type="range"] {
+    width: 80%;
+  }
+  .product_range_box .text {
+    width: 10%;
+    text-align: left;
+  }
+}
 @media screen and (max-width: 1470.98px) {
+  .text_area_wrap {
+    height: 180px;
+  }
+  .text_area_wrap textarea {
+    font-size: 20px !important;
+  }
+  .exterior_swiper_box .swiper-button-prev {
+    left: 30px;
+  }
+  .exterior_swiper_box .swiper-button-next {
+    right: 30px;
+  }
   .news_img_box {
     padding: 64px 0px;
     gap: 20px;
@@ -39,9 +78,38 @@
     display: flex;
     justify-content: center;
   }
+  .summary_content_box {
+    gap: 20px;
+    padding-left: 32px;
+  }
+  .summary_content_box .content {
+    padding: 32px 0px;
+  }
 }
 
 @media screen and (max-width: 1300.98px) {
+  .consult_housing {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .consult_housing .w-314 {
+    width: 230px !important;
+  }
+  .text_area_wrap textarea {
+    font-size: 16px !important;
+  }
+  .list_btn_cont {
+    margin-bottom: 30px;
+  }
+  .consult_housing .conseling_inn .conseling_form .form-input {
+    gap: 10px;
+  }
+  .exterior_swiper_box .swiper-button-prev {
+    left: 20px;
+  }
+  .exterior_swiper_box .swiper-button-next {
+    right: 20px;
+  }
   .product_cont_box {
     gap: 20px;
   }
@@ -73,8 +141,20 @@
   .search_img_box_cont .img_mobile_hidden_2 {
     display: none !important;
   }
+  .summary_content_box {
+    gap: 10px;
+  }
+  .summary_content_box .content .content_sub_box {
+    gap: 10px;
+  }
+  .home_map_box {
+    padding: 50px;
+  }
 }
 @media screen and (max-width: 1167.98px) {
+  .consult_housing .w-314 {
+    width: 200px !important;
+  }
   .product_cont_box .area_box h2 {
     font-size: 22px;
   }
@@ -82,8 +162,52 @@
   .product_cont_box .area_box .p_box p {
     font-size: 16px;
   }
+  .summary_content_box .content p {
+    font-size: 16px;
+  }
+  .concept_summary_box .concept_box p {
+    font-size: 16px;
+  }
+  .summary_content_box {
+    padding-left: 20px;
+  }
+  .concept_summary_box .concept_box h3,
+  .concept_summary_box .summary_box h3 {
+    padding: 29px 0px 29px 20px;
+  }
+  .concept_summary_box .concept_box p {
+    padding: 32px 32px 119px 20px;
+  }
+}
+@media screen and (max-width: 1063px) {
+  .consult_housing .w-314 {
+    width: 180px !important;
+  }
+  .consult_housing .conseling_inn .conseling_form {
+    padding: 31.5px 10px;
+  }
 }
 @media screen and (max-width: 1000.98px) {
+  .consult_housing .w-314 {
+    width: 250px !important;
+  }
+  .home_map_box .img_box {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home_map_box .img_box img {
+    width: 100%;
+}
+  .exterior_swiper_box .swiper-button-prev {
+    display: none;
+  }
+  .exterior_swiper_box .swiper-button-next {
+    display: none;
+  }
+  .home_exterior_box h3,
+  .home_interior_box h3 {
+    font-size: 50px;
+  }
   .news_img_box {
     gap: 0px;
   }
@@ -142,9 +266,76 @@
   .home_img_box_hidden1 {
     display: none !important;
   }
+  .detail_text_box h3 {
+    font-size: 50px;
+  }
+  .detail_text_box p {
+    font-size: 20px;
+  }
+  .concept_summary_box .concept_box h3,
+  .concept_summary_box .summary_box h3 {
+    font-size: 22px;
+  }
+  .concept_summary_box .concept_box p {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    padding: 32px 32px 32px 20px;
+  }
+  .summary_content_box .content {
+    width: 100%;
+  }
+  .summary_content_box .content p {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+  }
+  .concept_summary_box {
+    flex-direction: column;
+  }
+  .concept_summary_box .concept_box {
+    width: 100%;
+  }
+  .concept_summary_box .summary_box {
+    width: 100%;
+    border-width: 0px 1px 1px 1px;
+    border-color: #eaeaea;
+    border-style: solid;
+  }
+  .summary_content_box {
+    flex-direction: row;
+    padding: 32px 20px;
+    gap: 45px;
+  }
+  .sub_page_title {
+    padding: 0px;
+  }
+  .summary_img_box {
+    margin: 0px 20px;
+  }
+  .scene_live_detail .summary_content_box {
+    flex-direction: row;
+    padding: 10px 20px;
+    gap: 45px;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
+  .heading_img img {
+    height: 500px;
+  }
+  .consult_housing .w-314 {
+    width: 200px !important;
+  }
+  .floor_plan_box p {
+    font-size: 20px;
+  }
+  .home_map_box {
+    padding: 30px;
+  }
+  .home_exterior_box h3,
+  .home_interior_box h3 {
+    font-size: 40px;
+    margin: 32px 0px;
+  }
   .news_img_box .news_text_box_cont .all_texts span {
     font-size: 14px;
   }
@@ -201,29 +392,88 @@
   }
 
   .sub_page_title {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     margin-top: 97px;
+    margin-bottom: 50px;
     font-size: 30px;
   }
   .sub_page_title p {
-    font-size: 25px;
-}
+    font-size: 20px;
+    padding-top: 10px;
+  }
   .product_cont_box .home_img_box img {
     height: 250px;
   }
   .product_cont_box .area_box h2 {
     font-size: 16px;
-}
-.product_cont_box .area_box .p_box p {
-  font-size: 14px;
-}
-.construction_example_list .common_filter .common_filter_box {
-  margin-top: 0px;
-}
+  }
+  .product_cont_box .area_box .p_box p {
+    font-size: 14px;
+  }
+  .summary_content_box .content {
+    padding: 0px;
+  }
+  .detail_text_box h3 {
+    font-size: 40px;
+  }
+  .detail_text_box p {
+    font-size: 18px;
+  }
+  .concept_summary_box .concept_box h3,
+  .concept_summary_box .summary_box h3 {
+    font-size: 20px;
+  }
+  .concept_summary_box .concept_box p {
+    font-size: 16px;
+  }
+  .summary_content_box .content p {
+    font-size: 16px;
+  }
+  .mobile_filter_box {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .mobile_width .common_search input {
+    width: 186px !important;
+    text-align: center;
+  }
+  .product_range_box .text_blue {
+    font-size: 14px;
+    width: 20%;
+  }
+  .product_range_box .date_box {
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .product_range_box input[type="range"] {
+    width: 80%;
+  }
+  .product_range_box .text {
+    width: 10%;
+    text-align: left;
+    font-size: 14px;
+  }
+  .scene_live_list .product_cont_box .area_box {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 575.98px) {
+  .heading_img img {
+    height: 400px;
+  }
+  .floor_plan_box p {
+    font-size: 16px;
+  }
+  .home_map_box {
+    padding: 20px;
+  }
+  .home_exterior_box h3,
+  .home_interior_box h3 {
+    font-size: 35px;
+  }
   .news_img_box {
     flex-wrap: wrap;
     justify-content: center;
@@ -263,9 +513,10 @@
 
   .sub_page_title {
     font-size: 30px;
+    margin-bottom: 0px;
   }
   .sub_page_title p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .search_img_box_cont .search_img_box img {
     height: 200px;
@@ -305,9 +556,6 @@
   .sub_menu_title_cont {
     margin-bottom: 60px;
   }
-  .construction_example_list .common_filter .common_filter_box {
-    margin-top: 0px;
-  }
   .sort_down .sort_down_text {
     font-size: 14px;
   }
@@ -317,24 +565,102 @@
   .product_cont_box .home_img_box img {
     height: 200px;
   }
+  .product_cont_box .area_box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .product_cont_box .p_box {
+    justify-content: center;
+    text-align: center;
+  }
   .product_cont_box .area_box h2 {
     font-size: 14px;
-}
-.product_cont_box .area_box .p_box p {
-  font-size: 12px;
-}
-.product_cont_box{
-  margin-bottom: 30px;
-}
-}
-
-@media screen and (max-width: 483px) {
+  }
+  .product_cont_box .area_box .p_box p {
+    font-size: 12px;
+  }
+  .product_cont_box {
+    margin-bottom: 30px;
+  }
+  .detail_text_box {
+    margin: 30px 0px;
+  }
+  .detail_text_box h3 {
+    font-size: 35px;
+  }
+  .detail_text_box p {
+    font-size: 16px;
+  }
+  .concept_summary_box .concept_box h3,
+  .concept_summary_box .summary_box h3 {
+    font-size: 18px;
+  }
+  .concept_summary_box .concept_box p {
+    font-size: 14px;
+  }
+  .summary_content_box {
+    gap: 20px;
+  }
+  .summary_content_box .content p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .list_btn {
+    width: 120px;
+    height: 46px;
+    padding: 11px;
+  }
+  .list_btn a {
+    font-size: 16px;
+  }
   .pagination_box {
     gap: 10px;
     margin: 50px 0px;
   }
   .pagination_box .text_box {
     gap: 30px;
+  }
+  .construction_example_list .product_cont {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .design_list .product_cont {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .mobile_filter_box .common_search input {
+    width: 300px;
+    text-align: center;
+    padding-right: 30px;
+  }
+  .mobile_filter_box li {
+    width: 100px !important;
+  }
+  .mobile_width .common_search input {
+    width: 186px !important;
+    text-align: center;
+  }
+  .consult_housing .conseling_inn {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 483px) {
+  .text_area_wrap textarea {
+    font-size: 14px !important;
+  }
+  .heading_img img {
+    height: 300px;
+  }
+  .consult_housing .w-314 {
+    width: 150px !important;
+  }
+  .home_map_box {
+    padding: 10px;
+  }
+  .home_exterior_box h3,
+  .home_interior_box h3 {
+    font-size: 30px;
   }
   .product_cont_box .home_img_box img {
     height: 300px;
@@ -377,13 +703,71 @@
   .product_cont_box .home_img_box img {
     height: 150px;
   }
-  .product_cont_box .area_box {
-   flex-direction: column;
-   text-align: center;
+  .detail_text_box h3 {
+    font-size: 30px;
+  }
+  .detail_text_box p {
+    font-size: 14px;
+  }
+  .summary_content_box {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  .concept_summary_box .concept_box h3,
+  .concept_summary_box .summary_box h3 {
+    font-size: 16px;
+    padding: 20px 0px 20px 20px;
+  }
+  .concept_summary_box .concept_box p {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .summary_content_box .content p {
+    font-size: 14px;
+  }
+  .summary_content_box .content .content_sub_box {
+    gap: 6px;
+  }
+  .floor_plan_box {
+    padding-left: 20px;
+  }
+  .list_btn {
+    width: 100px;
+    height: 35px;
+    padding: 4px;
+  }
+  .list_btn a {
+    font-size: 14px;
+  }
+  .mobile_filter_box .common_search input {
+    width: 250px;
+    text-align: center;
+    padding-right: 30px;
+  }
+  .mobile_filter_box li {
+    width: 82px !important;
+  }
+  .pagination_box .text_box {
+    gap: 15px;
+  }
+  .pagination_box .img_box {
+    padding: 4px 8px;
+    border-radius: 80px;
+  }
+  .product_range_box .text_blue {
+    width: 30%;
+  }
+  .product_range_box .date_box {
+    width: 60%;
+  }
 }
-.product_cont_box .p_box{
-  justify-content: center;
-  text-align: center;
-}
-
+@media screen and (max-width: 365px) {
+  .consult_housing .w-314 {
+    width: 100px !important;
+    font-size: 12px !important;
+  }
+  .text_area_wrap textarea {
+    font-size: 12px !important;
+  }
 }
