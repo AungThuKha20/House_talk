@@ -673,20 +673,25 @@ input[type="checkbox" i]:checked::before {
   /* letter-spacing: 1px; */
 }
 .view_form_btn_cont {
+ 
+  margin: 72px 0px 130px 0px;
+}
+.view_form_btn{
   display: flex;
+  width: 100%;
   justify-content: center;
   gap: 12px;
-  margin: 72px 0px 130px 0px;
 }
 .view_form_btn a {
   width: 210px;
   height: 56px;
-  padding: 19px 78px;
+  padding: 19px 0;
   border: 1px solid #747474;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19.09px;
+  line-height: 19px;
+  vertical-align: middle;
   color: #747474;
 }
 .view_form_btn .apply_btn {
@@ -1289,6 +1294,7 @@ summary {
 summary:after {
   position: relative;
   top: -10%;
+  left: -5%;
 }
 summary::-webkit-details-marker {
   display: none;
@@ -1559,8 +1565,7 @@ summary.radios:before {
 .common_guide_book {
   display: flex;
   gap: 62px;
-  border: 1px solid #dee2e6;
-  border-width: 1px 0px;
+  border-bottom: 1px solid #dee2e6;
   width: 100%;
   padding: 56px 0px 40px 0px;
 }
