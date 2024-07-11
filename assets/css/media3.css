@@ -547,6 +547,9 @@
     font-size: 22px;
     padding: 22px 0px 42px 0px;
   }
+  .community_interior_tips .search_img_box_cont {
+    margin-bottom: 52px;
+  }
 }
 @media screen and (max-width: 575.98px) {
   .conseling_inn .conseling_form {
@@ -725,6 +728,12 @@
   }
   .sub_page_title p {
     letter-spacing: -0.1px;
+  }
+  .common_search a {
+    margin-bottom: 10px !important;
+  }
+  .community_interior_tips .search_img_box_cont {
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 483px) {

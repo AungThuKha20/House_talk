@@ -854,6 +854,7 @@ input[type="checkbox" i]:checked::before {
 }
 .news_img_box .img_box {
   height: 344px;
+  width: 566px;
 }
 .news_img_box .img_box img {
   width: 100%;
@@ -1036,25 +1037,6 @@ input[type="checkbox" i]:checked::before {
   border-width: 0px 1px 1px 1px;
   border-style: solid;
   border-color: #111;
-}
-.common_search {
-  float: right;
-}
-.common_search input {
-  width: 226px;
-  height: 36px;
-  font-size: 14px;
-  border: none;
-  padding-right: 40px;
-  padding-left: 45px;
-  border-bottom: 1px solid #000;
-}
-.common_search img {
-  position: relative;
-  top: 13%;
-  width: 19px;
-  height: 19px;
-  right: 9%;
 }
 
 /* common filter end */
@@ -1260,23 +1242,30 @@ input[type="checkbox" i]:checked::before {
 
 /* common_search */
 .common_search {
-  float: right;
+  /* float: right; */
+  display:flex;
+  height: 35px;
+  align-items: center;
 }
 .common_search input {
-  width: 226px;
-  height: 36px;
+  width: 191px;
+  height: 35px;
   font-size: 14px;
   border: none;
-  padding-right: 40px;
   padding-left: 45px;
   border-bottom: 1px solid #000;
 }
+.common_search a {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--bs-black) !important;
+}
 .common_search img {
-  position: relative;
-  top: 13%;
   width: 19px;
   height: 19px;
-  right: 9%;
 }
 /* common_search end */
 
