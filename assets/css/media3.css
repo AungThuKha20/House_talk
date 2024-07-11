@@ -550,6 +550,9 @@
   .community_interior_tips .search_img_box_cont {
     margin-bottom: 52px;
   }
+  .common_search {
+    display: none !important;
+  }
 }
 @media screen and (max-width: 575.98px) {
   .conseling_inn .conseling_form {
