@@ -111,18 +111,8 @@
   height: 21px;
   margin-bottom: 2px;
 }
-.houesetalknews_list .search_btn .common_search,
-.community_story_list .search_btn .common_search,
-.community_interior_tips .search_btn .common_search
-{
-  height: 36px !important;
-}
-.houesetalknews_list .search_btn .common_search input,
-.community_story_list .search_btn .common_search input
-.community_interior_tips .search_btn .common_search .input
-{
-  padding-right: 45px !important;
-}
+
+
 
 .pagination {
   user-select: none;
@@ -234,7 +224,7 @@
   border-bottom: 1px solid #d9d9d9;
 }
 /* community_story_view end */
-
+/* .community_interior_tips start */
 .community_interior_tips .search_text_box {
   flex-direction: column;
   align-items: start !important;
@@ -246,6 +236,10 @@
   width: 100%;
 }
 .community_interior_tips .search_img_box_cont .search_img_box img {
-  /* width: 336px; */
   height:333px;
 }
+.community_interior_tips .search_img_box_cont {
+  margin-bottom: 72px;
+}
+
+/* .community_interior_tips end */
