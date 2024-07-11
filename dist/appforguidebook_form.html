@@ -262,13 +262,27 @@
   </div>
 </div>
  -->
-    <div class="container constructconsult_form">
+    <div class="container constructconsult_form appforguidebook_form">
       <div class="constructconsult_form_title">
-        <h1>건축상담</h1>
-        <h4>건축에 관한 궁금증, 품질 no.1 하우스톡에 문의하세요.</h4>
+        <h1 class="guidebook_title">가이드북 신청</h1>
+        <h4>
+          하우스톡의 다양한 주택 디자인과 건축 노하우가 담긴 가이드북 vol.12
+        </h4>
       </div>
 
       <hr />
+
+      <div class="common_guide_book">
+        <img src="/assets/imgs/icons/guide.png" alt="" />
+        <ul>
+          <li>가이드북 : 무료</li>
+          <li>배송료 : 2,900원(착불, 제주 및 도서산간지역 비용 추가)</li>
+          <li>배송일 : 매주 목요일 일괄 발송</li>
+          <li>수령일 : 배송일로부터 2 ~ 3일</li>
+          <li>빠른 수령을 위해 주소와 연락처를 정확히 입력해 주세요.</li>
+          <li>베송일은 택배사의 사정에 따라 변동될 수 있습니다.</li>
+        </ul>
+      </div>
       <div class="common_constructconsult_form">
         <table class="common_constructconsult_form_table" width="100%">
           <tbody>
@@ -289,61 +303,13 @@
                           width="20%"
                           style="vertical-align: top"
                         >
-                          *문의종류
+                          *이름
                         </th>
                         <td style="vertical-align: top">
-                          <details class="custom-select custom_select1">
-                            <summary class="radios radio_width">
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="선택"
-                                placeholder="선택"
-                                checked
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1"
-                                title="건축상담 신청"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2"
-                                title="오픈하우스 방문 신청"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3"
-                                title="건축박람회 티켓 신청"
-                              />
-                            </summary>
-                            <ul class="list">
-                              <li>
-                                <label for="item1">
-                                  건축상담 신청
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2">오픈하우스 방문 신청</label>
-                              </li>
-                              <li>
-                                <label for="item3">건축박람회 티켓 신청</label>
-                              </li>
-                            </ul>
-                          </details>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="vertical-align: top">*이름</th>
-                        <td>
                           <input type="text" class="common_input input_box11" />
                         </td>
                       </tr>
+
                       <tr>
                         <th style="vertical-align: top">*연락처</th>
                         <td class="construct_td">
@@ -405,45 +371,33 @@
                         </td>
                       </tr>
                       <tr>
+                        <th>*주소</th>
+                        <td class="construct_td">
+                          <button class="btn"><a href="#">우편번호 검색</a></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <td style="vertical-align: top" class="last_td">
+                          <input type="text" class="input_box common_input" />
+                          <input type="text" class="common_input input_gap" />
+                          <input type="text" class="input_box common_input" />
+                        </td>
+                      </tr>
+                      <tr>
                         <th>*이메일</th>
                         <td class="construct_td">
-                          <input type="text" class="input_box2 common_input" />
+                          <input type="text" class="input_box2 common_input">
 
                           <span>@</span>
-                          <input type="text" class="input_box3 common_input" />
+                          <input type="text" class="input_box3 common_input">
                           <details class="custom-select custom_select2">
                             <summary class="radios">
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="선택"
-                                checked
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-2"
-                                title="naver.com"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-2"
-                                title="daum.net"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-2"
-                                title="gamail.com"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-2"
-                                title="kakao.com"
-                              />
+                              <input type="radio" name="item" id="default" title="선택" checked="">
+                              <input type="radio" name="item" id="item1-2" title="naver.com">
+                              <input type="radio" name="item" id="item2-2" title="daum.net">
+                              <input type="radio" name="item" id="item3-2" title="gamail.com">
+                              <input type="radio" name="item" id="item4-2" title="kakao.com">
                             </summary>
                             <ul class="list">
                               <li>
@@ -476,7 +430,7 @@
                 class="common_constructconsult_table_th"
                 style="vertical-align: top"
               >
-                건축정보 입력
+              건축 정보 입력
               </th>
               <td class="construct_td1">
                 <div class="common_sub_table">
@@ -488,7 +442,7 @@
                           width="20%"
                           style="vertical-align: top"
                         >
-                          *건축 예정지
+                        *건축 예정지
                         </th>
                         <td
                           style="vertical-align: top; margin-top: 0px"

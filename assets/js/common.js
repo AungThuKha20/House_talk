@@ -176,71 +176,69 @@ $(document).ready(function () {
   // 페이지 로드 시 첫 번째 항목 표시
   $('.main_sec_05_item[data-id="1"]').addClass("active");
 
-    var swiper = new Swiper(".mySwiper_Exterior", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+  var swiper = new Swiper(".mySwiper_Exterior", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 
-      var swiper_list = new Swiper(".mySwiper_list", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        spaceBetween: 197, 
-        speed: 300,
-        initialSlide: 3,
-        loop: true,
-        coverflowEffect: {
-          rotate: 45,
-          stretch: 0,
-          depth: 10,
-          scale:1,
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          320: {
-            spaceBetween: 50,
-          allowTouchMove:true,
-
-          },
-          480: {
-            spaceBetween: 0,
-          allowTouchMove:true,
-          speed: 500,
-          },
-          640: {
-            spaceBetween: 50,
-          allowTouchMove:true,
-          },
-          768: {
-            spaceBetween: 100,
-          allowTouchMove:true,
-          },
-          1024: {
-            spaceBetween: 150
-          },
-          1440: {
-            spaceBetween: 250,
-          },
-          1670: {
-            spaceBetween:300,
-          }
-        }
-      });
-   
+  var swiper_list = new Swiper(".mySwiper_list", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    spaceBetween: 197,
+    speed: 300,
+    initialSlide: 3,
+    loop: true,
+    coverflowEffect: {
+      rotate: 45,
+      stretch: 0,
+      depth: 10,
+      scale: 1,
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      320: {
+        spaceBetween: 50,
+        allowTouchMove: true,
+      },
+      480: {
+        spaceBetween: 0,
+        allowTouchMove: true,
+        speed: 500,
+      },
+      640: {
+        spaceBetween: 50,
+        allowTouchMove: true,
+      },
+      768: {
+        spaceBetween: 100,
+        allowTouchMove: true,
+      },
+      1024: {
+        spaceBetween: 150,
+      },
+      1440: {
+        spaceBetween: 250,
+      },
+      1670: {
+        spaceBetween: 300,
+      },
+    },
+  });
 
   // main range
   $(".vertical").each(function () {
@@ -300,10 +298,27 @@ $(document).ready(function () {
     sectionSelect5.classList.toggle("active");
     sectionSelect5.classList.toggle("on5");
   });
-
- 
 });
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
-
+function hideShow(x) {
+  if (x == 1) {
+    document.querySelector(".common_filter_item1").style.display = "block";
+    document.querySelector(".common_filter_item2").style.display = "none";
+    document.querySelector(".common_filter_item3").style.display = "none";
+  } else if (x == 2) {
+    document.querySelector(".common_filter_item2").style.display = "block";
+    document.querySelector(".common_filter_item1").style.display = "none";
+    document.querySelector(".common_filter_item3").style.display = "none";
+  } else if (x == 3) {
+    document.querySelector(".common_filter_item3").style.display = "block";
+    document.querySelector(".common_filter_item1").style.display = "none";
+    document.querySelector(".common_filter_item2").style.display = "none";
+  } else {
+    document.querySelector(".common_filter_item1").style.display = "none";
+    document.querySelector(".common_filter_item2").style.display = "none";
+    document.querySelector(".common_filter_item3").style.display = "none";
+  }
+  return;
+}

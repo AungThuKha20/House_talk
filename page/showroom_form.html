@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    <!-- ${require('./include/_subQuick_menu.html')} -->
+    <div class="container showroom_form">
+      <h4
+        class="sub_custom_title appforguidebook_list_title"
+        style="text-align: center"
+      >
+        가이드북 신청
+      </h4>
+      <h5 style="text-align: center">집짓기 필수 지침서, 하우스톡 가이드북</h5>
+      <div class="exterior_swiper_box">
+        <div class="swiper mySwiper_Exterior">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/assets/imgs/icons/home.png"></div>
+            <div class="swiper-slide"><img src="/assets/imgs/icons/home.png"></div>
+            <div class="swiper-slide"><img src="/assets/imgs/icons/home.png"></div>
+            <div class="swiper-slide"><img src="/assets/imgs/icons/home.png"></div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="showroom_img2">
+        <img src="/assets/imgs/icons/home2.png" alt="" />
+      </div>
+      <div class="showroom_img3">
+        <img src="/assets/imgs/icons/home3.png" alt="" />
+      </div>
+      <div class="showroom_text">
+        <div class="showroom_text_left">
+          <h3>예약문의 <span>1588-9704</span></h3>
+        </div>
+        <div class="showroom_text_right">
+          <h2>진주 주택전시장 예약하기</h2>
+          <div class="icon">
+            <img src="/assets/imgs/icons/arrow.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="conseling">
+        <div class="conseling_inn">
+          <div class="conseling_img_gp">
+            <img src="/assets/imgs/sub3/conseling-man.png" alt="" />
+          </div>
+          <div class="conseling_form">
+            <form action="">
+              <h2>빠른 건축상담</h2>
+              <div class="form-check">
+                <div class="checkbox_wrap">
+                  <input type="checkbox" name="check" id="consel_chk01" />
+                  <label for="consel_chk01"><span>건축상담</span></label>
+                </div>
+                <div class="checkbox_wrap">
+                  <input type="checkbox" name="check" id="consel_chk02" />
+                  <label for="consel_chk02"
+                    ><span>모델하우스 방문예약</span></label
+                  >
+                </div>
+                <div class="checkbox_wrap">
+                  <input
+                    type="checkbox"
+                    name="check"
+                    id="consel_chk03"
+                    checked=""
+                  />
+                  <label for="consel_chk03"><span>가이드북 신청</span></label>
+                </div>
+              </div>
+              <div style="width: 100%" class="form-input">
+                <div class="input_wrap">
+                  <input
+                    type="text"
+                    name=""
+                    class="custom_input w-314"
+                    placeholder="성함"
+                    value=""
+                  />
+                </div>
+                <div class="input_wrap">
+                  <input
+                    type="text"
+                    name=""
+                    class="custom_input w-314"
+                    placeholder="연락처"
+                    value=""
+                  />
+                </div>
+                <div class="input_wrap">
+                  <input
+                    type="text"
+                    name=""
+                    class="custom_input w-646"
+                    placeholder="연락처"
+                    value=""
+                  />
+                </div>
+                <div class="captcha_gp">
+                  <div class="captcha">
+                    <h3>등록 코드</h3>
+                    <img src="/assets/imgs/sub3/captcha.png" alt="" />
+                  </div>
+                </div>
+                <div style="position: relative" class="input_wrap input_wrap2">
+                  <input
+                    type="text"
+                    name=""
+                    class="custom_input w-314 custom_placeholder"
+                    placeholder="왼쪽 6자리 문자 입력"
+                    value=""
+                  />
+                  <div class="reset_btn">
+                    <img
+                      src="/assets/imgs/icons/system-uicons_reset.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="form_note">
+                  <p>*개인정보 수집 및 이용에 대한 동의 <span>동의</span></p>
+                </div>
+              </div>
+              <div class="consultation_reception">
+                <button type="" class="">상담접수</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    ${require('./include/_footer.html')}
+    <script></script>
+  </body>
+</html>

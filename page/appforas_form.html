@@ -37,7 +37,7 @@
   <body>
     ${require('./include/_header.html')}
     <!-- ${require('./include/_subQuick_menu.html')} -->
-    <div class="container appforas_list constructconsult_form">
+    <div class="container appforas_form appforas_list constructconsult_form">
       <div class="constructconsult_form_title">
         <h1>A/S 신청</h1>
         <h4>본사 A/S팀의 빠르고 정확한 사후관리를 약속합니다.</h4>
@@ -75,61 +75,61 @@
                         <th>*연락처</th>
                         <td class="construct_td">
                           <details class="custom-select custom_select1">
-                              <summary class="radios radio_width">
-                                <input
-                                  type="radio"
-                                  name="item"
-                                  id="default"
-                                  title="선택"
-                                  checked=""
-                                />
-                                <input
-                                  type="radio"
-                                  name="item"
-                                  id="item1-2"
-                                  title="naver.com"
-                                />
-                                <input
-                                  type="radio"
-                                  name="item"
-                                  id="item2-2"
-                                  title="daum.net"
-                                />
-                                <input
-                                  type="radio"
-                                  name="item"
-                                  id="item3-2"
-                                  title="gamail.com"
-                                />
-                                <input
-                                  type="radio"
-                                  name="item"
-                                  id="item4-2"
-                                  title="kakao.com"
-                                />
-                              </summary>
-                              <ul class="list">
-                                <li>
-                                  <label for="item1-2">
-                                    naver.com
-                                    <span></span>
-                                  </label>
-                                </li>
-                                <li>
-                                  <label for="item2-2">daum.net</label>
-                                </li>
-                                <li>
-                                  <label for="item3-2">gamail.com</label>
-                                </li>
-                                <li>
-                                  <label for="item4-2">kakao.com</label>
-                                </li>
-                              </ul>
-                              <span>-</span>
-                              <input type="text" class="input_box common_input" />
-                              <span>-</span>
-                              <input type="text" class="input_box common_input" />
-                            </details>
+                            <summary class="radios radio_width">
+                              <input
+                                type="radio"
+                                name="item"
+                                id="default"
+                                title="선택"
+                                checked=""
+                              />
+                              <input
+                                type="radio"
+                                name="item"
+                                id="item1-2"
+                                title="naver.com"
+                              />
+                              <input
+                                type="radio"
+                                name="item"
+                                id="item2-2"
+                                title="daum.net"
+                              />
+                              <input
+                                type="radio"
+                                name="item"
+                                id="item3-2"
+                                title="gamail.com"
+                              />
+                              <input
+                                type="radio"
+                                name="item"
+                                id="item4-2"
+                                title="kakao.com"
+                              />
+                            </summary>
+                            <ul class="list">
+                              <li>
+                                <label for="item1-2">
+                                  naver.com
+                                  <span></span>
+                                </label>
+                              </li>
+                              <li>
+                                <label for="item2-2">daum.net</label>
+                              </li>
+                              <li>
+                                <label for="item3-2">gamail.com</label>
+                              </li>
+                              <li>
+                                <label for="item4-2">kakao.com</label>
+                              </li>
+                            </ul>
+                            <span>-</span>
+                            <input type="text" class="input_box common_input" />
+                            <span>-</span>
+                            <input type="text" class="input_box common_input" />
+                          </details>
                         </td>
                       </tr>
                       <tr>
@@ -185,8 +185,12 @@
 
                       <tr>
                         <th>*제목</th>
-                        <td class="construct_td construct_td2">
-                          <input type="text" class="input_box4 common_input" />
+                        <td class="construct_td construct_td2" >
+                          <input
+                            type="text"
+                            class="input_box4 common_input"
+                            placeholder="주택 천장 빗물 누수 유지보수 요청"
+                          />
                         </td>
                       </tr>
                       <tr>
