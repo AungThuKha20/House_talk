@@ -262,14 +262,15 @@
   </div>
 </div>
  -->
-    <div class="container appforas_list constructconsult_form">
+    <div
+      class="container constructconsult constructconsult_list constructconsult_form"
+    >
       <div class="constructconsult_form_title">
-        <h1>A/S 신청</h1>
-        <h4>본사 A/S팀의 빠르고 정확한 사후관리를 약속합니다.</h4>
+        <h1>건축상담</h1>
+        <h4>건축에 관한 궁금증, 품질 no.1 하우스톡에 문의하세요.</h4>
       </div>
-
       <hr />
-      <div class="common_constructconsult_form">
+      <div class="common_constructconsult_form mobile_hidden_m">
         <table class="common_constructconsult_form_table" width="100%">
           <tbody>
             <tr class="construct_tr">
@@ -281,95 +282,31 @@
               </th>
               <td class="construct_td1">
                 <div class="common_sub_table">
-                  <table width="100%">
+                  <table>
                     <tbody>
                       <tr>
                         <th
-                          width="20%"
                           class="common_sub_table_th"
                           style="vertical-align: top"
                         >
-                          *이름
+                          문의종류
                         </th>
-                        <td style="vertical-align: top">
-                          <input type="text" class="common_input input_box11" />
-                        </td>
+                        <td style="vertical-align: top">건축상담</td>
                       </tr>
-
                       <tr>
-                        <th style="vertical-align: top">*연락처</th>
-                        <td class="construct_td">
-                          <details class="custom-select custom_select2">
-                            <summary class="radios">
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="010"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-1"
-                                title="010"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-1"
-                                title="011"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-1"
-                                title="012"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-1"
-                                title="013"
-                              />
-                            </summary>
-                            <ul class="list">
-                              <li>
-                                <label for="item1-1">
-                                  010
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2-1">011</label>
-                              </li>
-                              <li>
-                                <label for="item3-1">012</label>
-                              </li>
-                              <li>
-                                <label for="item4-1">013</label>
-                              </li>
-                            </ul>
-                          </details>
-                          <span>-</span>
-                          <input type="text" class="input_box common_input" />
-                          <span>-</span>
-                          <input type="text" class="input_box common_input" />
+                        <th style="vertical-align: top">연락처</th>
+                        <td>010 - 1234 - 5678</td>
+                      </tr>
+                      <tr>
+                        <th>이메일</th>
+                        <td style="padding-bottom: 0px; height: 93px">
+                          example123@naver.com
                         </td>
                       </tr>
                       <tr>
-                        <th>*현장주소</th>
-                        <td class="construct_td">
-                          <button class="btn">
-                            <a href="#">우편번호 검색</a>
-                          </button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th></th>
-                        <td style="vertical-align: top" class="last_td">
-                          <input type="text" class="input_box common_input" />
-                          <input type="text" class="common_input input_gap" />
-                          <input type="text" class="input_box common_input" />
+                        <th>이메일</th>
+                        <td style="padding-bottom: 0px">
+                          example123@naver.com
                         </td>
                       </tr>
                     </tbody>
@@ -383,104 +320,60 @@
                 class="common_constructconsult_table_th"
                 style="vertical-align: top"
               >
-                상담자 정보 입력
+                건축정보 입력
               </th>
-              <td class="construct_td1">
+              <td class="construct_tr2_td">
                 <div class="common_sub_table">
                   <table width="100%">
                     <tbody>
                       <tr>
                         <th
                           class="common_sub_table_th"
-                          width="20%"
                           style="vertical-align: top"
                         >
-                          *현장소장
+                          건축 예정지
                         </th>
-                        <td
-                          style="vertical-align: top; margin-top: 0px"
-                          class="construct_td"
-                        >
-                          <input type="text" class="common_input input_boxs" />
+                        <td style="vertical-align: top; margin-top: 0px">
+                          수도권/경기권
                         </td>
                       </tr>
                       <tr>
-                        <th>*완공날짜</th>
-                        <td class="construct_td">
-                          <input type="date" name="" id="" class="form_date" />
-                        </td>
+                        <th>건축 시기</th>
+                        <td>2년 이내</td>
+                      </tr>
+                      <tr>
+                        <th>예상평수</th>
+                        <td>기타</td>
                       </tr>
 
                       <tr>
-                        <th>*제목</th>
-                        <td class="construct_td construct_td2">
-                          <input type="text" class="input_box5 common_input" />
-                        </td>
+                        <th>제목</th>
+                        <td>부지 140평 30평대 건축문의</td>
                       </tr>
                       <tr>
-                        <th style="vertical-align: top">*세부내용</th>
-                        <td class="construct_td construct_td2">
-                        <textarea name="" id="" class="scroll_box"></textarea>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>첨부파일</th>
-                        <td class="construct_td construct_td_btn">
-                          <button><a href="#">파일 선택</a></button>
-                          <h3 style="vertical-align: middle">
-                            선택된 파일 없음
-                          </h3>
-                        </td>
-                        <td class="construct_td construct_td_btn">
-                          <button><a href="#">파일 선택</a></button>
-                          <h3 style="vertical-align: middle">
-                            선택된 파일 없음
-                          </h3>
-                        </td>
-                        <td class="construct_td construct_td_btn">
-                          <button><a href="#">파일 선택</a></button>
-                          <h3 style="vertical-align: middle">
-                            선택된 파일 없음
-                          </h3>
-                        </td>
-                        <td class="construct_td construct_td_btn">
-                          <button><a href="#">파일 선택</a></button>
-                          <h3 style="vertical-align: middle">
-                            선택된 파일 없음
-                          </h3>
-                        </td>
-                        <td class="construct_td construct_td_btn">
-                          <button><a href="#">파일 선택</a></button>
-                          <h3 style="vertical-align: middle">
-                            선택된 파일 없음
-                          </h3>
-                        </td>
-                        <td class="construct_td construct_td_btn">
-                          <button><a href="#">파일 선택</a></button>
-                          <h3 style="vertical-align: middle">
-                            선택된 파일 없음
-                          </h3>
-                        </td>
-                        <td class="construct_td construct_td_btn">
-                          <button><a href="#">파일 선택</a></button>
-                          <h3 style="vertical-align: middle">
-                            선택된 파일 없음
-                          </h3>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th style="vertical-align: top">*비밀번호</th>
+                        <th>세부내용</th>
                         <td>
-                          <input
-                            type="text"
-                            class="common_input common_input1"
-                          />
+                          <ul>
+                            <li>자연환경을 살린 디자인</li>
+                            <li>탄력적인 예산 계획과 효율적인 원가 관리</li>
+                            <li>최신 기술과 친환경 자재 사용</li>
+                            <li>실용적이고 아늑한 실내디자인</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th></th>
+                        <td>
+                          위의 내용을 토대로 건축 견적서 요청 드립니다.
+                          <br />
+                          현재 다양한 건축사들 좀 알아보고 있는 중이니 빠른시일
+                          내로 부탁드립니다.
                         </td>
                       </tr>
                       <tr align="left">
-                        <th></th>
-                        <td class="construct_td_img">
-                          <img src="/assets/imgs/icons/Frame_5417.png" alt="" />
+                        <th>첨부파일</th>
+                        <td class="construct_td_bold">
+                          <a href="#">[다운로드]</a>
                         </td>
                       </tr>
                     </tbody>
@@ -488,62 +381,83 @@
                 </div>
               </td>
             </tr>
-            <!-- tr3 -->
-            <tr class="construct_tr3 construct_tr">
-              <table width="100%">
-                <tbody>
-                  <tr>
-                    <th class="common_constructconsult_table_th" rowspan="3">
-                      개인정보 수집 및 <br />
-                      이용동의
-                    </th>
-                    <td class="construct_td_text">
-                      <p class="construct_td_text_cont">
-                        ㈜하우스톡 종합건걸 (이하'회사’는)은 이용자의 개인정보를
-                        매우 소중하게 생각하고 있으며, ‘개인정보보호법',
-                        ‘정보통신망 이용촉진 및 정보보호에 관한 법률' 등
-                        관련법령을 <br />
-                        준수하고 있습니다. 회사가 이용자의 개인정보를 수집
-                        ・이용하고자 하는 경우에는 위 법령에 따라 이용자의
-                        동의를 얻어야 하는바, 귀하께서는 아래의 사항을 자세히
-                        읽어보시
-                        <br />
-                        고 모든 내용을 이해하신 후에 개인정보의 수집 및 이용에
-                        대한 동의 여부를 선택해 주시기 바랍니다.
-                        <br />
-                        <br />
-                        <br />
-                        수집・이용의 목적 <br />
-                        회사는 다음과 같은 목적을 위해 이용자의 개인정보를
-                        수집합니다.
-                      </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <div class="construct_td_text1">
-                        <p class="construct_td_text1_cont1">
-                          개인정보 수집 및 이용동의를 자세히 읽어 보신 후 동의해
-                          주시기 바랍니다.
-                        </p>
-                        <div style="margin-top: 21px">
-                          <input type="checkbox" name="" id="" />
-                          <span class="construct_td_text1_cont1_span"
-                            >동의</span
-                          >
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </tr>
           </tbody>
         </table>
         <div class="view_form_btn_cont construct_form_btn">
           <div class="view_form_btn">
-            <a href="" class="to_list_btn">목록으로</a>
-            <a href="" class="apply_btn">신청하기</a>
+            <a href="/dist/constructconsult_list.html" class="to_list_btn"
+              >목록으로</a
+            >
+            <a href="/dist/constructconsult_form.html" class="apply_btn"
+              >신청하기</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="common_constructconsult_form pc_hidden_p">
+        <h2 class="constructconsult_table_th" style="vertical-align: top">
+          상담자 정보 입력
+        </h2>
+        <!-- form_text1 -->
+        <div class="form_text form_text1">
+          <div class="form_text_left">
+            <h4>이름</h4>
+            <h4>연락처</h4>
+            <h4>주소</h4>
+            <h4>이메일</h4>
+          </div>
+          <div class="form_text_right">
+            <h4>홍길동</h4>
+            <h4>010 - 1234 - 5678</h4>
+            <h4>
+              06225 <br />
+              서울 강남구 역삼로 37길 11 <br />
+              혜원빌딩 5층 501호
+            </h4>
+            <h4>example123@naver.com</h4>
+          </div>
+        </div>
+        <hr />
+        <!-- form text2 -->
+        <h2 class="constructconsult_table_th" style="vertical-align: top">
+          건축정보 입력
+        </h2>
+        <div class="form_text form_text2">
+          <div class="form_text_left">
+            <h4>건축 예정지</h4>
+            <h4>건축 시기</h4>
+            <h4>예상평수</h4>
+            <h4>제목</h4>
+            <h4>세부내용</h4>
+          </div>
+          <div class="form_text_right">
+            <h4>수도권/경기권</h4>
+            <h4>2년 이내</h4>
+            <h4>기타</h4>
+            <h4>가이드북 신청</h4>
+            <ul>
+              <li>가이드북 : 무료</li>
+              <li>배송료 : 2,900원(착불, 제주 및 도서산간지역 비용 추가)</li>
+              <li>배송일 : 매주 목요일 일괄 발송</li>
+              <li>수령일 : 배송일로부터 2 ~ 3일</li>
+              <li>빠른 수령을 위해 주소와 연락처를 정확히 입력해 주세요.</li>
+              <li>베송일은 택배사의 사정에 따라 변동될 수 있습니다.</li>
+            </ul>
+            <br />
+            위의 내용을 토대로 건축 견적서 요청 드립니다. <br />
+            현재 다양한 건축사들 좀 알아보고 있는 중이니 빠른시일 내로
+            부탁드립니다.
+          </div>
+        </div>
+        <hr />
+
+        <div class="view_form_btn_cont construct_form_btn">
+          <div class="view_form_btn">
+            <a href="/dist/constructconsult_list.html" class="to_list_btn"
+              >목록으로</a
+            >
+            <a href="#" class="apply_btn">신청하기</a>
           </div>
         </div>
       </div>
