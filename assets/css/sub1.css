@@ -19,10 +19,19 @@
   font-weight: 700;
   color: var(--bs-black);
 }
+/* .appforvisit_detail.constructconsult_form .construct_table_th {
+  min-width: 100px;
+
+} */
+.constructconsult_form .common_input.input_box5 {
+  width: 100%;
+  border: 1px solid #dedede;
+  background: var(--bs-white);
+}
 .constructconsult_form .constructconsult_form_title h4,
 .constructconsult .constructconsult_form_title h4 {
   font-size: 24px;
-  margin-top: 94px;
+  margin-top: 100px;
   margin-bottom: 60px;
   font-weight: 400;
   color: var(--bs-black);
@@ -117,6 +126,7 @@
 }
 .constructconsult_form .construct_td_text1_cont1 {
   margin-top: 21px;
+  font-weight: 600;
 }
 .constructconsult_form .construct_td_text1_cont1_span {
   font-size: 16px;
@@ -482,33 +492,45 @@ details.custom-select.custom_select2 {
 /* appforvisit detail */
 .visit-time {
   display: flex;
+  padding: 0 20px;
   align-items: center;
   background-color: #f8f8f8;
-  padding: 10px;
   border-radius: 5px;
   justify-content: space-between;
-  width: 188px;
+  width: 40%;
+  height: 60px;
   font-size: 16px;
 }
-.visit-time .icon {
-  width: 20px;
-  height: 20px;
-  background-image: url("/assets/imgs/icons/Group.png");
-  background-size: cover;
-  margin-left: 10px;
-}
+
 /* appforguidebook form */
-.appforguidebook_form .btn {
+.appforguidebook_form .btn,
+.appforas_list .btn {
   width: 170px;
   height: 60px;
   border: 1px solid #3074f1;
   background: var(--bs-white);
 }
-.appforguidebook_form .btn a {
+.appforguidebook_form .btn a,
+.appforas_list .btn a {
   color: #3074f1;
 }
 ::placeholder {
   color: var(--bs-black);
   font-size: 13px;
   padding-left: 10px;
+}
+
+input[type="time"] {
+  border: none;
+  outline: none;
+  background: #f6f6f6;
+}
+input[type="time"] {
+  width: 70%;
+  display: flex;
+
+  justify-content: end;
+}
+.scroll_box {
+  padding: 20px;
 }
