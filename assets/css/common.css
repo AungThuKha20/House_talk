@@ -294,8 +294,8 @@ img {
   text-indent: -999999999px;
 }
 .all_search_input {
-  display: none;
   width: 100%;
+  max-width: 800px;
   position: absolute;
   transform: translateX(-49%);
   left: 50%;
@@ -309,6 +309,7 @@ img {
   border: 0;
   outline: none;
   border-bottom: 2px solid #000;
+  background-color: var(--bs-white);
   width: 68%;
   font-size: 18px;
   font-weight: 700;
@@ -414,7 +415,7 @@ img {
 .conseling_inn .conseling_form .form-input .form_note p span {
   width: fit-content;
   padding: 0px 7px;
-  border: 1px solid #000000;
+  border: 1px solid var(--bs-black);
   border-radius: 16px;
   height: 28px;
 }
@@ -482,10 +483,11 @@ img {
   transition:
     top 0.3s ease,
     opacity 3s ease;
-  top: -100%;
-  padding: 30px 0;
-  opacity: 0;
+    padding: 30px 0;
+    opacity: 0;
+    box-shadow: 0px 11px 34px 0px rgb(0 0 0 / 10%);
 }
+
 .mo_menu .depth1 > a span {
   display: block;
   float: left;
@@ -553,7 +555,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 94px 0px 60px 0px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid var(--bs-black);
   align-items: center;
 }
 .sub_page_header_box h2 {
@@ -650,7 +652,7 @@ img {
   line-height: 21.48px;
   letter-spacing: 0.5px;
   text-align: center;
-  color: #747474;
+  color: var(--bs-gray);
 }
 .sort_down .sort_down_img img {
   width: 20px;
@@ -688,31 +690,31 @@ img {
   width: 210px;
   height: 56px;
   padding: 19px 0;
-  border: 1px solid #747474;
+  border: 1px solid var(--bs-gray);
   text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   vertical-align: middle;
-  color: #747474;
+  color: var(--bs-gray);
 }
 .view_form_btn .apply_btn {
-  border: 1px solid #000000;
-  color: #fff;
-  background-color: #000000;
+  border: 1px solid var(--bs-black);
+  color: var(--bs-white);
+  background-color: var(--bs-black);
 }
 .serach_address_btn button {
   height: 60px;
   border: 1px solid #3074f1;
   padding: 20px 43px;
-  background-color: #fff;
+  background-color: var(--bs-white);
   color: #3074f1;
 }
 .consultation_reception button {
   height: 38px;
   padding: 7px 28px;
-  color: #fff;
-  background-color: #051e60;
+  color: var(--bs-white);
+  background-color: var(--bs-primary);
 }
 .previous_btn_cont {
   display: flex;
@@ -722,11 +724,11 @@ img {
   /* width: 160px; */
   height: 60px;
   border-radius: 60px;
-  background-color: #747474;
+  background-color: var(--bs-gray);
   padding: 20px 50px;
 }
 .previous_btn a {
-  color: #fff;
+  color: var(--bs-white);
   font-weight: 600;
   font-size: 18px;
   text-align: center;
@@ -745,7 +747,7 @@ img {
 .pagination_box .img_box {
   border: 1px solid #eaeaea;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: var(--bs-white);
   padding: 6px 12px;
 }
 .pagination_box img {
@@ -815,7 +817,7 @@ img {
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0.5px;
-  color: #000;
+  color: var(--bs-black);
 }
 .product_cont_box .area_box .p_box p:hover {
   cursor: pointer;
@@ -840,7 +842,7 @@ img {
   font-size: 32px;
   line-height: 38.19px;
   letter-spacing: -0.48px;
-  color: #000000;
+  color: var(--bs-black);
 }
 .talk_news_cont .news_header_box span {
   font-weight: 600;
@@ -929,7 +931,7 @@ img {
   font-size: 32px;
   line-height: 38.19px;
   letter-spacing: -0.48px;
-  color: #000000;
+  color: var(--bs-black);
 }
 .search_result_cont .search_header_box span {
   font-weight: 600;
@@ -971,6 +973,9 @@ img {
   cursor: pointer;
 }
 /* common_category start  */
+.common_filter{
+  margin-top: 110px;
+}
 .common_cate_gp {
   display: flex;
   width: 100%;
@@ -1080,7 +1085,7 @@ img {
   font-weight: 500;
   line-height: 28.64px;
   letter-spacing: 0.5px;
-  color: #000000;
+  color: var(--bs-black);
   text-align: left;
 }
 .custom_placeholder,
@@ -1220,7 +1225,7 @@ img {
   gap: 100px;
 }
 .footer .foot_info {
-  color: #fff;
+  color: var(--bs-white);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -1263,7 +1268,7 @@ img {
   font-size: 14px;
   border: none;
   padding-left: 45px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--bs-black);
 }
 .common_search a {
   height: 35px;
@@ -1489,7 +1494,7 @@ summary.radios:before {
   width: 130px;
 }
 .common_consulation_form table tr .common_consul_td4 a {
-  background: #051e60;
+  background: var(--bs-primary);
   color: var(--bs-white);
   padding: 7px 28px;
 }
@@ -1498,7 +1503,7 @@ summary.radios:before {
   height: 18px;
   font-size: 20px;
   margin-right: 14px;
-  color: #051e60;
+  color: var(--bs-primary);
 }
 /* common consulation form end */
 
@@ -1641,11 +1646,11 @@ summary.radios:before {
   width: 100%;
 }
 .exterior_swiper_box .swiper-button-prev {
-  color: #000000;
+  color: var(--bs-black);
   left: -100px;
 }
 .exterior_swiper_box .swiper-button-next {
-  color: #000000;
+  color: var(--bs-black);
   right: -100px;
 }
 .home_interior_box h3 {
@@ -1673,7 +1678,7 @@ summary.radios:before {
   width: 100%;
   height: 100%;
   opacity: 50%;
-  background-color: #ffffff;
+  background-color: var(--bs-white)fff;
 }
 .overlay2 {
   position: absolute;
@@ -1682,7 +1687,7 @@ summary.radios:before {
   width: 100%;
   height: 68.7%;
   opacity: 50%;
-  background-color: #ffffff;
+  background-color: var(--bs-white)fff;
 }
 .text_area_wrap {
   width: 100%;
@@ -1696,7 +1701,7 @@ summary.radios:before {
   font-weight: 500px;
   line-height: 28.64px;
   letter-spacing: 0.5px;
-  color: #000000;
+  color: var(--bs-black);
   padding: 22px 8px;
   width: 100%;
   height: 100%;
