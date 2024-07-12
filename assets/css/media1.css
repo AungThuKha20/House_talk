@@ -57,6 +57,12 @@
   .constructconsult_list .common_consulation_form table tr td {
     font-size: 16px;
   }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .construct_th1 {
+    padding-top: 10px;
+  }
   /* constructconsult_list end */
 
   /* construction form */
@@ -65,6 +71,10 @@
     font-size: 16px;
   }
 
+  .constructconsult_form .constructconsult_form_title h4,
+  .constructconsult .constructconsult_form_title h4 {
+    margin-top: 100px;
+  }
   .constructconsult_form .constructconsult_form_title h1 {
     font-size: 28px;
     margin-bottom: 30px;
@@ -131,23 +141,11 @@
   .constructconsult_form .common_sub_table .construct_td {
     font-size: 15px;
   }
-  .custom-select .constructconsult_form .common_sub_table .select_box3_cont,
-  .constructconsult_form .common_sub_table .select_box3_cont1,
-  .constructconsult_form .common_sub_table .select_box3_cont2 {
-    width: 100%;
-  }
-  .constructconsult_form .common_sub_table .select_box::after,
-  .constructconsult_form .common_sub_table .select_box3::after {
-    top: 45%;
-    left: 97%;
-  }
-
-  .constructconsult_form .select_box.active::after,
-  .constructconsult_form .common_sub_table .select_box1.active::after,
-  .constructconsult_form .common_sub_table .select_box2.active::after,
-  .constructconsult_form .common_sub_table .select_box3.active::after {
-    transform: rotate(-180deg);
-    top: 10%;
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .construct_th {
+    padding-top: 20px;
   }
   .constructconsult_form .input_box {
     width: 140px;
@@ -395,11 +393,6 @@
   }
   .constructconsult_form.appforguidebook_form .constructconsult_form_title h4 {
     margin-bottom: 10px;
-  }
-
-  /* common_filter */
-  .common_filter .common_filter_box li a {
-    font-size: 14px;
   }
 
   /* form responsive */
@@ -741,6 +734,31 @@
 }
 
 @media screen and (max-width: 483px) {
+  .constructconsult_form .common_constructconsult_form .common_sub_table th {
+    font-size: 13px;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .constructconsult_form .common_sub_table .construct_td.construct_td_btn {
+    padding: 5px 0px 10px 0px;
+  }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .common_sub_table_th {
+    height: auto;
+    padding: 0;
+  }
+  .constructconsult_form .common_sub_table td {
+    padding: 15px 0;
+  }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .construct_th {
+    padding-top: 0px;
+  }
   summary:after {
     position: relative;
     top: -110%;
@@ -798,13 +816,7 @@
   }
 
   /* form responsive */
-  .constructconsult_form .common_sub_table .select_box1::after {
-    left: 80%;
-  }
-  .constructconsult_form .common_sub_table .select_box::after,
-  .constructconsult_form .common_sub_table .select_box3::after {
-    left: 89%;
-  }
+
   .constructconsult_form input[type="checkbox" i] {
     width: 12px;
     height: 12px;

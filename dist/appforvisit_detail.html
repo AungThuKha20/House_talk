@@ -228,7 +228,7 @@
         </li>
     </ul>
 </header>
-    <!-- <div class="sub_quick_menu_gp">
+    <div class="sub_quick_menu_gp">
   <div class="sub_quick_menu">
     <button class="bg_blue">
       <img src="/assets/imgs/icons/tele.png" alt="" />
@@ -261,7 +261,7 @@
     </button>
   </div>
 </div>
- -->
+
     <div
       class="container appforvisit_detail appforas_list constructconsult_form"
     >
@@ -395,7 +395,13 @@
                           style="vertical-align: top; display: flex; gap: 20px"
                           class="last_td"
                         >
-                          <input type="date" name="" id="" class="form_date" />
+                          <input
+                            type="date"
+                            name=""
+                            id="dateInput"
+                            class="form_date"
+                          />
+
                           <div class="visit-time">
                             <h3>방문시간</h3>
                             <input type="time" name="" id="" />
@@ -409,7 +415,9 @@
                         </td>
                       </tr>
                       <tr>
-                        <th style="vertical-align: top">*세부내용</th>
+                        <th class="construct_th" style="vertical-align: top">
+                          *세부내용
+                        </th>
                         <td class="construct_td construct_td2">
                           <textarea class="scroll_box"></textarea>
                         </td>
@@ -489,7 +497,6 @@
         </table>
         <div class="view_form_btn_cont construct_form_btn">
           <div class="view_form_btn">
-            <a href="/dist/appforas_list.html" class="to_list_btn">목록으로</a>
             <a href="#" class="apply_btn">신청하기</a>
           </div>
         </div>
@@ -602,6 +609,5 @@
     </div>
 </footer>
 
-    <script></script>
   </body>
 </html>
