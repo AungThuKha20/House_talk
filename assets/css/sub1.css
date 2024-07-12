@@ -62,7 +62,14 @@
   font-weight: 700;
   text-align: left;
 }
-
+.constructconsult_form.constructconsult .common_constructconsult_table_th {
+  min-width: 290px;
+  vertical-align: top;
+  padding: 60px 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+}
 .constructconsult_form .input_gap {
   margin: 0 10px;
 }
@@ -381,7 +388,7 @@
   font-weight: 400px;
 }
 .constructconsult.constructconsult_form .guide_cont {
-  margin-top: 58px;
+  margin-top: 70px;
 }
 .constructconsult_form .construct_tr2_td {
   padding-top: 50px;

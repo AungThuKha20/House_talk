@@ -61,6 +61,7 @@
   .constructconsult_form .common_sub_table .construct_td_btn a {
     font-size: 16px;
   }
+
   .constructconsult_form .constructconsult_form_title h4,
   .constructconsult .constructconsult_form_title h4 {
     margin-top: 100px;
@@ -131,7 +132,12 @@
   .constructconsult_form .common_sub_table .construct_td {
     font-size: 15px;
   }
-
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .construct_th {
+    padding-top: 20px;
+  }
   .constructconsult_form .input_box {
     width: 140px;
   }
@@ -738,6 +744,12 @@
   }
   .constructconsult_form .common_sub_table td {
     padding: 15px 0;
+  }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .construct_th {
+    padding-top: 0px;
   }
   summary:after {
     position: relative;
