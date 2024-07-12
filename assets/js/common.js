@@ -308,48 +308,6 @@ var radios = document.querySelectorAll('input[type="radio"][name="check"]');
     rangeInput.on("input", updateRangeValue);
     updateRangeValue();
   });
-
-  let sectionSelect = document.querySelector(".common_select_box");
-  console.log("hello");
-  if (sectionSelect) {
-    sectionSelect.addEventListener("click", () => {
-      sectionSelect.classList.toggle("active");
-      sectionSelect.classList.toggle("on");
-    });
-  }
-
-  let sectionSelect1 = document.querySelector(".select_box1");
-  if (sectionSelect1) {
-    sectionSelect1.addEventListener("click", () => {
-      sectionSelect1.classList.toggle("active");
-      sectionSelect1.classList.toggle("on1");
-      console.log("hello");
-    });
-  }
-
-  let sectionSelect2 = document.querySelector(".select_box2");
-  sectionSelect2.addEventListener("click", () => {
-    sectionSelect2.classList.toggle("active");
-    sectionSelect2.classList.toggle("on2");
-    console.log("hello");
-  });
-  let sectionSelect3 = document.querySelector(".select_box3_cont");
-  if (sectionSelect3) {
-    sectionSelect3.addEventListener("click", () => {
-      sectionSelect3.classList.toggle("active");
-      sectionSelect3.classList.toggle("on3");
-    });
-  }
-  let sectionSelect4 = document.querySelector(".select_box3_cont1");
-  sectionSelect4.addEventListener("click", () => {
-    sectionSelect4.classList.toggle("active");
-    sectionSelect4.classList.toggle("on4");
-  });
-  let sectionSelect5 = document.querySelector(".select_box3_cont2");
-  sectionSelect5.addEventListener("click", () => {
-    sectionSelect5.classList.toggle("active");
-    sectionSelect5.classList.toggle("on5");
-  });
 });
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
