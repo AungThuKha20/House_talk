@@ -239,6 +239,25 @@ $(document).ready(function () {
       },
     },
   });
+  // sub_cate_gp 
+  var commonCates = document.querySelectorAll('.common_cate');
+    var lastOpenedMenu = null;
+    commonCates.forEach(function(cate) {
+        cate.onclick = function() {
+            var cate1Gp = cate.nextElementSibling;
+            if (lastOpenedMenu && lastOpenedMenu !== cate1Gp) {
+                lastOpenedMenu.classList.add('hidden');
+            }
+            if (cate1Gp && cate1Gp.classList.contains('common_cate1_gp')) {
+                cate1Gp.classList.toggle('hidden');
+                if (!cate1Gp.classList.contains('hidden')) {
+                    lastOpenedMenu = cate1Gp;
+                } else {
+                    lastOpenedMenu = null;
+                }
+            }
+        };
+    });
 
   // main range
   $(".vertical").each(function () {
