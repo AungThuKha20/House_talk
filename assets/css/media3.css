@@ -544,7 +544,9 @@
   }
   .common_cates {
     width: 33.33%;
- 
+  }
+  .gp_2 {
+    width: 50% !important;
   }
   .common_cate,.common_cate1 {
     width: 100%;
