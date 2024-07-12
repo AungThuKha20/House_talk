@@ -146,7 +146,6 @@
 }
 .constructconsult_form .construct_td_text1_cont1_span {
   font-size: 16px;
-  line-height: 30px;
   vertical-align: top;
 }
 .constructconsult_form .common_sub_table .select_box input,
@@ -426,7 +425,6 @@
   width: 100%;
   text-align: start !important;
 }
-
 
 /* appforas_list end*/
 
