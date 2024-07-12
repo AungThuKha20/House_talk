@@ -258,7 +258,40 @@ $(document).ready(function () {
             }
         };
     });
+// 
+var radios = document.querySelectorAll('input[type="radio"][name="check"]');
+    var forms = document.querySelectorAll('.form-input');
 
+    function showForm(selectedRadio) {
+        forms.forEach(function(form) {
+            form.classList.add('hidden');
+        });
+
+        var selectedForm = document.querySelector('.for_' + selectedRadio.id);
+        if (selectedForm) {
+            selectedForm.classList.remove('hidden');
+        }
+
+        // Hide specific input field based on selected radio
+        var hiddenInput = document.querySelector('.hidden_consel_chk1');
+        if (selectedRadio.id === 'consel_chk01') {
+            hiddenInput.style.display = 'none';
+        } else {
+            hiddenInput.style.display = 'block';
+        }
+    }
+
+    radios.forEach(function(radio) {
+        radio.onclick = function() {
+            showForm(this);
+        };
+    });
+
+    // Initialize the form visibility based on the checked radio button
+    var checkedRadio = document.querySelector('input[type="radio"][name="check"]:checked');
+    if (checkedRadio) {
+        showForm(checkedRadio);
+    }
   // main range
   $(".vertical").each(function () {
     var rangeInput = $(this);
