@@ -420,7 +420,8 @@ swiper-slide img {
 .calendar_box{
   display: flex;
   width: 100%;
-  gap: 86px;
+  justify-content: space-between;
+  margin-top: 114px;
   margin-bottom: 130px;
 }
 .calendar_box .calendar_box1{
@@ -486,4 +487,71 @@ swiper-slide img {
   line-height: 21.48px;
   letter-spacing: -0.48px;
   color: #999999;
+}
+
+.key_story_banner {
+  background-image: url(/assets/imgs/sub3/key_banner.jpeg);
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.key_story_banner .wrapper {
+  width: 100vw;
+  height: 550px;
+  position: absolute;
+  z-index: 22;
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+  left: 0;
+}
+.key_story_banner h1 {
+  color: var(--bs-white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66.83px;
+  letter-spacing: -0.48px;
+  text-align: center;
+  padding-top: 56px;
+}
+.card_gp {
+  position: relative;
+}
+.card_gp .line {
+  width: 20%;
+  height: 1px;
+  background-color: var(--bs-white);
+  z-index: 11;
+  margin-top: 80px;
+}
+.card_gp {
+  display: flex;
+  margin-top: 56px;
+  position: relative;
+  z-index: 33;
+  width: 100%;
+}
+.card_gp .card_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+.card_gp .card_1 img {
+  height: 156px;
+  width: 156px;
+}
+.card_gp .card_1 p {
+  text-align: center;
+  color: var(--bs-white);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.64px;
+  letter-spacing: -0.48px;
 }
