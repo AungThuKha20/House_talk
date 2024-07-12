@@ -317,3 +317,11 @@
  opacity: 1;
 }
 /* pressrelease_list end  */
+
+
+
+.align_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
