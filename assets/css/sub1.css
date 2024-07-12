@@ -19,10 +19,7 @@
   font-weight: 700;
   color: var(--bs-black);
 }
-/* .appforvisit_detail.constructconsult_form .construct_table_th {
-  min-width: 100px;
 
-} */
 .constructconsult_form .common_input.input_box5 {
   width: 100%;
   border: 1px solid #dedede;
@@ -31,7 +28,7 @@
 .constructconsult_form .constructconsult_form_title h4,
 .constructconsult .constructconsult_form_title h4 {
   font-size: 24px;
-  margin-top: 100px;
+  margin-top: 130px;
   margin-bottom: 60px;
   font-weight: 400;
   color: var(--bs-black);
@@ -40,11 +37,15 @@
   .common_constructconsult_form
   .common_sub_table
   .common_sub_table_th {
-  /* min-width: 204px; */
+  padding: 15px 0;
   font-size: 20px;
 }
+
 .constructconsult_form .common_constructconsult_form .common_sub_table th {
   font-size: 20px;
+  padding: 15px 0;
+  height: 60px;
+  vertical-align: middle;
 }
 .construct_tr {
   border: 1px solid #ddd;
@@ -55,11 +56,13 @@
 }
 .constructconsult_form .common_constructconsult_table_th {
   min-width: 290px;
-  padding: 56px 0;
+  vertical-align: top;
+  padding: 76px 0;
   font-size: 28px;
   font-weight: 700;
   text-align: left;
 }
+
 .constructconsult_form .input_gap {
   margin: 0 10px;
 }
@@ -73,27 +76,29 @@
   text-align: left;
 }
 .constructconsult_form .common_sub_table td {
-  padding-bottom: 40px;
+  padding: 15px;
 }
 .constructconsult_form .common_sub_table .construct_td.construct_td_btn {
   gap: 8px;
-  padding-bottom: 30px;
 }
 .constructconsult_form .common_sub_table .construct_td.construct_td_btn h3 {
   line-height: 30px;
 }
 .constructconsult_form .common_sub_table .construct_td_btn a {
   font-size: 18px;
-  border: 1px solid #9999;
+  border: 1px solid var(--bs-dark-gray);
   padding: 4px 12px;
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
+}
+.appforvisit_detail.constructconsult_form .common_constructconsult_table_th {
+  width: 20%;
 }
 .constructconsult_form .common_sub_table .construct_td {
   display: flex;
   font-size: 20px;
   font-weight: 400;
   flex-direction: row;
-  gap: 16px;
+  gap: 3px;
 }
 .construct_td_img {
   width: 302px;
@@ -110,15 +115,19 @@
 
 .constructconsult_form .construct_tr3 .construct_td_text {
   display: block;
+  padding: 56px 0;
 }
 .constructconsult_form .construct_td_text .construct_td_text_cont {
   padding: 44px 16px 20px 40px;
   display: block;
   min-width: 100%;
+  margin-top: 50px;
   font-size: 16px;
   line-height: 19px;
-  margin-top: 40px;
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
+}
+.constructconsult_form .construct_td_text {
+  padding: 28px 0;
 }
 .constructconsult_form .construct_td_text1 {
   display: flex;
@@ -192,7 +201,7 @@
 
 .constructconsult_form .common_sub_table .select_box.on1 input {
   border: 1px solid var(--bs-black);
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
   height: 60px;
   width: 390px;
   cursor: pointer;
@@ -203,7 +212,7 @@
 }
 .constructconsult_form .common_sub_table .select_box1.on1 input {
   border: 1px solid var(--bs-black);
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
   height: 60px;
   width: 170px;
   cursor: pointer;
@@ -214,7 +223,7 @@
 }
 .constructconsult_form .common_sub_table .select_box2.on2 input {
   border: 1px solid var(--bs-black);
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
   height: 60px;
   width: 298px;
   cursor: pointer;
@@ -227,7 +236,7 @@
 .constructconsult_form .common_sub_table .select_box3.on4 input,
 .constructconsult_form .common_sub_table .select_box3.on5 input {
   border: 1px solid var(--bs-black);
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
   height: 60px;
   width: 298px;
   cursor: pointer;
@@ -306,7 +315,7 @@
   background: #121b2a;
 }
 .constructconsult_list .search_btn button a {
-  color: white;
+  color: var(--bs-white);
   font-size: 18px;
   font-weight: 600;
 }
@@ -365,7 +374,7 @@
   padding: 56px 0px 0px 0px;
 }
 .constructconsult_form .guide_cont {
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
   padding: 48px 40px;
   line-height: 19px;
   font-size: 16px;
@@ -394,11 +403,11 @@
 .constructconsult_form .form_date {
   width: 390px;
   height: 60px;
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
   border: none;
   padding: 10px;
   font-size: 16px;
-  color: #9999;
+  color: var(--bs-dark-gray);
 }
 .appforas_list .scroll_box,
 .constructconsult_form .scroll_box {
@@ -523,7 +532,7 @@ details.custom-select.custom_select2 {
 input[type="time"] {
   border: none;
   outline: none;
-  background: #f6f6f6;
+  background: var(--bs-dark-light);
 }
 input[type="time"] {
   width: 70%;
@@ -534,3 +543,21 @@ input[type="time"] {
 .scroll_box {
   padding: 20px;
 }
+
+/* 
+input[type="date"]::-webkit-datetime-edit-text {
+  -webkit-appearance: none;
+  display: none;
+}
+input[type="date"]::-webkit-datetime-edit-month-field {
+  -webkit-appearance: none;
+  display: none;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+  -webkit-appearance: none;
+  display: none;
+}
+input[type="date"]::-webkit-datetime-edit-year-field {
+  -webkit-appearance: none;
+  display: none;
+} */

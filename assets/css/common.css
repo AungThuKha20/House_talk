@@ -673,10 +673,9 @@ input[type="checkbox" i]:checked::before {
   /* letter-spacing: 1px; */
 }
 .view_form_btn_cont {
- 
   margin: 72px 0px 130px 0px;
 }
-.view_form_btn{
+.view_form_btn {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -857,6 +856,7 @@ input[type="checkbox" i]:checked::before {
 }
 .news_img_box .img_box {
   height: 344px;
+  width: 566px;
 }
 .news_img_box .img_box img {
   width: 100%;
@@ -969,98 +969,7 @@ input[type="checkbox" i]:checked::before {
 }
 /* content end */
 /* kzwk */
-/* mayThu */
-.common_filter {
-  margin-top: 24px;
-  /* float: left; */
-  width: 100%;
-}
-.common_filter_box {
-  width: 100%;
-}
-.common_filter .common_filter_box ul {
-  height: 40px;
-  width: auto;
-  display: flex;
-  border-left: 1px solid #111;
-  flex-direction: row;
-}
 
-.common_filter .common_filter_box li {
-  height: 40px;
-  text-align: center;
-  width: 134px;
-  border-width: 1px 1px 1px 0px;
-  border-style: solid;
-  border-color: #111;
-  box-sizing: border-box;
-}
-.common_filter .common_filter_box li a {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 40px;
-  text-align: center;
-}
-
-.common_filter .common_filter_item1 {
-  width: 135px;
-  text-align: center;
-  display: none;
-  height: 196px;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #111;
-}
-
-.common_filter .common_filter_items.common_filter_item2 {
-  position: relative;
-  top: 0;
-  display: none;
-  left: 134px;
-  width: 135px;
-  text-align: center;
-  height: 235px;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #111;
-}
-.common_filter .common_filter_items li {
-  width: 134px;
-  padding: 6.5px 30px;
-}
-.common_filter .common_filter_items.common_filter_item3 {
-  position: relative;
-  top: 0;
-  left: 268px;
-  display: none;
-  width: 135px;
-  text-align: center;
-  height: 157px;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #111;
-}
-.common_search {
-  float: right;
-}
-.common_search input {
-  width: 226px;
-  height: 36px;
-  font-size: 14px;
-  border: none;
-  padding-right: 40px;
-  padding-left: 45px;
-  border-bottom: 1px solid #000;
-}
-.common_search img {
-  position: relative;
-  top: 13%;
-  width: 19px;
-  height: 19px;
-  right: 9%;
-}
-
-/* common filter end */
 /* common input */
 
 .common_input input {
@@ -1072,10 +981,8 @@ input[type="checkbox" i]:checked::before {
 .input_wrap input {
   border: none;
   font-size: 24px;
-  /* custom ur self */
   width: 390px;
   height: 72px;
-  /*  */
   background: #f6f6f6;
 }
 /* width for input  */
@@ -1263,22 +1170,30 @@ input[type="checkbox" i]:checked::before {
 
 /* common_search */
 .common_search {
-  float: right;
+  /* float: right; */
+  display: flex;
+  height: 35px;
+  align-items: center;
 }
 .common_search input {
-  width: 226px;
-  height: 36px;
+  width: 191px;
+  height: 35px;
   font-size: 14px;
   border: none;
   padding-left: 45px;
   border-bottom: 1px solid #000;
 }
+.common_search a {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--bs-black) !important;
+}
 .common_search img {
-  position: relative;
-  top: 13%;
   width: 19px;
   height: 19px;
-  right: 9%;
 }
 /* common_search end */
 
@@ -1430,72 +1345,6 @@ summary.radios:before {
   background: #f6f6f6;
 }
 /* common input end */
-
-/* select box */
-/* .common_select_box {
-  position: relative;
-}
-.common_select_box input {
-  cursor: pointer;
-  outline: none;
-  border: none;
-  border-bottom: none;
-  background: #f6f6f6;
-  height: 60px;
-  width: 170px;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.common_select_box::after {
-  position: absolute;
-  top: 45%;
-  left: 7%;
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  transform: translateY(-50%);
-  content: "";
-  background: url(/assets/imgs/icons/iconoir_arrow-right.png) 50% no-repeat;
-  z-index: 90;
-}
-.common_select_box.active::after {
-  transform: rotate(-180deg);
-  top: 10%;
-}
-.common_select_box .section_select {
-  display: none;
-  width: auto;
-  padding: 10px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #59606a;
-  background: #f6f6f6;
-}
-.common_select_box .section_select div {
-  width: 133px;
-  height: 40px;
-}
-.common_select_box.on input {
-  border: 1px solid var(--bs-black);
-  background: #f6f6f6;
-  height: 60px;
-  width: 170px;
-  cursor: pointer;
-  border-right: none;
-  border-left: none;
-  border-top: none;
-  outline: none;
-}
-.common_select_box input:focus {
-  outline: none;
-  color: #f6f6f6;
-}
-.common_select_box.active .section_select {
-  display: block;
-} */
-/* select box end */
 
 /* common alert box */
 .common_alert_box .common_alert_box_cont {
