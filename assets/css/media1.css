@@ -54,6 +54,12 @@
   .constructconsult_list .common_consulation_form table tr td {
     font-size: 16px;
   }
+  .constructconsult_form
+    .common_constructconsult_form
+    .common_sub_table
+    .construct_th1 {
+    padding-top: 10px;
+  }
   /* constructconsult_list end */
 
   /* construction form */
@@ -382,11 +388,6 @@
     margin-bottom: 10px;
   }
 
-  /* common_filter */
-  .common_filter .common_filter_box li a {
-    font-size: 14px;
-  }
-
   /* form responsive */
   .constructconsult_form .common_sub_table .select_box1::after {
     left: 85%;
@@ -602,9 +603,7 @@
     margin-top: 25px;
   }
   /* showroom */
-  .common_filter .common_filter_box li {
-    width: 33%;
-  }
+
   .constructconsult_form .common_select_box input,
   .constructconsult_form .common_input {
     height: 40px;
@@ -808,13 +807,7 @@
   }
 
   /* form responsive */
-  /* .constructconsult_form .common_sub_table .select_box1::after {
-    left: 80%;
-  }
-  .constructconsult_form .common_sub_table .select_box::after,
-  .constructconsult_form .common_sub_table .select_box3::after {
-    left: 89%;
-  } */
+
   .constructconsult_form input[type="checkbox" i] {
     width: 12px;
     height: 12px;

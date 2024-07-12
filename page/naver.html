@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="pressrelease_list container">
+      <div class="sub_page_title">
+        <h2>미디어</h2>
+      </div>
+      <div class="sub_menu_gp">
+        <div class="sub_menu_title align_center">
+          <a href="" class="first_a ">언론보도</a>
+          <span class="sub_menu_hor_ln">line</span>
+          <a href="">유튜브</a>
+          <span class="sub_menu_hor_ln">line</span>
+          <a href="/dist/naver.html"><span class="active_a">네이버</span></a>
+          <span class="sub_menu_hor_ln">line</span>
+          <a href="/dist/sns.html">SNS</a>
+        </div>
+      </div>
+      <div class="sns_card_gp">
+        <div class="sns_card">
+            <img src="/assets/imgs/sub3/41825456114ff4fa22ddb48cf5108daf.jpeg" alt="">
+            <p>[블로그] 생생한 현장 기록과 주택 시공 사례, 하우스톡 네이버 블로그</p>
+            <div class="wrapper">
+                <a href="">
+                    <img src="/assets/imgs/sub3/naver.png" alt="">
+                    <span>블로그</span>
+                </a>
+            </div>
+        </div>
+        <div class="sns_card">
+            <img src="/assets/imgs/sub3/8321450c0df15a1a68e5178fb5fc5763.jpeg" alt="">
+            <p>[블로그] 생생한 현장 기록과 주택 시공 사례, 하우스톡 네이버 블로그</p>
+            <div class="wrapper">
+                <a href="">
+                    <img src="/assets/imgs/sub3/naver.png" alt="">
+                    <span>포스트</span>
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    ${require('./include/_footer.html')}
+  </body>
+</html>
