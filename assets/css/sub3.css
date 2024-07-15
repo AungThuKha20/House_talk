@@ -50,11 +50,6 @@
   letter-spacing: -0.48px;
   text-align: left;
 }
-.align_center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .houesetalknews_list .swiper_txt p {
   font-size: 24px;
   font-weight: 400;
@@ -237,6 +232,76 @@
 
 /* .community_interior_tips end */
 
+.key_story_banner {
+  background-image: url(/assets/imgs/sub3/key_banner.jpeg);
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.key_story_banner .wrapper {
+  width: 100vw;
+  height: 550px;
+  position: absolute;
+  z-index: 22;
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.4);
+  left: 0;
+}
+.key_story_banner h1 {
+  color: var(--bs-white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66.83px;
+  letter-spacing: -0.48px;
+  text-align: center;
+  padding-top: 56px;
+}
+.card_gp {
+  position: relative;
+}
+.line {
+  width: 100vw;
+  height: 1px;
+  background-color: var(--bs-white);
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  bottom: 225px;
+}
+.card_gp {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 56px;
+  position: relative;
+  z-index: 33;
+}
+.card_gp .card_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_gp .card_1 img {
+  height: 156px;
+  width: 156px;
+}
+.card_gp .card_1 p {
+  text-align: center;
+  color: var(--bs-white);
+}
+.sub_menu_gp {
+  display: flex;
+  justify-content: center;
+}
+.sub_menu_gp .sub_menu_title {
+  gap: 0px !important;
+}
 /* pressrelease_list start  */
 
 .pressrelease_list .talk_list .product_cont_box .area_box h2 {
@@ -263,10 +328,9 @@
 }
 .sns_card_gp {
   display: flex;
-  gap: 40px ;
+  gap: 40px;
   user-select: none;
   width: 100%;
-  justify-content: center;
   margin-bottom: 234px;
   align-items: center;
 }
@@ -279,8 +343,6 @@
 .sns_card_gp .sns_card img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
   border-radius: 8px;
 }
 .sns_card_gp .sns_card p {
@@ -295,38 +357,25 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 22;
-  border-radius: 8px;
-  top: 0;
-  display: flex;
   transition: all 0.2s linear;
-  opacity: 0;
+  z-index: 22;
+  top: 0;
+  display: none;
   justify-content: center;
   align-items: center;
-  background-color: rgb(0, 0, 0, 0.56);
+  background-color: rgb(0, 0, 0, 0.7);
   left: 0;
 }
 .sns_card_gp .wrapper a img{
   width: 108px;
-}
-.sns_card_gp .wrapper a .sns_img {
-  width: 200px;
+  height: 20px;
 }
 .sns_card_gp .wrapper a span {
-  font-size: 22px;
+  font-size: 20px;
   font-weight:700;
-  letter-spacing: 1px;
   color:var(--bs-white);
 }
 .sns_card_gp .sns_card:hover .wrapper {
- opacity: 1;
+ display: flex;
 }
 /* pressrelease_list end  */
-
-
-
-.align_center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

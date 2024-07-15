@@ -84,7 +84,7 @@
     <header class="header">
     <div class="lnb_bg"></div>
     <div class="header_inn">
-        <a href="/dist/main.html" class="head_img">
+        <a href="/" class="head_img">
             <img src="../../assets/imgs/main/house_talk_logo.png" alt="house talk">
         </a>
         <ul class="gnb">
@@ -169,7 +169,7 @@
             </button>
         </div>
     </div>
-    <div class="all_search_input">
+    <div class="all_search_input" style="display: none;">
         <input type="search" placeholder="검색어를 입력하세요.">
         <button type="button"  class="header_search_btn cursor-pointer"></button>
     </div>
@@ -179,51 +179,51 @@
         <li class="mo_list depth1">
             <a href="#" class="mo_item"><span>회사소개</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
             <ul class="mo_snb">
-                <li><a href="/dist/greetings.html">인사말</a></li>
-                <li><a href="/dist/aboutus.html">회사소개</a></li>
-                <li><a href="/dist/keystory.html">주요연혁</a></li>
+                <li><a href="">인사말</a></li>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">주요연혁</a></li>
             </ul>
         </li>
         <li class="mo_list depth1">
             <a href="#" class="mo_item"><span>건축갤러리</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
             <ul class="mo_snb">
-                <li><a href="/dist/scene_live_list.html">현장 live</a></li>
-                <li><a href="/dist/constructionexample_list.html">완공 사례</a></li>
-                <li><a href="/dist/design_list.html">설계 사례</a></li>
+                <li><a href="">현장 live</a></li>
+                <li><a href="">완공 사례</a></li>
+                <li><a href="">설계 사례</a></li>
             </ul>  
         </li>
         <li class="mo_list depth1">
             <a href="#" class="mo_item"><span>주택전시장</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
             <ul class="mo_snb">
-                <li><a href="/dist/showroom_form.html">전시장</a></li>
-                <li><a href="/dist/appforvisit_detail.html">방문신청</a></li>
+                <li><a href="">전시장</a></li>
+                <li><a href="">방문신청</a></li>
             </ul>  
         </li>
         <li class="mo_list depth1">
             <a href="#" class="mo_item"><span>하우스톡 소식</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
             <ul class="mo_snb">
-                <li><a href="/dist/housetalknews_list.html">하우스톡 소식</a></li>
-                <li><a href="/dist/construct_list.html">건축정보</a></li>
-                <li><a href="/dist/community_Interior_tips.html">인테리어Tip</a></li>
-                <li><a href="/dist/construct_story.html">건축주스토리</a></li>
+                <li><a href="">하우스톡 소식</a></li>
+                <li><a href="">건축정보</a></li>
+                <li><a href="">인테리어Tip</a></li>
+                <li><a href="">건축주스토리</a></li>
                 <li><a href="">매니저스토리</a></li>
             </ul>  
         </li>
         <li class="mo_list depth1">
             <a href="#" class="mo_item"><span>미디어</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
             <ul class="mo_snb">
-                <li><a href="/dist/pressrelease_list.html">언론보도</a></li>
-                <li><a href="/dist/youtube.html">유튜브</a></li>
-                <li><a href="/dist/naver.html">네이버</a></li>
-                <li><a href="/dist/sns.html">SNS</a></li>
+                <li><a href="">언론보도</a></li>
+                <li><a href="">유튜브</a></li>
+                <li><a href="">네이버</a></li>
+                <li><a href="">SNS</a></li>
             </ul>
         </li>
         <li class="mo_list depth1">
             <a href="#" class="mo_item"><span>상담/신청</span><img src="../../assets/imgs/icons/ico_arr_bottom_black.png" alt=""></a>
             <ul class="mo_snb">
-                <li><a href="/dist/constructconsult.html">건축 상담</a></li>
-                <li><a href="/dist/appforguidebook.html">가이드 북 신청</a></li>
-                <li><a href="/dist/appforas_list.html">AS신청</a></li>
+                <li><a href="">건축 상담</a></li>
+                <li><a href="">가이드 북 신청</a></li>
+                <li><a href="">AS신청</a></li>
             </ul>
         </li>
     </ul>
@@ -700,65 +700,43 @@ html is ...</textarea
            </div>
            <!-- content -->
       <!-- pagination -->
-       <!-- common_cate 3gp start -->
-      <div class="common_cate_gp">
-        <div class="common_cates br_none">
-            <a class="common_cate">스타일</a>
-            <div class="common_cate1_gp hidden">
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-            </div>
+      <div class="common_filter">
+        <div class="common_filter_box">
+          <ul>
+            <li class="common_filter1" onclick="hideShow(1)">
+              <a href="#">스타일</a>
+            </li>
+            <li class="common_filter2" onclick="hideShow(2)">
+              <a href="#">스타일</a>
+            </li>
+            <li class="common_filter3" onclick="hideShow(3)">
+              <a href="#">스타일</a>
+            </li>
+          </ul>
         </div>
-        <div class="common_cates">
-            <a class="common_cate br_none bl_none">스타일</a>
-            <div class="common_cate1_gp hidden">
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-            </div>
-        </div>
-        <div class="common_cates ">
-            <a class="common_cate">스타일</a>
-            <div class="common_cate1_gp hidden">
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-                <a class="common_cate1">스타일</a>
-            </div>
-        </div>
-      </div>
-       <!-- common_cate 3gp end-->
- <div style="margin-top: 100px;"></div>
-  <!-- common_cate 2gp start -->
-  <div class="common_cate_gp ">
-    <div class="common_cates gp_2 br_none">
-        <a class="common_cate">스타일</a>
-        <div class="common_cate1_gp hidden">
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-        </div>
+        <ul class="common_filter_items common_filter_item1">
+          <li><a href="#">네츄럴</a></li>
+          <li><a href="#">모던</a></li>
+          <li><a href="#">지중해</a></li>
+          <li><a href="#">치장벽돌</a></li>
+          <li><a href="#">프리미엄</a></li>
+        </ul>
+        <ul class="common_filter_items common_filter_item2 toggle2">
+          <li style="padding: 6px 10px;"><a href="#">수도권/경기도</a></li>
+          <li><a href="#">강원도</a></li>
+          <li><a href="#">충청도</a></li>
+          <li><a href="#">경상도</a></li>
+          <li><a href="#">전라도</a></li>
+          <li><a href="#">제주도</a></li>
+        </ul>
+        <ul class="common_filter_items common_filter_item3 toggle3">
+          <li><a href="#">30평대</a></li>
+          <li><a href="#">40평대</a></li>
+          <li><a href="#">50평대</a></li>
+          <li><a href="#">60평이상</a></li>
+        </ul>
     </div>
-    <div class="common_cates gp_2">
-        <a class="common_cate bl_none">스타일</a>
-        <div class="common_cate1_gp hidden">
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-            <a class="common_cate1">스타일</a>
-        </div>
-    </div>
-  </div>
-   <!-- common_cate 2gp end-->
+
 
     <!-- common search -->
     <div class="common_search">
