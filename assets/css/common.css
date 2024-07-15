@@ -1579,9 +1579,10 @@ summary.radios:before {
 }
 .exterior_swiper_box {
   position: relative;
+  width: 100%;
 }
 .mySwiper_Exterior {
-  width: 100vw;
+  width: 100%;
 }
 .mySwiper_Exterior .swiper-wrapper img {
   max-width: 1440px;
