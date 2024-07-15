@@ -22,6 +22,7 @@
   }
 
   /* construct form end */
+
   /* appforguidebook_list */
   .common_guide_book img {
     width: 650px;
@@ -36,6 +37,7 @@
   .constructconsult .constructconsult_form_title h1 {
     font-size: 46px;
   }
+
   /* constructconsult_list */
 
   .constructconsult_list
@@ -54,12 +56,7 @@
   .constructconsult_list .common_consulation_form table tr td {
     font-size: 16px;
   }
-  .constructconsult_form
-    .common_constructconsult_form
-    .common_sub_table
-    .construct_th1 {
-    padding-top: 10px;
-  }
+
   /* constructconsult_list end */
 
   /* construction form */
@@ -151,18 +148,16 @@
     min-width: 250px;
   }
 
-  .constructconsult_form .scroll_box {
-    height: 200px;
-  }
-
   .constructconsult_form .common_input.input_box3 {
     width: 33.33%;
     margin: 0 5px 0 0;
   }
+
   .appforvisit_detail.constructconsult_form .form_date {
     width: 55%;
   }
   .visit-time {
+    width: 40%;
     height: 40px;
   }
   /* appforguidebook_list */
@@ -174,16 +169,11 @@
     font-size: 18px;
   }
   /* appforguidebook_list end*/
+
   /* constructconsult */
-  .constructconsult.constructconsult_form .construct_tr2_td,
-  .constructconsult.constructconsult_form .construct_td1 {
-    padding-top: 0px;
-  }
+
   .constructconsult.constructconsult_form .common_constructconsult_table_th {
-    padding-bottom: 30px;
-  }
-  .constructconsult.constructconsult_form .guide_cont {
-    margin-top: 0px;
+    padding-bottom: 0px;
   }
 
   /* form responsive */
@@ -423,9 +413,7 @@
   .common_search input {
     width: 186px;
   }
-  /* .common_search img {
-    left: -14%;
-  } */
+
   .common_search input {
     padding-left: 20px;
     font-size: 12px;
@@ -488,9 +476,7 @@
     padding: 10px;
     background: #f6f6f6;
   }
-  /* .appforguidebook .view_form_btn a {
-    padding: 19px 58px;
-  } */
+
   .appforguidebook .constructconsult_table_th {
     font-size: 16px;
     padding: 20px 0;

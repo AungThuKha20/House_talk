@@ -37,9 +37,7 @@
   <body>
     ${require('./include/_header.html')}
     ${require('./include/_subQuick_menu.html')}
-    <div
-      class="container constructconsult constructconsult_list constructconsult_form"
-    >
+    <div class="container constructconsult constructconsult_form">
       <div class="constructconsult_form_title">
         <h1>건축상담</h1>
         <h4>건축에 관한 궁금증, 품질 no.1 하우스톡에 문의하세요.</h4>
@@ -49,40 +47,26 @@
         <table class="common_constructconsult_form_table" width="100%">
           <tbody>
             <tr class="construct_tr">
-              <th
-                class="common_constructconsult_table_th"
-                style="vertical-align: top"
-              >
-                상담자 정보 입력
-              </th>
+              <th class="common_constructconsult_table_th">상담자 정보 입력</th>
               <td class="construct_td1">
                 <div class="common_sub_table">
                   <table>
                     <tbody>
                       <tr>
-                        <th
-                          class="common_sub_table_th"
-                          style="vertical-align: top"
-                        >
-                          문의종류
-                        </th>
-                        <td style="vertical-align: top">건축상담</td>
+                        <th class="common_sub_table_th">문의종류</th>
+                        <td>건축상담</td>
                       </tr>
                       <tr>
-                        <th style="vertical-align: top">연락처</th>
+                        <th>이름</th>
+                        <td>홍길동</td>
+                      </tr>
+                      <tr>
+                        <th>연락처</th>
                         <td>010 - 1234 - 5678</td>
                       </tr>
                       <tr>
                         <th>이메일</th>
-                        <td style="padding-bottom: 0px; height: 93px">
-                          example123@naver.com
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>이메일</th>
-                        <td style="padding-bottom: 0px">
-                          example123@naver.com
-                        </td>
+                        <td>example123@naver.com</td>
                       </tr>
                     </tbody>
                   </table>
@@ -126,7 +110,9 @@
                         <td>부지 140평 30평대 건축문의</td>
                       </tr>
                       <tr>
-                        <th>세부내용</th>
+                        <th style="vertical-align: top; padding: 15px 0">
+                          세부내용
+                        </th>
                         <td>
                           <ul>
                             <li>자연환경을 살린 디자인</li>
