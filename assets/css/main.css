@@ -6,7 +6,7 @@
 -------------------------------------------------------------------*/
 
 /* Banner */
-.main_banner {height: 100vh;}
+.main_banner {height: 100vh;user-select: none;}
 .main_banner_inn {height: 100%;}
 .main_banner_swiper {height: 100%;position: relative;}
 .main_banner_img {box-shadow: inset 2000px 0 0 0 rgb(0 0 0 / 30%); width: 100%;background-size: cover !important;background-position: center !important;margin: 0 auto;}
