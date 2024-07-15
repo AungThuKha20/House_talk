@@ -715,6 +715,10 @@
   }
 }
 @media screen and (max-width: 575.98px) {
+  .conseling_inn {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
   .conseling_inn .conseling_form {
     width: 100% !important;
     max-width: 100% !important;
@@ -938,6 +942,10 @@
     max-width: 100% !important;
     height: fit-content !important;
   }
+  .form-check {
+    display: flex;
+    gap: 12px;
+  }
   .conseling_inn .conseling_form .consultation_reception button {
     margin-top: 19px;
     font-size: 18px;
@@ -952,7 +960,7 @@
   }
 
   .conseling_inn .form-check label {
-    font-size: 14px;
+    font-size: 12px;
   }
   .custom_input_form {
     width: 100px !important;

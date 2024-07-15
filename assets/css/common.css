@@ -107,6 +107,7 @@ img {
 
 /* checkbox start */
 /* radio button start */
+
 .form-check {
   display: flex;
   gap: 16px;
@@ -341,6 +342,8 @@ img {
 /* conseling start */
 .conseling_inn {
   display: flex;
+  margin-top: 80px;
+  user-select: none;
   justify-content: space-between;
   align-items: center;
   gap: 24px !important;
