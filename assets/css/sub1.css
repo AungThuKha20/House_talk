@@ -120,12 +120,24 @@
   flex-direction: row;
   gap: 3px;
 }
-.construct_td_img {
+.construct_td_img .img_box {
   width: 302px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border: 1px solid #999;
 }
-.constructconsult_form .common_sub_table .construct_td_img img {
-  width: 302px;
-  height: 76px;
+.construct_td_img .img_box .label{
+  cursor: pointer;
+  vertical-align: top;
+  line-height: 25px;
+}
+.constructconsult_form .common_sub_table .construct_td_img .img_box img {
+  width: 60px;
+  padding: 10px;
+  height: 68px;
 }
 .constructconsult_form .common_sub_table .construct_td span {
   margin-top: 20px;
@@ -254,17 +266,13 @@
 }
 .constructconsult .common_sub_table td {
   width: 100%;
-  vertical-align: middle;
 }
 .constructconsult .common_constructconsult_form .common_sub_table th {
   font-size: 20px;
   font-weight: 400;
   min-width: 220px;
 }
-.constructconsult_form.constructconsult
-  .common_constructconsult_form
-  .common_sub_table
-  th {
+.constructconsult_form .common_constructconsult_form .common_sub_table th {
   padding: 15px 0px;
   vertical-align: top;
 }

@@ -105,6 +105,8 @@
   }
   summary:after {
     left: -2%;
+    width: 10px;
+    height: 10px;
   }
   .custom-select {
     width: 33.33%;
@@ -748,6 +750,10 @@
   }
   .constructconsult_form .common_sub_table .construct_td span {
     margin-top: 12px;
+  }
+ 
+  .constructconsult_form .common_sub_table .construct_td_img .img_box span {
+    font-size: 14px;
   }
   .constructconsult_form .constructconsult_form_title .guidebook_title {
     font-size: 18px;
