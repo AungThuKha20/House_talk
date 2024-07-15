@@ -973,9 +973,9 @@ input[type="checkbox" i]:checked::before {
 /* content end */
 /* kzwk */
 /* mayThu */
-.common_filter {
-  margin-top: 24px;
-  /* float: left; */
+/* common_category start  */
+.common_cate_gp {
+  display: flex;
   width: 100%;
 }
 .common_filter_box {
@@ -1036,15 +1036,9 @@ input[type="checkbox" i]:checked::before {
   top: 0;
   left: 268px;
   display: none;
-  width: 135px;
-  text-align: center;
-  height: 157px;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #111;
 }
+/* conseling  start*/
 
-/* common filter end */
 /* common input */
 
 .common_input input {

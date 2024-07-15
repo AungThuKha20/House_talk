@@ -395,6 +395,11 @@
     margin-bottom: 10px;
   }
 
+  /* common_filter */
+  .common_filter .common_filter_box li a {
+    font-size: 14px;
+  }
+
   /* form responsive */
   .constructconsult_form .common_sub_table .select_box1::after {
     left: 85%;
