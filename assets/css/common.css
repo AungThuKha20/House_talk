@@ -673,6 +673,7 @@ img {
   border: 1px solid #999999;
   align-items: center;
   cursor: pointer;
+  transition: all 0.2s linear;
  align-content: center;
 }
 .list_btn a {
