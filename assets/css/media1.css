@@ -397,7 +397,10 @@
     margin-bottom: 10px;
   }
 
-
+  /* common_filter */
+  .common_filter .common_filter_box li a {
+    font-size: 14px;
+  }
 
   /* form responsive */
   .constructconsult_form .common_sub_table .select_box1::after {
@@ -614,7 +617,9 @@
     margin-top: 25px;
   }
   /* showroom */
-
+  .common_filter .common_filter_box li {
+    width: 33%;
+  }
   .constructconsult_form .common_select_box input,
   .constructconsult_form .common_input {
     height: 40px;

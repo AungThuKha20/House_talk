@@ -151,8 +151,6 @@ img {
   left: 4px;
 }
 
-/* radio button end */
-
 /* checkbox end */
 /* subcate menu start */
 .sub_quick_menu_gp {
@@ -294,8 +292,8 @@ img {
   text-indent: -999999999px;
 }
 .all_search_input {
-  display: none;
   width: 100%;
+  max-width: 800px;
   position: absolute;
   transform: translateX(-49%);
   left: 50%;
@@ -309,6 +307,7 @@ img {
   border: 0;
   outline: none;
   border-bottom: 2px solid #000;
+  background: var(--bs-white);
   width: 68%;
   font-size: 18px;
   font-weight: 700;
@@ -479,12 +478,11 @@ img {
   height: auto;
   width: 100%;
   display: none;
-  transition:
-    top 0.3s ease,
-    opacity 3s ease;
+  transition: top 0.3s ease, opacity 3s ease;
   top: -100%;
   padding: 30px 0;
   opacity: 0;
+  box-shadow: 0px 11px 34px 0px rgb(0 0 0 / 10%);
 }
 .mo_menu .depth1 > a span {
   display: block;
@@ -644,7 +642,7 @@ img {
 .sort_down:hover {
   cursor: pointer;
 }
-.sort_down .sort_down_text a {
+.sort_down .sort_down_text a{
   font-weight: 500;
   font-size: 18px;
   line-height: 21.48px;
@@ -676,9 +674,10 @@ img {
   /* letter-spacing: 1px; */
 }
 .view_form_btn_cont {
+ 
   margin: 72px 0px 130px 0px;
 }
-.view_form_btn {
+.view_form_btn{
   display: flex;
   width: 100%;
   justify-content: center;
@@ -970,6 +969,9 @@ img {
 .search_img_box_cont .search_img_box .search_text_box p:hover {
   cursor: pointer;
 }
+/* content end */
+/* kzwk */
+/* mayThu */
 /* common_category start  */
 .common_cate_gp {
   display: flex;
@@ -1017,40 +1019,6 @@ img {
   display: none;
 }
 /* conseling  start*/
-.conseling_inn {
-  display: flex;
-  gap: 36px;
-  width: 100%;
-}
-.conseling_inn .conseling_ppl {
-  width: calc(50%-18px);
-  height:586px;
-}
-.conseling_inn .conseling_ppl img {
-  width: 100%;
-  height:100%;
-}
-.conseling_inn .conseling_form {
-  width: calc(50%-18px);
-  height:586px;
-  background-color: #F1F1F1;
-}
-.conseling_inn .conseling_form form {
-  width: 100%;
-  height:100%;
-}
-
-
-
-
-
-/* conseling  end*/
-
-/* common_category end  */
-
-/* content end */
-/* kzwk */
-/* mayThu */
 
 /* common input */
 
@@ -1255,7 +1223,7 @@ img {
 /* common_search */
 .common_search {
   /* float: right; */
-  display: flex;
+  display:flex;
   height: 35px;
   align-items: center;
 }

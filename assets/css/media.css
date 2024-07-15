@@ -227,8 +227,12 @@
   }
 }
 @media screen and (max-width: 575.98px) {
+  .main_banner {height: 500px;}
+  .main_banner_txt {margin-top: -20px;gap: 18px;}
+  .main_banner .swiper-pagination {bottom: 100px !important;}
   .main_banner_txt h1 {
     font-size: 30px;
+    line-height: 42px;
   }
   .sub_quick_menu_gp {
     top: 80%;
@@ -240,8 +244,11 @@
   .mobile_hidden {
     display: none;
   }
+  .footer .foot_info_wrpp {
+    gap: 0;
+  }
   .footer .foot_sns {
-    display: none;
+    margin-bottom: 20px;
   }
   .pc_hidden {
     display: inline-block;
@@ -367,6 +374,16 @@
   }
 }
 @media screen and (max-width: 483px) {
+  .main_banner_txt {gap: 10px;}
+  .main_banner_txt h1 {
+    font-size: 22px;
+  }
+  .main_banner_txt p {
+    font-size: 14px;
+  }
+  .main_banner .swiper-pagination-bullet{
+    font-size: 20px;
+  }
   .main_sec_02_top h3 {
     font-size: 25px;
   }
