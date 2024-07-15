@@ -36,7 +36,7 @@
   </head>
   <body>
     ${require('./include/_header.html')}
-    <!-- ${require('./include/_subQuick_menu.html')} -->
+    ${require('./include/_subQuick_menu.html')}
     <div class="container constructconsult_form">
       <div class="constructconsult_form_title">
         <h1>건축상담</h1>
@@ -471,13 +471,17 @@
                         </td>
                       </tr>
                       <tr>
-                        <th style="vertical-align: top">*세부내용</th>
+                        <th class="construct_th" style="vertical-align: top">
+                          *세부내용
+                        </th>
                         <td class="construct_td construct_td2">
                           <textarea class="scroll_box"></textarea>
                         </td>
                       </tr>
                       <tr>
-                        <th>*세부내용</th>
+                        <th class="construct_th" style="vertical-align: top">
+                          *세부내용
+                        </th>
                         <td class="construct_td construct_td_btn">
                           <button><a href="#">파일 선택</a></button>
                           <h3 style="vertical-align: middle">
@@ -531,7 +535,11 @@
               <table width="100%">
                 <tbody>
                   <tr>
-                    <th class="common_constructconsult_table_th" rowspan="3">
+                    <th
+                      width="25%"
+                      class="common_constructconsult_table_th"
+                      rowspan="3"
+                    >
                       개인정보 수집 및 <br />
                       이용동의
                     </th>
