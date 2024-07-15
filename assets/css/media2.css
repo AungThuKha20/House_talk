@@ -506,6 +506,9 @@
   .range_cont .text_blue {
     margin-right: 59px;
 }
+.mobile_filter_box{
+  margin-top: 50px;
+}
 }
 
 @media screen and (max-width: 767.98px) {
@@ -798,7 +801,10 @@
     display: none;
   }
   .common_filter{
-    margin-top: 50px;
+    margin-top: 30px;
+  }
+  .mobile_filter_box{
+    margin-top: 0px;
   }
   .top_80 h2{
     line-height: 45px;
@@ -863,6 +869,7 @@
   .sub_page_title {
     font-size: 30px;
     margin-bottom: 0px;
+    line-height: 35px;
   }
   .sub_page_title p {
     font-size: 16px;
@@ -912,6 +919,10 @@
   .sort_down .sort_down_img img {
     height: 16px;
   }
+  .product_cont{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
   .product_cont_box .home_img_box img {
     height: 200px;
   }
@@ -955,17 +966,16 @@
     font-size: 14px;
     line-height: 15px;
   }
-  .list_btn {
-    width: 120px;
-    height: 46px;
-    padding: 11px;
+  .list_btn{
+    width: 100% !important;
   }
   .list_btn a {
     font-size: 16px;
+    width: 100%;
   }
   .pagination_box {
     gap: 10px;
-    margin: 50px 0px;
+    margin: 0px 0px;
   }
   .pagination_box .text_box {
     gap: 30px;
@@ -989,9 +999,6 @@
   .mobile_width .common_search input {
     width: 186px !important;
     text-align: center;
-  }
-  .consult_housing .conseling_inn {
-    margin-bottom: 30px !important;
   }
   .sub_page_header_box h2{
     font-size: 30px;
@@ -1214,11 +1221,6 @@
   }
   .floor_plan_box {
     padding-left: 20px;
-  }
-  .list_btn {
-    width: 100px;
-    height: 35px;
-    padding: 4px;
   }
   .list_btn a {
     font-size: 14px;

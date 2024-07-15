@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Project Name</title>
@@ -48,19 +48,40 @@
 <!-- Common script -->
 <script src="../assets/js/common.js"></script>
 
-        <script>
-            (function(d) {
-              var config = {
-                kitId: 'adw8piw',
-                scriptTimeout: 3000,
-                async: true
-              },
-              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
-    </head>
-    <body>
-        <header class="header">
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <header class="header">
     <div class="lnb_bg"></div>
     <div class="header_inn">
         <a href="/dist/main.html" class="head_img">
@@ -207,7 +228,7 @@
         </li>
     </ul>
 </header>
-        <!-- <div class="sub_quick_menu_gp">
+    <!-- <div class="sub_quick_menu_gp">
   <div class="sub_quick_menu">
     <button class="bg_blue">
       <img src="/assets/imgs/icons/tele.png" alt="" />
@@ -241,322 +262,420 @@
   </div>
 </div>
  -->
-        <div class="container scene_live_list">
-            <div class="sub_page_title">
-                <h2>완공사례</h2>
-                <p>100% 직영공사로 완성되는 하우스톡의 고품질 주택을 만나보세요</p>
+    <div class="container scene_live_list">
+      <div class="sub_page_title">
+        <h2>현장 LIVE</h2>
+        <p>품질 1위, 하우스톡 직영공사 현장을 자신있게 보여드립니다.</p>
+      </div>
+      <div class="common_filter">
+        <div class="common_filter_box mobile_filter_box">
+          <div class="common_cate_gp">
+            <div class="common_cates br_none">
+              <a class="common_cate">스타일</a>
+              <div class="common_cate1_gp hidden">
+                <a class="common_cate1">네츄럴</a>
+                <a class="common_cate1">모던</a>
+                <a class="common_cate1">지중해</a>
+                <a class="common_cate1">치장벽돌</a>
+                <a class="common_cate1">프리미엄</a>
+              </div>
             </div>
-            <div class="common_filter">
-                <div class="common_filter_box mobile_filter_box">
-                  <ul>
-                    <li class="common_filter1" onclick="hideShow(1)">
-                      <a href="#">스타일</a>
-                    </li>
-                    <li class="common_filter2" onclick="hideShow(2)">
-                      <a href="#">지역</a>
-                    </li>
-                    <li class="common_filter3" onclick="hideShow(3)">
-                      <a href="#">평형</a>
-                    </li>
-                  </ul>
-          
-                  <div class="search_btn_gp">
-                    <div class="search_btn">
-                      <div class="common_search">
-                        <input type="text" placeholder="검색어를 입력하세요." />
-                        <a href=""><img src="/assets/imgs/icons/ico_srch_btn.png" alt="" /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <ul class="common_filter_items common_filter_item1">
-                  <li><a href="#">네츄럴</a></li>
-                  <li><a href="#">모던</a></li>
-                  <li><a href="#">지중해</a></li>
-                  <li><a href="#">치장벽돌</a></li>
-                  <li><a href="#">프리미엄</a></li>
-                </ul>
-                <ul class="common_filter_items common_filter_item2 toggle2">
-                  <li style="padding: 6px 10px;"><a href="#">수도권/경기도</a></li>
-                  <li><a href="#">강원도</a></li>
-                  <li><a href="#">충청도</a></li>
-                  <li><a href="#">경상도</a></li>
-                  <li><a href="#">전라도</a></li>
-                  <li><a href="#">제주도</a></li>
-                </ul>
-                <ul class="common_filter_items common_filter_item3 toggle3">
-                  <li><a href="#">30평대</a></li>
-                  <li><a href="#">40평대</a></li>
-                  <li><a href="#">50평대</a></li>
-                  <li><a href="#">60평이상</a></li>
-                </ul>
+            <div class="common_cates">
+              <a class="common_cate br_none bl_none">지역</a>
+              <div class="common_cate1_gp hidden">
+                <a class="common_cate1">수도권/경기도</a>
+                <a class="common_cate1">강원도</a>
+                <a class="common_cate1">충청도</a>
+                <a class="common_cate1">경상도</a>
+                <a class="common_cate1">전라도</a>
+                <a class="common_cate1">제주도</a>
+              </div>
             </div>
-            <div class="product_cont">
-                <div class="product_cont_box">
-                    <div class="home_img_box">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home1.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.08</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="96" class="progressBar width_60">
-                            <p class="text">96%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>세종시 연서면</h2>
-                            <div class="p_box">
-                                <p>188.86m²</p>
-                                <p>(57.23평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden2">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home2.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="56" class="progressBar width_60">
-                            <p class="text">56%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>춘천시 월곡리</h2>
-                            <div class="p_box">
-                                <p>102.4m²</p>
-                                <p>(31.03평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden1">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home3.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="80" class="progressBar width_60">
-                            <p class="text">80%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>무안군 용산리</h2>
-                            <div class="p_box">
-                                <p>86.71m²</p>
-                                <p>(26.28평)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="product_cont_box">
-                    <div class="home_img_box">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home4.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="80" class="progressBar width_60">
-                            <p class="text">80%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>이천시 마암리</h2>
-                            <div class="p_box">
-                                <p>127.03m²</p>
-                                <p>(38.49평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden2">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home5.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="80" class="progressBar width_60">
-                            <p class="text">80%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>경주시 금장리</h2>
-                            <div class="p_box">
-                                <p>160.77m²</p>
-                                <p>(48.72평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden1">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home6.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="80" class="progressBar width_60">
-                            <p class="text">80%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>이천시 서경리</h2>
-                            <div class="p_box">
-                                <p>183.6m²</p>
-                                <p>(55.64평)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="product_cont_box">
-                    <div class="home_img_box">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home7.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="96" class="progressBar width_60">
-                            <p class="text">96%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>서산시 예찬동</h2>
-                            <div class="p_box">
-                                <p>123.88m²</p>
-                                <p>(37.54평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden2">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home8.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.08</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="96" class="progressBar width_60">
-                            <p class="text">96%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>울진군 읍내리</h2>
-                            <div class="p_box">
-                                <p>120.36m²</p>
-                                <p>(34.47평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden1">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home9.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="80" class="progressBar width_60">
-                            <p class="text">80%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>이천시 마암리</h2>
-                            <div class="p_box">
-                                <p>127.03m²</p>
-                                <p>(38.49평)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="product_cont_box">
-                    <div class="home_img_box">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home10.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.08</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="24" class="progressBar width_60">
-                            <p class="text">24%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>양주시 가납리</h2>
-                            <div class="p_box">
-                                <p>109.14m²</p>
-                                <p>(33.07평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden2">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home11.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="96" class="progressBar width_60">
-                            <p class="text">96%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>이천시 수남리</h2>
-                            <div class="p_box">
-                                <p>187.59m²</p>
-                                <p>(56.85평)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_img_box home_img_box_hidden1">
-                        <a href="/dist/scene_live_detail.html">
-                            <img src="/assets/imgs/common/scene_list/home12.png" alt="">
-                        </a>
-                        <div class="product_range_box">
-                            <p class="text_blue">공정률</p>
-                            <span class="sub_menu_hor_ln">line</span>
-                            <p class="date_box">2024.05.07</p>
-                            <input type="range" id="vol" name="vol" min="0" max="100" value="96" class="progressBar width_60">
-                            <p class="text">96%</p>
-                        </div>
-                        <div class="area_box">
-                            <h2>장흥군 비동리</h2>
-                            <div class="p_box">
-                                <p>128.18m²</p>
-                                <p>(28.84평)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             <div class="pagination">
-                <div class="pagination_box">
-                    <div class="img_box_cont left">
-                        <div class="img_box">
-                            <img src="/assets/imgs/common/left.png" alt="">
-                        </div>
-                        <div class="img_box">
-                            <img src="/assets/imgs/common/iconoir_arrow-right.png" alt="">
-                        </div>
-                    </div>
-                    <div class="text_box">
-                        <a>1</a>
-                        <a>2</a>
-                        <a>3</a>
-                        <a>4</a>
-                        <a>5</a>
-                    </div>
-                    <div class="img_box_cont right">
-                        <div class="img_box">
-                            <img src="/assets/imgs/common/start_hover.png" alt="">
-                        </div>
-                        <div class="img_box">
-                            <img src="/assets/imgs/common/right.png" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="common_cates">
+              <a class="common_cate">평형</a>
+              <div class="common_cate1_gp hidden">
+                <a class="common_cate1">30평대</a>
+                <a class="common_cate1">40평대</a>
+                <a class="common_cate1">50평대</a>
+                <a class="common_cate1">60평이상</a>
+              </div>
             </div>
-            <div class="conseling">
+          </div>
+
+          <div class="search_btn_gp">
+            <div class="search_btn">
+              <div class="common_search">
+                <input type="text" placeholder="검색어를 입력하세요." />
+                <a href=""
+                  ><img src="/assets/imgs/icons/ico_srch_btn.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product_cont">
+        <div class="product_cont_box">
+          <div class="home_img_box">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home1.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.08</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="96"
+                class="progressBar width_60"
+              />
+              <p class="text">96%</p>
+            </div>
+            <div class="area_box">
+              <h2>세종시 연서면</h2>
+              <div class="p_box">
+                <p>188.86m²</p>
+                <p>(57.23평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden2">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home2.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="56"
+                class="progressBar width_60"
+              />
+              <p class="text">56%</p>
+            </div>
+            <div class="area_box">
+              <h2>춘천시 월곡리</h2>
+              <div class="p_box">
+                <p>102.4m²</p>
+                <p>(31.03평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden1">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home3.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="80"
+                class="progressBar width_60"
+              />
+              <p class="text">80%</p>
+            </div>
+            <div class="area_box">
+              <h2>무안군 용산리</h2>
+              <div class="p_box">
+                <p>86.71m²</p>
+                <p>(26.28평)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product_cont_box">
+          <div class="home_img_box">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home4.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="80"
+                class="progressBar width_60"
+              />
+              <p class="text">80%</p>
+            </div>
+            <div class="area_box">
+              <h2>이천시 마암리</h2>
+              <div class="p_box">
+                <p>127.03m²</p>
+                <p>(38.49평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden2">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home5.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="80"
+                class="progressBar width_60"
+              />
+              <p class="text">80%</p>
+            </div>
+            <div class="area_box">
+              <h2>경주시 금장리</h2>
+              <div class="p_box">
+                <p>160.77m²</p>
+                <p>(48.72평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden1">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home6.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="80"
+                class="progressBar width_60"
+              />
+              <p class="text">80%</p>
+            </div>
+            <div class="area_box">
+              <h2>이천시 서경리</h2>
+              <div class="p_box">
+                <p>183.6m²</p>
+                <p>(55.64평)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product_cont_box">
+          <div class="home_img_box">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home7.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="96"
+                class="progressBar width_60"
+              />
+              <p class="text">96%</p>
+            </div>
+            <div class="area_box">
+              <h2>서산시 예찬동</h2>
+              <div class="p_box">
+                <p>123.88m²</p>
+                <p>(37.54평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden2">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home8.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.08</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="96"
+                class="progressBar width_60"
+              />
+              <p class="text">96%</p>
+            </div>
+            <div class="area_box">
+              <h2>울진군 읍내리</h2>
+              <div class="p_box">
+                <p>120.36m²</p>
+                <p>(34.47평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden1">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home9.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="80"
+                class="progressBar width_60"
+              />
+              <p class="text">80%</p>
+            </div>
+            <div class="area_box">
+              <h2>이천시 마암리</h2>
+              <div class="p_box">
+                <p>127.03m²</p>
+                <p>(38.49평)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product_cont_box">
+          <div class="home_img_box">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home10.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.08</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="24"
+                class="progressBar width_60"
+              />
+              <p class="text">24%</p>
+            </div>
+            <div class="area_box">
+              <h2>양주시 가납리</h2>
+              <div class="p_box">
+                <p>109.14m²</p>
+                <p>(33.07평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden2">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home11.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="96"
+                class="progressBar width_60"
+              />
+              <p class="text">96%</p>
+            </div>
+            <div class="area_box">
+              <h2>이천시 수남리</h2>
+              <div class="p_box">
+                <p>187.59m²</p>
+                <p>(56.85평)</p>
+              </div>
+            </div>
+          </div>
+          <div class="home_img_box home_img_box_hidden1">
+            <a href="/dist/scene_live_detail.html">
+              <img src="/assets/imgs/common/scene_list/home12.png" alt="" />
+            </a>
+            <div class="product_range_box">
+              <p class="text_blue">공정률</p>
+              <span class="sub_menu_hor_ln">line</span>
+              <p class="date_box">2024.05.07</p>
+              <input
+                type="range"
+                id="vol"
+                name="vol"
+                min="0"
+                max="100"
+                value="96"
+                class="progressBar width_60"
+              />
+              <p class="text">96%</p>
+            </div>
+            <div class="area_box">
+              <h2>장흥군 비동리</h2>
+              <div class="p_box">
+                <p>128.18m²</p>
+                <p>(28.84평)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <div class="pagination_box">
+          <div class="img_box_cont left">
+            <div class="img_box">
+              <img src="/assets/imgs/common/left.png" alt="" />
+            </div>
+            <div class="img_box">
+              <img src="/assets/imgs/common/iconoir_arrow-right.png" alt="" />
+            </div>
+          </div>
+          <div class="text_box">
+            <a>1</a>
+            <a>2</a>
+            <a>3</a>
+            <a>4</a>
+            <a>5</a>
+          </div>
+          <div class="img_box_cont right">
+            <div class="img_box">
+              <img src="/assets/imgs/common/start_hover.png" alt="" />
+            </div>
+            <div class="img_box">
+              <img src="/assets/imgs/common/right.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="conseling">
   <div class="conseling_inn">
     <div class="conseling_img_gp">
       <img src="/assets/imgs/sub3/conseling-man.png" alt="" />
@@ -654,8 +773,8 @@
   </div>
 </div>
 
-        </div>  
-        <section class="partners">
+    </div>
+    <section class="partners">
     <div class="partners_inn container">
         <div class="swiper partners_swiper">
             <div class="swiper-wrapper partners_swiper_conts">
@@ -761,5 +880,5 @@
     </div>
 </footer>
 
-    </body>
+  </body>
 </html>
