@@ -265,38 +265,38 @@ $(document).ready(function () {
    });
 // 
 var radios = document.querySelectorAll('input[type="radio"][name="check"]');
-   var forms = document.querySelectorAll('.form-input');
+var hiddenAtChk1 = document.querySelectorAll('.hidden_at_chk1');
+var hiddenAtOther = document.querySelectorAll('.hidden_at_other');
 
-   function showForm(selectedRadio) {
-       forms.forEach(function(form) {
-           form.classList.add('hidden');
-       });
+function toggleForms(selectedRadio) {
+    if (selectedRadio.id === 'consel_chk01') {
+        hiddenAtChk1.forEach(function(element) {
+            element.style.display = 'none';
+        });
+        hiddenAtOther.forEach(function(element) {
+            element.style.display = 'block';
+        });
+    } else {
+        hiddenAtChk1.forEach(function(element) {
+            element.style.display = 'block';
+        });
+        hiddenAtOther.forEach(function(element) {
+            element.style.display = 'none';
+        });
+    }
+}
 
-       var selectedForm = document.querySelector('.for_' + selectedRadio.id);
-       if (selectedForm) {
-           selectedForm.classList.remove('hidden');
-       }
+radios.forEach(function(radio) {
+    radio.addEventListener('click', function() {
+        toggleForms(this);
+    });
+});
 
-       // Hide specific input field based on selected radio
-       var hiddenInput = document.querySelector('.hidden_consel_chk1');
-       if (selectedRadio.id === 'consel_chk01') {
-           hiddenInput.style.display = 'none';
-       } else {
-           hiddenInput.style.display = 'block';
-       }
-   }
-
-   radios.forEach(function(radio) {
-       radio.onclick = function() {
-           showForm(this);
-       };
-   });
-
-   // Initialize the form visibility based on the checked radio button
-   var checkedRadio = document.querySelector('input[type="radio"][name="check"]:checked');
-   if (checkedRadio) {
-       showForm(checkedRadio);
-   }
+// Initialize form visibility based on the checked radio button
+var checkedRadio = document.querySelector('input[type="radio"][name="check"]:checked');
+if (checkedRadio) {
+    toggleForms(checkedRadio);
+}
     // main range
     $(".vertical").each(function () {
         var rangeInput = $(this);
