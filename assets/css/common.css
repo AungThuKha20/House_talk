@@ -664,21 +664,30 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 130px;
+  width: 100%;
 }
 .list_btn {
+  text-align: center;
   width: 160px;
   height: 46px;
-  font-weight: 300;
-  font-size: 20px;
-  padding: 11px 59px;
   border: 1px solid #999999;
-  text-align: center;
+  align-items: center;
+  cursor: pointer;
+ align-content: center;
 }
 .list_btn a {
   font-weight: 300;
   font-size: 20px;
-  /* line-height: 23.87px; */
+  width:100% !important;
+  line-height: 23.87px;
+  text-align: center;
   /* letter-spacing: 1px; */
+}
+.list_btn:hover {
+  background-color: var(--bs-primary);
+}
+.list_btn:hover.list_btn a  {
+  color: var(--bs-white) !important;
 }
 .view_form_btn_cont {
  
@@ -1675,13 +1684,15 @@ summary.radios:before {
 }
 .exterior_swiper_box {
   position: relative;
+  width: 100%;
 }
 .mySwiper_Exterior {
-  width: 100vw;
+  width: 100%;
 }
 .mySwiper_Exterior .swiper-wrapper img {
   max-width: 1440px;
   width: 100%;
+  cursor: pointer;
 }
 .exterior_swiper_box .swiper-button-prev {
   color: #000000;
