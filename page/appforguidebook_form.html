@@ -77,57 +77,16 @@
                       <tr>
                         <th>*연락처</th>
                         <td class="construct_td">
-                          <details class="custom-select custom_select2">
-                            <summary class="radios">
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="010"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-1"
-                                title="010"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-1"
-                                title="011"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-1"
-                                title="012"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-1"
-                                title="013"
-                              />
-                            </summary>
-                            <ul class="list">
-                              <li>
-                                <label for="item1-1">
-                                  010
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2-1">011</label>
-                              </li>
-                              <li>
-                                <label for="item3-1">012</label>
-                              </li>
-                              <li>
-                                <label for="item4-1">013</label>
-                              </li>
-                            </ul>
-                          </details>
+                          <div class="custom-select">
+                            <select>
+                              <option value="option1" selected>010</option>
+
+                              <option value="option1">011</option>
+                              <option value="option2">012</option>
+                              <option value="option3">013</option>
+                            </select>
+                          </div>
+
                           <span>-</span>
                           <input type="text" class="input_box common_input" />
                           <span>-</span>
@@ -157,59 +116,15 @@
 
                           <span>@</span>
                           <input type="text" class="input_box3 common_input" />
-                         
-                          <details class="custom-select custom_select2">
-                            <summary class="radios">
-                              선택
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="선택"
-                                checked=""
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-2"
-                                title="naver.com"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-2"
-                                title="daum.net"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-2"
-                                title="gmail.com"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-2"
-                                title="kakao.com"
-                              />
-                            <ul class="list">
-                              <li>
-                                <label for="item1-2">
-                                  naver.com
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2-2">daum.net</label>
-                              </li>
-                              <li>
-                                <label for="item3-2">gmail.com</label>
-                              </li>
-                              <li>
-                                <label for="item4-2">kakao.com</label>
-                              </li>
-                            </ul>
-                          </details>
+                          <div class="custom-select">
+                            <select>
+                              <option value="option1" selected>선택</option>
+                              <option value="option2">naver.com</option>
+                              <option value="option3">daum.net</option>
+                              <option value="option4">gmail.com</option>
+                              <option value="option5">kakao.com</option>
+                            </select>
+                          </div>
                         </td>
                       </tr>
                     </tbody>
@@ -232,203 +147,46 @@
                           style="vertical-align: top; margin-top: 0px"
                           class="construct_td"
                         >
-                          <details class="custom-select custom_select1">
-                            <summary class="radios radio_width">
-                              선택
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="선택"
-                                checked
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-3"
-                                title=" 수도권/경기권"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-3"
-                                title="충청도"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-3"
-                                title="강원도"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-3"
-                                title="전라도"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item5-3"
-                                title="전라도"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item6-3"
-                                title="제주도 외 기타"
-                              />
-                            </summary>
-                            <ul class="list">
-                              <li>
-                                <label for="item1-3">
-                                  수도권/경기권
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2-3"> 충청도</label>
-                              </li>
-                              <li>
-                                <label for="item3-3"> 강원도</label>
-                              </li>
-                              <li>
-                                <label for="item4-3">전라도</label>
-                              </li>
-                              <li>
-                                <label for="item5-3">경상도</label>
-                              </li>
-                              <li>
-                                <label for="item6-3">제주도 외 기타</label>
-                              </li>
-                            </ul>
-                          </details>
+                          <div class="custom-select custom-select1">
+                            <select>
+                              <option value="option1" selected>선택</option>
+                              <option value="option2">수도권/경기권</option>
+                              <option value="option3">충청도</option>
+                              <option value="option4">강원도</option>
+                              <option value="option5">전라도</option>
+                              <option value="option4">강원도</option>
+                              <option value="option6">제주도 외 기타</option>
+                            </select>
+                          </div>
                         </td>
                       </tr>
                       <tr>
                         <th>*건축 시기</th>
                         <td class="construct_td">
-                          <details class="custom-select custom_select1">
-                            <summary class="radios radio_width">
-                              선택
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="선택"
-                                placeholder="선택"
-                                checked
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-4"
-                                title="바로시공"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-4"
-                                title="1년 이내"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-4"
-                                title="2년 이내"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-4"
-                                title="3년 이내"
-                              />
-                            </summary>
-                            <ul class="list">
-                              <li>
-                                <label for="item1-4">
-                                  바로시공
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2-4">1년 이내</label>
-                              </li>
-                              <li>
-                                <label for="item3-4">2년 이내</label>
-                              </li>
-                              <li>
-                                <label for="item4-4">3년 이내</label>
-                              </li>
-                            </ul>
-                          </details>
+                          <div class="custom-select custom-select1">
+                            <select>
+                              <option value="option1" selected>선택</option>
+                              <option value="option2">바로시공</option>
+                              <option value="option3">1년 이내</option>
+                              <option value="option4">2년 이내</option>
+                              <option value="option5">3년 이내</option>
+                            </select>
+                          </div>
                         </td>
                       </tr>
                       <tr>
                         <th>*예상평수</th>
                         <td class="construct_td">
-                          <details class="custom-select custom_select1">
-                            <summary class="radios radio_width">
-                              선택
-                              <input
-                                type="radio"
-                                name="item"
-                                placeholder="선택"
-                                checked
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-5"
-                                title="30평형"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-5"
-                                title="40평형"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-5"
-                                title="50평형"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-5"
-                                title="60평형 이상"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item5-5"
-                                title="기타"
-                              />
-                            </summary>
-
-                            <ul class="list">
-                              <li>
-                                <label for="item1-5">
-                                  30평형
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2-5">40평형</label>
-                              </li>
-                              <li>
-                                <label for="item3-5">50평형</label>
-                              </li>
-                              <li>
-                                <label for="item4-5">60평형 이상</label>
-                              </li>
-                              <li>
-                                <label for="item5-5">기타</label>
-                              </li>
-                            </ul>
-                          </details>
+                          <div class="custom-select custom-select1">
+                            <select>
+                              <option value="option1" selected>선택</option>
+                              <option value="option2">30평형</option>
+                              <option value="option3">40평형</option>
+                              <option value="option4">50평형</option>
+                              <option value="option5">60평형 이상</option>
+                              <option value="option6">기타</option>
+                            </select>
+                          </div>
                         </td>
                       </tr>
                       <tr>
@@ -531,7 +289,9 @@
                         </p>
                         <div style="margin-top: 21px">
                           <input type="checkbox" name="" id="checkbox_id1" />
-                          <label class="construct_td_text1_cont1_span" for="checkbox_id1"
+                          <label
+                            class="construct_td_text1_cont1_span"
+                            for="checkbox_id1"
                             >동의</label
                           >
                         </div>

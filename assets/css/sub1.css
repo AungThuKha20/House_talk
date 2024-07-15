@@ -130,6 +130,10 @@
   padding: 0px 10px;
   border: 1px solid #999;
 }
+.construct_td_img .img_box input{
+  width: 16px;
+  height: 16px;
+}
 .construct_td_img .img_box .label {
   cursor: pointer;
   vertical-align: top;
@@ -335,7 +339,7 @@
 .appforas_list .input_box {
   margin: 0px;
 }
-.appforas_form{
+.appforas_form {
   user-select: none;
 }
 .appforas_list .form_date,
@@ -428,16 +432,17 @@
 }
 
 /* select box */
-summary.radios.radio_width {
-  width: 390px;
-}
-details.custom_select1[open] {
-  width: 390px;
-}
-details.custom-select.custom_select2 {
-  width: 188px;
+.custom-select {
+  background: var(--bs-white);
 }
 
+.custom-select1 {
+  width: 390px;
+  height: 60px;
+}
+.custom-select1::after {
+  right: 5%;
+}
 /* appforvisit detail */
 .visit-time {
   display: flex;

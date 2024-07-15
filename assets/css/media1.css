@@ -82,57 +82,31 @@
   .appforas_list .btn {
     height: 45px;
   }
-  details.custom-select.custom_select1 {
-    width: 100%;
 
-    border: 1px solid #dedede;
-  }
-  details.custom-select.custom_select2 {
-    width: 33%;
-  }
-  details[open] summary:before {
-    content: "";
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  summary.radios.radio_width {
-    width: 100%;
-  }
-  summary:after {
-    left: -2%;
-    width: 10px;
-    height: 10px;
-  }
   .custom-select {
     width: 33.33%;
-    border: 1px solid #dedede;
+    height: 40px;
   }
-  .custom-select ul.list {
-    font-size: 19px;
+  .custom-select select {
+    height: 40px;
     width: 100%;
-  }
-  .custom-select input[type="radio"]:after {
-    font-size: 18px;
-    position: absolute;
-    top: 21%;
-    line-height: 30px;
-    vertical-align: middle;
-  }
-  summary {
+    border: 1px solid #dedede;
     background: var(--bs-white);
-    height: 44px;
   }
-  summary:after {
-    position: relative;
-    top: -50%;
+
+  .custom-select1 {
+    width: 95%;
   }
-  details {
-    margin-right: 0px;
+  .custom-select1 select {
+    width: 100%;
+    height: 40px;
+    right: 5%;
+  }
+  .custom-select::after {
+    top: 10px;
+  }
+  .custom-select.active::after {
+    top: 20px;
   }
   .constructconsult_form .common_sub_table .construct_td {
     font-size: 15px;
@@ -359,8 +333,9 @@
   iframe {
     height: 300px;
   }
-  .custom-select input[type="radio"]:after {
-    font-size: 14px;
+  .custom-select::after {
+    width: 12px;
+    height: 12px;
   }
   .container.constructconsult_form {
     margin-top: 47px;
@@ -560,7 +535,7 @@
   }
 }
 @media screen and (max-width: 575.98px) {
-  .constructconsult_list .pagination{
+  .constructconsult_list .pagination {
     margin-bottom: 40px;
   }
   /* form */
@@ -604,22 +579,12 @@
   .constructconsult_form .common_input {
     height: 40px;
   }
-  summary {
-    height: 38px;
+  .custom-select select {
+    font-size: 14px;
   }
-  summary:after {
-    position: relative;
-    top: -110%;
-    width: 9px;
-    height: 9px;
-  }
-  .custom-select input[type="radio"]:after {
-    font-size: 13px;
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    line-height: 30px;
-    vertical-align: middle;
+  .custom-select::after {
+    width: 10px;
+    height: 10px;
   }
   /*constructconsult_list */
 
@@ -801,9 +766,8 @@
 
   /* constructconsult */
   /* select box */
-  .custom-select ul.list {
-    font-size: 13px;
-    padding-left: 8px;
+  .custom-select1 {
+    width: 100%;
   }
 
   /* form responsive */
@@ -811,6 +775,10 @@
   .constructconsult_form input[type="checkbox" i] {
     width: 12px;
     height: 12px;
+  }
+  .construct_td_img .img_box input {
+    width: 16px;
+    height: 16px;
   }
   .constructconsult_form .constructconsult_form_title h1 {
     font-size: 17px;
@@ -821,6 +789,9 @@
   .constructconsult_form .construct_td_text1_cont1_span {
     font-size: 13px;
     line-height: 20px;
+  }
+  .appforguidebook_view .constructconsult_table_th {
+    padding-top: 20px;
   }
   .container.constructconsult_form {
     margin-top: 37px;

@@ -289,32 +289,12 @@
                       <tr>
                         <th width="20%" class="common_sub_table_th">*전시장</th>
                         <td>
-                          <details class="custom-select custom_select1">
-                            <summary class="radios radio_width">
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="선택"
-                                checked=""
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-2"
-                                title="진주 전시장"
-                              />
-                            </summary>
-
-                            <ul class="list">
-                              <li>
-                                <label for="item1-2">
-                                  진주 전시장
-                                  <span></span>
-                                </label>
-                              </li>
-                            </ul>
-                          </details>
+                          <div class="custom-select custom-select1">
+                            <select>
+                              <option value="option1" selected>선택</option>
+                              <option value="option2">진주 전시장</option>
+                            </select>
+                          </div>
                         </td>
                       </tr>
 
@@ -327,57 +307,15 @@
                       <tr>
                         <th>*연락처</th>
                         <td class="construct_td">
-                          <details class="custom-select custom_select2">
-                            <summary class="radios">
-                              <input
-                                type="radio"
-                                name="item"
-                                id="default"
-                                title="010"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item1-1"
-                                title="010"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item2-1"
-                                title="011"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item3-1"
-                                title="012"
-                              />
-                              <input
-                                type="radio"
-                                name="item"
-                                id="item4-1"
-                                title="013"
-                              />
-                            </summary>
-                            <ul class="list">
-                              <li>
-                                <label for="item1-1">
-                                  010
-                                  <span></span>
-                                </label>
-                              </li>
-                              <li>
-                                <label for="item2-1">011</label>
-                              </li>
-                              <li>
-                                <label for="item3-1">012</label>
-                              </li>
-                              <li>
-                                <label for="item4-1">013</label>
-                              </li>
-                            </ul>
-                          </details>
+                          <div class="custom-select">
+                            <select>
+                              <option value="option1" selected>010</option>
+
+                              <option value="option1">011</option>
+                              <option value="option2">012</option>
+                              <option value="option3">013</option>
+                            </select>
+                          </div>
                           <span>-</span>
                           <input type="text" class="input_box common_input" />
                           <span>-</span>
@@ -501,7 +439,9 @@
                         </p>
                         <div style="margin-top: 21px">
                           <input type="checkbox" name="" id="checkbox_id1" />
-                          <label class="construct_td_text1_cont1_span" for="checkbox_id1"
+                          <label
+                            class="construct_td_text1_cont1_span"
+                            for="checkbox_id1"
                             >동의</label
                           >
                         </div>
@@ -627,5 +567,13 @@
     </div>
 </footer>
 
+    <script>
+      let customSelect = document.querySelectorAll(".custom-select");
+      customSelect.forEach((customItem) => {
+        customItem.onclick = function () {
+          customItem.classList.toggle("active");
+        };
+      });
+    </script>
   </body>
 </html>
