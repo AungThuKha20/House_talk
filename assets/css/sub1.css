@@ -1,6 +1,7 @@
 /* constructconsult_form */
 .container.constructconsult_form {
   margin-top: 97px;
+  user-select: none;
 }
 .container.constructconsult_list,
 .container.appforguidebook_list,
@@ -280,7 +281,6 @@
 }
 .constructconsult_form .common_constructconsult_form .common_sub_table th {
   padding: 15px 0px;
-  vertical-align: top;
 }
 .constructconsult .common_sub_table ul {
   padding-left: 20px;
@@ -334,6 +334,9 @@
 .appforas_list .input_box {
   margin: 0px;
 }
+.appforas_form{
+  user-select: none;
+}
 .appforas_list .form_date,
 .constructconsult_form .form_date {
   width: 390px;
@@ -353,6 +356,7 @@
   height: 250px;
   width: 100%;
   text-align: start !important;
+  resize: none;
 }
 
 /* appforas_list end*/

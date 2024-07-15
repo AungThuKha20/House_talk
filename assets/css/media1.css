@@ -552,13 +552,16 @@
     justify-content: end;
   }
   .visit-time {
-    padding: 0;
+    padding: 10px;
   }
   .visit-time h3 {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 575.98px) {
+  .constructconsult_list .pagination{
+    margin-bottom: 40px;
+  }
   /* form */
   .constructconsult_form .constructconsult_form_title h1 {
     font-size: 19px;

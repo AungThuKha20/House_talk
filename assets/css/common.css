@@ -716,6 +716,15 @@ img {
   border: 1px solid #000000;
   color: #fff;
   background-color: #000000;
+  transition: all 0.1s linear;
+}
+.view_form_btn .to_list_btn:hover{
+  background: var(--bs-black);
+  color: var(--bs-white);
+}
+.view_form_btn .apply_btn:hover{
+  color: var(--bs-black);
+  background: var(--bs-white);
 }
 .serach_address_btn button {
   height: 60px;
