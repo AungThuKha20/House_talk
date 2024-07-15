@@ -391,4 +391,9 @@
 .sns_card_gp .sns_card:hover .wrapper {
  opacity: 1;
 }
+.d_flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 /* pressrelease_list end  */
