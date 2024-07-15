@@ -668,6 +668,8 @@ img {
 .list_btn {
   width: 160px;
   height: 46px;
+  font-weight: 300;
+  font-size: 20px;
   padding: 11px 59px;
   border: 1px solid #999999;
   text-align: center;
@@ -675,7 +677,7 @@ img {
 .list_btn a {
   font-weight: 300;
   font-size: 20px;
-  line-height: 23.87px;
+  /* line-height: 23.87px; */
   /* letter-spacing: 1px; */
 }
 .view_form_btn_cont {
