@@ -672,7 +672,7 @@ img {
   border: 1px solid #999999;
   align-items: center;
   display: flex;
-
+  justify-content: center;
   cursor: pointer;
   transition: all 0.2s linear;
 }
