@@ -67,7 +67,7 @@
 
   .constructconsult_form .constructconsult_form_title h4,
   .constructconsult .constructconsult_form_title h4 {
-    margin-top: 100px;
+    margin-top: 95px;
   }
   .constructconsult_form .constructconsult_form_title h1 {
     font-size: 28px;
@@ -377,6 +377,7 @@
   }
   .constructconsult_form.appforguidebook_form .constructconsult_form_title h4 {
     margin-bottom: 10px;
+    font-size: 16px;
   }
 
   /* common_filter */

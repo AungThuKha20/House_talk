@@ -40,7 +40,7 @@
     text-align: left;
   }
   .greeting_text_container{
-    padding: 100px;
+    padding: 40px;
   }
 }
 @media screen and (max-width: 1470.98px) {
@@ -92,6 +92,10 @@
   }
   .summary_content_box .content {
     padding: 32px 0px;
+  }
+  .calendar_box .calendar_box1{
+    gap: 0px;
+    justify-content: space-between;
   }
 }
 
@@ -583,7 +587,9 @@
   .sub_menu_title a {
     font-size: 22px;
   }
-
+  .search_Result .sub_page_title{
+    margin-bottom: 20px !important;
+  }
   .sub_page_title {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -666,6 +672,7 @@
   }
   .greeting_cont .text_box p{
     font-size: 16px;
+    line-height: 18px;
   }
   .greeting_text_container{
     padding:20px;
@@ -786,6 +793,9 @@
   }
   .calendar_box {
     margin: 50px 0px;
+  }
+  .calendar_box .calendar_box1{
+    gap: 20px;
   }
   .calendar_box .calendar_box2{
     gap: 30px;
@@ -911,7 +921,7 @@
     text-align: center;
   }
   .sub_menu_title_cont {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
   .sort_down .sort_down_text a{
     font-size: 14px;
@@ -1006,6 +1016,10 @@
   .sub_page_header h1{
     font-size: 25px;
     padding: 30px 0px;
+    line-height: 30px;
+  }
+  .greeting_cont .text_box p{
+    line-height: 18px;
   }
   .greeting_cont .img_box img{
     height: 300px;
@@ -1016,6 +1030,7 @@
   }
   .greeting_text_container .text_box{
     gap: 10px;
+    padding: 10px 20px;
   }
   .greeting_text_container .text_box .text1 p {
     font-size: 15px;
@@ -1025,6 +1040,7 @@
   }
   .top_80 h2 {
     font-size: 25px;
+    line-height: 25px;
   }
   .top_80 p {
     font-size: 16px;
@@ -1032,6 +1048,9 @@
   .top_80 .p_box {
     margin-top: 0px !important;
     margin-bottom: 40px !important;
+  }
+  .top_80 .p_box2{
+    margin: 0px 0px !important;
   }
   .business_areas_box .header_box h2 {
     font-size: 23px;
@@ -1091,6 +1110,7 @@
   }
   .calendar_box .calendar_box1 {
     width: 100%;
+    gap: 10px;
   }
   .calendar_box .calendar_box2 {
     width: 100%;
@@ -1306,6 +1326,9 @@
   .card_gp .card_1 p {
     font-size: 10px;
     line-height: 15px;
+  }
+  .calendar_box .calendar_box1{
+    gap: 0px;
   }
   .calendar_box .calendar_box1 .h2_box h2 {
     font-size: 30px;
