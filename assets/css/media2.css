@@ -16,10 +16,9 @@
     width: 280px !important;
   }
 }
-@media screen and (max-width: 1511px) {
-  .range_text_box{
-    gap: 0px;
-    justify-content: space-between;
+@media screen and (max-width: 1511px){
+  .daily_progress_box{
+    display: none;
   }
 }
 @media screen and (max-width: 1480px) {
@@ -40,7 +39,7 @@
     width: 10%;
     text-align: left;
   }
-  .greeting_text_container {
+  .greeting_text_container{
     padding: 100px;
   }
 }
@@ -161,16 +160,10 @@
   }
   .top_80 {
     margin-top: 80px !important;
-  }
-  .top_80 .p_box {
-    margin-top: 40px !important;
-    margin-bottom: 80px !important;
-  }
-  .calendar_box .calendar_box1 {
-    gap: 20px;
-  }
-  .range_cont .text_blue {
-    margin-right: 79px;
+}
+.top_80 .p_box{
+  margin-top: 40px !important;
+  margin-bottom: 80px !important;
 }
 }
 @media screen and (max-width: 1167.98px) {
@@ -200,46 +193,42 @@
   .concept_summary_box .concept_box p {
     padding: 32px 32px 119px 20px;
   }
-  .sub_page_header h1 {
+  .sub_page_header h1{
     padding: 80px 0px;
   }
   .greeting_cont {
     gap: 30px;
     margin-bottom: 150px;
-  }
-  .greeting_cont .text_box {
-    width: 50%;
-  }
+}
+.greeting_cont .text_box {
+  width: 50%;
+}
   .greeting_cont .img_box img {
     height: 500px;
-  }
-  .greeting_cont .text_box p {
-    font-size: 22px;
-  }
-  .scene_live_detail
-    .search_result_cont
-    .search_img_box_cont
-    .search_img_box
-    img {
-    height: 230px;
-  }
 }
-@media screen and (max-width: 1070px) {
+.greeting_cont .text_box p {
+  font-size: 22px;
+}
+.scene_live_detail .search_result_cont .search_img_box_cont .search_img_box img {
+  height: 230px;
+}
+}
+@media screen and (max-width: 1070px){
   .greeting_cont .text_box p {
     font-size: 20px;
   }
-  .greeting_text_container {
+  .greeting_text_container{
     padding: 50px 30px;
   }
-  .greeting_text_container .text_box {
+  .greeting_text_container .text_box{
     gap: 50px;
   }
   .greeting_text_container .text_box .text1 p {
     font-size: 20px;
-  }
-  .greeting_text_container .text_box .text1 .sign_box p {
-    font-size: 25px;
-  }
+}
+.greeting_text_container .text_box .text1 .sign_box p{
+  font-size: 25px;
+}
 }
 @media screen and (max-width: 1063px) {
   .consult_housing .w-314 {
@@ -275,7 +264,7 @@
   }
   .home_map_box .img_box img {
     width: 100%;
-  }
+}
   .exterior_swiper_box .swiper-button-prev {
     display: none;
   }
@@ -395,13 +384,13 @@
     padding: 10px 20px;
     gap: 45px;
   }
-  .sub_page_header_box {
+  .sub_page_header_box{
     padding: 30px 0px;
   }
-  .sub_page_header_box h2 {
+  .sub_page_header_box h2{
     font-size: 45px;
   }
-  .sub_page_header h1 {
+  .sub_page_header h1{
     font-size: 40px;
     padding: 30px 0px 80px 0px;
   }
@@ -418,20 +407,20 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .greeting_cont .text_box {
+  .greeting_cont .text_box{
     width: 100%;
   }
-  .greeting_cont .img_box {
+  .greeting_cont .img_box{
     width: 100%;
     line-height: 10px;
   }
   .greeting_cont .text_box p {
     font-size: 20px;
   }
-  .greeting_text_container {
-    padding: 30px 20px;
+  .greeting_text_container{
+    padding:30px 20px;
   }
-  .greeting_text_container .text_box {
+  .greeting_text_container .text_box{
     gap: 30px;
   }
   .greeting_text_container .text_box .text1 p {
@@ -659,29 +648,27 @@
   .scene_live_list .product_cont_box .area_box {
     margin-top: 0px;
   }
-  .sub_page_header_box h2 {
+  .sub_page_header_box h2{
     font-size: 35px;
   }
-  .sub_page_header h1 {
+  .sub_page_header h1{
     font-size: 30px;
     padding: 30px 0px;
-    line-height: 45px;
   }
-  .greeting_cont {
+  .greeting_cont{
     margin-bottom: 50px;
   }
-  .greeting_cont .img_box img {
+  .greeting_cont .img_box img{
     height: 400px;
   }
-  .greeting_cont .text_box p {
+  .greeting_cont .text_box p{
     font-size: 16px;
-    line-height: 15px;
   }
-  .greeting_text_container {
-    padding: 20px;
+  .greeting_text_container{
+    padding:20px;
     margin-bottom: 50px;
   }
-  .greeting_text_container .text_box {
+  .greeting_text_container .text_box{
     gap: 50px;
     flex-wrap: wrap;
   }
@@ -968,12 +955,10 @@
     font-size: 14px;
     line-height: 15px;
   }
-  .consult_housing {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
   .list_btn {
-    width: 100%;
+    width: 120px;
+    height: 46px;
+    padding: 11px;
   }
   .list_btn a {
     font-size: 16px;
@@ -1008,21 +993,21 @@
   .consult_housing .conseling_inn {
     margin-bottom: 30px !important;
   }
-  .sub_page_header_box h2 {
+  .sub_page_header_box h2{
     font-size: 30px;
   }
-  .sub_page_header h1 {
+  .sub_page_header h1{
     font-size: 25px;
     padding: 30px 0px;
   }
-  .greeting_cont .img_box img {
+  .greeting_cont .img_box img{
     height: 300px;
   }
-  .greeting_text_container {
-    padding: 10px 30px;
+  .greeting_text_container{
+    padding: 10px;
     margin-bottom: 50px;
   }
-  .greeting_text_container .text_box {
+  .greeting_text_container .text_box{
     gap: 10px;
   }
   .greeting_text_container .text_box .text1 p {
@@ -1207,6 +1192,11 @@
   .detail_text_box p {
     font-size: 14px;
   }
+  .summary_content_box {
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding: 10px 20px !important;
+  }
   .concept_summary_box .concept_box h3,
   .concept_summary_box .summary_box h3 {
     font-size: 16px;
@@ -1224,6 +1214,14 @@
   }
   .floor_plan_box {
     padding-left: 20px;
+  }
+  .list_btn {
+    width: 100px;
+    height: 35px;
+    padding: 4px;
+  }
+  .list_btn a {
+    font-size: 14px;
   }
   .mobile_filter_box .common_search input {
     width: 250px;
@@ -1246,26 +1244,21 @@
   .product_range_box .date_box {
     width: 60%;
   }
-  .sub_page_header_box {
-    padding: 10px 0px;
-  }
-  .sub_page_header_box h2 {
+  .sub_page_header_box h2{
     font-size: 25px;
   }
-  .sub_page_header h1 {
+  .sub_page_header h1{
     font-size: 20px;
     padding: 30px 0px;
   }
-  .greeting_cont .img_box img {
+  .greeting_cont .img_box img{
     height: 200px;
   }
   .top_80 {
     margin-top: 20px !important;
-    margin-bottom: 20px !important;
-  }
-  .top_80 h2 {
+}
+  .top_80 h2{
     font-size: 20px;
-    line-height: 25px;
   }
   .top_80 p {
     font-size: 15px;
@@ -1274,13 +1267,13 @@
     margin-top: 0px !important;
     margin-bottom: 20px !important;
   }
-  .business_areas_box .header_box h2 {
+  .business_areas_box .header_box h2{
     font-size: 18px;
   }
-  .business_areas_box .img_box img {
+  .business_areas_box .img_box img{
     height: 150px !important;
   }
-  .business_areas_box .text_box .information_box .plus_box h2 {
+  .business_areas_box .text_box .information_box .plus_box h2{
     font-size: 16px;
   }
   .business_areas_box .text_box .information_box .para_box p {
@@ -1339,8 +1332,5 @@
   }
   .text_area_wrap textarea {
     font-size: 12px !important;
-  }
-  .calendar_box .calendar_box1 .h2_box h2 {
-    font-size: 25px;
   }
 }

@@ -60,6 +60,14 @@
   font-weight: 700;
   text-align: left;
 }
+.constructconsult_form.constructconsult .common_constructconsult_table_th {
+  min-width: 290px;
+  vertical-align: top;
+  padding: 60px 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+}
 .constructconsult_form .input_gap {
   margin: 0 10px;
 }
@@ -112,7 +120,7 @@
   display: block;
 }
 .constructconsult_form .construct_td_text .construct_td_text_cont {
-  padding: 44px 16px 20px 40px;
+  padding: 44px 16px 44px 40px;
   display: block;
   min-width: 100%;
   font-size: 16px;
@@ -130,7 +138,6 @@
 }
 .constructconsult_form .construct_td_text1_cont1_span {
   font-size: 16px;
-  line-height: 30px;
   vertical-align: top;
 }
 .constructconsult_form .common_sub_table .select_box input,
@@ -372,7 +379,7 @@
   font-weight: 400px;
 }
 .constructconsult.constructconsult_form .guide_cont {
-  margin-top: 58px;
+  margin-top: 70px;
 }
 .constructconsult_form .construct_tr2_td {
   padding-top: 50px;
@@ -408,6 +415,7 @@
   overflow-x: hidden;
   height: 250px;
   width: 100%;
+  text-align: start !important;
 }
 
 /* appforas_list end*/

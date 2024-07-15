@@ -57,7 +57,7 @@ swiper-container {
 swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: var(--bs-white);
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@ swiper-slide img {
   font-size: 24px;
   line-height: 27px;
   letter-spacing: 0.5px;
-  color: var(--bs-black);
+  color: #000000;
   width: 100%;
   height: 100%;
 }
@@ -159,7 +159,7 @@ swiper-slide img {
   width: 100%;
 }
 .product_range_box .sub_menu_hor_ln {
-  background-color: var(--bs-gray);
+  background-color: #747474;
   width: 1px;
   height: 11px;
   text-indent: -999999999px;
@@ -202,7 +202,7 @@ swiper-slide img {
   font-weight: 400;
   font-size: 16px;
   line-height: 19.09px;
-  color: var(--bs-black);
+  color: #000;
 }
 .mobile_filter_box {
   display: flex;
@@ -361,8 +361,8 @@ swiper-slide img {
   text-align: center;
 }
 .contact_box .button_box .btn_1{
-  border: 1px solid var(--bs-primary);
-  background-color: var(--bs-primary);
+  border: 1px solid #051E60;
+  background-color: #051E60;
 }
 .contact_box .button_box .btn_1 a{
   color: var(--bs-white);
@@ -420,8 +420,7 @@ swiper-slide img {
 .calendar_box{
   display: flex;
   width: 100%;
-  justify-content: space-between;
-  margin-top: 114px;
+  gap: 86px;
   margin-bottom: 130px;
 }
 .calendar_box .calendar_box1{
@@ -487,71 +486,4 @@ swiper-slide img {
   line-height: 21.48px;
   letter-spacing: -0.48px;
   color: #999999;
-}
-
-.key_story_banner {
-  background-image: url(/assets/imgs/sub3/key_banner.jpeg);
-  width: 100vw;
-  background-position: center;
-  background-size: cover;
-  height: 550px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  display: block;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-.key_story_banner .wrapper {
-  width: 100vw;
-  height: 550px;
-  position: absolute;
-  z-index: 22;
-  top: 0;
-  background-color: rgb(0, 0, 0, 0.4);
-  left: 0;
-}
-.key_story_banner h1 {
-  color: var(--bs-white);
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 66.83px;
-  letter-spacing: -0.48px;
-  text-align: center;
-  padding-top: 56px;
-}
-.card_gp {
-  position: relative;
-}
-.card_gp .line {
-  width: 20%;
-  height: 1px;
-  background-color: var(--bs-white);
-  z-index: 11;
-  margin-top: 80px;
-}
-.card_gp {
-  display: flex;
-  margin-top: 56px;
-  position: relative;
-  z-index: 33;
-  width: 100%;
-}
-.card_gp .card_1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 36px;
-}
-.card_gp .card_1 img {
-  height: 156px;
-  width: 156px;
-}
-.card_gp .card_1 p {
-  text-align: center;
-  color: var(--bs-white);
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 28.64px;
-  letter-spacing: -0.48px;
 }
