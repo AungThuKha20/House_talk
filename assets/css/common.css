@@ -565,17 +565,21 @@ input[type="checkbox" i]:checked::before {
   margin-bottom: 130px;
 }
 .list_btn {
-  width: 160px;
-  height: 46px;
-  padding: 11px 59px;
-  border: 1px solid #999999;
   text-align: center;
+  align-items: center;
 }
 .list_btn a {
   font-weight: 300;
   font-size: 20px;
   line-height: 23.87px;
+  text-align: center;
+  padding: 11px 59px;
+  border: 1px solid #999999;
   /* letter-spacing: 1px; */
+}
+.list_btn a:hover{
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
 }
 .view_form_btn_cont {
   margin: 72px 0px 130px 0px;
@@ -1582,6 +1586,7 @@ summary.radios:before {
 .mySwiper_Exterior .swiper-wrapper img {
   max-width: 1440px;
   width: 100%;
+  cursor: pointer;
 }
 .exterior_swiper_box .swiper-button-prev {
   color: var(--bs-black);

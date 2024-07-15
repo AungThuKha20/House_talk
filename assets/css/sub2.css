@@ -171,7 +171,6 @@ swiper-slide img {
   line-height: 19.09px;
   letter-spacing: -0.48px;
   color: #3074f1;
-  width: 15%;
 }
 .product_range_box .date_box {
   font-weight: 400;
@@ -179,7 +178,6 @@ swiper-slide img {
   line-height: 19.09px;
   letter-spacing: -0.48px;
   color: var(--bs-black);
-  width: 17%;
 }
 .product_range_box .text {
   font-weight: 400;
@@ -187,7 +185,9 @@ swiper-slide img {
   line-height: 19.09px;
   letter-spacing: -0.48px;
   text-align: right;
-  width: 10%;
+}
+.product_range_box .width_60{
+  width: 60% !important;
 }
 .range_text_box {
   display: flex;
