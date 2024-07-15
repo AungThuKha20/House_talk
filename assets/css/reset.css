@@ -80,13 +80,13 @@ a:focus {text-decoration:none;}
 	--bs-black: #000;
 	--bs-gray: #747474;
 
-	--bs-primary: #051E60;
-	--bs-secondary: #ffffff; 
-	--bs-success: #198754;
-    --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
-    --bs-dark: #212529;
+  --bs-primary: #051e60;
+  --bs-secondary: #ffffff;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
 }
 

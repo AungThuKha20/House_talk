@@ -16,20 +16,13 @@
   .constructconsult_form .input_box3 {
     width: 260px;
   }
-  .constructconsult_form .common_sub_table .common_select_box.select_box2 input,
-  .constructconsult_form
-    .common_sub_table
-    .common_select_box.select_box2
-    .section_select {
-    width: 200px;
-  }
+
   .constructconsult_list .common_consulation_form table tr .common_consul_td2 {
     width: 465px;
   }
-  .constructconsult_form .common_sub_table .common_select_box.select_box2 {
-    width: 200px;
-  }
+
   /* construct form end */
+
   /* appforguidebook_list */
   .common_guide_book img {
     width: 650px;
@@ -44,6 +37,7 @@
   .constructconsult .constructconsult_form_title h1 {
     font-size: 46px;
   }
+
   /* constructconsult_list */
 
   .constructconsult_list
@@ -54,15 +48,15 @@
     a {
     padding: 7px 19px;
   }
+  .constructconsult_form .common_constructconsult_form .common_sub_table th,
+  .constructconsult_form .common_constructconsult_form .common_sub_table_th {
+    padding: 0px;
+    height: 40px;
+  }
   .constructconsult_list .common_consulation_form table tr td {
     font-size: 16px;
   }
-  .constructconsult_form
-    .common_constructconsult_form
-    .common_sub_table
-    .construct_th1 {
-    padding-top: 10px;
-  }
+
   /* constructconsult_list end */
 
   /* construction form */
@@ -111,6 +105,8 @@
   }
   summary:after {
     left: -2%;
+    width: 10px;
+    height: 10px;
   }
   .custom-select {
     width: 33.33%;
@@ -123,13 +119,13 @@
   .custom-select input[type="radio"]:after {
     font-size: 18px;
     position: absolute;
-    top: 10%;
+    top: 21%;
     line-height: 30px;
     vertical-align: middle;
   }
   summary {
     background: var(--bs-white);
-    height: 45px;
+    height: 44px;
   }
   summary:after {
     position: relative;
@@ -153,21 +149,17 @@
   .constructconsult_form .input_box11 {
     min-width: 250px;
   }
-  /* .constructconsult_form .input_box2 {
-    width: 200px;
-  } */
-  .constructconsult_form .scroll_box {
-    height: 200px;
-  }
-  
+
   .constructconsult_form .common_input.input_box3 {
     width: 33.33%;
     margin: 0 5px 0 0;
   }
+
   .appforvisit_detail.constructconsult_form .form_date {
     width: 55%;
   }
   .visit-time {
+    width: 40%;
     height: 40px;
   }
   /* appforguidebook_list */
@@ -179,16 +171,11 @@
     font-size: 18px;
   }
   /* appforguidebook_list end*/
+
   /* constructconsult */
-  .constructconsult.constructconsult_form .construct_tr2_td,
-  .constructconsult.constructconsult_form .construct_td1 {
-    padding-top: 0px;
-  }
+
   .constructconsult.constructconsult_form .common_constructconsult_table_th {
-    padding-bottom: 30px;
-  }
-  .constructconsult.constructconsult_form .guide_cont {
-    margin-top: 0px;
+    padding-bottom: 0px;
   }
 
   /* form responsive */
@@ -201,12 +188,12 @@
   .constructconsult_form .common_sub_table .construct_td span {
     margin-top: 8px;
     text-align: center;
+    padding: 6px 1px;
   }
-  .constructconsult_form .construct_td_text .construct_td_text_cont {
-    padding: 20px;
-  }
+
   .constructconsult_form .construct_td_text .construct_td_text_cont {
     margin-top: 20px;
+    padding: 20px;
     font-size: 13px;
   }
   .constructconsult_form .common_sub_table .construct_td.construct_td_btn h3,
@@ -230,20 +217,13 @@
     width: 33.33%;
   }
 
-  .constructconsult_form .common_select_box input,
   .constructconsult_form .common_input {
     width: 100%;
     height: 45px;
     background: var(--bs-white);
     border: 1px solid #dedede;
   }
-  .constructconsult_form .common_sub_table .common_select_box.select_box1 {
-    width: 33.33%;
-  }
-  .common_select_box input,
-  .constructconsult_form .common_sub_table .select_box1.on1 input {
-    width: 100%;
-  }
+
   .constructconsult_form .common_input {
     margin: 0px;
     width: 33.33%;
@@ -251,10 +231,7 @@
   .constructconsult_form .common_input.input_box {
     width: 33%;
   }
-  .constructconsult_form .common_sub_table .common_select_box::after {
-    width: 10px;
-    height: 10px;
-  }
+
   .constructconsult_form .constructconsult_form .construct_tr,
   .constructconsult_form td {
     margin: 0 auto;
@@ -263,12 +240,9 @@
   }
 
   .constructconsult_form .common_sub_table td {
-    padding-bottom: 20px;
     margin: 0;
   }
-  .constructconsult_form .common_sub_table .construct_td span {
-    padding: 0px 1px;
-  }
+
   .constructconsult_form .common_sub_table .construct_td {
     gap: 0px;
   }
@@ -313,11 +287,12 @@
     width: 200px;
     height: 46px;
   }
-  .constructconsult_form .common_sub_table .select_box1::after {
-    left: 90%;
-  }
+
   .constructconsult_form .construct_td {
     padding: 0;
+  }
+  .constructconsult_form .construct_td_text .construct_td_text_cont {
+    margin-top: 0px;
   }
   /* guide book form */
   .common_guide_book {
@@ -363,12 +338,21 @@
   .constructconsult .common_sub_table th {
     min-width: 200px;
   }
+  .constructconsult_form .common_sub_table .construct_td.construct_td_btn {
+    padding-bottom: 6px;
+  }
   .constructconsult_list .appforguidebook_list_title {
     font-size: 25px;
   }
   /* constructconsult end */
   .container.constructconsult_form {
     margin-top: 57px;
+  }
+  .constructconsult_form .construct_tr3 .construct_td_text {
+    padding: 46px 0;
+  }
+  .constructconsult_form .common_constructconsult_form_table .construct_td1 {
+    padding: 46px 0;
   }
 }
 @media screen and (max-width: 767.98px) {
@@ -382,7 +366,7 @@
     margin-top: 47px;
   }
   .constructconsult_form .common_sub_table .construct_td span {
-    margin-top: 15px;
+    margin-top: 12px;
   }
   .constructconsult_form .constructconsult_form_title .guidebook_title {
     font-size: 18px;
@@ -404,6 +388,12 @@
   .constructconsult_form .common_sub_table .select_box1::after {
     left: 85%;
   }
+  .appforas_form.constructconsult_form
+    .common_constructconsult_form_table
+    .construct_td1 {
+    padding: 36px 0;
+  }
+
   .constructconsult_form
     .common_constructconsult_form
     .common_sub_table
@@ -411,14 +401,7 @@
   .constructconsult_form .common_constructconsult_form .common_sub_table th {
     font-size: 13px;
   }
-  .constructconsult_form .common_sub_table .select_box::after,
-  .constructconsult_form .common_sub_table .select_box3::after {
-    top: 45%;
-    left: 95%;
-  }
-  .constructconsult_form .common_sub_table .common_select_box.select_box1 {
-    font-size: 13px;
-  }
+
   .constructconsult_form .common_sub_table .construct_td {
     font-size: 13px;
   }
@@ -432,12 +415,11 @@
   .constructconsult_list .common_consulation_form table tr td {
     font-size: 14px;
   }
+
   .common_search input {
     width: 186px;
   }
-  /* .common_search img {
-    left: -14%;
-  } */
+
   .common_search input {
     padding-left: 20px;
     font-size: 12px;
@@ -500,9 +482,7 @@
     padding: 10px;
     background: #f6f6f6;
   }
-  /* .appforguidebook .view_form_btn a {
-    padding: 19px 58px;
-  } */
+
   .appforguidebook .constructconsult_table_th {
     font-size: 16px;
     padding: 20px 0;
@@ -615,15 +595,13 @@
     margin-top: 25px;
   }
   /* showroom */
-  .common_filter .common_filter_box li {
-    width: 33%;
-  }
+
   .constructconsult_form .common_select_box input,
   .constructconsult_form .common_input {
     height: 40px;
   }
   summary {
-    height: 40px;
+    height: 38px;
   }
   summary:after {
     position: relative;
@@ -635,7 +613,7 @@
     font-size: 13px;
     position: absolute;
     top: 10%;
-    left: 7%;
+    left: 5%;
     line-height: 30px;
     vertical-align: middle;
   }
@@ -775,7 +753,11 @@
     height: 250px;
   }
   .constructconsult_form .common_sub_table .construct_td span {
-    margin-top: 12px;
+    margin-top: 9px;
+  }
+
+  .constructconsult_form .common_sub_table .construct_td_img .img_box span {
+    font-size: 14px;
   }
   .constructconsult_form .constructconsult_form_title .guidebook_title {
     font-size: 18px;
@@ -869,9 +851,7 @@
     font-size: 13px;
     padding: 10px;
   }
-  /* .constructconsult_form .view_form_btn a {
-    padding: 12px 58px;
-  } */
+
   .appforguidebook .constructconsult_table_th,
   .constructconsult .constructconsult_table_th {
     font-size: 16px;
