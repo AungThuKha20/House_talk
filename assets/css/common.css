@@ -682,8 +682,8 @@ img {
   align-content: center;
   text-align: center;
   line-height: 23.87px;
-   width: 100%;
-   height: 100%;
+  width: 100%;
+  height: 100%;
   /* letter-spacing: 1px; */
 }
 .list_btn:hover {
@@ -1572,7 +1572,7 @@ summary.radios:before {
 /* common guide book */
 .common_guide_book {
   display: flex;
-  gap: 62px;
+  gap: 82px;
   border-bottom: 1px solid #dee2e6;
   width: 100%;
   padding: 56px 0px 40px 0px;

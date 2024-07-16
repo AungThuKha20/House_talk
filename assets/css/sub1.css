@@ -130,7 +130,7 @@
   padding: 0px 10px;
   border: 1px solid #999;
 }
-.construct_td_img .img_box input{
+.construct_td_img .img_box input {
   width: 16px;
   height: 16px;
 }
@@ -265,7 +265,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 /* appforguidebook_list end */
 
@@ -458,7 +458,10 @@
 .visit-time h3 {
   font-size: 16px;
 }
-
+/* title */
+.sub_page_title.common_titles {
+  padding: 86px 0;
+}
 /* appforguidebook form */
 .appforguidebook_form .btn,
 .appforas_list .btn {
