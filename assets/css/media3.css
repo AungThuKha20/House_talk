@@ -314,8 +314,17 @@
     font-size: 26px;
     padding: 28px 0px 62px 0px;
   }
+  .community_interior_tips .search_img_box_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+  }
+  .community_interior_tips .search_img_box {
+    width: 100%;
+  }
   .community_interior_tips .search_img_box_cont .search_img_box img {
-    /* width: 336px; */
+    width: 100%;
     height: auto;
   }
   .pressrelease_list .talk_list .product_cont_box .area_box h2 {
@@ -338,7 +347,8 @@
   .sns_card_gp .wrapper a span {
     font-size: 20px;
   }
-  .common_cate,.common_cate1 {
+  .common_cate,
+  .common_cate1 {
     font-size: 18px;
   }
 }
@@ -518,7 +528,8 @@
   .sns_card_gp .wrapper a .sns_img {
     width: 180px;
   }
-  .common_cate,.common_cate1 {
+  .common_cate,
+  .common_cate1 {
     font-size: 18px;
   }
 }
@@ -707,7 +718,8 @@
   .sns_card_gp .wrapper a .sns_img {
     width: 160px;
   }
-  .common_cate,.common_cate1 {
+  .common_cate,
+  .common_cate1 {
     font-size: 16px;
   }
   .common_search {
@@ -928,9 +940,9 @@
   }
   .common_cates {
     width: 33.33%;
- 
   }
-  .common_cate,.common_cate1 {
+  .common_cate,
+  .common_cate1 {
     width: 100%;
     height: 30px;
   }

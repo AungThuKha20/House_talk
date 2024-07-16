@@ -493,3 +493,15 @@ input[type="time"] {
 .scroll_box {
   padding: 20px;
 }
+
+input[type="password"] {
+  font-size: 20px;
+}
+
+input[type="file"] {
+  height: 29px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  height: 29px;
+}
