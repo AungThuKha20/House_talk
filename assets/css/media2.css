@@ -842,7 +842,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0px;
-    border-top: 0px;
   }
 
   .news_img_box .img_box {
@@ -985,7 +984,7 @@
   }
   .pagination_box {
     gap: 10px;
-    margin: 0px 0px;
+    margin: 30px 0px 30px 0px;
   }
   .pagination_box .text_box {
     gap: 30px;
@@ -1175,6 +1174,10 @@
   }
   .search_img_box_cont .search_img_box img {
     height: 150px !important;
+  }
+  .pagination_box {
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
   }
   .search_result_cont {
     margin: 26px 0px 0px 0px;

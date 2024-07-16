@@ -710,9 +710,7 @@
   .common_cate,.common_cate1 {
     font-size: 16px;
   }
-  .common_search {
-    display: none !important;
-  }
+ 
 }
 @media screen and (max-width: 575.98px) {
   .conseling_inn {
@@ -887,7 +885,9 @@
     font-weight: 600;
     font-size: 18px;
   }
-
+  .community_story_list .story_list_box {
+    margin-top: 20px;
+  }
   .view_talk_para2 p {
     font-size: 14px;
     text-align: center;
