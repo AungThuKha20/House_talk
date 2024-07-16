@@ -239,6 +239,14 @@ $(document).ready(function () {
       },
     },
   });
+  // custom-select
+
+  let customSelect = document.querySelectorAll(".custom-select");
+  customSelect.forEach((customItem) => {
+    customItem.onclick = function () {
+      customItem.classList.toggle("active");
+    };
+  });
   // sub_cate_gp
   var commonCates = document.querySelectorAll(".common_cate");
   var lastOpenedMenu = null;
@@ -314,6 +322,8 @@ $(document).ready(function () {
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+
 
 function hideShow(x) {
   if (x == 1) {
