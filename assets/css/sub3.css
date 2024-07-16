@@ -112,6 +112,10 @@
 .houesetalknews_list .sub_page_title {
   margin-bottom: 115px;
 }
+.community_story_view .button_gp {
+  border-top: 1px solid #d9d9d9;
+
+}
 .community_story_view .sub_page_title {
   display: flex;
   flex-wrap: wrap;
