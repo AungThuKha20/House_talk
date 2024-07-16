@@ -109,9 +109,7 @@
 .pagination {
   user-select: none;
 }
-.houesetalknews_list .sub_page_title,
-.community_story_list .sub_page_title,
-.community_story_view .sub_page_title {
+.houesetalknews_list .sub_page_title {
   margin-bottom: 115px;
 }
 .community_story_view .sub_page_title {
