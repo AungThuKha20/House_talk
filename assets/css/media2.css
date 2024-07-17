@@ -1038,11 +1038,7 @@
     margin-bottom: 0px;
     margin-top: 40px;
   }
-  .mobile_filter_box .common_search input {
-    width: 300px;
-    text-align: center;
-    padding-right: 30px;
-  }
+ 
   .mobile_filter_box li {
     width: 150px !important;
   }
@@ -1295,11 +1291,7 @@
   .list_btn a {
     font-size: 14px;
   }
-  .mobile_filter_box .common_search input {
-    width: 250px;
-    text-align: center;
-    padding-right: 30px;
-  }
+
   .mobile_filter_box li {
     width: 100px !important;
   }
