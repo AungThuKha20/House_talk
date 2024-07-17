@@ -1183,6 +1183,9 @@
     gap: 20px !important;
     padding: 10px 20px !important;
   }
+  .summary_content_box .content .content_sub_box_cont {
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 483px) {
   .text_area_wrap textarea {
@@ -1267,9 +1270,7 @@
   .summary_content_box .content p {
     font-size: 14px;
   }
-  .summary_content_box .content .content_sub_box {
-    gap: 6px;
-  }
+
   .summary_content_box .content .content_sub_box .content_sub_cont {
     width: 80px;
   }
@@ -1388,7 +1389,7 @@
   }
 }
 @media screen and (max-width: 396px) {
- .sub_menu_title .sub_menu_hor_ln.sub_menu_hor_ln1 {
+  .sub_menu_title .sub_menu_hor_ln.sub_menu_hor_ln1 {
     display: none;
   }
 }
