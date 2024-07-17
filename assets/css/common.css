@@ -458,10 +458,9 @@ img {
 }
 .conseling_img_gp {
   width: calc(50%-18px);
-  height: auto;
+  height: 586px;
 }
 .conseling_img_gp img {
-  object-fit: cover;
   object-position:left;
 }
 .conseling_inn .conseling_form form {

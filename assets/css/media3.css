@@ -6,7 +6,12 @@
 -------------------------------------------------------------------*/
 
 @media screen and (max-width: 1669.98px) {
+  .conseling_img_gp img {
+    object-fit: cover;
+    object-position:left;
+    border: 1px solid #999999;
   
+  }
   .houesetalknews_list .mySwiper_list .swiper-button-next {
     right: 200px;
   }
