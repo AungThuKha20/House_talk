@@ -189,7 +189,16 @@ $(document).ready(function () {
       prevEl: ".swiper-button-prev",
     },
   });
+  
+  var consentButton = document.getElementById('consentButton');
 
+if(consentButton){
+  consentButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    
+    this.classList.toggle('active');
+  });
+}
   var swiper_list = new Swiper(".mySwiper_list", {
     effect: "coverflow",
     grabCursor: false,
