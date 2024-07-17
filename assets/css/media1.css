@@ -834,7 +834,9 @@
     line-height: 15px;
     height: 50px;
   }
-
+.appforvisit_detail .view_form_btn .apply_btn{
+  width: 100%;
+}
   /* constructconsult */
   /* select box */
   .custom-select1 {
