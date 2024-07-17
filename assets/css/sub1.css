@@ -247,17 +247,18 @@
   gap: 24px;
   width: 100%;
 }
-.constructconsult_list .search_btn button {
+.constructconsult_list .search_btn .btn {
   width: 180px;
   height: 35px;
   border: none;
   background: #121b2a;
-}
-.constructconsult_list .search_btn button a {
   color: var(--bs-white);
   font-size: 18px;
   font-weight: 600;
+  text-align: center;
+  line-height: 35px;
 }
+
 /* constructconsult_list end */
 
 /* appforguidebook_list */
