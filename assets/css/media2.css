@@ -292,9 +292,9 @@
   .home_interior_box h3 {
     font-size: 50px;
   }
-  .news_img_box {
+  /* .news_img_box {
     gap: 0px;
-  }
+  } */
   .summary_content_box .content .content_sub_box .content_sub_cont {
     width: 95px;
   }
