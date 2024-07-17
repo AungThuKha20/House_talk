@@ -1138,8 +1138,8 @@ img {
   align-items: flex-end;
 }
 .search_img_box_cont {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 .community_interior_tips .search_img_box_cont {

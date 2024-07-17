@@ -138,11 +138,11 @@
     height: 300px;
   }
   .search_img_box_cont {
-    justify-content: center;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
   .search_img_box_cont .search_img_box {
-    width: 50%;
+    width: 100%;
   }
   .search_img_box_cont .search_img_box img {
     height: 400px;
@@ -923,6 +923,7 @@
   .sub_page_title p {
     font-size: 16px;
   }
+
   .search_img_box_cont .search_img_box img {
     height: 200px !important;
   }
@@ -1397,6 +1398,11 @@
   }
   .card_gp {
     margin-top: 36px;
+  }
+}
+@media screen and (max-width: 396px) {
+ .sub_menu_title .sub_menu_hor_ln.sub_menu_hor_ln1 {
+    display: none;
   }
 }
 @media screen and (max-width: 365px) {
