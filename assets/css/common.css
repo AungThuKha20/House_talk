@@ -461,7 +461,10 @@ img {
   height: 586px;
 }
 .conseling_img_gp img {
+  object-fit: cover;
   object-position:left;
+  border: 1px solid #999999;
+
 }
 .conseling_inn .conseling_form form {
   width: 703px;
