@@ -1046,10 +1046,10 @@ img {
   height: 344px;
   width: 566px;
 }
-.news_img_box .img_box img {
+/* .news_img_box .img_box img {
   width: 100%;
   height: 100%;
-}
+} */
 .news_img_box .img_box img:hover {
   cursor: pointer;
 }
@@ -1107,7 +1107,7 @@ img {
 .search_result_cont .search_header_box {
   display: flex;
   gap: 10px;
-  margin-bottom: 36px;
+  margin-bottom: 20px;
 }
 .search_result_cont .search_header_box h2 {
   font-weight: 600;
@@ -1128,6 +1128,11 @@ img {
 .search_img_box_cont {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+}
+.community_interior_tips .search_img_box_cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
 .search_img_box_cont .search_img_box .search_text_box {
@@ -1155,6 +1160,7 @@ img {
 .search_img_box_cont .search_img_box .search_text_box p:hover {
   cursor: pointer;
 }
+
 /* content end */
 /* kzwk */
 /* mayThu */
@@ -1466,143 +1472,6 @@ img {
 }
 /* common_search end */
 
-/* common select box */
-/* details {
-  position: relative;
-  width: 300px;
-} */
-/* 
-details[open] {
-  z-index: 9999;
-}
-
-summary {
-  padding: 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: #f6f6f6;
-  list-style: none;
-  height: 60px;
-}
-summary:after {
-  position: relative;
-  top: -10%;
-  left: -5%;
-}
-summary::-webkit-details-marker {
-  display: none;
-}
-
-details[open] summary:before {
-  content: "";
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  background: transparent;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-summary:after {
-  content: "";
-  display: inline-block;
-  float: right;
-  width: 14px;
-  height: 14px;
-  border-bottom: 1px solid currentColor;
-  border-right: 1px solid currentColor;
-  border-bottom-left-radius: 2px;
-  transform: rotate(45deg) translate(50%, 0%);
-  transform-origin: center center;
-  transition: transform ease-in-out 100ms;
-}
-
-summary:focus {
-  outline: none;
-}
-
-details[open] summary:after {
-  margin-top: 10px;
-
-  transform: rotate(-135deg) translate(0%, 0%);
-}
-
-.custom-select ul {
-  width: 100%;
-  background: #f6f6f6;
-  position: absolute;
-  left: 0;
-  border-top: 1px solid #ccc;
-  padding: 16px 20px;
-  margin: 0;
-  box-sizing: border-box;
-  height: auto;
-}
-
-.custom-select li {
-  margin: 0;
-  padding: 10px 0;
-}
-
-.custom-select li:first-child {
-  padding-top: 0;
-}
-
-.custom-select li:last-child {
-  padding-bottom: 0;
-  border-bottom: none;
-} */
-
-/* FAKE SELECT */
-
-/* summary.radios {
-  counter-reset: radios;
-}
-
-summary.radios:before {
-  content: var(--selection);
-}
-
-.custom-select input[type="radio"] {
-  counter-increment: radios;
-  appearance: none;
-  display: none;
-}
-
-.custom-select input[type="radio"]:checked {
-  display: inline;
-  --display: block;
-}
-
-.custom-select input[type="radio"]:after {
-  content: attr(title);
-  display: inline;
-  font-size: 19px;
-}
-
-.custom-select ul.list {
-  counter-reset: labels;
-}
-
-.custom-select label {
-  width: 100%;
-  display: flex;
-  cursor: pointer;
-  justify-content: space-between;
-}
-
-.custom-select label span {
-  --display: none;
-  display: var(--display);
-  width: 1rem;
-  height: 1rem;
-  border: 1px solid #f6f6f6;
-  border-radius: 3px;
-} */
-/* .custom-select.custom_select1 {
-  width: 41%;
-} */
 /* select box end */
 /* common input */
 
@@ -1610,8 +1479,11 @@ summary.radios:before {
   height: 60px;
   border: none;
   width: 390px;
+  font-size: 15px;
+  padding: 0 10px;
   background: #f6f6f6;
 }
+
 /* common input end */
 
 /* select box */
@@ -1838,7 +1710,22 @@ summary.radios:before {
   display: flex;
   gap: 16px;
 }
+.summary_content_box .content .content_sub_box .content_sub_cont {
+  width: 95px;
+}
 
+.summary_content_box .content .content_sub_box .content_sub_cont2 {
+  width: 180px;
+}
+.summary_content_box .content .content_sub_box .content_sub_cont_text {
+  letter-spacing: 6.6px;
+}
+.summary_content_box .content .content_sub_box .content_sub_cont_text2 {
+  letter-spacing: 2px;
+}
+.summary_content_box .content .content_sub_box .content_sub_cont_text3 {
+  letter-spacing: 1.5px;
+}
 .summary_content_box .content p {
   font-weight: 500;
   font-size: 20px;
@@ -1874,6 +1761,7 @@ summary.radios:before {
 .home_map_box .img_box {
   display: flex;
   width: 100%;
+  height: 610px;
 }
 .home_map_box .img_box img {
   width: 50%;

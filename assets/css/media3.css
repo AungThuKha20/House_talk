@@ -238,8 +238,17 @@
     font-size: 26px;
     padding: 28px 0px 62px 0px;
   }
+  .community_interior_tips .search_img_box_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+  }
+  .community_interior_tips .search_img_box {
+    width: 100%;
+  }
   .community_interior_tips .search_img_box_cont .search_img_box img {
-    /* width: 336px; */
+    width: 100%;
     height: auto;
   }
   .pressrelease_list .talk_list .product_cont_box .area_box h2 {
@@ -688,6 +697,7 @@
   .pressrelease_list .product_cont_box .p_box {
     justify-content: start;
   }
+
   .sns_card_gp .sns_card {
     height: 140px;
   }
