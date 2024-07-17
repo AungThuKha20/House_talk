@@ -864,6 +864,16 @@
   .home_map_box {
     padding: 20px;
   }
+  .sub_page_content h3 {
+    font-size: 20px;
+  }
+  .previous_btn {
+    width: 160px;
+    height: 40px;
+  }
+  .previous_btn a {
+    font-size: 16px;
+  }
   .home_exterior_box h3,
   .home_interior_box h3 {
     font-size: 35px;

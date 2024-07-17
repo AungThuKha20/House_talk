@@ -277,6 +277,9 @@
   }
 }
 @media screen and (max-width: 1000.98px) {
+  .conseling_inn {
+    padding: 60px 0px 100px 0px;
+  }
   .conseling_inn .form-check label {
     font-size: 14px;
   }
@@ -406,6 +409,7 @@
   }
 }
 @media screen and (max-width: 767.98px) {
+  
   .conseling_inn .form-check label {
     font-size: 14px;
   }
@@ -541,6 +545,9 @@
   }
 }
 @media screen and (max-width: 575.98px) {
+  .conseling_inn {
+    padding: 50px 0px 90px 0px;
+  }
   .conseling_inn .conseling_form form {
     padding: 15.5px 12.5px;
   }
