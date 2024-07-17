@@ -511,8 +511,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: rgba(0, 0, 0, 0);
   opacity: 1;
   display: block;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB13RVYeIP-JE2sdnpTSs6QUAO5ppKpaK-fA&s)
-    no-repeat;
+  background: url(/assets/imgs//icons/date.png) no-repeat;
   width: 11px;
   background-size: contain;
   height: 11px;
