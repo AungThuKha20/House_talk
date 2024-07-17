@@ -472,6 +472,9 @@ img {
   background-color: #f1f1f1;
   height: fit-content;
 }
+.conseling_inn .padding_28 form {
+  padding: 28px 28.5px !important;
+}
 .conseling_inn .conseling_form h2 {
   font-size: 36px;
   margin-bottom: 16px;
@@ -582,6 +585,9 @@ img {
   background-color: var(--bs-primary);
   color: var(--bs-white);
   border: 1px solid var(--bs-primary);
+}
+.conseling_inn .margin_50 {
+  margin-top: 50px !important;
 }
 .conseling_inn .consultation_reception {
   margin-top: 59px;
@@ -1842,30 +1848,24 @@ img {
 }
 .text_area_wrap {
   width: 100%;
-  height: 212px;
+  height: 215px;
+  font-size: 24px;
 }
 .text_area_wrap textarea {
   resize: none;
   background-color: #f6f6f6;
   border: 1px solid #f6f6f6;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.text_area_wrap textarea::placeholder{
   font-size: 24px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 28.64px;
   letter-spacing: 0.5px;
   color: #000000;
-  padding: 22px 8px;
-  width: 100%;
-  height: 100%;
-}
-.consult_housing {
-  border-top: 1px solid #eaeaea;
-  margin-top: 72px;
-  margin-bottom: 72px;
-  padding-top: 106px;
-  padding-bottom: 16px;
-}
-.consult_housing .conseling_inn {
-  margin-bottom: 0px;
+  padding-top: 22px;
 }
 /* common  architecture gallery end*/
 .custom-select select {
