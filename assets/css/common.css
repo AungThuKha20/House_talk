@@ -458,7 +458,7 @@ img {
 }
 .conseling_img_gp {
   width: calc(50%-18px);
-  height: 586px;
+  height: auto;
 }
 .conseling_img_gp img {
   object-fit: cover;
@@ -551,8 +551,8 @@ img {
   align-items: center;
 }
 .reset_btn img {
-  width: 35px;
-  height: 35px;
+  width: 46.96px;
+  height: 46.96px;
 }
 .conseling_inn .conseling_form .form_note {
   width: 100%;
@@ -561,7 +561,6 @@ img {
 .conseling_inn .conseling_form .form_note p {
   font-size: 20px;
   font-weight: 600;
-  line-height: 32px;
   letter-spacing: -0.47999998927116394px;
   text-align: left;
 }
