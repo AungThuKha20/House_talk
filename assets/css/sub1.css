@@ -353,6 +353,7 @@
   font-size: 16px;
   color: #999;
 }
+
 .appforas_list .scroll_box,
 .constructconsult_form .scroll_box {
   border: 1px solid #dedede;
@@ -505,4 +506,13 @@ input[type="file"] {
 
 input[type="file"]::-webkit-file-upload-button {
   height: 29px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(/assets/imgs//icons/date.png) no-repeat;
+  width: 11px;
+  background-size: contain;
+  height: 11px;
 }
