@@ -192,7 +192,7 @@ $(document).ready(function () {
 
   var swiper_list = new Swiper(".mySwiper_list", {
     effect: "coverflow",
-    grabCursor: true,
+    grabCursor: false,
     centeredSlides: true,
     slidesPerView: "auto",
     spaceBetween: 197,
@@ -225,11 +225,11 @@ $(document).ready(function () {
         allowTouchMove: true,
       },
       768: {
-        spaceBetween: 100,
+        spaceBetween: 75,
         allowTouchMove: true,
       },
       1024: {
-        spaceBetween: 150,
+        spaceBetween: 100,
       },
       1440: {
         spaceBetween: 250,
@@ -238,7 +238,30 @@ $(document).ready(function () {
         spaceBetween: 300,
       },
     },
+    on: {
+      slideChange: function () {
+        updateSwiperTextVisibility();
+      },
+    },
   });
+  function updateSwiperTextVisibility() {
+    var slides = document.querySelectorAll('.swiper-slide');
+    slides.forEach(function(slide) {
+      var swiperTxt = slide.querySelector('.swiper_txt');
+      if (swiperTxt) {
+        if (slide.classList.contains('swiper-slide-active')) {
+          swiperTxt.style.display = 'block';
+        } else {
+          swiperTxt.style.display = 'none';
+        }
+      }
+    });
+  }
+  
+  // Initial state
+  updateSwiperTextVisibility();
+  setInterval(updateSwiperTextVisibility, 1);
+
   // custom-select
 
   let customSelect = document.querySelectorAll(".custom-select");
@@ -277,11 +300,11 @@ $(document).ready(function () {
         element.style.display = "none";
       });
       hiddenAtOther.forEach(function (element) {
-        element.style.display = "block";
+        element.style.display = "flex";
       });
     } else {
       hiddenAtChk1.forEach(function (element) {
-        element.style.display = "block";
+        element.style.display = "flex";
       });
       hiddenAtOther.forEach(function (element) {
         element.style.display = "none";

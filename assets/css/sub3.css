@@ -20,7 +20,7 @@
 }
 .houesetalknews_list .swiper-slide {
   width: fit-content !important;
-  height: 547px !important;
+  height: fit-content !important;
 }
 .houesetalknews_list .swiper-slide iframe {
   width: 1022px !important;
@@ -30,13 +30,16 @@
 .houesetalknews_list .swiper-button-prev:after {
   font-size: 50px;
   color: #747474;
-  user-select: none;
 }
 .houesetalknews_list .mySwiper_list .swiper-button-next {
   right: 350px;
+  user-select: none;
+  top: 35%;
 }
 .houesetalknews_list .mySwiper_list .swiper-button-prev {
   left: 350px;
+  user-select: none;
+  top:35%;
 }
 .houesetalknews_list .swiper_txt {
   max-width: 1022px;
