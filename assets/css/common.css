@@ -500,11 +500,11 @@ img {
   line-height: 28.64px;
   letter-spacing: 0.5px;
   text-align: left;
-  padding: 2px 0px;
+  padding: 2px 10px;
   border-radius: 8px;
 }
 .conseling_inn .conseling_form .form-input input::placeholder {
-
+  padding: 0px;
 
 }
 .conseling_inn .conseling_form .form-input .w_full_gp .input_wrap {
