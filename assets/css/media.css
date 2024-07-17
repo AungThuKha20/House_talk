@@ -225,6 +225,12 @@
   .footer .foot_info > div {
     flex-wrap: wrap;
   }
+  .sub_quick_menu {
+    display: none;
+  }
+  .sub_quick_menu_gp {
+    top: 80%;
+  }
 }
 @media screen and (max-width: 575.98px) {
   .main_banner {height: 500px;}
@@ -234,12 +240,8 @@
     font-size: 30px;
     line-height: 42px;
   }
-  .sub_quick_menu_gp {
-    top: 80%;
-  }
-  .sub_quick_menu {
-    display: none;
-  }
+ 
+  
   
   .mobile_hidden {
     display: none;
