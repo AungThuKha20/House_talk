@@ -590,7 +590,10 @@
     margin-top: 0px;
   }
   .appforvisit_detail.constructconsult_form .constructconsult_form_title h1 {
-    padding-top: 30px;
+    padding-top: 0px;
+  }
+  .constructconsult_form .common_constructconsult_table_th {
+    padding: 20px 0px 0px 0px;
   }
   .constructconsult_list .pagination {
     margin-bottom: 40px;
