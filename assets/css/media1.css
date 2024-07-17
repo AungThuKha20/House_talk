@@ -37,7 +37,15 @@
   .constructconsult .constructconsult_form_title h1 {
     font-size: 46px;
   }
-
+  .common_consulation_form table tr .common_consul_td2 a {
+    vertical-align: middle;
+  }
+  .common_consulation_form table tr .common_consul_td1,
+  .common_consulation_form table tr .common_consul_td2,
+  .common_consulation_form table tr .common_consul_td3,
+  .common_consulation_form table tr .common_consul_td5 {
+    vertical-align: middle;
+  }
   /* constructconsult_list */
 
   .constructconsult_list
@@ -281,10 +289,10 @@
     width: 360px;
   }
   .constructconsult_list .common_consulation_form table tr .common_consul_td3 {
-    width: 200px;
+    width: 300px;
   }
   .constructconsult_list .common_consulation_form table tr .common_consul_td4 {
-    width: 200px;
+    width: 150px;
   }
 
   /* construction list  end*/
@@ -344,6 +352,9 @@
   .custom-select::after {
     width: 12px;
     height: 12px;
+  }
+  .constructconsult_list .common_consulation_form table tr .common_consul_td4 {
+    width: 150px;
   }
   .constructconsult_form .constructconsult_form_title {
     display: block;

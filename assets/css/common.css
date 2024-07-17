@@ -1632,6 +1632,7 @@ img {
   height: 18px;
   font-size: 20px;
   margin-right: 14px;
+  margin-top: 3px;
   color: #051e60;
 }
 /* common consulation form end */
@@ -1899,7 +1900,6 @@ img {
   border: 1px solid #333;
   border-top: 1px solid var(--bs-white);
   border-right: 1px solid var(--bs-white);
-  /* background-image: url(/assets/imgs/icons/iconoir_arrow-right.png); */
   background-size: cover;
   pointer-events: none;
   outline: none;
