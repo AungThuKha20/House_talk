@@ -21,6 +21,10 @@
 .constructconsult .common_constructconsult_table_th {
   padding: 70px 0;
 }
+
+.common_constructconsult_form .common_sub_table th span {
+  color: #3074f1;
+}
 .constructconsult_form.constructconsult
   .common_constructconsult_form
   .common_sub_table_th {
