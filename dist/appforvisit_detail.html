@@ -325,28 +325,27 @@
                       <tr>
                         <th>*방문일시</th>
                         <td
-                          style="vertical-align: top; display: flex; gap: 20px"
+                          style="vertical-align: top; display: flex; gap: 15px"
                           class="last_td"
                         >
-                          <!-- <input
-                            type="date"
-                            name=""
-                            id="dateInput"
-                            value="선택 항목으로"
-                            class="form_date"
-                          /> -->
-
                           <input
-                            class="sd"
-                            type="date"
-                            name="selected_date"
+                            type="text "
                             class="form_date"
+                            placeholder="선택 항목으로"
+                            onfocus="$(this).hide().next().attr('hidden',false).focus();"
                           />
 
-                          <div class="visit-time">
-                            <h3>방문시간</h3>
-                            <input type="time" name="" id="" />
-                          </div>
+                          <input type="date" class="form_date" hidden="true" />
+
+                          <input
+                            type="text"
+                            placeholder="방문시간"
+                            class="time"
+                            style="border: none; background: #f6f6f6"
+                            onfocus="$(this).hide().next().attr('hidden',false).focus();"
+                          />
+
+                          <input type="time" hidden="true" class="time" />
                         </td>
                       </tr>
                       <tr>
@@ -574,6 +573,12 @@
     </div>
 </footer>
 
-    <script></script>
+    <script>
+      function date() {
+        let img = document.querySelector(".img");
+        img.style.display = "none";
+        console.log("click");
+      }
+    </script>
   </body>
 </html>

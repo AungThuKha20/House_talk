@@ -93,8 +93,6 @@
   .custom-select select {
     height: 45px;
     width: 100%;
-    border: 1px solid #dedede;
-    background: var(--bs-white);
   }
 
   .custom-select1 {
@@ -133,11 +131,11 @@
   }
 
   .appforvisit_detail.constructconsult_form .form_date {
-    width: 55%;
-  }
-  .visit-time {
     width: 40%;
-    height: 40px;
+  }
+  .appforas_form.constructconsult_form .form_date,
+  .appforas_list.constructconsult_form .form_date {
+    width: 40%;
   }
   /* appforguidebook_list */
   .common_guide_book img {
@@ -197,8 +195,6 @@
   .constructconsult_form .common_input {
     width: 100%;
     height: 45px;
-    background: var(--bs-white);
-    border: 1px solid #dedede;
   }
 
   .constructconsult_form .common_input {
@@ -225,8 +221,6 @@
   }
   .constructconsult_form .common_input1 {
     width: 100%;
-    background: var(--bs-white);
-    border: 1px solid #dedede;
   }
   .constructconsult_form .common_input.input_box4,
   .constructconsult_form .common_input.input_boxs {
@@ -247,10 +241,8 @@
     margin-bottom: 20px;
   }
   .appforas_list .form_date {
-    width: 100%;
+    /* width: 100%; */
     height: 40px;
-    border: 1px solid #dedede;
-    background: var(--bs-white);
   }
   .appforas_list .scroll_box {
     height: 100px;
@@ -380,7 +372,7 @@
     width: 30%;
   }
   .constructconsult_form .constructconsult_form_title h1 {
-    margin-top: 70px;
+    margin-top: 110px;
     font-size: 25px;
   }
   .appforguidebook_form .constructconsult_form_title,
@@ -529,7 +521,9 @@
     font-size: 13px;
     line-height: 30px;
   }
-
+  .sub_page_title.common_titles {
+    padding: 16px 0;
+  }
   .appforguidebook .constructconsult_table_th,
   .constructconsult .constructconsult_table_th {
     font-size: 16px;
@@ -561,22 +555,16 @@
     margin-bottom: 36px;
   }
 
-  input[type="time"] {
-    width: 50%;
-    display: flex;
-
-    justify-content: end;
-  }
   .visit-time {
     padding: 10px;
   }
   .visit-time h3 {
     font-size: 14px;
   }
-  .constructconsult_form .constructconsult_form_title h1 {
+  /* .constructconsult_form .constructconsult_form_title h1 {
     font-size: 27px;
     margin-top: 130px;
-  }
+  } */
 }
 @media screen and (max-width: 575.98px) {
   .appforguidebook_form.constructconsult_form .constructconsult_form_title h4,
@@ -592,14 +580,26 @@
   .appforvisit_detail.constructconsult_form .constructconsult_form_title h1 {
     padding-top: 30px;
   }
+  .constructconsult_form .common_constructconsult_table_th {
+    display: block;
+    padding: 30px 0px 0px 0px;
+  }
+  .constructconsult_form .common_sub_table .construct_td span {
+    margin-top: 9px;
+  }
   .constructconsult_list .pagination {
     margin-bottom: 40px;
   }
-  .sub_page_title.common_titles {
-    padding: 36px 0;
-  }
-  /* form */
 
+  /* form */
+  .appforvisit_detail.constructconsult_form .constructconsult_form_title h1 {
+    margin-top: 90px;
+  }
+  .appforas_form.constructconsult_form .form_date,
+  .appforvisit_detail.constructconsult_form .form_date,
+  .appforas_list.constructconsult_form .form_date {
+    width: 50%;
+  }
   .constructconsult_form .constructconsult_form_title h4 {
     font-size: 14px;
   }
@@ -732,23 +732,11 @@
   /* constructconsult end*/
 
   .constructconsult_form .common_constructconsult_form_table .construct_td1 {
-    padding: 46px 0;
+    padding: 26px 0;
   }
   /* constructconsult */
   .container.constructconsult_form {
     margin-top: 27px;
-  }
-  .visit-time h3 {
-    display: none;
-  }
-  input[type="time"] {
-    width: 100%;
-    display: flex;
-    padding: 0;
-    justify-content: center;
-  }
-  .visit-time {
-    padding: 0;
   }
 }
 
@@ -779,15 +767,11 @@
     padding-top: 0px;
   }
 
-  summary:after {
-    position: relative;
-    top: -110%;
-    width: 9px;
-    right: -13%;
-    height: 9px;
-  }
   iframe {
     height: 250px;
+  }
+  .appforas_list.constructconsult_form .form_date {
+    width: 100%;
   }
   .constructconsult_form .common_sub_table .construct_td span {
     margin-top: 9px;
@@ -834,9 +818,9 @@
     line-height: 15px;
     height: 50px;
   }
-.appforvisit_detail .view_form_btn .apply_btn{
-  width: 100%;
-}
+  .appforvisit_detail .view_form_btn .apply_btn {
+    width: 100%;
+  }
   /* constructconsult */
   /* select box */
   .custom-select1 {
@@ -891,6 +875,7 @@
     font-size: 14px;
     margin-bottom: 30px;
   }
+
   .appforguidebook .guide_cont {
     font-size: 13px;
     padding: 10px;

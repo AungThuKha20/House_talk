@@ -485,13 +485,12 @@
 input[type="time"] {
   border: none;
   outline: none;
+  padding: 0 8px;
   background: #f6f6f6;
-  width: 60%;
-  display: flex;
-
-  justify-content: end;
 }
-
+.time {
+  width: 188px;
+}
 .scroll_box {
   padding: 20px;
 }
@@ -506,13 +505,4 @@ input[type="file"] {
 
 input[type="file"]::-webkit-file-upload-button {
   height: 29px;
-}
-input[type="date"]::-webkit-calendar-picker-indicator {
-  color: rgba(0, 0, 0, 0);
-  opacity: 1;
-  display: block;
-  background: url(/assets/imgs//icons/date.png) no-repeat;
-  width: 11px;
-  background-size: contain;
-  height: 11px;
 }
