@@ -404,3 +404,49 @@
   gap: 8px;
 }
 /* pressrelease_list end  */
+/* test carousel */
+
+.content-container {
+  display: flex;
+}
+.content-container > * {
+  width: 50%;
+}
+
+.right-content {
+  padding-right: 15px;
+}
+.contentMarker {
+  height: 100vh;
+  text-align: center;
+  align-content: center;
+}
+.left-content {
+  height: 100vh;
+  text-align: center;
+  align-content: center;
+  position: relative;
+}
+.left-content .textToShow .h2_box h2{
+font-size: 116px;
+font-weight: 700;
+line-height: 138.43px;
+letter-spacing: -0.47999998927116394px;
+text-align: left;
+}
+
+.left-content > * {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+/* test carousel end*/
+
+
+
+
+/*  */

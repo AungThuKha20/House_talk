@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="container about_us">
+      <div class="sub_page_header">
+        <div class="sub_page_header_box">
+          <h2>회사소개</h2>
+        </div>
+      </div>
+      <div class="sub_page_title top_80">
+        <h2>
+          어제보다 오늘, <br />
+          오늘보다 내일 더 성장하는 하우스 톡
+        </h2>
+        <div class="p_box2">
+          <p>
+            지금의 하우스톡이 있기 까지, 우리는 끊임 없이 상상하고 도전하며
+            모험을 거듭하였습니다.
+          </p>
+          <p>
+            수많은 현장을 마주하고 다양한 사업수행 경험을 쌓으며 지속가능한
+            성장을 이루어 나가고 있습니다.
+          </p>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="left-content">
+          <blockquote id="text1" class="textToShow">
+            <div class="h2_box">
+              <h2>2024</h2>
+            </div>
+          </blockquote>
+          <blockquote id="text2" class="textToShow">
+            <div class="h2_box">
+              <h2>2023</h2>
+            </div>
+          </blockquote>
+          <blockquote id="text3" class="textToShow">
+            <div class="h2_box">
+              <h2>2022</h2>
+            </div>
+          </blockquote>
+          <blockquote id="text4" class="textToShow">
+            <div class="h2_box">
+              <h2>2021</h2>
+            </div>
+          </blockquote>
+        </div>
+  
+        <div class="right-content">
+          <p class="contentMarker" data-marker-content="text1">
+            Cat ipsum dolor sit amet, attack the child i show my fluffy belly but
+            it's a trap! do not try to mix old food with new one to fool me! do i
+            like standing on litter cuz i sits when i have spaces, my cat buddies
+            have no litter i live in luxury cat life and throw down all the stuff
+            in the kitchen. Find empty spot in cupboard and sleep all day i want
+            to go outside let me go outside nevermind inside is better so i like
+            cats because they are fat and fluffy scratch my tummy actually i hate
+            you now fight me and lick the other cats thug cat.
+          </p>
+  
+          <p class="contentMarker" data-marker-content="text2">
+            do not try to mix old food with new one to fool me! do i like standing
+            on litter cuz i sits when i have spaces, my cat buddies have no litter
+            i live in luxury cat life and throw down all the stuff in the kitchen.
+            Find empty spot in cupboard and sleep all day i want to go outside let
+            me go outside nevermind inside is better so i like cats because they
+            are fat and fluffy scratch my tummy actually i hate you now fight me
+            and lick the other cats thug cat.
+          </p>
+  
+          <p class="contentMarker" data-marker-content="text3">
+            Jump launch to pounce upon little yarn mouse, bare fangs at toy run
+            hide in litter box until treats are fed chase laser or roll on the
+            floor purring your whiskers off for pretend you want to go out but
+            then don't play time. Munch, munch, chomp, chomp pooping rainbow while
+            flying in a toasted bread costume in space you call this cat food
+            sleep on my human's head but meow to be let in rub face on owner.
+          </p>
+  
+          <p class="contentMarker" data-marker-content="text4">
+            Pooping rainbow while flying in a toasted bread costume in space has
+            closed eyes but still sees you hit you unexpectedly peer out window,
+            chatter at birds, lure them to mouth so hiss and stare at nothing then
+            run suddenly away so stare at wall turn and meow stare at wall some
+            more meow again continue staring yet poop on grasses.
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    ${require('./include/_footer.html')}
+    <script>
+      console.clear();
+
+      gsap.defaults({ overwrite: "auto" });
+
+      gsap.set(".left-content > *", { xPercent: -50, yPercent: -50 });
+
+      // Set up our scroll trigger
+      const ST = ScrollTrigger.create({
+        trigger: ".content-container",
+        start: "top top",
+        end: "bottom bottom",
+        onUpdate: getCurrentSection,
+        pin: ".left-content",
+      });
+
+      const contentMarkers = gsap.utils.toArray(".contentMarker");
+
+      // Set up our content behaviors
+      contentMarkers.forEach((marker) => {
+        marker.content = document.querySelector(
+          `#${marker.dataset.markerContent}`
+        );
+
+        if (marker.content.tagName === "IMG") {
+          gsap.set(marker.content, { transformOrigin: "center" });
+
+          marker.content.enter = function () {
+            gsap.fromTo(
+              marker.content,
+              { autoAlpha: 0, rotateY: -10 },
+              { duration: 0, autoAlpha: 1, rotateY: 0 }
+            );
+          };
+        } else if (marker.content.tagName === "BLOCKQUOTE") {
+          gsap.set(marker.content, { transformOrigin: "left center" });
+
+          marker.content.enter = function () {
+            gsap.fromTo(
+              marker.content,
+              { autoAlpha: 0, rotateY: 10 },
+              { duration: 0, autoAlpha: 1, rotateY: 0 }
+            );
+          };
+        }
+
+        marker.content.leave = function () {
+          gsap.to(marker.content, { duration: 0, autoAlpha: 0 });
+        };
+      });
+
+      // Handle the updated position
+      let lastContent;
+      function getCurrentSection() {
+        let newContent;
+        const currScroll = scrollY;
+
+        // Find the current section
+        contentMarkers.forEach((marker) => {
+          if (currScroll > marker.offsetTop) {
+            newContent = marker.content;
+          }
+        });
+
+        // If the current section is different than that last, animate in
+        if (
+          newContent &&
+          (lastContent == null || !newContent.isSameNode(lastContent))
+        ) {
+          // Fade out last section
+          if (lastContent) {
+            lastContent.leave();
+          }
+
+          // Animate in new section
+          newContent.enter();
+
+          lastContent = newContent;
+        }
+      }
+
+      const media = window.matchMedia("screen and (max-width: 600px)");
+      ScrollTrigger.addEventListener("refreshInit", checkSTState);
+      checkSTState();
+
+      function checkSTState() {
+        if (media.matches) {
+          ST.disable();
+        } else {
+          ST.enable();
+        }
+      }
+    </script>
+  </body>
+</html>
