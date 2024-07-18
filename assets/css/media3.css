@@ -310,8 +310,9 @@
     object-fit: cover;
     object-position:top;
   }
-
-
+  .p_box p span {
+    display: inline;
+  }
   .houesetalknews_list .swiper-slide iframe {
     width: 522px !important;
     height: 380px !important;
@@ -415,6 +416,10 @@
   .common_cate,
   .common_cate1 {
     font-size: 18px;
+  }
+  .contact_box .contact_us_box .box1 .box1_sub .img_box {
+    width: 32px;
+    height: 32px;
   }
 }
 @media screen and (max-width: 767.98px) {
@@ -560,6 +565,10 @@
   .conseling_inn .conseling_form form {
     padding: 15.5px 12.5px;
   }
+  .contact_box .contact_us_box .box1 .box1_sub .img_box {
+    width: 30px;
+    height: 30px;
+  }
   .conseling_img_gp {
     height: 461px;
     width: 100%;
@@ -596,6 +605,10 @@
   gap: 10px;
   flex-wrap:wrap ;
 }
+.common_search input {
+  padding-left: 0px !important;
+}
+
   .conseling_inn .conseling_form h2 {
     font-size: 18px;
   }
