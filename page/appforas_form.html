@@ -120,7 +120,14 @@
                       <tr>
                         <th>*완공날짜</th>
                         <td class="construct_td">
-                          <input type="date" name="" id="" class="form_date" />
+                          <input
+                            type="text "
+                            class="form_date"
+                            placeholder="선택 항목으로"
+                            onfocus="$(this).hide().next().attr('hidden',false).focus();"
+                          />
+
+                          <input type="date" class="form_date" hidden="true" />
                         </td>
                       </tr>
                       <tr>
@@ -304,6 +311,5 @@
     </div>
 
     ${require('./include/_footer.html')}
-    <script></script>
   </body>
 </html>
