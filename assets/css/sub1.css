@@ -132,6 +132,7 @@
 }
 .construct_td_img .img_box input {
   width: 16px;
+  cursor: pointer;
   height: 16px;
 }
 .construct_td_img .img_box .label {
@@ -143,6 +144,7 @@
   width: 60px;
   padding: 10px;
   height: 68px;
+  cursor: pointer;
 }
 .constructconsult_form .common_sub_table .construct_td span {
   margin-top: 20px;
@@ -290,6 +292,7 @@
 }
 .constructconsult .common_sub_table ul {
   padding-left: 20px;
+  line-height: 19.9px;
 }
 .constructconsult .common_sub_table ul li {
   list-style: disc;
@@ -362,6 +365,7 @@
   overflow-x: hidden;
   height: 250px;
   width: 100%;
+  line-height: 19.9px;
   text-align: start !important;
   resize: none;
 }
@@ -383,31 +387,31 @@
   height: 389px;
 }
 .showroom_text {
-  position: relative;
   display: flex;
   margin: 72px 0 26px 0;
   width: 100%;
   height: 112px;
+  font-size: 22px;
+  text-align: center;
   padding: 0 30px;
+  font-weight: 600;
+  align-items: center;
   background: #ede3da;
   justify-content: space-between;
 }
-.showroom_text_left {
-  font-size: 22px;
-  text-align: center;
-  line-height: 120px;
-  font-weight: 600;
-}
-.showroom_text_left span {
+
+.showroom_text span {
   color: #937e69;
 }
 .showroom_text_right {
   font-size: 22px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
+  flex-wrap: wrap;
   color: #121b2a;
   font-weight: 600;
-  line-height: 120px;
 }
 .showroom_form h5 {
   margin-bottom: 86px;
@@ -416,17 +420,14 @@
   width: 30px;
   height: 30px;
   background: #89674f;
-  float: right;
-  margin-top: 45px;
   margin-left: 10px;
   border-radius: 50%;
 }
 .showroom_form .icon img {
-  position: relative;
   width: 20px;
-  top: -140%;
-  left: 4%;
+  vertical-align: middle;
   height: 20px;
+  padding-left: 2px;
 }
 
 .showroom_form .mySwiper_Exterior {
@@ -446,19 +447,8 @@
   right: 5%;
 }
 /* appforvisit detail */
-.visit-time {
-  display: flex;
-  padding: 0 20px;
-  align-items: center;
-  background-color: #f8f8f8;
-  border-radius: 5px;
-  justify-content: space-between;
-  /* width: 40%; */
-  height: 60px;
-  font-size: 16px;
-}
-.visit-time h3 {
-  font-size: 16px;
+.appforvisit_detail {
+  user-select: none;
 }
 /* title */
 .sub_page_title.common_titles {
@@ -505,4 +495,47 @@ input[type="file"] {
 
 input[type="file"]::-webkit-file-upload-button {
   height: 29px;
+  cursor: pointer;
+}
+.form_date {
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+  padding: 0.75rem;
+  position: relative;
+  width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.time {
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+  position: relative;
+  width: 188px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
 }

@@ -135,6 +135,12 @@
   .footer .foot_info_wrpp .foot_info_inn {
     flex-direction: column;
   }
+  .sub_quick_menu {
+    display: none;
+  }
+  .sub_quick_menu_gp {
+    top: 80%;
+  }
   
 }
 @media screen and (max-width: 767.98px) {
@@ -225,22 +231,18 @@
   .footer .foot_info > div {
     flex-wrap: wrap;
   }
+ 
 }
 @media screen and (max-width: 575.98px) {
-  .main_banner {height: 500px;}
+  /* .main_banner {height: 500px;} */
   .main_banner_txt {margin-top: -20px;gap: 18px;}
-  .main_banner .swiper-pagination {bottom: 100px !important;}
+  .main_banner .swiper-pagination {bottom: 250px !important;}
   .main_banner_txt h1 {
     font-size: 30px;
     line-height: 42px;
+    margin-top: 10px;
   }
-  .sub_quick_menu_gp {
-    top: 80%;
-  }
-  .sub_quick_menu {
-    display: none;
-  }
-  
+ 
   .mobile_hidden {
     display: none;
   }
@@ -375,12 +377,6 @@
 }
 @media screen and (max-width: 483px) {
   .main_banner_txt {gap: 10px;}
-  .main_banner_txt h1 {
-    font-size: 22px;
-  }
-  .main_banner_txt p {
-    font-size: 14px;
-  }
   .main_banner .swiper-pagination-bullet{
     font-size: 20px;
   }

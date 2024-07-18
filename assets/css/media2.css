@@ -45,9 +45,9 @@
 }
 @media screen and (max-width: 1470.98px) {
   .text_area_wrap {
-    height: 180px;
+    height: 150px;
   }
-  .text_area_wrap textarea {
+  .text_area_wrap textarea::placeholder {
     font-size: 20px !important;
   }
   .exterior_swiper_box .swiper-button-prev {
@@ -97,18 +97,21 @@
     gap: 0px;
     justify-content: space-between;
   }
+  .greeting_cont{
+    gap: 30px;
+  }
+  .greeting_cont .text_box p {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 @media screen and (max-width: 1300.98px) {
-  .consult_housing {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  .text_area_wrap {
+    height: 132px;
   }
-  .consult_housing .w-314 {
-    width: 230px !important;
-  }
-  .text_area_wrap textarea {
-    font-size: 16px !important;
+  .text_area_wrap textarea::placeholder {
+    font-size: 14px !important;
   }
   .list_btn_cont {
     margin-bottom: 30px;
@@ -209,7 +212,7 @@
   .greeting_cont .text_box {
     width: 50%;
   }
-  .greeting_cont .img_box img {
+  .greeting_cont .img_box video {
     height: 500px;
   }
   .greeting_cont .text_box p {
@@ -684,17 +687,24 @@
   .scene_live_list .product_cont_box .area_box {
     margin-top: 0px;
   }
+  .sub_page_header{
+    margin-top: 80px;
+  }
+  .sub_page_header_box {
+    padding: 15px 0px;
+  }
   .sub_page_header_box h2 {
     font-size: 35px;
   }
   .sub_page_header h1 {
     font-size: 30px;
-    padding: 30px 0px;
+    padding: 15px 0px;
+    line-height: 40px;
   }
   .greeting_cont {
     margin-bottom: 50px;
   }
-  .greeting_cont .img_box img {
+  .greeting_cont .img_box video {
     height: 400px;
   }
   .greeting_cont .text_box p {
@@ -864,6 +874,16 @@
   .home_map_box {
     padding: 20px;
   }
+  .sub_page_content h3 {
+    font-size: 20px;
+  }
+  .previous_btn {
+    width: 160px;
+    height: 40px;
+  }
+  .previous_btn a {
+    font-size: 16px;
+  }
   .home_exterior_box h3,
   .home_interior_box h3 {
     font-size: 35px;
@@ -872,7 +892,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0px;
-    border-top: 0px;
   }
 
   .news_img_box .img_box {
@@ -1016,7 +1035,7 @@
   }
   .pagination_box {
     gap: 10px;
-    margin: 0px 0px;
+    margin: 30px 0px 30px 0px;
   }
   .pagination_box .text_box {
     gap: 30px;
@@ -1029,11 +1048,7 @@
     margin-bottom: 0px;
     margin-top: 40px;
   }
-  .mobile_filter_box .common_search input {
-    width: 300px;
-    text-align: center;
-    padding-right: 30px;
-  }
+ 
   .mobile_filter_box li {
     width: 150px !important;
   }
@@ -1052,7 +1067,7 @@
   .greeting_cont .text_box p {
     line-height: 18px;
   }
-  .greeting_cont .img_box img {
+  .greeting_cont .img_box video {
     height: 300px;
   }
   .greeting_text_container {
@@ -1176,6 +1191,12 @@
     padding-top: 56px;
     line-height: 35px;
   }
+  .contact_box .map_box iframe{
+    height: 300px;
+  }
+  .conseling_inn .padding_28 form {
+    padding: 15.5px 12.5px !important;
+  }
 }
 @media screen and (max-width: 505px) {
   .summary_content_box {
@@ -1209,6 +1230,10 @@
   }
   .search_img_box_cont .search_img_box img {
     height: 150px !important;
+  }
+  .pagination_box {
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
   }
   .search_result_cont {
     margin: 26px 0px 0px 0px;
@@ -1283,11 +1308,7 @@
   .list_btn a {
     font-size: 14px;
   }
-  .mobile_filter_box .common_search input {
-    width: 250px;
-    text-align: center;
-    padding-right: 30px;
-  }
+
   .mobile_filter_box li {
     width: 100px !important;
   }
@@ -1311,7 +1332,7 @@
     font-size: 20px;
     padding: 30px 0px;
   }
-  .greeting_cont .img_box img {
+  .greeting_cont .img_box video {
     height: 200px;
   }
   .top_80 {
@@ -1386,6 +1407,9 @@
   }
   .card_gp {
     margin-top: 36px;
+  }
+  .contact_box .map_box iframe{
+    height: 250px;
   }
 }
 @media screen and (max-width: 396px) {

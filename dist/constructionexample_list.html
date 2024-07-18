@@ -231,11 +231,13 @@
     <div class="sub_quick_menu_gp">
   <div class="sub_quick_menu">
     <button class="bg_blue">
-     <a href=""> <img src="/assets/imgs/icons/tele.png" alt="" />
-      <p class="txt_white">
-        1588- <br />
-        9704
-      </p></a>
+      <a href="">
+        <img src="/assets/imgs/icons/tele.png" alt="" />
+        <p class="txt_white">
+          1588- <br />
+          9704
+        </p></a
+      >
     </button>
     <button>
       <a href="/dist/constructconsult_form.html">
@@ -244,24 +246,26 @@
       </a>
     </button>
     <button>
-      <a href="/dist/appforguidebook_list.html"><img src="/assets/imgs/icons/doc.png" alt="" />
-        <p>가이드 북</p></a>
+      <a href="/dist/appforguidebook_list.html"
+        ><img src="/assets/imgs/icons/doc.png" alt="" />
+        <p>가이드 북</p></a
+      >
     </button>
     <button>
       <a href="/dist/appforas_list.html">
         <img src="/assets/imgs/icons/house.png" alt="" />
-      <p>AS신청</p>
+        <p>AS신청</p>
       </a>
     </button>
   </div>
   <div class="scroll_top">
     <button class="scroll_top_btn" onclick="scrollToTop()">
-        <img src="/assets/imgs/icons/top_btn.png" alt="">
+      <img src="/assets/imgs/icons/top_btn.png" alt="" />
     </button>
   </div>
   <div class="dm">
     <button>
-        <a href=""><img src="/assets/imgs/icons/text.png" alt=""></a>
+      <a href=""><img src="/assets/imgs/icons/text.png" alt="" /></a>
     </button>
   </div>
 </div>
@@ -274,9 +278,9 @@
       <div class="common_filter">
         <div class="common_filter_box mobile_filter_box">
           <div class="common_cate_gp">
-            <div class="common_cates br_none">
+            <div class="common_cates ">
               <a class="common_cate">스타일</a>
-              <div class="common_cate1_gp hidden">
+              <div style="left: 0; width: 134px;" class="common_cate1_gp hidden">
                 <a class="common_cate1">네츄럴</a>
                 <a class="common_cate1">모던</a>
                 <a class="common_cate1">지중해</a>
@@ -285,7 +289,7 @@
               </div>
             </div>
             <div class="common_cates">
-              <a class="common_cate br_none bl_none">지역</a>
+              <a class="common_cate  bl_none">지역</a>
               <div class="common_cate1_gp hidden">
                 <a class="common_cate1">수도권/경기도</a>
                 <a class="common_cate1">강원도</a>
@@ -296,8 +300,8 @@
               </div>
             </div>
             <div class="common_cates">
-              <a class="common_cate">평형</a>
-              <div class="common_cate1_gp hidden">
+              <a class="common_cate bl_none">평형</a>
+              <div class="common_cate1_gp hidden ">
                 <a class="common_cate1">30평대</a>
                 <a class="common_cate1">40평대</a>
                 <a class="common_cate1">50평대</a>
@@ -557,73 +561,66 @@
             <label for="consel_chk03"><span>가이드북 신청</span></label>
           </div>
         </div>
-        <div style="width: 100%" class="form-input">
-          <div class="input_wrap hidden_at_chk1">
-            <input
-              type="text"
-              name=""
-              class="custom_input w-314"
-              placeholder="성함"
-              value=""
-            />
+        <div class="form-input">
+          <div class="w_half_gp hidden_at_chk1">
+            <div class="input_wrap w-half">
+              <input type="text" name="" class="" placeholder="성함" value="" />
+            </div>
+            <div class="input_wrap w-half">
+              <input
+                type="text"
+                name=""
+                class=""
+                placeholder="연락처"
+                value=""
+              />
+            </div>
           </div>
-          <div class="input_wrap hidden_at_chk1">
-            <input
-              type="text"
-              name=""
-              class="custom_input w-314"
-              placeholder="연락처"
-              value=""
-            />
+          <div class="w_full_gp hidden_at_chk1">
+            <div class="input_wrap ">
+              <input type="text" name="" class="" placeholder="주소" value="" />
+            </div>
           </div>
-          <div class="input_wrap hidden_at_chk1">
-            <input
-              type="text"
-              name=""
-              class="custom_input w-646"
-              placeholder="주소"
-              value=""
-            />
+         <div class="hidden_at_other w_full_gp">
+          <div class="input_wrap">
+            <input type="text" name="" class=" " placeholder="성함" value="" />
           </div>
-          <div class="input_wrap hidden_at_other">
-            <input
-              type="text"
-              name=""
-              class="custom_input w-646"
-              placeholder="성함"
-              value=""
-            />
+         </div>
+        <div class="hidden_at_other w_full_gp">
+          <div class="input_wrap">
+            <input type="text" name="" class="" placeholder="연락처" value="" />
           </div>
-          <div class="input_wrap hidden_at_other">
-            <input
-              type="text"
-              name=""
-              class="custom_input w-646"
-              placeholder="연락처"
-              value=""
-            />
-          </div>
+        </div>
           <div class="captcha_gp">
             <div class="captcha">
               <h3>등록 코드</h3>
               <img src="/assets/imgs/sub3/captcha.png" alt="" />
             </div>
-          </div>
-          <div style="position: relative" class="input_wrap input_wrap2">
-            <input
-              type="text"
-              name=""
-              class="custom_input w-314 custom_placeholder"
-              placeholder="왼쪽 6자리 문자 입력"
-              value=""
-            />
-            <div class="reset_btn">
-              <img src="/assets/imgs/icons/system-uicons_reset.png" alt="" />
+            <div style="position: relative" class="w_full_gp">
+              <div  class="input_wrap ">
+                <input
+                  type="text"
+                  name=""
+                  style="padding-right: 80px;"
+                  class="custom_placeholder"
+                  placeholder="왼쪽 6자리 문자 입력"
+                  value=""
+                />
+                <div class="reset_btn">
+                  <img
+                    src="/assets/imgs/icons/system-uicons_reset.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          <div class="form_note">
-            <p>*개인정보 수집 및 이용에 대한 동의 <button><span>동의</span></button></p>
-          </div>
+        </div>
+        <div class="form_note">
+          <p>
+            *개인정보 수집 및 이용에 대한 동의
+            <span><button id="consentButton">동의</button></span>
+          </p>
         </div>
         <div class="consultation_reception">
           <button type="" class="">상담접수</button>
@@ -672,7 +669,7 @@
         <div class="foot_nav">
             <div class="foot_nav_inn container">
                 <div class="foot_img pc_hidden">
-                    <img src="../../assets/imgs/main/house_talk_white_logo.png" alt="house logo">
+                   <a href="/dist/main.html"> <img src="../../assets/imgs/main/house_talk_white_logo.png" alt="house logo"></a>
                 </div>
                 <div class="foot_gnb">
                     <a href="">회사소개</a>
@@ -693,7 +690,7 @@
         <div class="foot_info_wrpp container">
             <div class="foot_info_inn">
                 <div class="foot_img mobile_hidden">
-                    <img src="../../assets/imgs/main/house_talk_white_logo.png" alt="house logo">
+                    <a href="/dist/main.html"><img src="../../assets/imgs/main/house_talk_white_logo.png" alt="house logo"></a>
                 </div>
                 <div class="foot_info">
                     <div class="foot_info_01">
