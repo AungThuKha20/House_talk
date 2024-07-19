@@ -1889,7 +1889,7 @@ img {
 .custom-select::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 10%;
   transform: translateY(-50%) rotate(-45deg);
   transition: .2s;
@@ -1902,6 +1902,9 @@ img {
   background-size: cover;
   pointer-events: none;
   outline: none;
+}
+.custom-select.custom-select-item::after{
+  top:40%;
 }
 .custom-select.active::after {
   transform: rotate(-225deg);
