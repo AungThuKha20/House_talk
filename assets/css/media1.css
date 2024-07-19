@@ -535,7 +535,9 @@
     margin-bottom: 36px;
   }
   .constructconsult_form .common_input,
-  .custom-select select {height: 40px;}
+  .custom-select select {
+    height: 40px;
+  }
 }
 @media screen and (max-width: 575.98px) {
   .appforguidebook_form.constructconsult_form .constructconsult_form_title h4,
@@ -551,6 +553,7 @@
   .appforvisit_detail.constructconsult_form .constructconsult_form_title h1 {
     padding-top: 0px;
   }
+
   .constructconsult_form .common_constructconsult_table_th {
     padding: 20px 0px 0px 0px;
   }
@@ -708,6 +711,14 @@
   .container.constructconsult_form {
     margin-top: 27px;
   }
+  .appforguidebook_form.constructconsult_form .constructconsult_form_title,
+  .constructconsult.constructconsult_form .constructconsult_form_title {
+    padding: 32px 0 0 0;
+  }
+
+  .appforguidebook_list .common_consulation_form table {
+    margin-top: 0px;
+  }
 }
 
 @media screen and (max-width: 483px) {
@@ -717,6 +728,7 @@
     width: 100%;
     height: auto;
   }
+
   .constructconsult_form .common_sub_table .construct_td.construct_td_btn {
     padding: 5px 0px 10px 0px;
   }
@@ -740,6 +752,7 @@
   iframe {
     height: 250px;
   }
+
   .appforas_list.constructconsult_form .form_date {
     width: 100%;
   }
