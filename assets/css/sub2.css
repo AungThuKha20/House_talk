@@ -231,7 +231,7 @@ swiper-slide img {
   line-height: 40.64px;
   letter-spacing: -0.48px;
 }
-.greeting_cont .text_box .bottom_40{
+.bottom_40{
   margin: 45px 0px;
 }
 .greeting_cont .text_box p span{
@@ -264,8 +264,11 @@ swiper-slide img {
 .greeting_text_container .text_box .text1 p {
   font-size: 22px;
   font-weight: 300;
-  line-height: 26.25px;
+  line-height: 46.25px;
   letter-spacing: -0.48px;
+}
+.greeting_text_container .text_box .text1 p span{
+  display: block;
 }
 .greeting_text_container .text_box .text1 .sign_box{
   display: flex;
@@ -517,4 +520,7 @@ swiper-slide img {
   line-height: 21.48px;
   letter-spacing: -0.48px;
   color: #999999;
+}
+.cosult_housing{
+  padding-bottom: 72px !important;
 }
