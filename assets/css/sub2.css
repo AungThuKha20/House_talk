@@ -375,30 +375,26 @@ swiper-slide img {
   font-weight: 500;
   line-height: 21.48px;
   letter-spacing: 0.5px;
-  align-content: center;
   text-align: center;
   width: 100%;
   height: 100%;
   cursor: pointer;
 }
+
+
 .contact_box .button_box .btn_1{
+  border: 1px solid #DEE2E6;
+  color: var(--bs-black);
+  user-select: none;
+}
+.contact_box .button_box .active.btn_1{
+  border: 1px solid var(--bs-primary);
   background-color: var(--bs-primary);
 }
-.contact_box .button_box .btn_1 a{
+.contact_box .button_box .active.btn_1 a {
   color: var(--bs-white);
 }
-.contact_box .button_box .btn_1 a:hover{
-  background-color: var(--bs-white);
-  color: var(--bs-primary);
-  border: 1px solid #DEE2E6;
-}
-.contact_box .button_box .btn_2{
-  border: 1px solid #DEE2E6;
-}
-.contact_box .button_box .btn_2 a:hover{
-  background-color: var(--bs-primary);
-  color: var(--bs-white);
-}
+
 .contact_box .map_box iframe{
   width: 100%;
   height: 500px;

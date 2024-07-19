@@ -449,6 +449,9 @@
   letter-spacing: -0.47999998927116394px;
   text-align: left;
 }
+.hidden {
+  display: none;
+}
 
 .left-content > * {
   position: absolute;

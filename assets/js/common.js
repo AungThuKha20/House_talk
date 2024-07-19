@@ -289,6 +289,25 @@ $(document).ready(function () {
       }
     });
   }
+  const buttons = document.querySelectorAll('.button_box .btn_1');
+  const mapBoxes = document.querySelectorAll('.map_box');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+      // Remove active class from all buttons
+      buttons.forEach(btn => btn.classList.remove('active'));
+
+      // Add active class to the clicked button
+      this.classList.add('active');
+
+      // Hide all map boxes
+      mapBoxes.forEach(box => box.classList.add('hidden'));
+
+      // Show the corresponding map box
+      const targetId = this.querySelector('a').id + '_content';
+      document.getElementById(targetId).classList.remove('hidden');
+    });
+  });
 
   // Initial state
   updateSwiperTextVisibility();
