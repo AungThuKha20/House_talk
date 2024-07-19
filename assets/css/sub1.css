@@ -114,6 +114,9 @@
 .appforvisit_detail.constructconsult_form .common_constructconsult_table_th {
   width: 20%;
 }
+.appforvisit_detail.constructconsult_form .common_constructconsult_table th span{
+  color: #3074F1;
+}
 .constructconsult_form .common_sub_table .construct_td {
   display: flex;
   font-size: 20px;
