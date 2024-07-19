@@ -293,15 +293,7 @@
 .card_gp {
   position: relative;
 }
-.line {
-  width: 100vw;
-  height: 1px;
-  background-color: var(--bs-white);
-  position: absolute;
-  z-index: 11;
-  left: 0;
-  bottom: 225px;
-}
+
 .card_gp {
   display: flex;
   justify-content: space-around;
