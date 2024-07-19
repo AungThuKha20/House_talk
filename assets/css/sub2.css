@@ -314,8 +314,9 @@ swiper-slide img {
 .business_areas_box .text_box{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   margin-bottom: 150px;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .business_areas_box .text_box .information_box{
   display: flex;
@@ -323,6 +324,7 @@ swiper-slide img {
   gap: 24px;
   border-bottom: 1px solid var(--bs-black);
   padding: 60px;
+  width: 70%;
 }
 .business_areas_box .text_box .information_box .plus_box {
   display: flex;

@@ -33,9 +33,6 @@
   .text_area_wrap {
     height: 150px;
   }
-  .text_area_wrap textarea::placeholder {
-    font-size: 20px !important;
-  }
   .exterior_swiper_box .swiper-button-prev {
     left: 30px;
   }
@@ -93,8 +90,8 @@
   .text_area_wrap {
     height: 132px;
   }
-  .text_area_wrap textarea::placeholder {
-    font-size: 14px !important;
+  .text_area_wrap textarea::placeholder{
+    font-size: 18px;
   }
   .list_btn_cont {
     margin-bottom: 30px;
@@ -144,6 +141,9 @@
   }
   .range_cont .text_blue {
     margin-right: 89px;
+  }
+  .business_areas_box .text_box .information_box{
+    width: 100%;
   }
 }
 @media screen and (max-width: 1220px) {
@@ -542,6 +542,9 @@
 }
 
 @media screen and (max-width: 767.98px) {
+  .text_area_wrap textarea{
+    font-size: 20px;
+  }
   .summary_content_box .content .content_sub_box .content_sub_cont {
     width: 85px;
   }
@@ -1218,9 +1221,6 @@
   }
 }
 @media screen and (max-width: 483px) {
-  .text_area_wrap textarea {
-    font-size: 14px !important;
-  }
   .heading_img img {
     height: 300px;
   }
@@ -1417,10 +1417,5 @@
 @media screen and (max-width: 396px) {
   .sub_menu_title .sub_menu_hor_ln.sub_menu_hor_ln1 {
     display: none;
-  }
-}
-@media screen and (max-width: 365px) {
-  .text_area_wrap textarea {
-    font-size: 12px !important;
   }
 }
