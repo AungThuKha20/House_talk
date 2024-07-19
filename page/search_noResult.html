@@ -1,35 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        ${require('./include/_meta.html')}
-        <script>
-            (function(d) {
-              var config = {
-                kitId: 'adw8piw',
-                scriptTimeout: 3000,
-                async: true
-              },
-              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-            })(document);
-        </script>
-    </head>
-    <body>
-        ${require('./include/_header.html')}
-        ${require('./include/_subQuick_menu.html')}
-        <div class="container search_noResult">
-            <div class="sub_page_title">
-                <h2>‘건축’ 검색 결과</h2>
-            </div>
-            <div class="sub_page_content">
-                <h3>검색 결과가 없습니다.</h3>
-                <div class="previous_btn_cont">
-                    <div class="previous_btn">
-                        <a href="">이전으로</a>
-                    </div>
-                </div>
-            </div>
+  <head>
+    ${require('./include/_meta.html')}
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "adw8piw",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    ${require('./include/_header.html')}
+    ${require('./include/_subQuick_menu.html')}
+    <div class="container search_noResult">
+      <div class="sub_page_title">
+        <h2>‘건축’ 검색 결과</h2>
+      </div>
+      <div class="sub_page_content">
+        <h3>검색 결과가 없습니다.</h3>
+        <div class="previous_btn_cont">
+          <div class="previous_btn">
+            <a href="">이전으로</a>
+          </div>
         </div>
+      </div>
+    </div>
 
-        ${require('./include/_footer.html')}
-    </body>
+    ${require('./include/_footer.html')}
+  </body>
 </html>
