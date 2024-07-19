@@ -189,11 +189,12 @@
     font-size: 16px;
     margin: 0;
   }
-  .main_sec_04_inn {
+  .main_sec_04_items {
     margin-top: 30px;
   }
-  .sec_04_swiper {
-    height: 350px;
+  .main_sec_04_items {
+    height: 400px;
+    gap: 10px
   }
   .main_sec_05_btns {
     margin-top: 0;
@@ -239,9 +240,8 @@
  
 }
 @media screen and (max-width: 575.98px) {
-  /* .main_banner {height: 500px;} */
   .main_banner_txt {margin-top: -20px;gap: 18px;}
-  .main_banner .swiper-pagination {bottom: 250px !important;}
+  .main_banner .swiper-pagination {bottom: 100px !important;}
   .main_banner_txt h1 {
     font-size: 30px;
     line-height: 42px;

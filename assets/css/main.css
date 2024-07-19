@@ -11,7 +11,7 @@
 .main_banner_swiper {height: 100%;position: relative;}
 .main_banner_img {box-shadow: inset 2000px 0 0 0 rgb(0 0 0 / 30%); width: 100%;background-size: cover !important;background-position: center !important;margin: 0 auto;}
 .main_banner_txt {margin-top: -70px;height: 100%;color: var(--bs-white);font-weight: 700;display: flex;flex-direction: column;align-items: center;justify-content: center;gap: 24px;}
-.main_banner_txt p {font-size: 24px;line-height: 28.64px;    transition: font-size 0.2s ease-in-out;
+.main_banner_txt p {font-size: 24px;line-height: 28.64px;transition: font-size 0.2s ease-in-out;
     animation: tit_ani 1s linear;}
 .main_banner_txt h1 {font-size: 60px;line-height: 71.6px;transition: font-size 0.5s ease-in-out;
     animation: tit_ani 1s linear;}
@@ -32,7 +32,8 @@
 .sec_01_items .swiper-button-next {right: -100px;}
 .sec_01_items .swiper-button-prev {left: -100px;}
 .sec_01_swiper {margin-top: 76px;}
-.sec_01_swiper_img {height: 415px;background-size: cover !important;background-position: center !important;position: relative;}
+.sec_01_swiper_img {height: 415px;background-size: cover !important;background-position: center !important;position: relative;transition: ease-in-out 0.3s;overflow: hidden;}
+.sec_01_swiper_img:hover {transform: scale(1.05);}
 .sec_01_swiper_txt p {font-size: 24px;font-weight: 700;font-family: 'SUIT Variable', sans-serif;color: var(--bs-white);margin-top: 21px;margin-left: 17px;}
 
 .sec_01_range {position: absolute;right: 22px;top: 50%;transform: translateY(-50%);}
@@ -67,8 +68,9 @@
 
 .sec_03_swiper_conts {display: flex;flex-direction: column;height: 700px;}
 .sec_03_swiper_cont {height: 211px !important;width: 100%;display: flex;align-items: center;gap: 14px;}
-.sec_03_swiper_cont .img {min-width: 310px;height: 100%;}
+.sec_03_swiper_cont .img {min-width: 310px;height: 100%;overflow: hidden;}
 .sec_03_swiper_cont .img img{object-fit: cover;}
+.sec_03_swiper_cont .img:hover img {transform: scale(1.1);}
 .sec_03_swiper_cont .txt {width: 100%;}
 .sec_03_swiper_cont .txt h4 {font-size: 20px;font-weight: 600;line-height: 23.87px;}
 .sec_03_swiper_cont .txt p {font-weight: 500;line-height: 19.09px;margin-top: 2px;}
@@ -88,6 +90,11 @@
 .sec_04_swiper {height: 705px;border-radius: 18px;}
 .sec_04_swiper_cont {width: 100%;height: 100%; background-size: cover !important;background-position: center !important;margin: 0 auto;border-radius: 18px;}
 
+.main_sec_04_items {display: flex;gap: 24px; height: 705px;margin-top: 73px;}
+.main_sec_04_item {border-radius: 18px;overflow: hidden;width: 20%;transition: 0.3s}
+.main_sec_04_item img {max-width: initial;object-fit: cover;}
+.main_sec_04_item.on {width: 60%;transition: 0.3s;}
+
 .main_sec_05_btns{display: flex;justify-content: center;gap: 24px;margin-top: 36px;flex-wrap: wrap;}
 .main_sec_05_btns .main_sec_03_btn{width: 133px;}
 
@@ -98,8 +105,8 @@
 
 .main_sec_05_conts {margin-top: 72px;}
 .sec_05_swiper_cont {display: flex;gap: 36px;}
-.main_sec_05_conts .sec_05_img {min-width: 701px;}
-.main_sec_05_conts .sec_05_img img {object-fit: cover;}
+.main_sec_05_conts .sec_05_img {min-width: 701px;overflow: hidden;}
+.main_sec_05_conts .sec_05_img:hover img {transform: scale(1.1);}
 .main_sec_05_conts .sec_05_txt {display: flex;flex-direction: column;justify-content: space-between;gap: 20px;}
 .main_sec_05_conts .sec_05_txt span {font-weight: 500;color: #7A7A7A;line-height: 19.09px;}
 .main_sec_05_conts .sec_05_txt h3 {font-size: 36px;font-weight: 700;line-height: 42.96px;margin: 24px 0 14px;}
