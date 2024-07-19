@@ -207,6 +207,7 @@ swiper-slide img {
 .mobile_filter_box {
   display: flex;
   justify-content: space-between;
+  margin-top: 110px;
 }
 .range_cont .text_blue {
   font-weight: 500;
