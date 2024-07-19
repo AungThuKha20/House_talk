@@ -88,26 +88,13 @@
 
   .custom-select {
     width: 33.33%;
-    height: 40px;
   }
   .custom-select select {
-    height: 45px;
     width: 100%;
   }
 
   .custom-select1 {
     width: 100%;
-  }
-  .custom-select1 select {
-    width: 100%;
-    height: 40px;
-    right: 5%;
-  }
-  .custom-select::after {
-    top: 10px;
-  }
-  .custom-select.active::after {
-    top: 20px;
   }
   .constructconsult_form .common_sub_table .construct_td {
     font-size: 15px;
@@ -160,12 +147,6 @@
     padding: 50px 0px 0px 0px;
   }
 
-  .constructconsult_form .common_sub_table .construct_td span {
-    margin-top: 8px;
-    text-align: center;
-    padding: 6px 1px;
-  }
-
   .constructconsult_form .construct_td_text .construct_td_text_cont {
     margin-top: 20px;
     padding: 20px;
@@ -194,7 +175,6 @@
 
   .constructconsult_form .common_input {
     width: 100%;
-    height: 45px;
   }
 
   .constructconsult_form .common_input {
@@ -554,6 +534,8 @@
   .showroom_form h5 {
     margin-bottom: 36px;
   }
+  .constructconsult_form .common_input,
+  .custom-select select {height: 40px;}
 }
 @media screen and (max-width: 575.98px) {
   .appforguidebook_form.constructconsult_form .constructconsult_form_title h4,
@@ -575,9 +557,6 @@
   .constructconsult_form .common_constructconsult_table_th {
     display: block;
     padding: 30px 0px 0px 0px;
-  }
-  .constructconsult_form .common_sub_table .construct_td span {
-    margin-top: 9px;
   }
   .constructconsult_list .pagination {
     margin-bottom: 40px;

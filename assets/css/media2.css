@@ -527,14 +527,14 @@
     margin-top: 50px;
   }
   .product_cont_box {
-    gap: 20px;
+    gap: 40px;
     grid-template-columns: 1fr 1fr;
   }
   .product_cont_box .home_img_box img {
     height: 350px;
   }
   .product_cont_box .area_box {
-    margin-top: 10px;
+    margin-top: 0;
   }
   .product_range_box input[type=range] {
     width: 50% !important;
