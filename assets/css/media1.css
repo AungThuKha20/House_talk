@@ -538,6 +538,9 @@
   .custom-select select {
     height: 40px;
   }
+  .constructconsult .constructconsult_form_title {
+    padding: 46px 0 0 0;
+  }
 }
 @media screen and (max-width: 575.98px) {
   .appforguidebook_form.constructconsult_form .constructconsult_form_title h4,
@@ -711,8 +714,7 @@
   .container.constructconsult_form {
     margin-top: 27px;
   }
-  .appforguidebook_form.constructconsult_form .constructconsult_form_title,
-  .constructconsult.constructconsult_form .constructconsult_form_title {
+  .appforguidebook_form.constructconsult_form .constructconsult_form_title {
     padding: 32px 0 0 0;
   }
 
