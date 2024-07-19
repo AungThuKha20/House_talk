@@ -20,6 +20,9 @@
   .daily_progress_box {
     display: none;
   }
+  .greeting_cont{
+    gap: 76px;
+  }
 }
 @media screen and (max-width: 1480px) {
   .product_range_box input[type=range]{
