@@ -1168,7 +1168,7 @@
     margin-bottom: 10px;
   }
   .summary_content_box .content .content_sub_box {
-    gap: 5px;
+    gap: 20px;
   }
   .calendar_box {
     flex-wrap: wrap !important;
