@@ -353,15 +353,11 @@
                       </tr>
                       <tr>
                         <th> <span>*</span>완공날짜</th>
-                        <td class="construct_td">
-                          <input
-                            type="text "
-                            class="form_date"
-                            placeholder="선택 항목으로"
-                            onfocus="$(this).hide().next().attr('hidden',false).focus();"
-                          />
-
-                          <input type="date" class="form_date" hidden="true" />
+                        <td class="construct_td common_date_wrapp">
+                          <div class="date_box">
+                            <input type="date" id="date" name="date" required aria-required="true" class="common_form_date" placeholder="희망방문일자">
+                            <span class="date_box_icon"></span>
+                          </div>
                         </td>
                       </tr>
 

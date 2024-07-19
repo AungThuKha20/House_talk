@@ -188,7 +188,7 @@ swiper-slide img {
 }
 .range_text_box {
   display: flex;
-  gap: 77px;
+  justify-content: space-between;
 }
 .range_text_box .range_text_sub {
   display: flex;
