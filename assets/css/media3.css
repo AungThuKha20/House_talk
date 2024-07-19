@@ -558,6 +558,9 @@
   }
 }
 @media screen and (max-width: 575.98px) {
+  .houesetalknews_list .product_cont_box .area_box h2 {
+    text-align: left;
+}
   .conseling_inn {
     padding: 50px 0px 90px 0px;
   }
