@@ -52,9 +52,8 @@
 }
 .contact_box .contact_us_box .box1 .box1_sub .img_box img {
   width: 100%;
-  height:100%;
+  height: 100%;
 }
-
 
 .houesetalknews_list .swiper_txt {
   max-width: 1022px;
@@ -412,45 +411,62 @@
 }
 /* pressrelease_list end  */
 /* test carousel */
-
-.content-container {
+.story_list_boxes {
+  margin-top: 130px;
+}
+.story_list_boxes .story_box {
   display: flex;
+  gap: 97px;
+  align-items: center;
+  margin-bottom: 126px;
 }
-.content-container > * {
-  width: 50%;
+.story_list_boxes .story_box .img {
+  width: fit-content;
+  height: fit-content;
 }
-
-.right-content {
-  padding-right: 15px;
+.story_list_boxes .story_box .img img {
+  width: 566px;
+  height: 344px;
 }
-.contentMarker {
-  height: 100vh;
-  text-align: center;
-  align-content: center;
+.story_list_boxes .story_box article {
+  display: flex;
+  flex-direction: column;
+  height: 344px;
+  padding: 10px 0px;
+  width: 697px;
+  justify-content: space-between;
 }
-.left-content {
-  height: 100vh;
-  text-align: center;
-  align-content: center;
-  position: relative;
-}
-.left-content .textToShow .h2_box h2 {
-  font-size: 116px;
-  font-weight: 700;
-  line-height: 138.43px;
-  letter-spacing: -0.47999998927116394px;
+.story_list_boxes .story_box article .article_top span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  color: #999999;
   text-align: left;
 }
-.hidden {
-  display: none;
+.story_list_boxes .story_box article .article_top h4 {
+  font-size: 34px;
+  font-weight: 600;
+  margin: 10px 0px 18px 0px;
+  line-height: 40.57px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
-
-.left-content > * {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  opacity: 0;
-  visibility: hidden;
+.story_list_boxes .story_box article .article_top p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.64px;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #121b2a;
+}
+.story_list_boxes .story_box article .article_bottom  {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.71px;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #121b2a;
 }
 
 /* test carousel end*/
