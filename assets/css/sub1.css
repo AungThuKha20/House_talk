@@ -362,7 +362,9 @@
   font-size: 16px;
   color: #999;
 }
-
+.showroom_form .sub_custom_title {
+ padding: 46px 0 0;
+}
 .appforas_list .scroll_box,
 .constructconsult_form .scroll_box {
   border: 1px solid #dedede;

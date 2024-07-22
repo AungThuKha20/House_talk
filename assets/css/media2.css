@@ -834,6 +834,9 @@
   .card_gp .card_1 p {
     font-size: 14px;
   }
+  .top_80 .p_box {
+    margin-bottom: 0px !important;
+  }
   .top_80 .p_box2 {
     margin-bottom: 50px !important;
   }

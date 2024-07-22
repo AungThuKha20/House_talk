@@ -592,6 +592,10 @@
   .appforas_list.constructconsult_form .form_date {
     width: 50%;
   }
+  .appforvisit_detail.constructconsult_form .constructconsult_form_title {
+    display: block;
+    padding: 20px 0 0 0;
+}
   .constructconsult_form .constructconsult_form_title h4 {
     font-size: 14px;
   }
