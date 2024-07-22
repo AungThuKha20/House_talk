@@ -20,6 +20,12 @@
   .greeting_cont {
     gap: 76px;
   }
+  .sub_menu_title{
+    gap: 30px;
+  }
+  .sub_menu_title a {
+    width: 150px;
+  }
 }
 @media screen and (max-width: 1480px) {
   .product_range_box input[type="range"] {
@@ -89,6 +95,9 @@
 @media screen and (max-width: 1300.98px) {
   .text_area_wrap {
     height: 132px;
+  }
+  .text_area_wrap textarea{
+    font-size: 18px;
   }
   .text_area_wrap textarea::placeholder {
     font-size: 18px;
@@ -441,7 +450,7 @@
     margin: 0px;
   }
   .greeting_text_container {
-    padding: 30px 50px;
+    padding: 30px 35px;
   }
   .greeting_text_container .text_box {
     gap: 50px;
@@ -635,8 +644,15 @@
     width: 120px;
     height: 45px;
   }
+  .sub_menu_title{
+    gap: 10px;
+  }
   .sub_menu_title a {
     font-size: 22px;
+    width: 130px;
+  }
+  .pressrelease_list .sub_menu_title a{
+    width: 130px;
   }
   .search_Result .sub_page_title {
     margin-bottom: 20px !important;
@@ -728,7 +744,7 @@
     font-size: 16px;
   }
   .greeting_text_container {
-    padding: 20px;
+    padding: 20px 30px;
     margin-bottom: 50px;
   }
   .greeting_text_container .text_box .text1 p {
@@ -838,8 +854,15 @@
     margin-bottom: 0px !important;
   }
   .top_80 .p_box2 {
-    margin-bottom: 50px !important;
+    margin-bottom: 20px !important;
   }
+  .top_80 h2 {
+    line-height: 45px;
+  }
+  .top_80 .p_box2 p span {
+    display: inline !important;
+    padding-top: 0px;
+ }
   .calendar_box {
     margin: 50px 0px;
   }
@@ -862,15 +885,15 @@
   .mobile_filter_box {
     margin-top: 0px;
   }
-  .top_80 h2 {
-    line-height: 45px;
-  }
   .scene_live_detail .search_result_cont {
     margin: 20px 0px !important;
   }
   .range_cont .text_blue {
     font-size: 12px;
     margin-right: 50px;
+  }
+  .business_areas_box .text_box .information_box .para_box p {
+    line-height: 20px;
   }
 }
 
@@ -987,6 +1010,9 @@
     line-height: 31.03px;
     width: 125px;
     text-align: center;
+  }
+  .pressrelease_list .sub_menu_title a{
+    width: 100px;
   }
   .sub_menu_title_cont {
     margin-bottom: 0px;
@@ -1137,7 +1163,7 @@
     margin-bottom: 40px !important;
   }
   .top_80 .p_box2 {
-    margin: 0px 0px !important;
+    margin: 10px 0px !important;
   }
   .business_areas_box .header_box h2 {
     font-size: 23px;
@@ -1374,7 +1400,6 @@
   }
   .business_areas_box .text_box .information_box .para_box p {
     font-size: 14px;
-    line-height: 20px;
   }
   .business_areas_box .text_box .information_box {
     gap: 0px;
@@ -1435,8 +1460,11 @@
   .range_cont .text_blue {
     margin-right: 40px;
 }
+.pressrelease_list .sub_menu_title a{
+  width: 80px;
 }
-@media screen and (max-width: 396px) {
+}
+@media screen and (max-width: 417px) {
   .sub_menu_title .sub_menu_hor_ln.sub_menu_hor_ln1 {
     display: none;
   }

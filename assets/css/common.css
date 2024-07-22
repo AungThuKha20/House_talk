@@ -1859,11 +1859,12 @@ img {
   line-height: 28.64px;
   letter-spacing: 0.5px;
   color: #000000;
-  padding-top: 22px;
+  padding: 22px 10px;
   font-size: 24px;
 }
 .text_area_wrap textarea::placeholder{
   font-size: 24px;
+  padding: 0px;
 }
 /* common  architecture gallery end*/
 .custom-select select {
