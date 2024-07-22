@@ -263,7 +263,6 @@ img {
   margin-top: 36px;
   opacity: 0;
   pointer-events: none;
-  
 }
 .lnb_bg {
   background: var(--bs-white);
@@ -1131,12 +1130,12 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
-.scene_live_detail .search_img_box_cont{
+.scene_live_detail .search_img_box_cont {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
-.search_img_box_cont .search_img_box1{
+.search_img_box_cont .search_img_box1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -1859,7 +1858,7 @@ img {
   padding-top: 22px;
   font-size: 24px;
 }
-.text_area_wrap textarea::placeholder{
+.text_area_wrap textarea::placeholder {
   font-size: 24px;
 }
 /* common  architecture gallery end*/
@@ -1886,16 +1885,16 @@ img {
 .custom-select::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 10%;
   transform: translateY(-50%) rotate(-45deg);
-  transition: .2s;
+  transition: 0.2s;
   z-index: 90;
   width: 13px;
   height: 13px;
   border: 1px solid #333;
-  border-top: 1px solid var(--bs-white);
-  border-right: 1px solid var(--bs-white);
+  border-top: 1px solid #f6f6f6;
+  border-right: 1px solid #f6f6f6;
   background-size: cover;
   pointer-events: none;
   outline: none;
@@ -1903,7 +1902,6 @@ img {
 .custom-select.active::after {
   transform: rotate(-225deg);
 }
-
 
 /* DAte */
 
@@ -1921,54 +1919,68 @@ img {
   color: #999;
 }
 
-.date_box input[type='time'] {
+.date_box input[type="time"] {
   width: 188px;
   height: 100%;
 }
-.date_box input[type='date']::-webkit-datetime-edit,
-.date_box input[type='time']::-webkit-datetime-edit {
+.date_box input[type="date"]::-webkit-datetime-edit,
+.date_box input[type="time"]::-webkit-datetime-edit {
   color: transparent;
 }
 
-.date_box input[type='date']:focus::-webkit-datetime-edit,
-.date_box input[type='date']:valid::-webkit-datetime-edit,
-.date_box input[type='time']:focus::-webkit-datetime-edit,
-.date_box input[type='time']:valid::-webkit-datetime-edit {
+.date_box input[type="date"]:focus::-webkit-datetime-edit,
+.date_box input[type="date"]:valid::-webkit-datetime-edit,
+.date_box input[type="time"]:focus::-webkit-datetime-edit,
+.date_box input[type="time"]:valid::-webkit-datetime-edit {
   color: #000;
 }
 
-.date_box input[type='date']::-webkit-calendar-picker-indicator,
-.date_box input[type='time']::-webkit-calendar-picker-indicator {
+.date_box input[type="date"]::-webkit-calendar-picker-indicator,
+.date_box input[type="time"]::-webkit-calendar-picker-indicator {
   position: absolute;
-  right: 0;top: 0;
-  width: 100%;height: 100%;
-  margin: 0;padding: 0; opacity: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
   cursor: pointer;
 }
 
-.date_box input[type='date']::before,
-.date_box input[type='time']::before {
+.date_box input[type="date"]::before,
+.date_box input[type="time"]::before {
   content: attr(placeholder);
   position: absolute;
-  left: 10px;top: 50%;
+  left: 10px;
+  top: 50%;
   transform: translateY(-50%);
   color: #999;
 }
 
-.date_box input[type='date']:focus::before,
-.date_box input[type='date']:valid::before,
-.date_box input[type='time']:focus::before,
-.date_box input[type='time']:valid::before {
+.date_box input[type="date"]:focus::before,
+.date_box input[type="date"]:valid::before,
+.date_box input[type="time"]:focus::before,
+.date_box input[type="time"]:valid::before {
   display: none;
 }
 
 .date_box span {
   position: absolute;
-  right: 10px;top: 50%;
+  right: 10px;
+  top: 50%;
   transform: translateY(-50%);
-  width: 24px;height: 24px;
+  width: 24px;
+  height: 24px;
   text-indent: -99999999px;
   pointer-events: none;
 }
-.date_box span.date_box_icon {background: url(/assets/imgs/icons/calendr.png);}
-.date_box span.time_box_icon {background: url(/assets/imgs/icons/group.png);width: 20px;height: 20px;background-size: contain;}
+.date_box span.date_box_icon {
+  background: url(/assets/imgs/icons/calendr.png);
+}
+.date_box span.time_box_icon {
+  background: url(/assets/imgs/icons/group.png);
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+}

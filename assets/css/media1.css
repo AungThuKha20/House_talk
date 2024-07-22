@@ -330,6 +330,7 @@
   }
   .constructconsult_form .constructconsult_form_title {
     display: block;
+    padding: 2px 0;
   }
   .constructconsult_form .constructconsult_form_title h4 {
     margin-top: 0px;
@@ -338,7 +339,7 @@
     font-size: 30px;
   }
   .container.constructconsult_form {
-    margin-top: 47px;
+    margin-top: 27px;
   }
 
   .constructconsult_form .common_sub_table .construct_td span {
@@ -358,7 +359,11 @@
   .appforguidebook_form .constructconsult_form_title,
   .constructconsult .constructconsult_form_title {
     display: block;
-    padding: 10px 0;
+    padding: 40px 0 20px 0;
+  }
+
+  .constructconsult.constructconsult_form .constructconsult_form_title {
+    padding: 36px 0 0 0;
   }
   .appforguidebook_form.constructconsult_form .constructconsult_form_title h1,
   .constructconsult.constructconsult_form .constructconsult_form_title h1 {
@@ -373,7 +378,7 @@
     margin-top: 120px;
     font-size: 25px;
   }
-  */
+
   /* common_filter */
   .common_filter .common_filter_box li a {
     font-size: 14px;
@@ -534,12 +539,18 @@
   .showroom_form h5 {
     margin-bottom: 36px;
   }
+  .custom-select1 {
+    height: 45px;
+  }
   .constructconsult_form .common_input,
   .custom-select select {
     height: 40px;
   }
-  .constructconsult .constructconsult_form_title {
-    padding: 46px 0 0 0;
+  .custom-select::after {
+    top: 18px;
+  }
+  .appforguidebook_form .common_constructconsult_form_table .construct_td1 {
+    padding: 30px 0;
   }
 }
 @media screen and (max-width: 575.98px) {
@@ -547,8 +558,12 @@
   .constructconsult.constructconsult_form .constructconsult_form_title h4 {
     font-size: 17px;
   }
+  .constructconsult.constructconsult_form .constructconsult_form_title {
+    padding: 42px 0 0 0;
+  }
   .appforvisit_detail.constructconsult_form .constructconsult_form_title {
     display: block;
+    padding: 32px 0 0 0;
   }
   .appforvisit_detail.constructconsult_form .constructconsult_form_title h4 {
     margin-top: 0px;
@@ -619,6 +634,7 @@
   .custom-select select {
     font-size: 14px;
   }
+
   .custom-select::after {
     width: 10px;
     height: 10px;
@@ -834,7 +850,8 @@
     padding-top: 20px;
   }
   .container.constructconsult_form {
-    margin-top: 37px;
+    padding: 10px 0;
+    margin-top: 0px;
   }
 
   .constructconsult_form .common_constructconsult_form_table .construct_td1 {
