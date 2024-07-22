@@ -334,6 +334,7 @@ $(document).ready(function () {
             document.getElementById(targetId).classList.remove("hidden");
         });
     });
+    // 
     function updateSwiperTextVisibility() {
         var slides = document.querySelectorAll(".swiper-slide");
         slides.forEach(function (slide) {

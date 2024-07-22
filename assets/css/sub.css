@@ -1,6 +1,68 @@
 @charset "utf-8";
 
 /* sub1 */
+/* popup */
+.popup.container {
+    margin-top: 130px;
+    margin-bottom: 20px;
+  }
+  .popup {
+    width: 350px;
+    background: #f6f6f6;
+    height: 310px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .popup .popup_header {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    background: #051e60;
+    align-items: center;
+    height: 45px;
+    color: var(--bs-white);
+    margin-bottom: 35px;
+  }
+  .popup .popup_header img {
+    width: 40px;
+    height: 40px;
+  }
+  .popup .popup_content {
+    padding: 0 20px;
+  }
+  .popup .popup_content .input_box {
+    width: 310px;
+    margin: 19px 0;
+    height: 72px;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popup .popup_content .input_box input {
+    height: 32px;
+    width: 250px;
+    border: 1px solid #59606a;
+  }
+  .popup .btn_list {
+    text-align: center;
+  }
+  .popup .btn_list a {
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 20px;
+    border: 1px solid #dedede;
+    text-align: center;
+  }
+  .popup .btn_list .cancel_btn {
+    background: var(--bs-white);
+    margin-right: 8px;
+  }
+  .popup .btn_list .check_btn {
+    background: #051e60;
+    color: var(--bs-white);
+  }
 /* constructconsult_form */
 .container.constructconsult_form {
     margin-top: 97px;
