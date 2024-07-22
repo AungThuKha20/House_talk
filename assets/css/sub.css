@@ -128,7 +128,7 @@
     font-size: 20px;
     font-weight: 400;
     flex-direction: row;
-    gap: 3px;
+    gap: 12px;
   }
   .construct_td_img .img_box {
     width: 302px;
@@ -158,9 +158,6 @@
   .constructconsult_form .common_sub_table .construct_td span {
     margin-top: 20px;
     text-align: center;
-  }
-  .appforguidebook_form .common_sub_table .construct_td {
-    gap: 3px;
   }
   .constructconsult_form .construct_tr3 .construct_td_text {
     display: block;
@@ -220,10 +217,6 @@
   }
   .constructconsult_form .input_box3 {
     width: 316px;
-    margin-right: 12px;
-  }
-  .appforguidebook_form .input_box3 {
-    margin-right: 16px;
   }
   .input_box4 {
     width: 946px;
@@ -1151,13 +1144,6 @@ swiper-slide img {
 /* sub2 end */
 /* sub3 start */
 
-
-@charset "utf-8";
-
-/* houesetalkNews_List Start  */
-.houesetalknews_list {
-  /* padding-top: 97px !important; */
-}
 .houesetalknews_list .mySwiper_list {
   width: 100vw;
   position: relative;

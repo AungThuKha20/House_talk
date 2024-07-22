@@ -28,9 +28,6 @@
     width: 650px;
     height: 450px;
   }
-  .common_guide_book ul li {
-    font-size: 22px;
-  }
   /* appforguidebook_list end*/
 }
 @media screen and (max-width: 1300.98px) {

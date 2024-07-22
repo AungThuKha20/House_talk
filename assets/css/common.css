@@ -1504,7 +1504,7 @@ img {
   border: none;
   width: 390px;
   font-size: 16px;
-  padding: 0 10px;
+  padding: 0 16px;
   background: #f6f6f6;
 }
 
@@ -1662,9 +1662,10 @@ img {
 .common_guide_book img {
   width: 720px;
   height: 445px;
+  object-fit: cover;
 }
 .common_guide_book ul li {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 31px;
   padding-top: 30px;
@@ -1868,7 +1869,7 @@ img {
   color: #333;
   appearance: none;
   height: 60px;
-  padding: 0 10px;
+  padding: 0 16px;
   font-size: 16px;
   border: none;
   outline: none;
@@ -1928,7 +1929,7 @@ img {
   height: 60px;
   background: #f6f6f6;
   border: none;
-  padding: 10px;
+  padding: 0 16px;
   font-size: 16px;
   color: #999;
   font-family: 'Pretendard Std';
@@ -1998,4 +1999,11 @@ img {
   width: 20px;
   height: 20px;
   background-size: contain;
+}
+
+input[type="file"] {
+  font-size: 18px;
+}
+input[type="file"]::-webkit-file-upload-button {
+  font-size: 14px;
 }

@@ -431,6 +431,11 @@ $(document).ready(function () {
         rangeInput.on("input", updateRangeValue);
         updateRangeValue();
     });
+
+    $(".email_select select").change(function () {
+        var selectedValue = $(this).val();
+        $("#email_input").val(selectedValue);
+    });
 });
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
