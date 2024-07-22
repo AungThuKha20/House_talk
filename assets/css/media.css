@@ -57,6 +57,9 @@
   }
 }
 @media screen and (max-width: 1000.98px) {
+  .mo_menu_wrap.active {
+    display: block;
+  }
   .header {
     height: 80px;
   }
@@ -365,6 +368,7 @@
   .sec_01_range .range-value {
     font-size: 14px;
   }
+  .common_search_wrapp .btn {width: 100px;font-size: 14px;}
   .footer .foot_info_wrpp {
     padding: 0px 0px;
   }

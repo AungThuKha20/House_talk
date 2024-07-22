@@ -1030,9 +1030,6 @@
   .product_cont_box {
     gap: 10px;
   }
-  .product_cont_box .home_img_box {
-    margin: 10px 0px;
-  }
   .product_cont_box .home_img_box img {
     height: 200px;
   }

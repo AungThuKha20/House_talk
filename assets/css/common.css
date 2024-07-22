@@ -628,23 +628,30 @@ img {
   -webkit-transform: translateY(-7px) rotate(-45deg);
   transform: translateY(-7px) rotate(-45deg);
 }
-
+.mo_menu_wrap {
+  width: 100%;
+  height: 100vh;
+  display: none;
+  background: rgb(0 0 0 / 30%);
+  top: -100%;
+  opacity: 0;
+  
+}
 .mo_menu {
   position: fixed;
   background: var(--bs-white);
-  height: auto;
-  width: 100%;
-  display: none;
+  height: 100%;
+  width: 80%;
+  right: 0;
+  top: 80px;
   transition: top 0.3s ease, opacity 3s ease;
-  top: -100%;
-  padding: 30px 0;
-  opacity: 0;
-  box-shadow: 0px 11px 34px 0px rgb(0 0 0 / 10%);
+  /* padding: 30px 0; */
+  /* box-shadow: 0px 11px 34px 0px rgb(0 0 0 / 10%); */
 }
+.mo_menu .depth1 {border-bottom: 1px solid #e5e5e5;line-height: 40px;}
 .mo_menu .depth1 > a span {
   display: block;
   float: left;
-  padding: 10px 30px;
   width: auto;
   color: var(--bs-black);
   box-sizing: border-box;
@@ -662,10 +669,12 @@ img {
 }
 .mo_menu .mo_list .mo_snb {
   display: none;
+  background: #efeff1;
+  padding: 10px 0;
 }
 .mo_menu .mo_snb a {
   color: var(--bs-black);
-  padding: 5px 50px;
+  padding: 0px 50px;
   display: block;
 }
 .mo_menu .mo_list.open img {
@@ -674,9 +683,11 @@ img {
 .mo_menu .depth1 > a {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
 }
-.mo_menu.active {
-  display: block;
+.mo_menu_wrap.active {
+  display: none;
   top: 80px;
   opacity: 1;
 }
@@ -1008,9 +1019,7 @@ img {
 }
 .product_cont_box .home_img_box img {
   height: 353px;
-}
-.product_cont_box .home_img_box img:hover {
-  cursor: pointer;
+  object-fit: cover;
 }
 .talk_news_cont {
   margin: 56px 0px;
@@ -1152,7 +1161,6 @@ img {
 }
 .search_img_box_cont .search_img_box img {
   height: 214px;
-  width: 100%;
 }
 .search_img_box_cont .search_img_box img:hover {
   cursor: pointer;
@@ -1909,6 +1917,17 @@ img {
 .custom-select.active::after {
   transform: rotate(-225deg);
 }
+
+
+/* Common Search */
+.common_search_inn {position: relative;width: 226px;height: 35px;}
+.common_search_inn input{width: 100%;height: 100%;background: var(--bs-white);outline: none;border: none;border-bottom: 1px solid var(--bs-black);text-align: center;border-radius: 0;}
+.common_search_inn input::placeholder {font-weight: 400;color: #dedede;}
+.common_search_inn button {background: url(/assets/imgs/icons/ico_srch_btn.png) no-repeat;background-size: contain; position: absolute;right: 10px;top: 50%;transform: translateY(-50%);width: 19px;height: 19px;}
+.common_search_wrapp {display: flex;gap: 24px;justify-content: flex-end;}
+.common_search_wrapp .btn{display: block;width: 180px;height: 35px;background: #121b2a;color: var(--bs-white);font-size: 18px;font-weight: 600;text-align: center;line-height: 35px;}
+
+
 
 /* DAte */
 

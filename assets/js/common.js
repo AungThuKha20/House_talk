@@ -81,9 +81,9 @@ $(document).ready(function () {
     $(".hamburger").click(function () {
         $(this).toggleClass("active");
         if ($(window).width() < 1000) {
-            $(".mo_menu").toggleClass("active");
+            $(".mo_menu_wrap").toggleClass("active");
         } else {
-            $(".mo_menu").removeClass("active");
+            $(".mo_menu_wrap").removeClass("active");
         }
     });
 
@@ -93,6 +93,11 @@ $(document).ready(function () {
         $siblings.removeClass("open").find(".mo_snb").hide();
         // 클릭한 depth1 요소의 하위 요소인 mo_snb를 토글합니다.
         $(this).toggleClass("open").find(".mo_snb").toggle();
+    });
+
+    $(".main_sec_03_thumb").click(function () {
+        var clickedImageSrc = $(this).attr("src");
+        $(".main_sec_03_thumb_lg").attr("src", clickedImageSrc);
     });
 
     // main banner swiper
@@ -309,26 +314,26 @@ $(document).ready(function () {
             },
         },
     });
-    // 
-    const buttons = document.querySelectorAll('.button_box .btn_1');
-  const mapBoxes = document.querySelectorAll('.map_box');
+    //
+    const buttons = document.querySelectorAll(".button_box .btn_1");
+    const mapBoxes = document.querySelectorAll(".map_box");
 
-  buttons.forEach(button => {
-    button.addEventListener('click', function() {
-      // Remove active class from all buttons
-      buttons.forEach(btn => btn.classList.remove('active'));
+    buttons.forEach((button) => {
+        button.addEventListener("click", function () {
+            // Remove active class from all buttons
+            buttons.forEach((btn) => btn.classList.remove("active"));
 
-      // Add active class to the clicked button
-      this.classList.add('active');
+            // Add active class to the clicked button
+            this.classList.add("active");
 
-      // Hide all map boxes
-      mapBoxes.forEach(box => box.classList.add('hidden'));
+            // Hide all map boxes
+            mapBoxes.forEach((box) => box.classList.add("hidden"));
 
-      // Show the corresponding map box
-      const targetId = this.querySelector('a').id + '_content';
-      document.getElementById(targetId).classList.remove('hidden');
+            // Show the corresponding map box
+            const targetId = this.querySelector("a").id + "_content";
+            document.getElementById(targetId).classList.remove("hidden");
+        });
     });
-  });
     function updateSwiperTextVisibility() {
         var slides = document.querySelectorAll(".swiper-slide");
         slides.forEach(function (slide) {
