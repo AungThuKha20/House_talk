@@ -74,7 +74,6 @@
                               <option value="option3">013</option>
                             </select>
                           </div>
-
                           <span>-</span>
                           <input type="text" class="input_box common_input" />
                           <span>-</span>
@@ -84,17 +83,15 @@
                       <tr>
                         <th><span>*</span>현장주소</th>
                         <td class="construct_td">
-                          <button class="btn">
-                            <a href="#">우편번호 검색</a>
-                          </button>
+                          <input type="button" value="우편번호 찾기" class="address_button" >
                         </td>
                       </tr>
                       <tr>
                         <th></th>
                         <td class="last_td">
-                          <input type="text" class="input_box common_input" />
-                          <input type="text" class="common_input input_gap" />
-                          <input type="text" class="input_box common_input" />
+                          <input type="text" id="sample6_zonecode" class="input_box common_input" disabled />
+                          <input type="text" id="sample6_address" class="common_input input_gap" disabled/>
+                          <input type="text" id="sample6_detailAddress" class="input_box common_input" />
                         </td>
                       </tr>
                     </tbody>

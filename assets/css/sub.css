@@ -2,67 +2,91 @@
 
 /* sub1 */
 /* popup */
-.popup.container {
-    margin-top: 130px;
-    margin-bottom: 20px;
+.popup_wrapp{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 25%);
+    top: 0;
+    left: 0;
+    z-index: 100;
   }
-  .popup {
-    width: 350px;
-    background: #f6f6f6;
-    height: 310px;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .popup .popup_header {
-    display: flex;
-    padding: 0 20px;
-    justify-content: space-between;
-    background: #051e60;
-    align-items: center;
-    height: 45px;
-    color: var(--bs-white);
-    margin-bottom: 35px;
-  }
-  .popup .popup_header img {
-    width: 40px;
-    height: 40px;
-  }
-  .popup .popup_content {
-    padding: 0 20px;
-  }
-  .popup .popup_content .input_box {
-    width: 310px;
-    margin: 19px 0;
-    height: 72px;
-    background: #dedede;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .popup .popup_content .input_box input {
-    height: 32px;
-    width: 250px;
-    border: 1px solid #59606a;
-  }
-  .popup .btn_list {
-    text-align: center;
-  }
-  .popup .btn_list a {
-    width: 100px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    height: 20px;
-    border: 1px solid #dedede;
-    text-align: center;
-  }
-  .popup .btn_list .cancel_btn {
-    background: var(--bs-white);
-    margin-right: 8px;
-  }
-  .popup .btn_list .check_btn {
-    background: #051e60;
-    color: var(--bs-white);
-  }
+.popup_wrapp.open{
+  display: block;
+}
+.popup_inn {
+  width: 350px;
+  height: 346px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.popup_inn .popup_header {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  background: #051e60;
+  align-items: center;
+  height: 45px;
+  color: var(--bs-white);
+  margin-bottom: 35px;
+}
+.popup_inn .popup_header h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.popup_inn .popup_header button {
+  background: url(/assets/imgs/icons/tabler_close.png);
+  width: 40px;
+  height: 40px;
+}
+.popup_inn .popup_content {
+  padding: 0 20px;
+}
+.popup_inn .popup_content h2{
+  color: #59606A;
+}
+.popup_inn .popup_content .input_box {
+  width: 310px;
+  margin: 19px 0;
+  height: 72px;
+  background: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup_inn .popup_content .input_box input {
+  height: 32px;
+  width: 250px;
+  border: 1px solid #59606a;
+  padding: 0 16px;
+  font-size: 16px;
+}
+.popup_inn .btns {
+  display: flex;
+  align-items: center;justify-content: center;
+  gap: 8px;
+}
+.popup_inn .btns .pupop_btn {
+  width: 62px;
+  height: 32px;
+  display: flex;
+  justify-content: center;align-items: center;  
+  border-radius: 10px;
+  font-size: 14px;
+}
+.popup_inn .btns button {
+  background: var(--bs-white);
+  border: 1px solid #999999;
+}
+.popup_inn .btns .check_btn {
+  background: #051e60;
+  border: 1px solid #051E60;
+  color: var(--bs-white);
+}
 /* constructconsult_form */
 .container.constructconsult_form {
     margin-top: 97px;
@@ -529,6 +553,17 @@
     border: 1px solid #3074f1;
     background: var(--bs-white);
   }
+  .address_button {
+    width: 170px;
+    height: 60px;
+    border: 1px solid #3074f1;
+    background: var(--bs-white);
+    color: #3074f1;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
   .appforguidebook_form .btn a,
   .appforas_list .btn a {
     color: #3074f1;
@@ -1668,6 +1703,7 @@ swiper-slide img {
   letter-spacing: 0.8px;
   text-align: left;
   color: #121b2a;
+  text-transform: uppercase;
 }
 
 /* test carousel end*/

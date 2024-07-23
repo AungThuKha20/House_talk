@@ -334,7 +334,7 @@ $(document).ready(function () {
             document.getElementById(targetId).classList.remove("hidden");
         });
     });
-    // 
+    //
     function updateSwiperTextVisibility() {
         var slides = document.querySelectorAll(".swiper-slide");
         slides.forEach(function (slide) {
@@ -354,13 +354,13 @@ $(document).ready(function () {
     setInterval(updateSwiperTextVisibility, 1);
 
     // custom-select
-
     let customSelect = document.querySelectorAll(".custom-select");
     customSelect.forEach((customItem) => {
         customItem.onclick = function () {
             customItem.classList.toggle("active");
         };
     });
+
     // sub_cate_gp
     var commonCates = document.querySelectorAll(".common_cate");
     var lastOpenedMenu = null;
@@ -380,7 +380,7 @@ $(document).ready(function () {
             }
         };
     });
-    //
+
     var radios = document.querySelectorAll('input[type="radio"][name="check"]');
     var hiddenAtChk1 = document.querySelectorAll(".hidden_at_chk1");
     var hiddenAtOther = document.querySelectorAll(".hidden_at_other");
@@ -416,7 +416,8 @@ $(document).ready(function () {
     if (checkedRadio) {
         toggleForms(checkedRadio);
     }
-    // main range
+
+    // 메인 range
     $(".vertical").each(function () {
         var rangeInput = $(this);
         var rangeValue = $("<div class='range-value'>0%</div>").insertAfter(
@@ -433,11 +434,44 @@ $(document).ready(function () {
         updateRangeValue();
     });
 
+    // 이메일 셀렉트 박스
     $(".email_select select").change(function () {
         var selectedValue = $(this).val();
         $("#email_input").val(selectedValue);
     });
+
+    // 팝업
+    $(".table_title").click(function () {
+        $(".popup_wrapp").addClass("open");
+    });
+
+    $(".pupop_close").click(function () {
+        $(".popup_wrapp").removeClass("open");
+    });
+
+    // 카카오 우편번호 서비스
+    $(".address_button").click(function () {
+        sample6_execDaumPostcode();
+    });
+
+    function sample6_execDaumPostcode() {
+        new daum.Postcode({
+            oncomplete: function (data) {
+                var addr = "";
+                if (data.userSelectedType === "R") {
+                    addr = data.roadAddress;
+                } else {
+                    addr = data.jibunAddress;
+                }
+
+                $("#sample6_zonecode").val(data.zonecode);
+                $("#sample6_address").val(addr);
+                $("#sample6_detailAddress").focus();
+            },
+        }).open();
+    }
 });
+
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
 }

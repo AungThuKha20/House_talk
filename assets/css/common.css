@@ -8,7 +8,6 @@
   max-width: 1440px;
   margin: 0 auto;
   width: 95%;
-  height: 100%;
 }
 
 /* use responsive */
@@ -555,7 +554,7 @@ img {
   margin-left: 8px;
   font-weight: 600;
   line-height: 23.87px;
-  background-color: var(--bs-white);
+  background-color: #f1f1f1;
   letter-spacing: -0.47999998927116394px;
   width: 50px;
   height: 30px;
@@ -563,6 +562,7 @@ img {
   align-items: center;
   border-radius: 16px;
   border: 1px solid #051E60;
+  padding-top: 3px;
 }
 .conseling_inn .conseling_form .form_note button.active {
   background-color: #051E60;
@@ -1636,7 +1636,7 @@ img {
 .common_consulation_form table tr .common_consul_td5 {
   width: 130px;
 }
-.common_consulation_form table tr .common_consul_td4 a {
+.common_consulation_form table tr .common_consul_td4 span {
   background: #051e60;
   color: var(--bs-white);
   padding: 7px 28px;
@@ -1648,6 +1648,9 @@ img {
   margin-right: 14px;
   margin-top: 3px;
   color: #051e60;
+}
+.table_title {
+  cursor: pointer;
 }
 /* common consulation form end */
 
@@ -1787,14 +1790,10 @@ img {
 .exterior_swiper_box {
   position: relative;
   width: 100%;
+  margin-top: 86px;
 }
 .mySwiper_Exterior {
   width: 100%;
-}
-.mySwiper_Exterior .swiper-wrapper img {
-  max-width: 1440px;
-  width: 100%;
-  cursor: pointer;
 }
 .exterior_swiper_box .swiper-button-prev {
   color: #000000;

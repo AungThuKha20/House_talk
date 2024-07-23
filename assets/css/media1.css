@@ -34,9 +34,6 @@
   .constructconsult .constructconsult_form_title h1 {
     font-size: 46px;
   }
-  .common_consulation_form table tr .common_consul_td2 a {
-    vertical-align: middle;
-  }
   .common_consulation_form table tr .common_consul_td1,
   .common_consulation_form table tr .common_consul_td2,
   .common_consulation_form table tr .common_consul_td3,
@@ -45,12 +42,7 @@
   }
   /* constructconsult_list */
 
-  .constructconsult_list
-    .common_consulation_form
-    table
-    tr
-    .common_consul_td4
-    a {
+  .constructconsult_list .common_consulation_form .common_consul_td4 span {
     padding: 7px 19px;
   }
   .constructconsult_form .common_constructconsult_form .common_sub_table th,

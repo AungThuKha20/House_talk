@@ -37,19 +37,21 @@
   <body>
     ${require('./include/_header.html')}
     ${require('./include/_subQuick_menu.html')}
-    <div class="container popup" id="popup">
-      <div class="popup_header">
-        <h1>비밀번호 입력</h1>
-        <img src="/assets/imgs/icons/tabler_close.png" alt="" id="close" />
-      </div>
-      <div class="popup_content">
-        <h2>비밀번호를 입력해 주세요.</h2>
-        <div class="input_box">
-          <input type="text" />
+    <div class="popup_wrapp">
+      <div class="popup_inn">
+        <div class="popup_header">
+          <h1>비밀번호 입력</h1>
+          <button class="pupop_close"></button>
         </div>
-        <div class="btn_list">
-          <a href="#" class="cancel_btn" id="cancelBtn">취소</a>
-          <a href="#" class="check_btn" id="checkBtn">확인</a>
+        <div class="popup_content">
+          <h2>비밀번호를 입력해 주세요.</h2>
+          <div class="input_box">
+            <input type="password" name="password"/>
+          </div>
+          <div class="btns">
+            <button class="pupop_btn pupop_close">취소</button>
+            <a href="#" class="pupop_btn check_btn">확인</a>
+          </div>
         </div>
       </div>
     </div>
