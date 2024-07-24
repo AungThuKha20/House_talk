@@ -46,7 +46,7 @@
       </div>
 
       <hr />
-      <div class="common_constructconsult_form">
+      <form id="visit_form" class="common_constructconsult_form">
         <table class="common_constructconsult_form_table" width="100%">
           <tbody>
             <tr class="construct_tr">
@@ -63,36 +63,46 @@
                         </th>
                         <td>
                           <div class="custom-select custom-select1">
-                            <select>
+                            <select id="exhibition">
                               <option value="option1" selected>선택</option>
                               <option value="option2">진주 전시장</option>
                             </select>
                           </div>
                         </td>
                       </tr>
-
                       <tr>
                         <th><span>*</span>이름</th>
                         <td class="construct_td">
-                          <input type="text" class="common_input input_box11" />
+                          <input
+                            type="text"
+                            id="name"
+                            class="common_input input_box11"
+                          />
                         </td>
                       </tr>
                       <tr>
                         <th><span>*</span>연락처</th>
                         <td class="construct_td">
                           <div class="custom-select custom-select-item">
-                            <select>
-                              <option value="option1" selected>010</option>
-
-                              <option value="option1">011</option>
-                              <option value="option2">012</option>
-                              <option value="option3">013</option>
+                            <select id="contact1">
+                              <option value="010" selected>010</option>
+                              <option value="011">011</option>
+                              <option value="012">012</option>
+                              <option value="013">013</option>
                             </select>
                           </div>
                           <span>-</span>
-                          <input type="text" class="input_box common_input" />
+                          <input
+                            type="text"
+                            id="contact2"
+                            class="input_box common_input"
+                          />
                           <span>-</span>
-                          <input type="text" class="input_box common_input" />
+                          <input
+                            type="text"
+                            id="contact3"
+                            class="input_box common_input"
+                          />
                         </td>
                       </tr>
                       <tr>
@@ -106,23 +116,16 @@
                               type="date"
                               id="date"
                               name="date"
-                              required
-                              aria-required="true"
                               class="common_form_date"
-                              placeholder="희망방문일자"
                             />
                             <span class="date_box_icon"></span>
                           </div>
-
                           <div class="date_box">
                             <input
                               type="time"
                               id="time"
                               name="time"
-                              required
-                              aria-required="true"
                               class="common_form_time"
-                              placeholder="방문시간"
                             />
                             <span class="time_box_icon"></span>
                           </div>
@@ -131,7 +134,11 @@
                       <tr>
                         <th><span>*</span>제목</th>
                         <td class="construct_td construct_td2">
-                          <input type="text" class="input_box5 common_input" />
+                          <input
+                            type="text"
+                            id="title"
+                            class="input_box5 common_input"
+                          />
                         </td>
                       </tr>
                       <tr>
@@ -139,7 +146,7 @@
                           <span>*</span>세부내용
                         </th>
                         <td class="construct_td construct_td2">
-                          <textarea class="scroll_box"></textarea>
+                          <textarea id="details" class="scroll_box"></textarea>
                         </td>
                       </tr>
                       <tr>
@@ -147,8 +154,7 @@
                         <td class="construct_td">
                           <input
                             type="password"
-                            name=""
-                            id=""
+                            id="password"
                             class="input_box11 common_input"
                           />
                         </td>
@@ -158,17 +164,11 @@
                         <td class="construct_td_img">
                           <div class="img_box">
                             <div>
-                              <input
-                                type="checkbox"
-                                name="checkbox"
-                                id="checkbox_id"
-                                value="value"
-                              />
-                              <label for="checkbox_id" class="label">
-                                로봇이 아닙니다.</label
+                              <input type="checkbox" id="robot" value="value" />
+                              <label for="robot" class="label"
+                                >로봇이 아닙니다.</label
                               >
                             </div>
-
                             <img
                               src="/assets/imgs/icons/reCAPTCHA.png"
                               alt=""
@@ -181,33 +181,25 @@
                 </div>
               </td>
             </tr>
-
-            <!-- tr2 -->
             <tr class="construct_tr3 construct_tr">
               <table width="100%">
                 <tbody>
                   <tr>
                     <th class="common_constructconsult_table_th" rowspan="3">
-                      개인정보 수집 및 <br />
-                      이용동의
+                      개인정보 수집 및 <br />이용동의
                     </th>
                     <td class="construct_td_text">
                       <p class="construct_td_text_cont scroll_box">
-                        ㈜하우스톡 종합건걸 (이하'회사’는)은 이용자의 개인정보를
-                        매우 소중하게 생각하고 있으며, ‘개인정보보호법',
+                        ㈜하우스톡 종합건설 (이하 '회사')은 이용자의 개인정보를
+                        매우 소중하게 생각하고 있으며, ‘개인정보보호법’,
                         ‘정보통신망 이용촉진 및 정보보호에 관한 법률' 등
-                        관련법령을 <br />
-                        준수하고 있습니다. 회사가 이용자의 개인정보를 수집
-                        ・이용하고자 하는 경우에는 위 법령에 따라 이용자의
+                        관련법령을 준수하고 있습니다. 회사가 이용자의 개인정보를
+                        수집・이용하고자 하는 경우에는 위 법령에 따라 이용자의
                         동의를 얻어야 하는바, 귀하께서는 아래의 사항을 자세히
-                        읽어보시
-                        <br />
-                        고 모든 내용을 이해하신 후에 개인정보의 수집 및 이용에
-                        대한 동의 여부를 선택해 주시기 바랍니다.
-                        <br />
-                        <br />
-                        <br />
-                        수집・이용의 목적 <br />
+                        읽어보시고 모든 내용을 이해하신 후에 개인정보의 수집 및
+                        이용에 대한 동의 여부를 선택해 주시기 바랍니다.
+                        <br /><br /><br />
+                        수집・이용의 목적<br />
                         회사는 다음과 같은 목적을 위해 이용자의 개인정보를
                         수집합니다.
                       </p>
@@ -224,10 +216,10 @@
                           주시기 바랍니다.
                         </p>
                         <div style="margin-top: 21px">
-                          <input type="checkbox" name="" id="checkbox_id1" />
+                          <input type="checkbox" id="privacyConsent" />
                           <label
                             class="construct_td_text1_cont1_span"
-                            for="checkbox_id1"
+                            for="privacyConsent"
                             >동의</label
                           >
                         </div>
@@ -241,12 +233,68 @@
         </table>
         <div class="view_form_btn_cont construct_form_btn">
           <div class="view_form_btn">
-            <a href="#" class="apply_btn">신청하기</a>
+            <a href="#" id="appforvisit_submit" class="apply_btn">신청하기</a>
           </div>
         </div>
-      </div>
+      </form>
     </div>
 
     ${require('./include/_footer.html')}
+    <script>
+      document
+        .getElementById("appforvisit_submit")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+
+          var exhibition = document.getElementById("exhibition").value;
+          var name = document.getElementById("name").value.trim();
+          var contact1 = document.getElementById("contact1").value;
+          var contact2 = document.getElementById("contact2").value.trim();
+          var contact3 = document.getElementById("contact3").value.trim();
+          var date = document.getElementById("date").value.trim();
+          var time = document.getElementById("time").value.trim();
+          var title = document.getElementById("title").value.trim();
+          var details = document.getElementById("details").value.trim();
+          var password = document.getElementById("password").value.trim();
+          var robot = document.getElementById("robot").checked;
+          var privacyConsent =
+            document.getElementById("privacyConsent").checked;
+
+          var alertMessage = "";
+
+          if (exhibition === "option1") {
+            alertMessage = "전시장을 선택해 주세요.";
+          } else if (name === "") {
+            alertMessage = "이름을 입력해 주세요.";
+          } else if (
+            contact1 === "option1" ||
+            contact2 === "" ||
+            contact3 === ""
+          ) {
+            alertMessage = "연락처를 올바르게 입력해 주세요.";
+          } else if (date === "") {
+            alertMessage = "방문일시를 선택해 주세요.";
+          } else if (time === "") {
+            alertMessage = "방문시간을 선택해 주세요.";
+          } else if (title === "") {
+            alertMessage = "제목을 입력해 주세요.";
+          } else if (details === "") {
+            alertMessage = "세부내용을 입력해 주세요.";
+          } else if (password === "") {
+            alertMessage = "비밀번호를 입력해 주세요.";
+          } else if (!robot) {
+            alertMessage = "로봇이 아님을 확인해 주세요.";
+          } else if (!privacyConsent) {
+            alertMessage = "개인정보 수집 및 이용동의에 동의해 주세요.";
+          }
+
+          if (alertMessage !== "") {
+            window.alert(alertMessage);
+            return;
+          }
+
+          document.getElementById("visit_form").submit();
+        });
+    </script>
   </body>
 </html>
