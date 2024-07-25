@@ -2,17 +2,17 @@
 
 /* sub1 */
 /* popup */
-.popup_wrapp{
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0 0 0 / 25%);
-    top: 0;
-    left: 0;
-    z-index: 100;
-  }
-.popup_wrapp.open{
+.popup_wrapp {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 25%);
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.popup_wrapp.open {
   display: block;
 }
 .popup_inn {
@@ -46,14 +46,14 @@
 .popup_inn .popup_content {
   padding: 0 20px;
 }
-.popup_inn .popup_content h2{
-  color: #59606A;
+.popup_inn .popup_content h2 {
+  color: #59606a;
 }
 .popup_inn .popup_content .input_box {
   width: 310px;
   margin: 19px 0;
   height: 72px;
-  background: #F6F6F6;
+  background: #f6f6f6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,14 +67,16 @@
 }
 .popup_inn .btns {
   display: flex;
-  align-items: center;justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 8px;
 }
 .popup_inn .btns .pupop_btn {
   width: 62px;
   height: 32px;
   display: flex;
-  justify-content: center;align-items: center;  
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   font-size: 14px;
 }
@@ -84,563 +86,563 @@
 }
 .popup_inn .btns .check_btn {
   background: #051e60;
-  border: 1px solid #051E60;
+  border: 1px solid #051e60;
   color: var(--bs-white);
 }
 /* constructconsult_form */
 .container.constructconsult_form {
-    margin-top: 97px;
-    user-select: none;
-  }
-  .container.constructconsult_list,
-  .container.appforguidebook_list,
-  .container.showroom_form {
-    margin-top: 120px;
-  }
-  .constructconsult_form .constructconsult_form_title {
-    display: flex;
-    justify-content: space-between;
-  }
-  .constructconsult_form.constructconsult
-    .common_constructconsult_form
-    .common_sub_table
-    th {
-    padding: 15px 0;
-  }
-  .constructconsult .common_constructconsult_table_th {
-    padding: 70px 0;
-  }
-  .constructconsult_form.constructconsult
-    .common_constructconsult_form
-    .common_sub_table_th {
-    padding: 15px 0;
-  }
-  .constructconsult_form .constructconsult_form_title h1 {
-    font-size: 56px;
-    margin-top: 94px;
-    margin-bottom: 60px;
-    font-weight: 700;
-    color: var(--bs-black);
-  }
-  
-  .constructconsult_form .common_input.input_box5 {
-    width: 100%;
-    border: 1px solid #dedede;
-    background: var(--bs-white);
-  }
-  .constructconsult_form .constructconsult_form_title h4 {
-    font-size: 24px;
-    margin-top: 130px;
-    margin-bottom: 60px;
-    font-weight: 400;
-    color: var(--bs-black);
-  }
-  .constructconsult_form
-    .common_constructconsult_form
-    .common_sub_table
-    .common_sub_table_th {
-    padding: 15px 0;
-    font-size: 20px;
-  }
-  
-  .constructconsult_form .common_constructconsult_form .common_sub_table th {
-    font-size: 20px;
-    padding: 15px 0;
-    height: 60px;
-    vertical-align: middle;
-  }
-  .construct_tr {
-    border: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-  }
-  .constructconsult_form .common_constructconsult_table_th {
-    min-width: 290px;
-    vertical-align: top;
-    padding: 76px 0;
-    font-size: 28px;
-    font-weight: 700;
-    text-align: left;
-  }
-  .constructconsult_form .common_constructconsult_table_th {
-    min-width: 290px;
-    vertical-align: top;
-    padding: 70px 0;
-    font-size: 28px;
-    font-weight: 700;
-    text-align: left;
-  }
-  .constructconsult_form .input_gap {
-    margin: 0 12px;
-  }
-  .constructconsult_list .common_consulation_form .common_consul_td2 {
-    display: flex;
-  }
-  .constructconsult_form .common_constructconsult_form_table .construct_td1 {
-    padding: 56px 0;
-  }
-  .constructconsult_form .common_sub_table th {
-    text-align: left;
-  }
-  .constructconsult_form .common_sub_table td {
-    padding: 15px 0;
-  }
-  .constructconsult_form .common_sub_table .construct_td.construct_td_btn {
-    gap: 8px;
-  }
-  .constructconsult_form .common_sub_table .construct_td.construct_td_btn h3 {
-    line-height: 30px;
-  }
-  .constructconsult_form .common_sub_table .construct_td_btn a {
-    font-size: 18px;
-    border: 1px solid #999;
-    padding: 4px 12px;
-    background: #f6f6f6;
-    background: #f6f6f6;
-  }
-  .appforvisit_detail.constructconsult_form .common_constructconsult_table_th {
-    width: 20%;
-  }
-  .appforas_list .common_sub_table .construct_td .date_box_icon {
-    margin-top: 0px;
-  }
-  .common_sub_table th span {
-    color: #3074f1;
-  }
-  .constructconsult_form .common_sub_table .construct_td {
-    display: flex;
-    font-size: 20px;
-    font-weight: 400;
-    flex-direction: row;
-    gap: 12px;
-  }
-  .construct_td_img .img_box {
-    width: 302px;
-    background: #f6f6f6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-    border: 1px solid #999;
-  }
-  .construct_td_img .img_box input {
-    width: 16px;
-    cursor: pointer;
-    height: 16px;
-  }
-  .construct_td_img .img_box .label {
-    cursor: pointer;
-    vertical-align: top;
-    line-height: 25px;
-  }
-  .constructconsult_form .common_sub_table .construct_td_img .img_box img {
-    width: 60px;
-    padding: 10px;
-    height: 68px;
-    cursor: pointer;
-  }
-  .constructconsult_form .common_sub_table .construct_td span {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .constructconsult_form .construct_tr3 .construct_td_text {
-    display: block;
-    padding: 56px 0;
-  }
-  .constructconsult_form .construct_td_text .construct_td_text_cont {
-    padding: 44px 16px 44px 40px;
-    display: block;
-    min-width: 100%;
-    margin-top: 50px;
-    font-size: 16px;
-    line-height: 19px;
-    background: #f6f6f6;
-  }
-  .constructconsult_form .construct_td_text {
-    padding: 28px 0;
-  }
-  .constructconsult_form .construct_td_text1 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .constructconsult_form .construct_td_text1_cont1 {
-    margin-top: 21px;
-    font-weight: 600;
-  }
-  .constructconsult_form .construct_td_text1_cont1_span {
-    font-size: 16px;
-    vertical-align: top;
-    cursor: pointer;
-  }
-  
-  .constructconsult_form .common_sub_table .select_box3 .section_select {
-    width: 390px;
-  }
-  .constructconsult_form
-    .common_sub_table
-    .common_select_box.select_box
-    .section_select {
-    width: 390px;
-  }
-  .constructconsult_form
-    .common_sub_table
-    .common_select_box.select_box2
-    .section_select {
-    width: 298px;
-  }
-  
-  .constructconsult_form .input_box {
-    width: 188px;
-  }
-  .constructconsult_form .input_box1 {
-    width: 188px;
-    margin: 0px 5px 0px 0px;
-  }
-  .constructconsult_form .input_box2 {
-    width: 252px;
-  }
-  .constructconsult_form .input_box3 {
-    width: 316px;
-  }
-  .input_box4 {
-    width: 946px;
-    background: var(--bs-white);
-    border: 1px solid #dedede;
-  }
-  .constructconsult_form .common_sub_table .select_box3.on3 input,
-  .constructconsult_form .common_sub_table .select_box3.on4 input,
-  .constructconsult_form .common_sub_table .select_box3.on5 input {
-    width: 100%;
-  }
-  /* constructconsult_form end */
-  
-  /* constructconsult_list */
-  .constructconsult_list .d-none {
-    display: none;
-  }
-  
-  .constructconsult_list .constructconsult_list_title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 16px;
-  }
-  .constructconsult_list h5 {
-    text-align: center;
-    margin-bottom: 43px;
-  }
-  .constructconsult_list .search_btn {
-    justify-content: end;
-    display: flex;
-    gap: 24px;
-    width: 100%;
-  }
-  .constructconsult_list .search_btn .btn {
-    width: 180px;
-    height: 35px;
-    border: none;
-    background: #121b2a;
-    color: var(--bs-white);
-    font-size: 18px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 35px;
-  }
-  
-  /* constructconsult_list end */
-  
-  /* appforguidebook_list */
-  .constructconsult_list .appforguidebook_list_title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 32px;
-  }
-  /* appforguidebook_list end */
-  
-  /* constructconsult  */
-  .constructconsult
-    .common_constructconsult_form
-    .common_sub_table
-    .common_sub_table_th {
-    font-size: 20px;
-  }
-  .constructconsult .common_sub_table td {
-    width: 100%;
-  }
-  .constructconsult .common_constructconsult_form .common_sub_table th {
-    font-size: 20px;
-    font-weight: 400;
-    min-width: 220px;
-  }
-  .constructconsult_form .common_constructconsult_form .common_sub_table th {
-    padding: 15px 0px;
-  }
-  .constructconsult .common_sub_table ul {
-    padding-left: 20px;
-    line-height: 19.9px;
-  }
-  .constructconsult .common_sub_table ul li {
-    list-style: disc;
-  }
-  .constructconsult .common_sub_table .construct_td_bold {
-    font-size: 16px;
-    font-weight: 700;
-  }
-  .constructconsult .construct_tr {
-    border: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-  }
-  
-  /* constructconsult  end*/
-  
-  .appforguidebook_list .common_guide_book {
-    border: none;
-  }
-  /* appforguidebook */
-  .appforguidebook .guide_tr {
-    padding: 56px 0px 0px 0px;
-  }
-  .constructconsult_form .guide_cont {
-    background: #f6f6f6;
-    background: #f6f6f6;
-    padding: 48px 40px;
-    line-height: 19px;
-    font-size: 16px;
-    font-weight: 400px;
-  }
-  .constructconsult.constructconsult_form .guide_cont {
-    margin-top: 70px;
-  }
-  .constructconsult_form .construct_tr2_td {
-    padding: 56px 0;
-  }
-  
-  .pc_hidden_p {
-    display: none;
-  }
-  
-  /* appforguidebook  end*/
-  
-  /* appforas_list */
-  .appforas_list .input_box {
-    margin: 0px;
-  }
-  .appforas_form {
-    user-select: none;
-  }
-  .appforas_list .form_date,
-  .constructconsult_form .form_date {
-    width: 390px;
-    height: 60px;
-    background: #f6f6f6;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    color: #999;
-  }
-  .showroom_form .sub_custom_title {
-   padding: 46px 0 0;
-  }
-  .appforas_list .scroll_box,
-  .constructconsult_form .scroll_box {
-    border: 1px solid #dedede;
-    border-width: 1px 1px 1px 1px;
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 250px;
-    width: 100%;
-    line-height: 19.9px;
-    text-align: start !important;
-    resize: none;
-    font-size: 16px;
-  }
-  
-  /* appforas_list end*/
-  
-  /* showroom form */
-  .showroom_form .showroom_img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .showroom_form .showroom_img2 {
-    width: 100%;
-    height: auto;
-  }
-  .showroom_form .showroom_img3 {
-    width: 100%;
-    height: 389px;
-  }
-  .showroom_text {
-    display: flex;
-    margin: 72px 0 26px 0;
-    width: 100%;
-    height: 112px;
-    font-size: 22px;
-    text-align: center;
-    padding: 0 30px;
-    font-weight: 600;
-    align-items: center;
-    background: #ede3da;
-    justify-content: space-between;
-  }
-  
-  .showroom_text span {
-    color: #937e69;
-  }
-  .showroom_text_right {
-    font-size: 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    color: #121b2a;
-    font-weight: 600;
-  }
-  .showroom_form h5 {
-    margin-bottom: 86px;
-  }
-  .showroom_form .icon {
-    width: 30px;
-    height: 30px;
-    background: #89674f;
-    margin-left: 10px;
-    border-radius: 50%;
-  }
-  .showroom_form .icon img {
-    width: 20px;
-    vertical-align: middle;
-    height: 20px;
-    padding-left: 2px;
-  }
-  
-  .showroom_form .mySwiper_Exterior {
-    width: 100%;
-  }
-  
-  /* select box */
-  .custom-select {
-    background: var(--bs-white);
-  }
-  
-  .custom-select1 {
-    width: 390px;
-    height: 60px;
-  }
-  .custom-select1::after {
-    right: 5%;
-  }
-  /* appforvisit detail */
-  .appforvisit_detail {
-    user-select: none;
-  }
-  /* title */
-  .sub_page_title.common_titles {
-    padding: 86px 0;
-  }
-  /* appforguidebook form */
-  .appforguidebook_form .btn,
-  .appforas_list .btn {
-    width: 170px;
-    height: 60px;
-    border: 1px solid #3074f1;
-    background: var(--bs-white);
-  }
-  .address_button {
-    width: 170px;
-    height: 60px;
-    border: 1px solid #3074f1;
-    background: var(--bs-white);
-    color: #3074f1;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-  }
+  margin-top: 97px;
+  user-select: none;
+}
+.container.constructconsult_list,
+.container.appforguidebook_list,
+.container.showroom_form {
+  margin-top: 120px;
+}
+.constructconsult_form .constructconsult_form_title {
+  display: flex;
+  justify-content: space-between;
+}
+.constructconsult_form.constructconsult
+  .common_constructconsult_form
+  .common_sub_table
+  th {
+  padding: 15px 0;
+}
+.constructconsult .common_constructconsult_table_th {
+  padding: 70px 0;
+}
+.constructconsult_form.constructconsult
+  .common_constructconsult_form
+  .common_sub_table_th {
+  padding: 15px 0;
+}
+.constructconsult_form .constructconsult_form_title h1 {
+  font-size: 56px;
+  margin-top: 94px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  color: var(--bs-black);
+}
 
-  .appforguidebook_form .btn a,
-  .appforas_list .btn a {
-    color: #3074f1;
-  }
-  ::placeholder {
-    color: var(--bs-black);
-    font-size: 13px;
-    padding-left: 10px;
-  }
-  
-  input[type="time"] {
-    border: none;
-    outline: none;
-    padding: 0 8px;
-    background: #f6f6f6;
-  }
-  .time {
-    width: 188px;
-  }
-  .scroll_box {
-    padding: 20px;
-  }
-  
-  input[type="password"] {
-    font-size: 20px;
-  }
-  
-  input[type="file"] {
-    height: 29px;
-  }
-  
-  input[type="file"]::-webkit-file-upload-button {
-    height: 29px;
-    cursor: pointer;
-  }
-  .form_date {
-    border: none;
-    box-sizing: border-box;
-    outline: 0;
-    padding: 0.75rem;
-    position: relative;
-    width: 100%;
-  }
-  
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    background: transparent;
-    bottom: 0;
-    color: transparent;
-    cursor: pointer;
-    height: auto;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: auto;
-  }
-  
-  .time {
-    border: none;
-    box-sizing: border-box;
-    outline: 0;
-    position: relative;
-    width: 188px;
-  }
-  
-  input[type="time"]::-webkit-calendar-picker-indicator {
-    background: transparent;
-    bottom: 0;
-    color: transparent;
-    cursor: pointer;
-    height: auto;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: auto;
-  }
+.constructconsult_form .common_input.input_box5 {
+  width: 100%;
+  border: 1px solid #dedede;
+  background: var(--bs-white);
+}
+.constructconsult_form .constructconsult_form_title h4 {
+  font-size: 24px;
+  margin-top: 130px;
+  margin-bottom: 60px;
+  font-weight: 400;
+  color: var(--bs-black);
+}
+.constructconsult_form
+  .common_constructconsult_form
+  .common_sub_table
+  .common_sub_table_th {
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.constructconsult_form .common_constructconsult_form .common_sub_table th {
+  font-size: 20px;
+  padding: 15px 0;
+  height: 60px;
+  vertical-align: middle;
+}
+.construct_tr {
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+.constructconsult_form .common_constructconsult_table_th {
+  min-width: 290px;
+  vertical-align: top;
+  padding: 76px 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+.constructconsult_form .common_constructconsult_table_th {
+  min-width: 290px;
+  vertical-align: top;
+  padding: 70px 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+.constructconsult_form .input_gap {
+  margin: 0 12px;
+}
+.constructconsult_list .common_consulation_form .common_consul_td2 {
+  display: flex;
+}
+.constructconsult_form .common_constructconsult_form_table .construct_td1 {
+  padding: 56px 0;
+}
+.constructconsult_form .common_sub_table th {
+  text-align: left;
+}
+.constructconsult_form .common_sub_table td {
+  padding: 15px 0;
+}
+.constructconsult_form .common_sub_table .construct_td.construct_td_btn {
+  gap: 8px;
+}
+.constructconsult_form .common_sub_table .construct_td.construct_td_btn h3 {
+  line-height: 30px;
+}
+.constructconsult_form .common_sub_table .construct_td_btn a {
+  font-size: 18px;
+  border: 1px solid #999;
+  padding: 4px 12px;
+  background: #f6f6f6;
+  background: #f6f6f6;
+}
+.appforvisit_detail.constructconsult_form .common_constructconsult_table_th {
+  width: 20%;
+}
+.appforas_list .common_sub_table .construct_td .date_box_icon {
+  margin-top: 0px;
+}
+.common_sub_table th span {
+  color: #3074f1;
+}
+.constructconsult_form .common_sub_table .construct_td {
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  flex-direction: row;
+  gap: 12px;
+}
+.construct_td_img .img_box {
+  width: 302px;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border: 1px solid #999;
+}
+.construct_td_img .img_box input {
+  width: 16px;
+  cursor: pointer;
+  height: 16px;
+}
+.construct_td_img .img_box .label {
+  cursor: pointer;
+  vertical-align: top;
+  line-height: 25px;
+}
+.constructconsult_form .common_sub_table .construct_td_img .img_box img {
+  width: 60px;
+  padding: 10px;
+  height: 68px;
+  cursor: pointer;
+}
+.constructconsult_form .common_sub_table .construct_td span {
+  margin-top: 20px;
+  text-align: center;
+}
+.constructconsult_form .construct_tr3 .construct_td_text {
+  display: block;
+  padding: 56px 0;
+}
+.constructconsult_form .construct_td_text .construct_td_text_cont {
+  padding: 44px 16px 44px 40px;
+  display: block;
+  min-width: 100%;
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 19px;
+  background: #f6f6f6;
+}
+.constructconsult_form .construct_td_text {
+  padding: 28px 0;
+}
+.constructconsult_form .construct_td_text1 {
+  display: flex;
+  justify-content: space-between;
+}
+.constructconsult_form .construct_td_text1_cont1 {
+  margin-top: 21px;
+  font-weight: 600;
+}
+.constructconsult_form .construct_td_text1_cont1_span {
+  font-size: 16px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.constructconsult_form .common_sub_table .select_box3 .section_select {
+  width: 390px;
+}
+.constructconsult_form
+  .common_sub_table
+  .common_select_box.select_box
+  .section_select {
+  width: 390px;
+}
+.constructconsult_form
+  .common_sub_table
+  .common_select_box.select_box2
+  .section_select {
+  width: 298px;
+}
+
+.constructconsult_form .input_box {
+  width: 188px;
+}
+.constructconsult_form .input_box1 {
+  width: 188px;
+  margin: 0px 5px 0px 0px;
+}
+.constructconsult_form .input_box2 {
+  width: 252px;
+}
+.constructconsult_form .input_box3 {
+  width: 316px;
+}
+.input_box4 {
+  width: 946px;
+  background: var(--bs-white);
+  border: 1px solid #dedede;
+}
+.constructconsult_form .common_sub_table .select_box3.on3 input,
+.constructconsult_form .common_sub_table .select_box3.on4 input,
+.constructconsult_form .common_sub_table .select_box3.on5 input {
+  width: 100%;
+}
+/* constructconsult_form end */
+
+/* constructconsult_list */
+.constructconsult_list .d-none {
+  display: none;
+}
+
+.constructconsult_list .constructconsult_list_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.constructconsult_list h5 {
+  text-align: center;
+  margin-bottom: 43px;
+}
+.constructconsult_list .search_btn {
+  justify-content: end;
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+.constructconsult_list .search_btn .btn {
+  width: 180px;
+  height: 35px;
+  border: none;
+  background: #121b2a;
+  color: var(--bs-white);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 35px;
+}
+
+/* constructconsult_list end */
+
+/* appforguidebook_list */
+.constructconsult_list .appforguidebook_list_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+/* appforguidebook_list end */
+
+/* constructconsult  */
+.constructconsult
+  .common_constructconsult_form
+  .common_sub_table
+  .common_sub_table_th {
+  font-size: 20px;
+}
+.constructconsult .common_sub_table td {
+  width: 100%;
+}
+.constructconsult .common_constructconsult_form .common_sub_table th {
+  font-size: 20px;
+  font-weight: 400;
+  min-width: 220px;
+}
+.constructconsult_form .common_constructconsult_form .common_sub_table th {
+  padding: 15px 0px;
+}
+.constructconsult .common_sub_table ul {
+  padding-left: 20px;
+  line-height: 19.9px;
+}
+.constructconsult .common_sub_table ul li {
+  list-style: disc;
+}
+.constructconsult .common_sub_table .construct_td_bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+.constructconsult .construct_tr {
+  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+/* constructconsult  end*/
+
+.appforguidebook_list .common_guide_book {
+  border: none;
+}
+/* appforguidebook */
+.appforguidebook .guide_tr {
+  padding: 56px 0px 0px 0px;
+}
+.constructconsult_form .guide_cont {
+  background: #f6f6f6;
+  background: #f6f6f6;
+  padding: 48px 40px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.constructconsult.constructconsult_form .guide_cont {
+  margin-top: 70px;
+}
+.constructconsult_form .construct_tr2_td {
+  padding: 56px 0;
+}
+
+.pc_hidden_p {
+  display: none;
+}
+
+/* appforguidebook  end*/
+
+/* appforas_list */
+.appforas_list .input_box {
+  margin: 0px;
+}
+.appforas_form {
+  user-select: none;
+}
+.appforas_list .form_date,
+.constructconsult_form .form_date {
+  width: 390px;
+  height: 60px;
+  background: #f6f6f6;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #999;
+}
+.showroom_form .sub_custom_title {
+  padding: 46px 0 0;
+}
+.appforas_list .scroll_box,
+.constructconsult_form .scroll_box {
+  border: 1px solid #dedede;
+  border-width: 1px 1px 1px 1px;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 250px;
+  width: 100%;
+  line-height: 19.9px;
+  text-align: start !important;
+  resize: none;
+  font-size: 16px;
+}
+
+/* appforas_list end*/
+
+/* showroom form */
+.showroom_form .showroom_img {
+  width: 100%;
+  height: auto;
+}
+
+.showroom_form .showroom_img2 {
+  width: 100%;
+  height: auto;
+}
+.showroom_form .showroom_img3 {
+  width: 100%;
+  height: 389px;
+}
+.showroom_text {
+  display: flex;
+  margin: 72px 0 26px 0;
+  width: 100%;
+  height: 112px;
+  font-size: 22px;
+  text-align: center;
+  padding: 0 30px;
+  font-weight: 600;
+  align-items: center;
+  background: #ede3da;
+  justify-content: space-between;
+}
+
+.showroom_text span {
+  color: #937e69;
+}
+.showroom_text_right {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #121b2a;
+  font-weight: 600;
+}
+.showroom_form h5 {
+  margin-bottom: 86px;
+}
+.showroom_form .icon {
+  width: 30px;
+  height: 30px;
+  background: #89674f;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.showroom_form .icon img {
+  width: 20px;
+  vertical-align: middle;
+  height: 20px;
+  padding-left: 2px;
+}
+
+.showroom_form .mySwiper_Exterior {
+  width: 100%;
+}
+
+/* select box */
+.custom-select {
+  background: var(--bs-white);
+}
+
+.custom-select1 {
+  width: 390px;
+  height: 60px;
+}
+.custom-select1::after {
+  right: 5%;
+}
+/* appforvisit detail */
+.appforvisit_detail {
+  user-select: none;
+}
+/* title */
+.sub_page_title.common_titles {
+  padding: 86px 0;
+}
+/* appforguidebook form */
+.appforguidebook_form .btn,
+.appforas_list .btn {
+  width: 170px;
+  height: 60px;
+  border: 1px solid #3074f1;
+  background: var(--bs-white);
+}
+.address_button {
+  width: 170px;
+  height: 60px;
+  border: 1px solid #3074f1;
+  background: var(--bs-white);
+  color: #3074f1;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.appforguidebook_form .btn a,
+.appforas_list .btn a {
+  color: #3074f1;
+}
+::placeholder {
+  color: var(--bs-black);
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+input[type="time"] {
+  border: none;
+  outline: none;
+  padding: 0 8px;
+  background: #f6f6f6;
+}
+.time {
+  width: 188px;
+}
+.scroll_box {
+  padding: 20px;
+}
+
+input[type="password"] {
+  font-size: 20px;
+}
+
+input[type="file"] {
+  height: 29px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  height: 29px;
+  cursor: pointer;
+}
+.form_date {
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+  padding: 0.75rem;
+  position: relative;
+  width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.time {
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+  position: relative;
+  width: 188px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
 /* sub1 end */
 /* sub2 */
 body,
@@ -779,7 +781,7 @@ swiper-slide img {
   border-style: solid;
   padding: 29px 32px 29px 32px;
 }
-.daily_range_box .range_cont .progressBar{
+.daily_range_box .range_cont .progressBar {
   width: 100%;
   height: 22px;
   border-radius: 11px;
@@ -828,7 +830,7 @@ swiper-slide img {
   letter-spacing: -0.48px;
   text-align: right;
 }
-.product_range_box .width_60{
+.product_range_box .width_60 {
   width: 60% !important;
 }
 .range_text_box {
@@ -876,10 +878,10 @@ swiper-slide img {
   line-height: 40.64px;
   letter-spacing: -0.48px;
 }
-.bottom_40{
+.bottom_40 {
   margin: 45px 0px;
 }
-.greeting_cont .text_box p span{
+.greeting_cont .text_box p span {
   display: block;
 }
 .greeting_cont .img_box {
@@ -912,30 +914,30 @@ swiper-slide img {
   line-height: 46.25px;
   letter-spacing: -0.48px;
 }
-.greeting_text_container .text_box .text1 p span{
+.greeting_text_container .text_box .text1 p span {
   display: block;
 }
-.greeting_text_container .text_box .text1 .sign_box{
+.greeting_text_container .text_box .text1 .sign_box {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-top: 51px;
 }
-.greeting_text_container .text_box .text1 .sign_box p{
+.greeting_text_container .text_box .text1 .sign_box p {
   font-size: 30px;
   font-weight: 700;
   line-height: 35.8px;
   letter-spacing: -0.48px;
 }
-.greeting_text_container .text_box .text1 .sign_box img{
+.greeting_text_container .text_box .text1 .sign_box img {
   width: 125px;
   height: 80px;
 }
-.top_80{
+.top_80 {
   margin-top: 150px !important;
   padding-top: 0px !important;
 }
-.top_80 .p_box{
+.top_80 .p_box {
   margin-top: 80px !important;
   padding: 0px;
   margin-bottom: 150px !important;
@@ -948,7 +950,7 @@ swiper-slide img {
   text-align: center;
   padding-top: 10px;
 }
-.business_areas_box .header_box h2{
+.business_areas_box .header_box h2 {
   font-size: 44px;
   font-weight: 600;
   line-height: 52.51px;
@@ -956,14 +958,14 @@ swiper-slide img {
   color: var(--bs-black);
   padding-bottom: 40px;
 }
-.business_areas_box .text_box{
+.business_areas_box .text_box {
   display: flex;
   flex-direction: column;
   margin-bottom: 150px;
   justify-content: flex-end;
   align-items: flex-end;
 }
-.business_areas_box .text_box .information_box{
+.business_areas_box .text_box .information_box {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -976,7 +978,7 @@ swiper-slide img {
   gap: 16px;
   align-items: center;
 }
-.business_areas_box .text_box .information_box .plus_box h2{
+.business_areas_box .text_box .information_box .plus_box h2 {
   font-size: 32px;
   font-weight: 600;
   line-height: 38.19px;
@@ -984,30 +986,30 @@ swiper-slide img {
   color: var(--bs-black);
   cursor: pointer;
 }
-.business_areas_box .text_box .information_box .plus_box img{
+.business_areas_box .text_box .information_box .plus_box img {
   width: 22px;
   height: 22px;
   cursor: pointer;
 }
-.business_areas_box .text_box .information_box .para_box p{
+.business_areas_box .text_box .information_box .para_box p {
   font-size: 22px;
   font-weight: 300;
   line-height: 40px;
   letter-spacing: -0.48px;
 }
-.contact_box .header_box h2{
+.contact_box .header_box h2 {
   font-size: 44px;
   font-weight: 600;
   line-height: 52.51px;
   letter-spacing: -0.48px;
 }
-.contact_box .button_box{
+.contact_box .button_box {
   display: flex;
   gap: 12px;
   justify-content: flex-end;
   margin-bottom: 8px;
 }
-.contact_box .button_box .button{
+.contact_box .button_box .button {
   height: 38px;
   width: 115px;
   display: flex;
@@ -1017,7 +1019,7 @@ swiper-slide img {
   transition: all 0.2s linear;
   border-radius: 4px;
 }
-.contact_box .button_box .button a{
+.contact_box .button_box .button a {
   font-size: 18px;
   font-weight: 500;
   line-height: 21.48px;
@@ -1031,13 +1033,12 @@ swiper-slide img {
   cursor: pointer;
 }
 
-
-.contact_box .button_box .btn_1{
-  border: 1px solid #DEE2E6;
+.contact_box .button_box .btn_1 {
+  border: 1px solid #dee2e6;
   color: var(--bs-black);
   user-select: none;
 }
-.contact_box .button_box .active.btn_1{
+.contact_box .button_box .active.btn_1 {
   border: 1px solid var(--bs-primary);
   background-color: var(--bs-primary);
 }
@@ -1045,18 +1046,18 @@ swiper-slide img {
   color: var(--bs-white);
 }
 
-.contact_box .map_box iframe{
+.contact_box .map_box iframe {
   width: 100%;
   height: 500px;
   border: 0;
 }
-.contact_box .contact_us_box{
+.contact_box .contact_us_box {
   display: flex;
   gap: 18px;
   width: 100%;
   margin: 72px 0px 133px 0px;
 }
-.contact_box .contact_us_box .box1{
+.contact_box .contact_us_box .box1 {
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -1064,21 +1065,21 @@ swiper-slide img {
   justify-content: center;
   width: 33%;
 }
-.contact_box .contact_us_box .border_box{
+.contact_box .contact_us_box .border_box {
   border-width: 0px 1px;
-  border-color: #DEE2E6;
+  border-color: #dee2e6;
   border-style: solid;
 }
-.contact_box .contact_us_box .box1 .h2_box h2{
+.contact_box .contact_us_box .box1 .h2_box h2 {
   font-size: 24px;
   font-weight: 600;
   line-height: 27px;
   letter-spacing: 0.5px;
 }
-.contact_box .contact_us_box .box1 .p_box{
+.contact_box .contact_us_box .box1 .p_box {
   height: 21px;
 }
-.contact_box .contact_us_box .box1 .p_box p{
+.contact_box .contact_us_box .box1 .p_box p {
   font-size: 18px;
   font-weight: 300;
   line-height: 21.48px;
@@ -1090,85 +1091,85 @@ swiper-slide img {
   flex-direction: column;
   gap: 18px;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
-.top_80 .p_box2{
+.top_80 .p_box2 {
   margin-top: 36px !important;
   padding: 0px;
   margin-bottom: 163px !important;
 }
-.calendar_box{
+.calendar_box {
   display: flex;
   width: 100%;
   gap: 86px;
   margin-top: 114px;
   margin-bottom: 130px;
 }
-.calendar_box .calendar_box1{
+.calendar_box .calendar_box1 {
   display: flex;
   gap: 134px;
   width: 40%;
 }
-.calendar_box .calendar_box1 .h2_box h2{
+.calendar_box .calendar_box1 .h2_box h2 {
   font-weight: 700;
   font-size: 116px;
   line-height: 138.43px;
   letter-spacing: -0.48px;
 }
-.calendar_box .calendar_box1 .p_box{
+.calendar_box .calendar_box1 .p_box {
   display: flex;
   flex-direction: column;
   gap: 72px;
   padding-top: 200px;
 }
-.calendar_box .calendar_box1 .p_box .color_black{
+.calendar_box .calendar_box1 .p_box .color_black {
   color: var(--bs-black) !important;
 }
-.calendar_box .calendar_box1 .p_box .p_box1{
+.calendar_box .calendar_box1 .p_box .p_box1 {
   display: flex;
   flex-direction: column;
   gap: 12px;
   letter-spacing: -0.48px;
   color: #999999;
 }
-.calendar_box .calendar_box1 .p_box .p_box1 .step{
+.calendar_box .calendar_box1 .p_box .p_box1 .step {
   font-size: 22px;
   font-weight: 600;
   line-height: 26.25px;
 }
-.calendar_box .calendar_box1 .p_box .p_box1 .date{
+.calendar_box .calendar_box1 .p_box .p_box1 .date {
   font-weight: 500;
   font-size: 14px;
   line-height: 16.71px;
 }
-.calendar_box .calendar_box2{
+.calendar_box .calendar_box2 {
   display: flex;
   flex-direction: column;
   gap: 80px;
   width: 60%;
 }
-.calendar_box .calendar_box2 .text_box{
+.calendar_box .calendar_box2 .text_box {
   display: flex;
   flex-direction: column;
   gap: 51px;
   border-bottom: 1px solid #999999;
   padding-bottom: 80px;
 }
-.calendar_box .calendar_box2 .text_box .color_black p{
+.calendar_box .calendar_box2 .text_box .color_black p {
   color: var(--bs-black) !important;
 }
-.calendar_box .calendar_box2 .text_box .box1{
+.calendar_box .calendar_box2 .text_box .box1 {
   display: flex;
   gap: 90px;
 }
-.calendar_box .calendar_box2 .text_box .box1 p{
+.calendar_box .calendar_box2 .text_box .box1 p {
   font-size: 18px;
   font-weight: 300;
   line-height: 21.48px;
   letter-spacing: -0.48px;
   color: #999999;
 }
-.cosult_housing{
+.cosult_housing {
   padding-bottom: 72px !important;
 }
 .key_story_banner {
@@ -1597,13 +1598,12 @@ swiper-slide img {
   position: relative;
   cursor: pointer;
 }
-.sns_card_gp .sns_card > img{
+.sns_card_gp .sns_card > img {
   border-radius: 8px;
 }
 .sns_card_gp .sns_card img {
   object-fit: cover;
   object-position: center;
-  
 }
 .sns_card_gp .sns_card p {
   font-size: 24px;
@@ -1696,7 +1696,7 @@ swiper-slide img {
   text-align: left;
   color: #121b2a;
 }
-.story_list_boxes .story_box article .article_bottom  {
+.story_list_boxes .story_box article .article_bottom {
   font-size: 14px;
   font-weight: 700;
   line-height: 16.71px;
@@ -1704,6 +1704,129 @@ swiper-slide img {
   text-align: left;
   color: #121b2a;
   text-transform: uppercase;
+}
+/* test carousel start */
+.calendar {
+  height: fit-content;
+  width: 100%;
+}
+
+.year_changer {
+  position: fixed;
+  top: 40%;
+  z-index: 9999;
+}
+.all_year_wrapper {
+  position: relative;
+  top: 20%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.all_year_wrapper > * {
+  width: 50%;
+}
+
+.year_num_wrap {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.change_year {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  font-size: 116px;
+  user-select: none;
+  padding: 100px 0px;
+  font-weight: 700;
+  line-height: 138.43px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: left;
+  position: relative;
+  top: 0;
+}
+
+.change_year .active {
+  position: fixed;
+  top: 0;
+}
+.year_wrap {
+  height: fit-content;
+  padding-top: 130px;
+  position: relative;
+  top: 0;
+  display: flex;
+  opacity: 0.3;
+  transition: all 0.2s linear;
+  justify-content: space-between;
+  font-style: normal;
+}
+.year_wrap.active {
+  opacity: 1;
+}
+.year_wrap ul {
+  border-bottom: 1px solid #999999;
+}
+.year_wrap .txt_item span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.48px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: left;
+  color: var(--bs-black);
+}
+.year_wrap .txt_item {
+  display: flex;
+  margin-bottom: 51px;
+  align-items: center;
+
+  justify-content: start;
+  gap: 90px;
+}
+
+.year_num {
+  display: none;
+}
+
+.year_btn {
+  margin-bottom: 72px;
+}
+.year_btn a {
+  background: none;
+  text-align: start;
+  height: fit-content;
+  width: fit-content;
+  background-color: #3074f1;
+  opacity: 0.4;
+}
+.year_btn a h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 26.25px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: left;
+}
+.year_btn a p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.71px;
+  letter-spacing: -0.47999998927116394px;
+  text-align: left;
+}
+.year_btn.active a {
+  opacity: 1;
+}
+
+.header_section {
+  height: 300px;
+}
+.img_mover {
+  height: 20px;
 }
 
 /* test carousel end*/

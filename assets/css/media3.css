@@ -429,6 +429,60 @@
     width: 32px;
     height: 32px;
   }
+  .year_num {
+    display: block;
+  }
+  .year_num_wrap {
+    display: none;
+  }
+  .all_year_wrapper > * {
+    width: 100%;
+  }
+  .year_num {
+    font-size: 63px;
+    font-weight: 600;
+    user-select: none;
+    padding-bottom: 42px;
+  }
+  .year_wrap {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+  }
+  .year_changer {
+    position: fixed;
+    bottom: 0%;
+    top: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+    border-top: 1px solid #999999;
+    height: 84px;
+    left: 50%;
+    align-items: center;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--bs-white);
+  }
+  .year_changer ul {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 0 10%;
+  }
+  .header_section {
+    height: 100px;
+  }
+  .year_btn a h1,
+  .year_btn a p {
+    text-align: center;
+  }
+  .year_btn a h1 {
+    font-size: 22px;
+  }
+  .year_btn a p {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 767.98px) {
   .story_list_boxes {
@@ -439,7 +493,7 @@
     gap: 0px;
     margin-bottom: 40px;
   }
-  .story_list_boxes .story_box .img  {
+  .story_list_boxes .story_box .img {
     width: 100%;
   }
   .story_list_boxes .story_box article .article_top span {
@@ -458,7 +512,7 @@
   }
   .story_list_boxes .story_box article {
     height: fit-content;
-    width:100%;
+    width: 100%;
     padding: 10px;
   }
   .conseling_inn .form-check label {
@@ -582,6 +636,19 @@
   .common_cate,
   .common_cate1 {
     font-size: 16px;
+  }
+  .year_num {
+    font-size: 43px;
+  }
+  .year_wrap .txt_item {
+    margin-bottom: 41px;
+    align-items: start;
+  }
+  .year_btn a h1 {
+    font-size: 20px;
+  }
+  .year_btn a p {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 575.98px) {
@@ -796,6 +863,34 @@
   .common_cate1_gp {
     width: 100% !important;
     top: 30px;
+  }
+  .year_num {
+    font-size: 26px;
+    padding-bottom: 22px;
+  }
+  .year_wrap {
+    padding-top: 20px;
+  }
+
+  .year_wrap .txt_item {
+    gap: 40px;
+    margin-bottom: 21px;
+  }
+  .year_wrap .txt_item span {
+    font-size: 14px;
+  }
+  .header_section {
+    height: 50px;
+  }
+  .year_btn a h1 {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .year_btn a p {
+    font-size: 12px;
+  }
+  .year_changer {
+    height: 70px;
   }
 }
 @media screen and (max-width: 483px) {
