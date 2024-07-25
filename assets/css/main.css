@@ -118,8 +118,7 @@
 .main_sec_05_item .swiper-button-next {right: -100px;}
 .main_sec_05_item .swiper-button-prev {left: -100px;}
 
-.partners {border-top: 1px solid #DEE2E6;
-position: relative;z-index: 999;}
+.partners {border-top: 1px solid #DEE2E6;}
 .partners_swiper_conts {height: 80px;}
 .partners_swiper_cont {display: flex;justify-content: center;align-items: center;padding: 10px;}
 .partners_swiper_cont img {object-fit: scale-down;}
