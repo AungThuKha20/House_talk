@@ -58,6 +58,9 @@
 .main_sec_02_item p {line-height: 19.09px;margin-top: 9px;}
 
 .main_sec_03_btns {display: flex;gap: 24px;}
+.main_sec_03_btns a::after {
+    display: none;
+}
 .main_sec_03_btn {width: 116px;height: 40px;border: 1px solid #EAEAEA;border-radius: 8px;background: var(--bs-white);color: var(--bs-gray);font-size: 20px;font-weight: 500;
     display: flex;align-items: center;justify-content: center;cursor: pointer;}
 /* .main_sec_03_btn.active {background: var(--bs-primary);color: var(--bs-white);} */

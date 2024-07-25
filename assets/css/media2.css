@@ -216,7 +216,7 @@
   .greeting_cont .text_box {
     width: 50%;
   }
-  .greeting_cont .img_box video {
+  .greeting_cont .img_box img {
     height: 500px;
   }
   .greeting_cont .text_box p {
@@ -731,7 +731,7 @@
     padding: 15px 0px;
     line-height: 40px;
   }
-  .greeting_cont .img_box video {
+  .greeting_cont .img_box img {
     height: 400px;
   }
   .greeting_cont .text_box p {
@@ -1123,7 +1123,7 @@
     padding: 30px 0px;
     line-height: 30px;
   }
-  .greeting_cont .img_box video {
+  .greeting_cont .img_box img {
     height: 300px;
   }
   .greeting_text_container {
@@ -1362,7 +1362,7 @@
     font-size: 20px;
     padding: 30px 0px;
   }
-  .greeting_cont .img_box video {
+  .greeting_cont .img_box img {
     height: 200px;
   }
   .top_80 {

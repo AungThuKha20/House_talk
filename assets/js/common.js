@@ -360,21 +360,55 @@ $(document).ready(function () {
     // sub_cate_gp
     var commonCates = document.querySelectorAll(".common_cate");
     var lastOpenedMenu = null;
+    var lastActiveCate1 = null;
+    var lastActiveCate = null;
+  
     commonCates.forEach(function (cate) {
-        cate.onclick = function () {
-            var cate1Gp = cate.nextElementSibling;
-            if (lastOpenedMenu && lastOpenedMenu !== cate1Gp) {
-                lastOpenedMenu.classList.add("hidden");
+      cate.addEventListener("click", function () {
+        var cate1Gp = cate.nextElementSibling;
+  
+        if (lastOpenedMenu && lastOpenedMenu !== cate1Gp) {
+          lastOpenedMenu.classList.add("hidden");
+        }
+  
+        if (cate1Gp && cate1Gp.classList.contains("common_cate1_gp")) {
+          cate1Gp.classList.toggle("hidden");
+  
+          if (!cate1Gp.classList.contains("hidden")) {
+            lastOpenedMenu = cate1Gp;
+          } else {
+            lastOpenedMenu = null;
+          }
+        }
+  
+        var subCategories = cate1Gp.querySelectorAll(".common_cate1");
+        subCategories.forEach(function (subCate) {
+          subCate.addEventListener("click", function (e) {
+            e.stopPropagation();
+
+            console.log(subCate.textContent, subCate.getAttribute("data_id"))
+            const id = subCate.getAttribute("data_id");
+
+            const Id = document.querySelector(`#blah${id}`);
+            console.log(subCate)
+            Id.textContent = subCate.textContent
+            console.log(Id)
+  
+            if (lastActiveCate1) {
+              lastActiveCate1.classList.remove("active");
             }
-            if (cate1Gp && cate1Gp.classList.contains("common_cate1_gp")) {
-                cate1Gp.classList.toggle("hidden");
-                if (!cate1Gp.classList.contains("hidden")) {
-                    lastOpenedMenu = cate1Gp;
-                } else {
-                    lastOpenedMenu = null;
-                }
+  
+            subCate.classList.add("active");
+            lastActiveCate1 = subCate;
+  
+            if (lastActiveCate) {
+              lastActiveCate.classList.remove("has-active");
             }
-        };
+            cate.classList.add("has-active");
+            lastActiveCate = cate;
+          });
+        });
+      });
     });
 
     var radios = document.querySelectorAll('input[type="radio"][name="check"]');
