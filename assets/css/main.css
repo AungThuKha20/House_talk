@@ -56,7 +56,9 @@
 .main_sec_02_item span {font-size: 64px;font-weight: 900;position: absolute;top: -38px;}
 .main_sec_02_item h4 {font-size: 24px;font-weight: 700;color: #3074F1;}
 .main_sec_02_item p {line-height: 19.09px;margin-top: 9px;}
-
+.main_sec_custit .main_sec_03_btns a {
+    padding-right: 0px !important;
+}
 .main_sec_03_btns {display: flex;gap: 24px;}
 .main_sec_03_btns a::after {
     display: none;
