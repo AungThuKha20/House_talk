@@ -657,6 +657,9 @@
     margin-bottom: 50px;
     font-size: 30px;
   }
+  .YT .sub_page_title {
+    margin-bottom: 0px;
+ }
   .sub_page_title p {
     font-size: 20px;
     padding-top: 10px;

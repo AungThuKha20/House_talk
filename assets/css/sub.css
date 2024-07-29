@@ -1596,6 +1596,15 @@ swiper-slide img {
   margin-bottom: 234px;
   align-items: center;
 }
+.YT .sns_card_gp {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mb_234 {
+  margin-bottom: 234px !important;
+  padding-top: 90px;
+}
 .sns_card_gp .sns_card {
   width: calc(50%-20px);
   height: 417px;
@@ -1606,12 +1615,12 @@ swiper-slide img {
   border-radius: 8px;
 }
 .sns_card_gp .sns_card img {
-  object-fit: cover;
   object-position: center;
+  object-fit: cover;
 }
 .sns_card_gp .sns_card p {
   font-size: 24px;
-  margin-top: 24px;
+  margin-top: 10px;
   font-weight: 600;
   line-height: 27px;
   letter-spacing: 1px;
